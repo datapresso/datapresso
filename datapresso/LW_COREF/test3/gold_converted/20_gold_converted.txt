@@ -1,0 +1,8 @@
+c="Christopher Shell" 3:6 3:7||t="person"
+c="Shell" 3:28 3:28||t="person"
+c="he" 3:34 3:34||t="person"
+c="him." 3:41 3:41||t="person"
+c="Shell" 5:0 5:0||t="person"
+c="his" 5:9 5:9||t="person"
+c="He" 5:15 5:15||t="person"
+c="Shell." 7:38 7:38||t="person"

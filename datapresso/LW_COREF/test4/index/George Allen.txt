@@ -1,0 +1,3 @@
+C:\ding\LW_COREF_V1\test4\docs\12.txt
+7:8 7:9
+8:0 8:0

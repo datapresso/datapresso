@@ -1,0 +1,65 @@
+Flying drones a safety threat at airports
+ASHER MOSES
+10 Sep, 2012 12:30 PM
+Here comes the Drone Age
+Sophisticated unmanned aerial drones are moving from the battlefield into civilian life, triggering safety investigations at major airports and prompting warnings that the air safety regulator is ill-equipped to manage their use.
+
+Fairfax Media is aware of safety breaches at two Australian airports involving unmanned aerial vehicles, or UAVs, best known for their use in warfare.
+
+In the first case, the Australian Federal Police investigated a drone found "inside the perimeter fence" at Sydney Airport in February, but was unable to identify the owner.
+
+In the second, Australian and International Pilots Association vice-president <PERSON>Richard Woodward</PERSON>, an A380 captain, said a hobby drone buzzed around planes and took photos at Perth Airport in 2009.
+
+Mr <PERSON>Woodward</PERSON> said hobbyist drones - which can be navigated using video goggles or remote control, or can be programmed to fly autonomously using GPS and in some cases reach the heights of passenger aircraft - had become a threat to the travelling public, comparing the risk to that of laser pointers.
+
+"As they grow in size the collision risk becomes a serious issue further away from the ground and in controlled airspace," he said.
+
+"If the vehicles are operated in or near the approach path of an airport where they're likely to collide with an aircraft, they provide a similar risk to operations as colliding with a large bird or flock of birds."
+
+Several videos have been uploaded to Vimeo and YouTube of Australians flying drones in breach of the law, which requires that commercial drones be flown below 400 feet unless given permission, at least 30 metres from people and away from airports and populous areas.
+
+Australians have also recounted mid-air incidents with manned aircraft on web forums such as RCForums.com.
+
+Just 21 organisations have been certified by the Civil Aviation Safety Authority (CASA) to fly drones in Australia, but representatives from certified firms said unlicensed companies and individuals were increasingly using cheap drones from China and Hong Kong flown by unqualified pilots, and were not flying in designated recreation flying fields.
+
+<PERSON>Jeremy Bendall</PERSON>, flight operations manager with Nowra-based aeronautical engineer and drone operator Air Affairs Australia, said: "There's going to be an incident probably with one of those guys who doesn't know the rules and regulations, and the whole industry's going to be tarnished from that."
+
+Australia was the first country to introduce legislation covering civilian use of drones in 2002.
+
+The technology is used by Surf Life Saving Australia clubs during patrols, real estate agents, environmental researchers, government agencies monitoring illegal fishing, mining companies for surveying and media companies including the Nine Network and News Limited.
+
+They are being tested for use in search-and-rescue missions and to fight bushfires. Australian drone operators say they have also had inquiries about using the technology from paparazzi, and in one case an associate of a bikie gang who wanted to use a drone to guard a drugs lab.
+
+Mr <PERSON>Bendall</PERSON> said CASA had failed to keep up as the technology had developed and spread.
+
+"They got behind the eight ball very quickly and now they're trying to play catch up, and it's going to be an industry that's very hard to catch up to," he said.
+
+A CASA spokesman said it was reviewing its drone regulations, but new recommendations were unlikely before 2014.
+
+Several certified drone operators interviewed by Fairfax Media, the publisher of this report, said CASA staff had told them that it relied on the industry to police itself.
+
+But a CASA spokesman denied the authority was outsourcing oversight to the industry. He said CASA had issued "a number" of infringement notices for safety breaches.
+
+He declined to comment on specific safety incidents. "CASA has a robust process to investigate alleged breaches of the aviation regulations or legislation," the spokesman said.
+
+Mr <PERSON>Bendall</PERSON> said: "CASA should be doing their job... It's not our job to police it, it's our job to obey the rules."
+
+In the 2009 Perth incident, a radio-controlled model plane came within seconds of colliding with a Virgin Blue 737. Video of the flight was posted on YouTube. It is understood no one was charged.
+
+A web search reveals several uncertified firms and individuals offering to sell drone services, including aerial photography for real estate and mining companies.
+
+CASA certification is only required for drones used for commercial purposes.
+
+A Queensland-based CASA-certified drone operator said: “The dangers of companies that don’t have operating certificates going out and causing damage to human or property is pretty high. We strongly believe that unfortunately the future of terrorism is going to be using drones.’’
+
+Authorities around the world, including in Australia, are considering measures that would allow drones to fly in commercial airspace.
+
+Dr <PERSON>Jonathan Roberts</PERSON>, research director at CSIRO's Autonomous Systems Lab, said more work needed to be done on "sense and avoid" systems used to detect other aircraft and automatic emergency landings.
+
+Beyond the civilian realm, the Australian army and air force have already used unarmed drones for surveillance, target acquisition and reconnaissance missions.
+
+The ABC has reported that the defence force is planning to buy seven new spy drones for maritime surveillance and intercepting asylum seeker boats, at a cost of up to $3 billion.
+
+ABC1's Foreign Correspondent reported that for years the US flew highly classified Global Hawk spy drone missions from the air force base at Edinburgh, in South Australia.
+
+It also reported that the RAAF was deploying Israeli-owned drones for battlefield surveillance and to target anti-government fighters in Afghanistan.

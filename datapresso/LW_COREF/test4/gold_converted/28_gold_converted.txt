@@ -1,0 +1,7 @@
+c="Carlos Silva Miranda," 9:6 9:8||t="person"
+c="his" 9:15 9:15||t="person"
+c="he" 9:20 9:20||t="person"
+c="Nohemi Gomez Salinas," 11:3 11:5||t="person"
+c="her" 11:15 11:15||t="person"
+c="she" 11:19 11:19||t="person"
+c="Jose Covarrubias Felix," 13:3 13:5||t="person"
