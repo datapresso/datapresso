@@ -1,0 +1,75 @@
+NAME:
+	coreferenceEvaluation: Package for scoring coreference resolution systems using metrics MUC, BCUBED, CEAF, and BLANC. 
+	This script is to be used when the system is given the gold standard markable annotations, and has to perform only the coreference resolution task.
+	The individual metric result is reported, as well as an unweighted value of MUC, BCUBED, and CEAF.
+	
+	endToEndCoreferenceEvaluation: Package for scoring end-to-end coreference resolution systems using metrics BCUBED and CEAF.
+	This script is to be used when the system has to perform markable identification, and then perform the coreference resolution task.
+	The individual metric result is reported, as well as an unweighted value of MUC, BCUBED, and CEAF.	
+	
+	coreferenceEvaluation is not dependent on endToEndCoreferenceEvaluation and viceversa.
+	
+AUTHOR: 
+	Andreea Bodnari ( andreeab <at> mit <dot> edu )
+	http://web.mit.edu/andreeab/www/
+
+VERSION: 1.6.3, June 2011
+
+INSTALLATION:
+	Requirements: 
+		1. Install the Munkres package for python included in the lib folder, and also available for download and instalation at http://software.clapper.org/munkres/ .
+		2. Install the PP v1.6.1 (Parallel Python) package included in the lib folder, also available for download at http://www.parallelpython.com/ 
+
+OPTIONS:
+	-i
+		Specifies that the coreference evaluation has to be performed across each semantic category individually.
+		By default coreference evaluation is performed across all semantic categories.
+		
+	-q  
+		Specifies that the script is to be run in non-verbose mode. The output from the verbose mode is stored under coreferenceLog.log.
+		By default the script is run under verbose mode.
+		
+USAGE: 
+	python coreferenceEvaluation.py -i -q [goldStandardPath] [systemPredictionPath] [goldStandardMarkablesPath] [outputFilePath]
+	python endToEndCoreferenceEvaluation.py -i -q [goldStandardPath] [systemPredictionPath] [goldStandardMarkablesPath] [systemMarkablesPath] [outputFilePath]
+
+-- goldStandardPath: the path to the gold standard coreference predictions. 
+
+-- systemPredictionPath: the path to the system coreference predictions. 
+
+-- goldStandardMarkablesPath: the path to the gold standard markables.
+
+-- systemMarkablesPath: the path to the system generated markables. 
+
+-- outputFilePath: the path for storing the xml output of the system evaluation
+
+NOTE: 
+	1. The files in the goldStandardPath and the files in the goldStandardMarkablesPath are required to have mapping names (e.g., if the file extension is removed, the same file names should be located in the two paths). 
+	2. The same property applies to the systemPredictionPath and systemMarkablesPath.If there is a missing system markable file, then we will use the gold standard markables.
+	3. The end-to-end evaluation script performs a markable matching step between the system and gold standard markables. Markables in the system response are required to have an exact match with the markabls in the gold standard.
+  	4. For regular coreference resolution the following metrics are used:
+  		MUC (Vilain et al, 1995)
+		BCUBED (entity-based) (Bagga and Baldwin, 1998)
+		CEAF (Luo et al, 2005) using entity-based similarity
+		BLANC (Recasens and Hovy, 2010)
+  	4.1. Only BCUBED and CEAF (entity-based) metrics are used for evaluating end-to-end coreference resolution systems. The BCUBED and CEAF metrics are slightly altered, as explained in Cai and Strube, 2010.
+   
+		  
+OUTPUT:
+	1. Script execution log is kept in the file coreferenceLog.log, saved under the same path from the the script execution is started.
+	
+	2. An xml file is generated with the following structure:
+
+<coreference_evaluation>
+  <category size="" type="">
+    <measures type="">
+      <measure type=""> value </measure>
+    </measures>
+  </category>
+  
+  * The category denotes the semantic category for which the analysis was performed. The category "overall" includes the evaluation results across all semantic categories. 
+  ** A special category "unweightedAverageAllMetrics" represents the unweighted average of all metrics (except for BLANC metric, which is not used in the unweighted average). 
+  * The measures denotes the evaluation metric employed (CEAFEvaluation, BcubedEvaluation, MUCEvaluation, BlancEvaluation)
+  The measure denotes the recall, precision, or F-measure.
+  
+ 
