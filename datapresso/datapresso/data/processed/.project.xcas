@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><CAS><uima.tcas.Document _content="text">&lt;?xml version="1.0" encoding="UTF-8"?&gt;&#13;
+&lt;projectDescription&gt;&#13;
+	&lt;name&gt;DataPresso&lt;/name&gt;&#13;
+	&lt;comment&gt;&lt;/comment&gt;&#13;
+	&lt;projects&gt;&#13;
+	&lt;/projects&gt;&#13;
+	&lt;buildSpec&gt;&#13;
+		&lt;buildCommand&gt;&#13;
+			&lt;name&gt;org.eclipse.jdt.core.javabuilder&lt;/name&gt;&#13;
+			&lt;arguments&gt;&#13;
+			&lt;/arguments&gt;&#13;
+		&lt;/buildCommand&gt;&#13;
+	&lt;/buildSpec&gt;&#13;
+	&lt;natures&gt;&#13;
+		&lt;nature&gt;org.eclipse.jdt.core.javanature&lt;/nature&gt;&#13;
+	&lt;/natures&gt;&#13;
+&lt;/projectDescription&gt;&#13;
+</uima.tcas.Document><uima.tcas.DocumentAnnotation _indexed="1" _id="8" sofa="1" begin="0" end="386" language="en"/><com.ibm.uima.examples.SourceDocumentInformation _indexed="1" _id="13" sofa="1" begin="0" end="0" uri="file:/C:/workspace/datapresso/DataPresso/.project" offsetInSource="0" documentSize="386"/></CAS>

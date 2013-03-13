@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2005 sp1 U (http://www.xmlspy.com) by Jimmy (Ru-Board) -->
+<cas2jdbc:cas2JdbcConfiguration xmlns:cas2jdbc="http://www.ibm.com/uima/consumer/cas2jdbc/100/xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ibm.com/uima/consumer/cas2jdbc/100/xml configuration.xsd ">
+<databaseConnection>
+
+  <connectionUrl>postgresql://localhost:5432/datapresso</connectionUrl> 
+  <driver type="jdbc">org.postgresql.Driver</driver> 
+ <driverLibraries>
+  <driverLibrary>c:/java/lib/postgresql-8.1-408.jdbc3.jar</driverLibrary> 
+  </driverLibraries>
+ <authentication>
+  <username>datapresso</username> 
+  <password>datapresso</password> 
+  </authentication>
+  </databaseConnection>
+	<cas2JdbcMappingSpec>
+		<cas2JdbcMappings>
+			<explicitMappings>
+				<explicitMappingRule applyToSubtypes="false">
+					<type>uima.tcas.DocumentAnnotation</type>
+					<table>document</table>
+					<featureMappings>
+						<featureMapping>
+							<feature>uniqueId()</feature>
+							<column>id</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>docUri()</feature>
+							<length>200</length>
+							<column>uri</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>sentenceCount</feature>
+							<column>status</column>
+						</featureMapping>
+					</featureMappings>
+				</explicitMappingRule>
+				
+			<explicitMappingRule applyToSubtypes="false">
+					<type>com.ibm.PersonName</type>
+					<table>person</table>
+					<featureMappings>
+						<featureMapping>
+							<feature>uniqueId()</feature>
+							<column>personid</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>coveredText</feature>
+							<length>30</length>
+							<column>firstname</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>begin</feature>
+							<length>30</length>
+							<column>middlename</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>end</feature>
+							<length>10</length>
+							<column>lastname</column>
+						</featureMapping>
+					</featureMappings>
+				</explicitMappingRule> 
+			</explicitMappings>
+		</cas2JdbcMappings>
+	</cas2JdbcMappingSpec>
+</cas2jdbc:cas2JdbcConfiguration>

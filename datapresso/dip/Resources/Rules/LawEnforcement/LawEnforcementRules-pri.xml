@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<typePriorities xmlns="http://uima.apache.org/resourceSpecifier">
+  <priorityList>
+    <type>uima.tcas.DocumentAnnotation</type>
+    <type>uima.tt.ParagraphAnnotation</type>
+    <type>uima.tt.SentenceAnnotation</type>
+    <type>com.ibm.langware.CelebrityCrime</type>
+    <type>com.ibm.langware.SentenceAndOffence</type>
+    <type>com.ibm.langware.SentenceDetails</type>
+    <type>com.ibm.langware.RealNameDetails</type>
+    <type>com.ibm.langware.NegActionAndVictim</type>
+    <type>com.ibm.langware.Person</type>
+    <type>com.ibm.langware.PeriodOfTime</type>
+    <type>com.ibm.langware.Surname</type>
+    <type>com.ibm.langware.Victim</type>
+    <type>com.ibm.lw.marker.MarkerLawEnforcementRulesOutputType</type>
+    <type>com.ibm.langware.DictOffenceName</type>
+    <type>com.ibm.langware.DictPersonIndicator</type>
+    <type>com.ibm.langware.DictNegativeAction</type>
+    <type>com.ibm.langware.DictCelebrityIndicator</type>
+    <type>com.ibm.langware.DictSentenceIndicator</type>
+    <type>com.ibm.langware.DictCelebrityOccupation</type>
+    <type>com.ibm.langware.DictSentencingType</type>
+    <type>com.ibm.langware.DictFirstName</type>
+    <type>uima.tt.DictionaryEntryAnnotation</type>
+    <type>uima.tt.TokenAnnotation</type>
+  </priorityList>
+</typePriorities>

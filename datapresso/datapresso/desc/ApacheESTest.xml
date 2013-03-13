@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+	<customResourceSpecifier xmlns="http://uima.apache.org/resourceSpecifier">
+	   <resourceClassName>com.ibm.uima.adapter.ibm.IBMAnalysisEngineWrapper</resourceClassName>
+	   <parameters>
+	       <parameter name="descFilePath" value="c:/workspace/datapresso/DataTool/desc/es_tok_no_stw.xml"/>
+	       <parameter name="datapath" value="c:/java/apache-uima/data/frost"/>
+	       <parameter name="classpath" value="c:/java/apache-uima/lib"/>
+	       <!-- all other parameter definitions are interpreted as Java system property key-value pairs -->
+	       <!--  <parameter name="sys.prop1" value="value1"/>  -->
+	   </parameters>
+	</customResourceSpecifier>

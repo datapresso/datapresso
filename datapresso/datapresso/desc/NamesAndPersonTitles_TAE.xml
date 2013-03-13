@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taeDescription xmlns="http://uima.apache.org/resourceSpecifier">
+<frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+<primitive>false</primitive>
+<delegateAnalysisEngineSpecifiers>
+<delegateAnalysisEngine key="PersonTitleAnnotator">
+<import location="PersonTitleAnnotator_WithinNamesOnly.xml"/>
+</delegateAnalysisEngine>
+<delegateAnalysisEngine key="NameRecognizer">
+<import location="SimpleNameRecognizer_RegEx_TAE.xml"/>
+</delegateAnalysisEngine>
+</delegateAnalysisEngineSpecifiers>
+<analysisEngineMetaData>
+<name>Aggregate TAE - Name Recognizer and Person Title Annotator</name>
+<description>Detects Names and Person Titles</description>
+<configurationParameters searchStrategy="language_fallback"/>
+<configurationParameterSettings/>
+<flowConstraints>
+<fixedFlow>
+<node>NameRecognizer</node>
+<node>PersonTitleAnnotator</node>
+</fixedFlow>
+</flowConstraints>
+<typePriorities/>
+<fsIndexCollection/>
+<capabilities>
+<capability>
+<inputs/>
+<outputs>
+<type>example.Name</type>
+<type allAnnotatorFeatures="true">example.PersonTitle</type>
+</outputs>
+<languagesSupported>
+<language>en</language>
+</languagesSupported>
+</capability>
+</capabilities>
+<operationalProperties>
+<modifiesCas>true</modifiesCas>
+<multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+</operationalProperties>
+</analysisEngineMetaData>
+<resourceManagerConfiguration/>
+</taeDescription>

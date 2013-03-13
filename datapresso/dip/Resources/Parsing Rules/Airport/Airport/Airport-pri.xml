@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<typePriorities xmlns="http://uima.apache.org/resourceSpecifier">
+  <priorityList>
+    <type>uima.tcas.DocumentAnnotation</type>
+    <type>uima.tt.ParagraphAnnotation</type>
+    <type>uima.tt.SentenceAnnotation</type>
+    <type>esp.Airport</type>
+    <type>com.ibm.lw.marker.MarkerAirportOutputType</type>
+    <type>esp.AirportFlag</type>
+    <type>esp.AirportCandidate</type>
+    <type>uima.tt.DictionaryEntryAnnotation</type>
+    <type>uima.tt.TokenAnnotation</type>
+  </priorityList>
+</typePriorities>

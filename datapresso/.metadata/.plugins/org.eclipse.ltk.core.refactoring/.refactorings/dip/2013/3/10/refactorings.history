@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;dip/Resources/Parsing Rules/UHD&apos; to &apos;dip&apos;" description="Rename resource &apos;UHD&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Resources/Parsing Rules/UHD" name="dip" stamp="1362285247639" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;dip/Documents/UHD&apos; to &apos;dip&apos;" description="Rename resource &apos;UHD&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Documents/UHD" name="dip" stamp="1362286232303" updateReferences="true"/>
+</session>

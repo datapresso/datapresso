@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <name>com.dp.edgar.service.SourceDocumentInformation</name>
+  <description>Defines a type for storing information about the original source document from which the current CAS was initialized</description>
+  <version>1.0</version>
+  <vendor>IBM</vendor>
+  <types>
+    <typeDescription>
+      <name>com.dp.edgar.uima.type.SourceDocInfo</name>
+      <description>Stores detailed information about the original source document from which the current CAS was initialized. All information (like size) refers to the source document and not to the document in the CAS which may be converted and filtered by a CAS Initializer. For example this information will be written to the Semantic Search index so that the original document contents can be retrieved by queries.</description>
+      <supertypeName>uima.tcas.DocumentAnnotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>uri</name>
+          <description>URI of document. (For example, file:///MyDirectory/myFile.txt for a simple file or http://www.research.ibm.com/UIMA/relatedprojects.htm for content from a web source.)</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>offsetInSource</name>
+          <description>Byte offset of the start of document content within original source file or other input source. Only used if the CAS document was retrieved from an source where one physical source file contained several conceptual documents. Zero otherwise.</description>
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>documentSize</name>
+          <description>Size of original document in bytes before processing by CAS Initializer. Either absolute file size of size within file or other source.</description>
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>filingType</name>
+          <description>The SEC filing type. Values can be
+1 - DEF 14A
+2 - 10-k
+3 - N-PX</description>
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>documentType</name>
+          <description>1 - .txt
+2 - .html
+3 - .pdf
+4 - .xml</description>
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>timeStamp</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>fileName</name>
+          <description>source document file name</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>sentenceCount</name>
+          <description/>
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>tokenCount</name>
+          <description/>
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+  </types>
+</typeSystemDescription>
