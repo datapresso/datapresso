@@ -4242,3 +4242,14 @@ Command-line arguments:  -os win32 -ws win32 -arch x86
 
 !ENTRY org.eclipse.osgi 2 1 2013-03-12 23:11:36.500
 !MESSAGE NLS missing message: SERVICE_REFERENCE_BOUND in: org.eclipse.equinox.internal.ds.SCRmessages
+!SESSION 2013-03-14 18:06:22.019 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=J2RE 1.5.0 IBM J9 2.3 Windows XP x86-32 j9vmwi3223-20071007 (JIT enabled)
+J9VM - 20071004_14218_lHdSMR
+JIT  - 20070820_1846ifx1_r8
+GC   - 200708_10
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data c:\comkraft\datapresso\datapresso\
+
+!ENTRY org.eclipse.osgi 2 1 2013-03-14 18:06:22.877
+!MESSAGE NLS missing message: SERVICE_REFERENCE_BOUND in: org.eclipse.equinox.internal.ds.SCRmessages

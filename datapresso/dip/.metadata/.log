@@ -140,3 +140,14 @@ org.eclipse.core.internal.resources.ResourceException: Resource '/dip/dip' does 
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 !SUBENTRY 1 org.eclipse.core.resources 4 368 2013-03-02 22:45:26.362
 !MESSAGE Resource '/dip/dip' does not exist.
+!SESSION 2013-03-14 18:04:28.011 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=J2RE 1.5.0 IBM J9 2.3 Windows XP x86-32 j9vmwi3223-20071007 (JIT enabled)
+J9VM - 20071004_14218_lHdSMR
+JIT  - 20070820_1846ifx1_r8
+GC   - 200708_10
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2013-03-14 18:04:28.823
+!MESSAGE NLS missing message: SERVICE_REFERENCE_BOUND in: org.eclipse.equinox.internal.ds.SCRmessages
