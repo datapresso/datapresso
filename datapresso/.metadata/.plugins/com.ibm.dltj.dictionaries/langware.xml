@@ -1005,7 +1005,7 @@
 		<typeSystemDescription>
 			<imports>
 		   <!-- <import location="of_typesystem.xml"/> -->
-				<import location="file:/C:/Program%20Files/IBM/LanguageWare/LRW/7.2.0.2/LanguageWareResourceWorkbench/plugins/com.ibm.dltj.jfrostannotator_7.2.0.201105261413/descriptors/tt_core_typesystem.xml"/>
+				<import location="file:/E:/Program%20Files%20(x86)/IBM/LanguageWare/LRW/7.2.0.2/LanguageWareResourceWorkbench/plugins/com.ibm.dltj.jfrostannotator_7.2.0.201105261413/descriptors/tt_core_typesystem.xml"/>
 			</imports>
 		</typeSystemDescription>
 

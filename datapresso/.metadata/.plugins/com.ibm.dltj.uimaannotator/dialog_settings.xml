@@ -6,10 +6,10 @@
 		<item key="width" value="525"/>
 		<item key="height" value="533"/>
 	</section>
+	<section name="newConfigWizard">
+	</section>
 	<section name="detailsPage">
 		<item key="taeFilterPath" value="C:\comkraft\datapresso\datapresso\dip\lib"/>
-	</section>
-	<section name="newConfigWizard">
 	</section>
 	<section name="exportConfigPearWizard">
 	</section>

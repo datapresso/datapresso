@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="16" version="2.0">
+<workbench progressCount="11" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="27" y="35">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar/>
 <coolbarLayout locked="0">
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="102" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="99" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="com.ibm.dltj.db.commitActionSet" itemType="typeToolBarContribution" x="39" y="22"/>
-<coolItem id="com.ibm.dltj.typecat.actionSet" itemType="typeToolBarContribution" x="39" y="22"/>
-<coolItem id="com.ibm.dltj.uimaannotator.actions" itemType="typeToolBarContribution" x="56" y="22"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="56" y="22"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="62" y="22"/>
+<coolItem id="com.ibm.dltj.typecat.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="com.ibm.dltj.uimaannotator.actions" itemType="typeToolBarContribution" x="53" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="53" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="199" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="com.ibm.dltj.db.dynamicEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.ibm.dltj.semantic.visualtree.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.ibm.dltj.plugin.dictionary.editors.dictionaryEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.ibm.dltj.uimaannotator.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="com.ibm.dltj.uimaannotator.configeditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.ibm.dltj.uimaannotator.configeditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -33,36 +33,12 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="Airport-ts.xml" partName="Airport-ts.xml" path="C:/comkraft/datapresso/datapresso/dip/Resources/Parsing Rules/Airport/Airport-ts.xml" title="Airport-ts.xml" tooltip="dip/Resources/Parsing Rules/Airport/Airport-ts.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dip/Resources/Parsing Rules/Airport/Airport-ts.xml"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="Airport-tsin.xml" partName="Airport-tsin.xml" path="C:/comkraft/datapresso/datapresso/dip/Resources/Parsing Rules/Airport/Airport-tsin.xml" title="Airport-tsin.xml" tooltip="dip/Resources/Parsing Rules/Airport/Airport-tsin.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dip/Resources/Parsing Rules/Airport/Airport-tsin.xml"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.ui.DefaultTextEditor" name="Airport-pri.xml" partName="Airport-pri.xml" path="C:/comkraft/datapresso/datapresso/dip/Resources/Parsing Rules/Airport/Airport-pri.xml" title="Airport-pri.xml" tooltip="dip/Resources/Parsing Rules/Airport/Airport-pri.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dip/Resources/Parsing Rules/Airport/Airport-pri.xml"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="579" selectionTopPixel="0"/>
-</editor>
-<editor id="com.ibm.dltj.uimaannotator.editor" name="airport-AUG.txt" partName="airport-AUG.txt" path="C:/comkraft/datapresso/datapresso/dip/Documents/Airports/airport-AUG.txt" title="airport-AUG.txt" tooltip="dip/Documents/Airports/airport-AUG.txt (UIMA Annotations)" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dip/Documents/Airports/airport-AUG.txt"/>
-<editorState/>
-</editor>
-<editor id="com.ibm.dltj.uimaannotator.configeditor" name="datapresso.annoconfig" partName="datapresso.annoconfig" path="C:/comkraft/datapresso/datapresso/dip/Annotators/datapresso.annoconfig" title="datapresso.annoconfig" tooltip="dip/Annotators/datapresso.annoconfig" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dip/Annotators/datapresso.annoconfig"/>
-</editor>
-<editor activePart="true" focus="true" id="com.ibm.dltj.uimaannotator.editor" name="08.txt" partName="08.txt" path="C:/comkraft/datapresso/datapresso/dip/Documents/DIP/08.txt" title="08.txt" tooltip="dip/Documents/DIP/08.txt (UIMA Annotations)" workbook="DefaultEditorWorkbook">
+<editor id="com.ibm.dltj.uimaannotator.editor" name="08.txt" partName="08.txt" path="E:/CS Research/datapresso/datapresso/dip/Documents/DIP/08.txt" title="08.txt" tooltip="dip/Documents/DIP/08.txt" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dip/Documents/DIP/08.txt"/>
-<editorState/>
 </editor>
 </editors>
 <views>
@@ -72,6 +48,32 @@
 <view id="com.ibm.dltj.project.dictionary.explorerView" partName="LanguageWare Explorer">
 <viewState sorter="1" workingSet="">
 <filter anyProject="0" closedProject="1" fileFilter="ALL"/>
+<expanded>
+<element path="/dip"/>
+<element path="/dip/Annotators"/>
+<element path="/dip/Documents"/>
+<element path="/dip/Documents/DIP"/>
+<element path="/dip/Resources"/>
+<element path="/dip/Resources/Dictionaries"/>
+<element path="/dip/Resources/Dictionaries/Person"/>
+<element path="/dip/Resources/Dictionaries/Person/US_States"/>
+<element path="/dip/Resources/Parsing Rules"/>
+<element path="/dip/Resources/Parsing Rules/Airport"/>
+<element path="/dip/Resources/Parsing Rules/Person"/>
+<element path="/dip/Resources/Rules"/>
+</expanded>
+<selection>
+<element path="/dip/Annotators/datapresso.annoconfig"/>
+</selection>
+</viewState>
+</view>
+<view id="com.ibm.dltj.uimacollection.annotations" partName="Collection Analysis">
+<viewState lastCompare="" mergeTypes="true">
+<annotations CONTEXT="300" FILE="150" FOLDER="150" OFFSET="80" TYPE="250" colOrder="0,1,2,3,4"/>
+<tags COUNT="50" FILE="150" FOLDER="150" TYPE="250" colOrder="0,1,2,3"/>
+<files FILE="150" FILE_COUNT="50" FOLDER="250" OCCURRENCE_COUNT="90" TYPE="250" colOrder="0,1,2,3,4"/>
+<langauges COUNT="50" FILE="150" FOLDER="300" LANGUAGE="250" colOrder="0,1,2,3"/>
+<performance DURATION="80" ENGINE="350" PERCENT="80" colOrder="0,1,2"/>
 </viewState>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
@@ -90,7 +92,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="com.ibm.dltj.project.dictionary.explorerView" activePerspective="com.ibm.dltj.lrwrcp.workbenchPerspective">
+<perspectives activePerspective="com.ibm.dltj.lrwrcp.workbenchPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.ibm.dltj.lrwrcp.WorkbenchPerspective" id="com.ibm.dltj.lrwrcp.workbenchPerspective" label="LanguageWare Workbench"/>
 <alwaysOnActionSet id="com.ibm.dltj.lrwrcp.web"/>
@@ -121,11 +123,12 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="com.ibm.dltj.uimacollection.annotations"/>
 <view id="com.ibm.dltj.project.dictionary.explorerView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
-<viewLayoutRec closeable="false" id="com.ibm.dltj.project.dictionary.explorerView"/>
 <viewLayoutRec closeable="false" id="org.eclipse.ui.views.ContentOutline"/>
+<viewLayoutRec closeable="false" id="com.ibm.dltj.project.dictionary.explorerView"/>
 <viewLayoutRec closeable="false" id="com.ibm.dltj.shallowparsingrules.editor.createcharacterrulesview"/>
 <viewLayoutRec closeable="false" id="com.ibm.dltj.shallowparsingrules.editor.createrulesview"/>
 <layout>
@@ -148,11 +151,11 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.22043388" ratioLeft="315" ratioRight="1114" relationship="2" relative="com.ibm.dltj.lrwrcp.left"/>
 <info folder="true" part="com.ibm.dltj.lrwrcp.bottom" ratio="0.68679774" ratioLeft="489" ratioRight="223" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
+<folder activePageID="com.ibm.dltj.uimacollection.annotations" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="com.ibm.dltj.uimacollection.annotations" label="Collection Analysis"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
-<page content="com.ibm.dltj.uimacollection.annotations" label="LabelNotFound"/>
 <page content="com.ibm.dltj.db.abbreviationsView" label="LabelNotFound"/>
 <page content="com.ibm.dltj.db.constraintsView" label="LabelNotFound"/>
 <page content="com.ibm.dltj.db.determinerView" label="LabelNotFound"/>
@@ -172,6 +175,7 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
@@ -190,106 +194,7 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/dip/Resources/Dictionaries/Airport/AirportCandidate-ts.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/dip/Resources/Parsing Rules/Airport/Airport-ts.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/dip/Resources/Parsing Rules/Airport/Airport-tsin.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/dip/Resources/Parsing Rules/Airport/Airport-pri.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.editor" path="/dip/Documents/Airports/airport-AUG.txt"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.configeditor" path="/dip/Annotators/datapresso.annoconfig"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/dip/Resources/Dictionaries/Person/first_name-ts.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/dip/Resources/Dictionaries/Airport/AirportFlag-ts.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.plugin.dictionary.editors.dictionaryEditor" path="/dip/Resources/Dictionaries/Airport/AirportFlag.dic"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.plugin.dictionary.editors.dictionaryEditor" path="/dip/Resources/Dictionaries/Airport/AirportCandidate.dic"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.plugin.dictionary.editors.dictionaryEditor" path="/dip/Resources/Dictionaries/Person/first_name.dic"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.plugin.dictionary.editors.dictionaryEditor" path="/dip/Resources/Dictionaries/AirportCandidate.dic"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.editor" path="/dip/Documents/Airports/airport-AUG.txt"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.configeditor" path="/dip/Annotators/datapresso.annoconfig"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.editor" path="/dip/Documents/DIP/08.txt"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/dip/Resources/Parsing Rules/Airport/Airport-ts.xml"/>
-</editors>
-<item historyLabel="AirportCandidate-ts.xml" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Airport-ts.xml" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Airport-tsin.xml" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Airport-pri.xml" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Airport-ts.xml" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Airport-tsin.xml" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Airport-pri.xml" index="3">
-<position info="not_deleted" x="579" y="0"/>
-</item>
-<item historyLabel="airport-AUG.txt" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Airport-ts.xml" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Airport-tsin.xml" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Airport-pri.xml" index="3">
-<position info="not_deleted" x="579" y="0"/>
-</item>
-<item historyLabel="datapresso.annoconfig" index="5"/>
-<item historyLabel="AirportCandidate-ts.xml" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="first_name-ts.xml" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="AirportFlag-ts.xml" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="AirportFlag.dic" index="8"/>
-<item historyLabel="AirportCandidate.dic" index="9"/>
-<item historyLabel="first_name.dic" index="10"/>
-<item historyLabel="AirportCandidate.dic" index="9"/>
-<item historyLabel="first_name.dic" index="10"/>
-<item historyLabel="first_name-ts.xml" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="datapresso.annoconfig" index="5"/>
-<item historyLabel="AirportCandidate.dic" index="11"/>
-<item historyLabel="datapresso.annoconfig" index="5"/>
-<item historyLabel="airport-AUG.txt" index="12">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="datapresso.annoconfig" index="13"/>
-<item historyLabel="airport-AUG.txt" index="12">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="datapresso.annoconfig" index="13"/>
-<item historyLabel="airport-AUG.txt" index="12">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="08.txt" index="14">
-<position info="not_deleted" x="5" y="0"/>
-</item>
-<item historyLabel="08.txt" index="14">
-<position info="not_deleted" x="511" y="18"/>
-</item>
-<item historyLabel="08.txt" index="14">
-<position info="not_deleted" x="399" y="35"/>
-</item>
-<item historyLabel="Airport-ts.xml" index="15">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item active="true" historyLabel="08.txt" index="14">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -305,6 +210,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.configeditor" name="datapresso.annoconfig" tooltip="dip/Annotators/datapresso.annoconfig">
+<persistable path="/dip/Annotators/datapresso.annoconfig"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.editor" name="08.txt" tooltip="dip/Documents/DIP/08.txt">
 <persistable path="/dip/Documents/DIP/08.txt"/>
 </file>
@@ -313,9 +221,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="first_name-ts.xml" tooltip="dip/Resources/Dictionaries/Person/first_name-ts.xml">
 <persistable path="/dip/Resources/Dictionaries/Person/first_name-ts.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.configeditor" name="datapresso.annoconfig" tooltip="dip/Annotators/datapresso.annoconfig">
-<persistable path="/dip/Annotators/datapresso.annoconfig"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.editor" name="airport-AUG.txt" tooltip="dip/Documents/Airports/airport-AUG.txt">
 <persistable path="/dip/Documents/Airports/airport-AUG.txt"/>
