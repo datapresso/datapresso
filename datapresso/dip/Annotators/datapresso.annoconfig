@@ -22,11 +22,11 @@
 			<item value="com.ibm.langware.uimatypes.ChineseNumeral"/>
 			<item value="com.ibm.langware.uimatypes.WordLikeToken"/>
 			<item value="com.ibm.langware.uimatypes.TitlecaseAlphabetic"/>
-			<item value="com.ibm.langware.uimatypes.Katakana"/>
 			<item value="com.ibm.langware.uimatypes.LowercaseAlphabetic"/>
+			<item value="com.ibm.langware.uimatypes.Katakana"/>
 			<item value="com.ibm.langware.uimatypes.ClauseEndingPunctuation"/>
-			<item value="com.ibm.langware.uimatypes.Numeric"/>
 			<item value="uima.tt.TTAnnotation"/>
+			<item value="com.ibm.langware.uimatypes.Numeric"/>
 			<item value="uima.tt.ParagraphAnnotation"/>
 			<item value="uima.tt.DocStructureAnnotation"/>
 			<item value="com.ibm.langware.uimatypes.Hangul"/>
@@ -34,8 +34,8 @@
 			<item value="com.dp.core.First_name"/>
 			<item value="com.dp.dhs.AirportFlag"/>
 			<item value="com.ibm.langware.uimatypes.UppercaseAlphabetic"/>
-			<item value="com.dp.core.US_States"/>
 			<item value="com.ibm.langware.uimatypes.Punctuation"/>
+			<item value="com.dp.core.US_States"/>
 			<item value="com.ibm.langware.uimatypes.Arabic"/>
 			<item value="com.dp.dhs.AirportCandidate"/>
 			<item value="uima.tt.TokenLikeAnnotation"/>
@@ -44,6 +44,7 @@
 			<item value="com.ibm.langware.uimatypes.Hiragana"/>
 			<item value="uima.tt.LexicalAnnotation"/>
 			<item value="uima.tt.TokenAnnotation"/>
+			<item value="com.dp.core.US_State"/>
 			<item value="com.ibm.langware.uimatypes.Ideographic"/>
 			<item value="com.ibm.langware.uimatypes.Syllabic"/>
 		</list>
