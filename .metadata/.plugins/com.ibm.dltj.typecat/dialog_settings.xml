@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="findDictionaryTypesDialog">
+		<item key="version" value="1"/>
+		<item key="scopeVal" value="1"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode/&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
+		<item key="ShowStatusLine" value="true"/>
+		<list key="workingSets">
+		</list>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_FONT_NAME" value="1|Tahoma|8.4|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma"/>
+			<item key="DIALOG_HEIGHT" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="424"/>
+			<item key="DIALOG_Y_ORIGIN" value="18"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+		</section>
+	</section>
+	<section name="findDialog">
+		<item key="version" value="1"/>
+		<item key="scopeVal" value="1"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode/&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
+		<item key="ShowStatusLine" value="true"/>
+		<list key="workingSets">
+		</list>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_FONT_NAME" value="1|Tahoma|8.4|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma"/>
+			<item key="DIALOG_X_ORIGIN" value="424"/>
+			<item key="DIALOG_HEIGHT" value="600"/>
+			<item key="DIALOG_Y_ORIGIN" value="18"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+		</section>
+	</section>
+	<section name="findParsingRuleTypesDialog">
+		<item key="version" value="1"/>
+		<item key="scopeVal" value="1"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode/&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
+		<item key="ShowStatusLine" value="true"/>
+		<list key="workingSets">
+		</list>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_FONT_NAME" value="1|Tahoma|8.4|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma"/>
+			<item key="DIALOG_X_ORIGIN" value="424"/>
+			<item key="DIALOG_HEIGHT" value="600"/>
+			<item key="DIALOG_Y_ORIGIN" value="18"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+		</section>
+	</section>
+	<section name="renameTypeWizard">
+	</section>
+</section>

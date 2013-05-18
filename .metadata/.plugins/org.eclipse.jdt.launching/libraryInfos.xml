@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><libraryInfos>
+<libraryInfo home="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench" version="1.5.0">
+<bootpath>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\vm.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\core.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\charsets.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\graphics.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\security.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\ibmpkcs.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\ibmorb.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\ibmcfw.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\ibmorbapi.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\ibmjcefw.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\ibmjgssprovider.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\ibmjsseprovider2.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\ibmjaaslm.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\ibmjaasactivelm.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\ibmcertpathprovider.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\server.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\xml.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\ext"/>
+</extensionDirs>
+</libraryInfo>
+<libraryInfo home="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre" version="1.5.0">
+<bootpath>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\vm.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\core.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\charsets.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\graphics.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\security.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\ibmpkcs.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\ibmorb.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\ibmcfw.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\ibmorbapi.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\ibmjcefw.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\ibmjgssprovider.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\ibmjsseprovider2.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\ibmjaaslm.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\ibmjaasactivelm.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\ibmcertpathprovider.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\server.jar"/>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\xml.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\IBM\LanguageWare\LRW\7.2.0.2\LanguageWareResourceWorkbench\jre\lib\ext"/>
+</extensionDirs>
+</libraryInfo>
+<libraryInfo home="C:\Program Files (x86)\IBM\Java60" version="1.6.0">
+<bootpath>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\vm.jar"/>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\annotation.jar"/>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\beans.jar"/>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\java.util.jar"/>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\jndi.jar"/>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\logging.jar"/>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\security.jar"/>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\sql.jar"/>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\ibmorb.jar"/>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\ibmorbapi.jar"/>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\ibmcfw.jar"/>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\rt.jar"/>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\charsets.jar"/>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\resources.jar"/>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\ibmpkcs.jar"/>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\ibmcertpathfw.jar"/>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\ibmjgssfw.jar"/>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\ibmjssefw.jar"/>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\ibmsaslfw.jar"/>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\ibmjcefw.jar"/>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\ibmjgssprovider.jar"/>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\ibmjsseprovider2.jar"/>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\ibmcertpathprovider.jar"/>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\management-agent.jar"/>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\xml.jar"/>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\jlm.jar"/>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\javascript.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files (x86)\IBM\Java60\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

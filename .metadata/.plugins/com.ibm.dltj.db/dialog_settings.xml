@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="importDbWizard">
+	</section>
+	<section name="newLinkWizard">
+	</section>
+	<section name="buildLogMsgsDialog">
+		<item key="version" value="1"/>
+		<item key="width" value="641"/>
+		<item key="height" value="452"/>
+	</section>
+	<section name="createDbColumnDialog">
+		<item key="version" value="4"/>
+		<item key="width" value="525"/>
+		<item key="height" value="431"/>
+	</section>
+</section>
