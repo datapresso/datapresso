@@ -1,8 +1,0 @@
-c="Terrell Mayton." 6:18 6:19||t="person"
-c="He" 6:20 6:20||t="person"
-c="Mayton" 8:1 8:1||t="person"
-c="Sylvester Stallone" 8:15 8:16||t="person"
-c="Bill Rawn" 12:9 12:10||t="person"
-c="He" 12:16 12:16||t="person"
-c="Mayton" 14:0 14:0||t="person"
-c="Mayton" 18:16 18:16||t="person"

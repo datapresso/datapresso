@@ -1,3 +1,0 @@
-c="Jean Genet" 2:1 2:2||t="person"
-c="‘Jake Ferguson'" 13:392 13:393||t="person"
-c="‘Jennifer Kolar'" 13:395 13:396||t="person"

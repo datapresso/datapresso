@@ -1,6 +1,0 @@
-c="Itamar Fleishman" 5:0 5:1||t="person"
-c="Otniel Schneller" 27:5 27:6||t="person"
-c="He" 29:31 29:31||t="person"
-c="He" 31:27 31:27||t="person"
-c="Michal Kala," 43:17 43:18||t="person"
-c="Kala" 45:0 45:0||t="person"

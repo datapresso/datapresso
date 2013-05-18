@@ -1,2 +1,0 @@
-C:\ding\LW_COREF_V1\test2\docs\41.txt
-72:77 72:78

@@ -1,4 +1,0 @@
-C:\ding\LW_COREF_V1\test3\docs\05_test.txt
-9:1 9:2
-C:\ding\LW_COREF_V1\test3\docs\08_test.txt
-1:36 1:37

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><CAS><uima.tcas.Document _content="text">&lt;?xml version="1.0" encoding="ASCII"?&gt;&#13;
-&lt;properties:ProjectDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:properties="properties.xmi" modelDir="model" libraryDir="libraries" profileDir="profiles" templateDir="templates"&gt;&#13;
-  &lt;profiles id="org.eclipse.uml2.resources.BasicProfile" description="Basic Profile" uri="platform:/plugin/org.eclipse.uml2.resources/profiles/Basic.profile.uml2" exported="false" kind="system"/&gt;&#13;
-  &lt;profiles id="org.eclipse.uml2.resources.IntermediateProfile" description="Intermediate Profile" uri="platform:/plugin/org.eclipse.uml2.resources/profiles/Intermediate.profile.uml2" exported="false" kind="system"/&gt;&#13;
-  &lt;profiles id="org.eclipse.uml2.resources.CompleteProfile" description="Complete Profile" uri="platform:/plugin/org.eclipse.uml2.resources/profiles/Complete.profile.uml2" exported="false" kind="system"/&gt;&#13;
-  &lt;profiles id="com.omondo.uml.core.JavaProfile" description="Java Profile" uri="platform:/plugin/com.omondo.uml.core/profiles/Java.profile.uml2" exported="false" kind="system"/&gt;&#13;
-  &lt;profiles id="com.omondo.uml2.core.OmondoProfile" description="Omondo Profile" uri="platform:/plugin/com.omondo.uml.core/profiles/Omondo.profile.uml2" exported="false" kind="system"/&gt;&#13;
-&lt;/properties:ProjectDescription&gt;&#13;
-</uima.tcas.Document><uima.tcas.DocumentAnnotation _indexed="1" _id="8" sofa="1" begin="0" end="1268" language="en"/><com.ibm.uima.examples.SourceDocumentInformation _indexed="1" _id="13" sofa="1" begin="0" end="0" uri="file:/C:/workspace/datapresso/DataPresso/.umlproject" offsetInSource="0" documentSize="1268"/></CAS>

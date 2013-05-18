@@ -1,6 +1,0 @@
-c="John Pistole" 23:2 23:3||t="person"
-c="Pistole" 25:45 25:45||t="person"
-c="he" 27:38 27:38||t="person"
-c="Pistole" 35:2 35:2||t="person"
-c="Pistole" 41:26 41:26||t="person"
-c="he" 43:21 43:21||t="person"

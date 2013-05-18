@@ -1,7 +1,0 @@
-C:\ding\LW_COREF_V1\test3\docs\41.txt
-22:11 22:13
-22:31 22:31
-23:15 23:15
-24:0 24:0
-C:\ding\LW_COREF_V1\test3\docs\41.txt
-34:16 34:18

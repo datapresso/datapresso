@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><CAS version="2">
-    <uima.cas.Sofa _indexed="0" _id="7" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="Incident: Asiana A321 near Osaka on Sep 9th 2012, loss of cabin pressure&#10;&#10;By Simon Hradecky, created Sunday, Sep 9th 2012 16:36Z, last updated Sunday, Sep 9th 2012 16:36Z&#10;An Asiana Airlines Airbus A321-200, registration HL7713 performing flight OZ-1115 from Osaka (Japan) to Seoul Gimpo (South Korea) with 165 passengers, was climbing out of Osaka's Kansai Airport when the crew initiated an emergency descent due to the loss of cabin pressure, the passenger oxygen masks deployed. The aircraft returned to Osaka for a safe landing about one hour after departure.&#10;&#10;A replacement Airbus A321-200 registration HL-7790 reached Seoul's Gimpo Airport with a delay of 5:45 hours.&#10;"/>
-    <uima.tcas.DocumentAnnotation _indexed="1" _id="1" _ref_sofa="7" begin="0" end="674" language="en"/>
-    <com.ibm.en.PersonName _indexed="1" _id="1970" _ref_sofa="7" begin="77" end="91" ruleId="2E816C54D13CE2059FF7A77BA9E5ACDD"/>
-    <com.ibm.en.PersonName _indexed="1" _id="1975" _ref_sofa="7" begin="171" end="180" ruleId="B67015E0C45EDD1BA4DB0B0B91C05EE4"/>
-    <com.ibm.en.PersonName _indexed="1" _id="1980" _ref_sofa="7" begin="275" end="286" ruleId="B67015E0C45EDD1BA4DB0B0B91C05EE4"/>
-</CAS>

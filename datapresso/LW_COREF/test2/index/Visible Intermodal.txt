@@ -1,6 +1,0 @@
-C:\ding\LW_COREF_V1\test2\docs\22.txt
-3:3 3:4
-C:\ding\LW_COREF_V1\test2\docs\44.txt
-9:5 9:6
-C:\ding\LW_COREF_V1\test2\docs\44.txt
-13:8 13:9

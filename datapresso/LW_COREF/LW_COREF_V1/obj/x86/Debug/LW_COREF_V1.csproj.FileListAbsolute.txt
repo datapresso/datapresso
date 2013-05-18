@@ -1,6 +1,0 @@
-c:\users\daniel\documents\visual studio 2010\Projects\LW_COREF_V1\LW_COREF_V1\obj\x86\Debug\LW_COREF_V1.Properties.Resources.resources
-c:\users\daniel\documents\visual studio 2010\Projects\LW_COREF_V1\LW_COREF_V1\obj\x86\Debug\LW_COREF_V1.csproj.GenerateResource.Cache
-C:\Users\daniel\documents\visual studio 2010\Projects\LW_COREF_V1\LW_COREF_V1\bin\Debug\LW_COREF_V1.exe
-C:\Users\daniel\documents\visual studio 2010\Projects\LW_COREF_V1\LW_COREF_V1\bin\Debug\LW_COREF_V1.pdb
-C:\Users\daniel\documents\visual studio 2010\Projects\LW_COREF_V1\LW_COREF_V1\obj\x86\Debug\LW_COREF_V1.exe
-C:\Users\daniel\documents\visual studio 2010\Projects\LW_COREF_V1\LW_COREF_V1\obj\x86\Debug\LW_COREF_V1.pdb

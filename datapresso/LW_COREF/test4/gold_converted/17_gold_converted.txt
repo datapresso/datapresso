@@ -1,4 +1,0 @@
-c="Yovana Mercedes Gonzalez Cazares," 9:10 9:13||t="person"
-c="Dennis DeConcini" 11:9 11:10||t="person"
-c="Martin Elenes Mercado," 11:13 11:15||t="person"
-c="Carlos Soto Rosas," 13:27 13:29||t="person"

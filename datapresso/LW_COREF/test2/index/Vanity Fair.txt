@@ -1,6 +1,0 @@
-C:\ding\LW_COREF_V1\test2\docs\41.txt
-35:36 35:37
-C:\ding\LW_COREF_V1\test2\docs\41.txt
-38:39 38:40
-C:\ding\LW_COREF_V1\test2\docs\41.txt
-48:4 48:5

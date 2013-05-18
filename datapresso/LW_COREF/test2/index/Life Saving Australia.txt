@@ -1,3 +1,0 @@
-C:\ding\LW_COREF_V1\test2\docs\39.txt
-29:6 29:8
-35:30 35:30

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><CAS version="2">
-    <uima.cas.Sofa _indexed="0" _id="7" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="NASHVILLE, Tenn.- The FBI is now getting involved in an alleged terrorist threat in Nashville. Last week, the Metropolitan Nashville Police Department charged Amal Abdullahi, 29, with attempted terrorism. Police said the woman made terrorist threats to her coworkers and said she was ready to die for Allah.&#10;&#10;Coworkers of Amal Abdullahi at CEVA Logistics say she also told them that this whole country was full of non-believers, and would be completely Muslim soon. She went on to say all nonbelievers should die, that no one pays attention to her, and she should pick up a gun and shoot them.&#10;&#10;The company decided to file charges. Abdullahi was jailed on $50,000 bond.&#10;&#10;The FBI says they are now monitoring the case.&#10;"/>
-    <uima.tcas.DocumentAnnotation _indexed="1" _id="1" _ref_sofa="7" begin="0" end="718" language="en"/>
-    <com.ibm.en.PersonName _indexed="1" _id="2247" _ref_sofa="7" begin="123" end="139" ruleId="2E816C54D13CE2059FF7A77BA9E5ACDD"/>
-    <com.ibm.en.PersonName _indexed="1" _id="2252" _ref_sofa="7" begin="159" end="173" ruleId="2E816C54D13CE2059FF7A77BA9E5ACDD"/>
-    <com.ibm.en.PersonName _indexed="1" _id="2257" _ref_sofa="7" begin="253" end="256" ruleId="AE7DE65D2E5185B411E671B07DA535CC"/>
-    <com.ibm.en.PersonName _indexed="1" _id="2262" _ref_sofa="7" begin="322" end="336" ruleId="2E816C54D13CE2059FF7A77BA9E5ACDD"/>
-    <com.ibm.en.PersonName _indexed="1" _id="2267" _ref_sofa="7" begin="544" end="547" ruleId="AE7DE65D2E5185B411E671B07DA535CC"/>
-</CAS>

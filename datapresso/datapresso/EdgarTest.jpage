@@ -1,4 +1,0 @@
-//checking array
-String a = "ding";
-String[] arTest = a.split("\\s");
-System.out.println(arTest[0]);System.out.println(arTest.length);
