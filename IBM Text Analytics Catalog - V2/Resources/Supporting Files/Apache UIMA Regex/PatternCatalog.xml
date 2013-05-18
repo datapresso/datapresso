@@ -1,0 +1,1501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	* Licensed to the Apache Software Foundation (ASF) under one
+	* or more contributor license agreements.  See the NOTICE file
+	* distributed with this work for additional information
+	* regarding copyright ownership.  The ASF licenses this file
+	* to you under the Apache License, Version 2.0 (the
+	* "License"); you may not use this file except in compliance
+	* with the License.  You may obtain a copy of the License at
+	* 
+	*   http://www.apache.org/licenses/LICENSE-2.0
+	* 
+	* Unless required by applicable law or agreed to in writing,
+	* software distributed under the License is distributed on an
+	* "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+	* KIND, either express or implied.  See the License for the
+	* specific language governing permissions and limitations
+	* under the License.
+-->
+<conceptSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://incubator.apache.org/uima/regex"
+	xsi:schemaLocation="concept.xsd">
+
+<!-- Concept description: catNo="001"
+Apache email address detection
+Matches: JSmith@us.corp.com j-smith@tulsa.univ.edu-->
+	<!-- Concept disabled for now...
+	<concept name="Computers/Email Address" processAllRules="true">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="([a-zA-Z0-9!#$%*+'/=?^_\x2D`{|}~.\x26]+)@([a-zA-Z0-9._-]+[a-zA-Z]{2,4})"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="ComputersEmailAddress" type="com.ibm.ComputersEmailAddress">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+
+<!-- Concept description: catNo="301"
+Computer URL address detection
+Matches: www.ibm.com https://www.google.com -->
+	<!-- Concept disabled for now...
+	<concept name="Computers/Url Address" processAllRules="true">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="((http|https|ftp)\://)?[a-zA-Z0-9\-\.]+\.(com|org|net|mil|edu|COM|ORG|NET|MIL|EDU)"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="ComputersUrlAddress" type="com.ibm.ComputersUrlAddress">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+
+
+<!-- Concept description: catNo="002"
+Apache ISBN book number detection
+Matches: 978-922-->
+	<!-- Concept disabled for now...
+	<concept name="General/Books/ISBN" processAllRules="true">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(97(8|9))?-?(\d{9}|(\d|-){11})-?(\d|X)"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="BooksISBN" type="com.ibm.BooksISBN">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="003"
+Apache credit card number detection-->
+	<!-- Concept disabled for now...
+	<concept name="General/Credit Card Number" processAllRules="true">
+		<rules>
+			<rule ruleId="AmericanExpress" matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(((34|37)\d{2}[- ]?)(\d{6}[- ]?)\d{5})"/>
+			<rule ruleId="Visa" matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="((4\d{3}[- ]?)(\d{4}[- ]?){2}\d{4})"/>
+			<rule ruleId="MasterCard" matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="((5[1-5]\d{2}[- ]?)(\d{4}[- ]?){2}\d{4})"/>
+			<rule ruleId="unknown" matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(([1-6]\d{3}[- ])(\d{4}[- ]){2}\d{4})|([1-6]\d{13,18})|([1-6]\d{3}[- ]\d{6}[- ]\d{5})"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="GeneralCreditCardNumber" type="com.ibm.GeneralCreditCardNumber">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="004"
+Apache money amount detection
+Mathces: USD $120.31 0.15 1,253.23 13,200.23  $51,420,322.23  
+NonMatches: 1 123 234 1,123 -->
+	<!-- Concept disabled for now...
+	<concept name="General/Money/US Currency" processAllRules="true">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				regEx="((\$?\d{1,3}\.\d{2})|(\$?(\d{1,3})?(\,\d{3}){0,3}\.\d{2}))"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="MoneyUSCurrency" type="com.ibm.MoneyUSCurrency">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="005"
+Matches military time expressed as 0100 hrs. 23:41  2341 19:59:33 hrs
+NonMatches: 25:52 2034 -->
+	<!-- Concept disabled for now...
+	<concept name="General/DateTime/Military" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(([0][1-9]|[1][0-9]|[2][0-4]):?[0-5][0-9](:[0-5][0-9])?(\ ?(hrs|Hrs|HRS))|([0][1-9]|[1][0-9]|[2][0-4]):[0-5][0-9](:[0-5][0-9])?)"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="DateTimeMilitary" type="com.ibm.DateTimeMilitary">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="006"
+Matches wall clock time: 12:35 3:30 1:30 11:52 am 1:10 PM 12:00am
+NonMatches: 13:72 -->
+	<!-- Concept disabled for now...
+	<concept name="General/DateTime/AmPm" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="([0][1-9]|[1][0-2]|[1-9]):[0-5][0-9](\ ?(AM|am|PM|pm))?"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="DateTimeAmPm" type="com.ibm.DateTimeAmPm">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="007"
+Matches 	
+(123) 456-7890  (123)456-7890 x123  +1 (123)456-7890  (123)456-7890x123 |(123)456-7890ext123 | (123)456-7890 extension123 | 123.456.7890 | 1234567890 | 1234567 | 12 34 56 78 90 | 12 3 4567 890123 x4567 | +12 3456 7890 | +12 34 56 7890 | +12 3456 7890 | +12 34567890
+Non-Matches 	
+(123)456-7890 x 123 | 123.45.6.78+90-->
+	<!-- Concept disabled for now...
+	<concept name="General/Phone/US Numbers" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(\+?(\d[-. ]?)?((\(\d{3}\))|\d{3}))?[-. ]?\d{3}[-. ]?\d{4}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="PhoneUSNumbers" type="com.ibm.PhoneUSNumbers">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="008"
+Matches: 5 ft. 10 in.  7 feet 2 inches  5' 7" 4 ft. 2 in. -->
+	<!-- Concept disabled for now...
+	<concept name="People/Height" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="[3-8]\ ?(ft\.|feet|\x27)(\ ?(10|11|[1-9])\ ?(in\.|inches|\x22))?"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="PeopleHeight" type="com.ibm.PeopleHeight">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="009"
+Matches: 120 pounds  93 lbs. 
+Non-matches: 923 lbs.-->
+	<!-- Concept disabled for now...
+	<concept name="People/Weight" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="[1-4]\d{2}\ ?(lbs\.?|pounds)|\ \d{2}\ ?(lbs\.?|pounds)"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="PeopleWeight" type="com.ibm.PeopleWeight">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="010"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  0A12B34 00A12B3 AL 0A12B34-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Alabama" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(AL\ )(\d[A-Z]\d{2}[A-Z]\d{2}|\d{2}[A-Z]\d{2}[A-Z]\d)"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesAlabama" type="com.ibm.LicensePlatesAlabama">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="011"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  ABC123-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Alaska" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(AK\ )[A-Z]{3}\d{3}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesAlaska" type="com.ibm.LicensePlatesAlaska">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="012"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  ABC1234-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Arizona" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(AZ\ )[A-Z]{3}\d{4}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesArizona" type="com.ibm.LicensePlatesArizona">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="013"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  ABC 123-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Arkansas" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(AR\ )[A-Z]{3}\ \d{3}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesArkansas" type="com.ibm.LicensePlatesArkansas">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="014"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  1ABC234 -->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/California" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(CA\ )\d[A-Z]{3}\d{3}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesCalifornia" type="com.ibm.LicensePlatesCalifornia">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="015"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  123-ABC
+-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Colorado" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(CO\ )\d{3}-[A-Z]{3}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesColorado" type="com.ibm.LicensePlatesColorado">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="016"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  123-ABC
+-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Connecticut" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(CT\ )\d{3}-[A-Z]{3}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesConnecticut" type="com.ibm.LicensePlatesConnecticut">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="017"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  1234567-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Delaware" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(DE\ )\d?\d{6}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesDelaware" type="com.ibm.LicensePlatesDelaware">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="018"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  AB-1234-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/DC" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(DC\ )[AB]{2}-\d{4}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesDC" type="com.ibm.LicensePlatesDC">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="019"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  2003 to 2009: A00 0AA to X99 9ZZ
+2006 to 2009: 000 HAA to 999 YZZ
+Nov 2009: AAA A00 to YZZ Z99 FL AAA A00-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Florida" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(FL\ )([A-Z]\d{2} \d[A-Z]{2}|\d{3} [H-Y][A-Z]{2}|[A-Z]{3} [A-Z]\d{2})"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesFlorida" type="com.ibm.LicensePlatesFlorida">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="020"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  ABC 1234-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Georgia" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(GA\ )[A-Z]{3} \d{4}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesGeorgia" type="com.ibm.LicensePlatesGeorgia">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="021"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  Coded by county of issuance:
+    * ABC 123, where first letter is A-G, J, N, P, or R-Z (City and County of Honolulu)
+    * HAB 123 (Hawaii County)
+    * KAB 123 (Kauai County)
+    * MAB 123 (Maui County)
+-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Hawaii" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(HI\ )(([A-G]|[JNP]|[R-Z])[A-Z]{2} \d{3}|[HKM][A-Z]{2}\ \d{3})"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesHawaii" type="com.ibm.LicensePlatesHawaii">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="022"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  Coded by county of issuance:
+    * A 123456 (variable number of digits following space)
+    * 0A 12345 (variable number of digits following space)
+    * 0A B1234 (following exhaustion of above format)
+    * 0A BC123 (following exhaustion of above format)
+-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Idaho" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(ID\ )([A-Z]\ \d{6}?|\d[A-Z]\ [A-Z]{1,2}?\d{3,5}?)"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesIdaho" type="com.ibm.LicensePlatesIdaho">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="023"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  	A12 3456-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Illinois" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(IL\ )[A-Z]\d{2}\ \d{4}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesIllinois" type="com.ibm.LicensePlatesIllinois">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="024"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  123A
+123AB
+123ABC-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Indiana" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(IN\ )\d{3}[A-Z]{1,3}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesIndiana" type="com.ibm.LicensePlatesIndiana">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="025"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  123 ABC
+-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Iowa" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(IA\ )\d{3}\ [A-Z]{3}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesIowa" type="com.ibm.LicensePlatesIowa">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="026"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  123 ABC
+-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Kansas" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(KS\ )\d{3}\ [A-Z]{3}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesKansas" type="com.ibm.LicensePlatesKansas">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="027"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  123 ABC-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Kentucky" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(KY\ )\d{3}\ [A-Z]{3}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesKentucky" type="com.ibm.LicensePlatesKentucky">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="028"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  ABC 123-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Louisiana" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(LA\ )[A-Z]{3} \d{3}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesLouisiana" type="com.ibm.LicensePlatesLouisiana">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="029"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  1234 AB (variable number of digits preceding space)
+123 AB 12 AB-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Maine" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(ME\ )\d{1,4}\ [A-Z]{2}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesMaine" type="com.ibm.LicensePlatesMaine">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="030"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  5CN D27 MD 5CN D27 MD 12345G-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Maryland" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(MD\ )((\d[A-Z]{2}\ [A-Z]\d{2})|(\d{5}[A-Z]))"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesMaryland" type="com.ibm.LicensePlatesMaryland">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="031"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  Coded by month of expiration:
+    * 123 AB4 (January through September)
+    * 1AB 230 (October)
+-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Massachusetts" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(MA\ )((\d{3}\ [A-Z]{2}\d)|(\d[A-Z]{2}\ \d{3}))"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesMassachusetts" type="com.ibm.LicensePlatesMassachusetts">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="032"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  ABC 1234-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Michigan" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(MI\ )[A-Z]{3}\ \d{4}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesMichigan" type="com.ibm.LicensePlatesMichigan">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="033"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  	123-ABC-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Minnesota" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(MN\ )\d{3}-[A-Z]{3}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesMinnesota" type="com.ibm.LicensePlatesMinnesota">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="034"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  ABC 123-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Mississippi" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(MS\ )[A-Z]{3}\ \d{3}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesMississippi" type="com.ibm.LicensePlatesMississippi">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="035"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  AB1 C2D-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Missouri" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(MO\ )[A-Z]{2}\d\ [A-Z]\d[A-Z]"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesMissouri" type="com.ibm.LicensePlatesMissouri">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="036"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  0-12345A (variable number of digits following divider)-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Montana" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(MT\ )\d-\d{1,5}[A-Z]"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesMontana" type="com.ibm.LicensePlatesMontana">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="037"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  123-ABC-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Nevada" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(NV\ )\d{3}-[A-Z]{3}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesNevada" type="com.ibm.LicensePlatesNevada">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="038"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  Coded by county of issuance:
+    * 0-A1234 (variable number of digits following letter)
+    * 0-AB123 variable number of digits following letter)
+    * 00-A123 (variable number of digits following divider)
+    * 00-AB12 variable number of digits following divider)
+-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Nebraska" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(NE\ )[0-90ONDXY]{1,2}-[A-Z]{1,2}\d{1,4}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesNebraska" type="com.ibm.LicensePlatesNebraska">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="039"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  123 4567-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/NewHampshire" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(NH\ )\d{3}\ \d{4}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesNewHampshire" type="com.ibm.LicensePlatesNewHampshire">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="040"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  D12-ABC  (from ABC-12D)-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/NewJersey" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(NJ\ )([A-Z]\d{2}-[A-Z]{3}|[A-Z]{3}-\d{2}[A-Z])"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesNewJersey" type="com.ibm.LicensePlatesNewJersey">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="041"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  ABC-123 123-ABC-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/NewMexico" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(NM\ )(\d{3}-[A-Z]{3}|[A-Z]{3}-\d{3})"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesNewMexico" type="com.ibm.LicensePlatesNewMexico">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="042"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  ABC-1234 (from FAA-1000)-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/NewYork" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(NY\ )[F-Z][A-Z]{2}-[1-9]\d{3}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesNewYork" type="com.ibm.LicensePlatesNewYork">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="043"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  ABC-1234-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/NorthCarolina" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(NC\ )[A-Z]{3}-\d{4}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesNorthCarolina" type="com.ibm.LicensePlatesNorthCarolina">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="044"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  ABC 123-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/NorthDakota" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(ND\ )[A-Z]{3}\ \d{3}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesNorthDakota" type="com.ibm.LicensePlatesNorthDakota">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="045"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  ABC 1234-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Ohio" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(OH\ )[A-Z]{3}\ \d{4}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesOhio" type="com.ibm.LicensePlatesOhio">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="046"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  123ABC-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Oklahoma" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(OK\ )\d{3}[A-Z]{3}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesOklahoma" type="com.ibm.LicensePlatesOklahoma">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="047"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  123 ABC-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Oregon" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(OR\ )\d{3}\ [A-Z]{3}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesOregon" type="com.ibm.LicensePlatesOregon">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="048"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  ABC-1234-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Pennsylvania" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(PA\ )[A-Z]{3}-\d{4}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesPennsylvania" type="com.ibm.LicensePlatesPennsylvania">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="049"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  AB-123 (Passenger Vehicle)
+
+123-456 (Passenger Vehicle), starting number 710-001-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/RhodeIsland" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(RI\ )([A-Z]{2}-\d{3}|[7-9][1-9][0-9]-\d{3})"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesRhodeIsland" type="com.ibm.LicensePlatesRhodeIsland">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="050"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  ABC 123  or 123 4AB-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/SouthCarolina" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(SC\ )([A-Z]{3}\ \d{3}|\d{3}\ [4-9][A-Z]{2})"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesSouthCarolina" type="com.ibm.LicensePlatesSouthCarolina">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="051"
+Mathes: # 0AB 123
+# 00A 123
+# 00A B23 (following exhaustion of above format)
+# 00A BC3 -->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/SouthDakota" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(SD\ )[0-90ONDXY]{1,2}[A-Z]\ [A-Z]{0,2}\d{1,3}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesSouthDakota" type="com.ibm.LicensePlatesSouthDakota">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="052"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  123-ABC-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Tennessee" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(TN\ )\d{3}-[A-Z]{3}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesTennessee" type="com.ibm.LicensePlatesTennessee">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="053"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  AB1-C234-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Texas" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(TX\ )[A-Z]{2}\d-[A-Z]\d{3}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesTexas" type="com.ibm.LicensePlatesTexas">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="054"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  A12 3BC   A12 3BC-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Utah" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(UT\ )[A-Z]\d{2}\ \d[A-Z]{2}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesUtah" type="com.ibm.LicensePlatesUtah">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="055"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  ABC 123-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Vermont" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(VT\ )[A-Z]{3}\ \d{3}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesVermont" type="com.ibm.LicensePlatesVermont">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="056"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  ABC-1234 VA ABC-1234-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Virginia" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(VA\ )[A-Z]{3}-\d{4}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesVirginia" type="com.ibm.LicensePlatesVirginia">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="057"
+Identifies US license plates with an optional two character state prefix identifier. Matches:  ABC1234-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Washington" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(WA\ )[A-Z]{3}\d{4}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesWashington" type="com.ibm.LicensePlatesWashington">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="058"
+Matches: Coded by month of expiration:
+    * 0AB 123 (1 through 9 for January through September, respectively)
+    * NBC 123 (O, N, and D for October, November, and December, respectively)
+-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/WestVirginia" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(WV\ )[1-9OND][A-Z]{2}\ \d{3}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesWestVirginia" type="com.ibm.LicensePlatesWestVirginia">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="059"
+Matches: 123-ABC-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Wisconsin" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(WI\ )\d{3}-[A-Z]{3}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesWisconsin" type="com.ibm.LicensePlatesWisconsin">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="060"
+Matches: Coded by county of issuance:
+    * 0-12345 (variable number of digits following divider)
+    * 00-12345 (variable number of digits following divider)
+-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/LicensePlates/Wyoming" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(WY\ )[0-9OND]{1,2}-\d{2,5}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="LicensePlatesWyoming" type="com.ibm.LicensePlatesWyoming">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="061"
+Tests Vehicle Identification Numbers (VINs).  This works for a Mitsubishi cars in the UK - but I have been unable to determine whether the format is for UK vehicles or applies only to this make.  The requirements are that the first 9 characters and the 11th character are alpha-numeric excluding i, I, o or O.  The 10th character is the chassis year, and is alpha-numeric excluding i, I, o, O, q, Q, u, and U.  The final 6 characters are numeric.  The string is 17 characters in length.  Any refinements would be greatly appreciated!
+Matches:
+	abcDEFghp3t123456  A1C3E5G6Y98123456  A1C3E5G6FFF123456
+NonMatches
+	AIC3E5G6FFF123456  A8C3E5G6FQF123456  A8C3E5G6F9F12345H-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/VIN UK" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(([a-h,A-H,j-n,J-N,p-z,P-Z,0-9]{9})([a-h,A-H,j-n,J-N,p,P,r-t,R-T,v-z,V-Z,0-9])([a-h,A-H,j-n,J-N,p-z,P-Z,0-9])(\d{6}))"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="AutomotiveVINUK" type="com.ibm.AutomotiveVINUK">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="062"
+Matches: 1HGCM82633A004352-->
+	<!-- Concept disabled for now...
+	<concept name="Automotive/VIN US" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="([A-Z\d]{3})[A-Z]{2}\d{2}([A-Z\d]{1})([X\d]{1})([A-Z\d]{3})\d{5}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="AutomotiveVINUS" type="com.ibm.AutomotiveVINUS">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="063"
+Matches: 23 years old 5 yo  101 yrs. 1 yr 3 mo.s   10 mos  5yo-->
+	<!-- Concept disabled for now...
+	<concept name="People/Age" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="\d{1,3}\ ?(years|yo\.?|yrs\.?|yr\.?)|\d{1,2}\ ?(months|mo\.?s\.?|mo)"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="PeopleAge" type="com.ibm.PeopleAge">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="064"
+Matches: I-270 I 55 U.S. Route 1   US1  US 1  Route 1-->
+	<!-- Concept disabled for now...
+	<concept name="Geography/Roads/Interstates" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="I-\d{1,3}|I \d{1,3}|U\.?S\.?\ ?(Route|route|rt\.?)?\ ?\d{1,3}|[Rr]oute \d{1,3}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="RoadsInterstates" type="com.ibm.RoadsInterstates">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="065"
+Matches: Wilson Blvd.  Main St.  Dakota Ave. Main Avenue Main Street
+Brook dr. Lewis Drive Locus Pl  Locus Pl. Locus Place She stated that -->
+	<!-- Concept disabled for now...
+	<concept name="Geography/Roads/Streets" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="[\w\.]+\ (([Bb]lvd\.?)|([Ss]t\.?(reet)?)|([Aa]ve\.?(nue)?)|([Dd]r\.?(ive)?)|([Pp]l\.?(ace)?))\s"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="RoadsStreets" type="com.ibm.RoadsStreets">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="066"
+Matches: Jan. 31 2001 January 2, 1934 Feb. 05, 2001 -->
+	<!-- Concept disabled for now...
+	<concept name="General/DateTime/MMMDDYYYY" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="((Jan\.?(uary)?)|(Feb\.?(ruary)?)|(Mar\.?(ch)?)|(Apr\.?(il)?)|(May)|(Jun\.?(e)?)|(Jul\.?(y)?)|(Aug\.?(ust)?)|(Sep\.?(tember)?)(Oct\.?(ober)?)|(Nov\.?(ember)?)|(Dec\.?(ember)?))\ ((0?[1-9])|([1-3][0-9]))\,?\ [12]\d{3}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="DateTimeMMMDDYYYY" type="com.ibm.DateTimeMMMDDYYYY">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="067"
+Matches:
+	10/23/1979  1-1-02  01.1.2003
+
+-->
+	<!-- Concept disabled for now...
+	<concept name="General/DateTime/MMDDYYYY" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="([0]?[1-9]|[1][0-2])[./-]([0]?[1-9]|[1|2][0-9]|[3][0|1])[./-]([0-9]{4}|[0-9]{2})"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="DateTimeMMDDYYYY" type="com.ibm.DateTimeMMDDYYYY">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="068"
+Matches:
+	10/03/1979  1-1-02  01.1.2003
+-->
+	<!-- Concept disabled for now...
+	<concept name="General/DateTime/DDMMYYYY" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="([0]?[1-9]|[1|2][0-9]|[3][0|1])[./-]([0]?[1-9]|[1][0-2])[./-]([0-9]{4}|[0-9]{2})"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="DateTimeDDMMYYYY" type="com.ibm.DateTimeDDMMYYYY">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="069"
+Matches: 555-13-1342
+
+Non-matches:-->
+	<!-- Concept disabled for now...
+	<concept name="People/SSN" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="\d{3}-\d{2}-\d{4}"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="PeopleSSN" type="com.ibm.PeopleSSN">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="070"
+Matches: 25 miles 1 mile 1,234 miles
+
+Non-matches:-->
+	<!-- Concept disabled for now...
+	<concept name="General/Measurements/Distance" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(\d{1,3},)?(\d{1,3},)?(\d{1,3},)?\d{1,3}(\.\d{1,3})?\ ?(miles?|mi\.?)"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="MeasurementsDistance" type="com.ibm.MeasurementsDistance">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="071"
+Matches: 13 1,230 756,232,235 5.234
+
+Non-matches:-->
+	<!-- Concept disabled for now...
+	<concept name="General/Numbers" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(\d{1,3},)?(\d{1,3},)?(\d{1,3},)?\d{1,3}(\.\d{1,3})?"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="GeneralNumbers" type="com.ibm.GeneralNumbers">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="072"
+Matches: 23 yards 13 ft. and 21 inches
+
+Non-matches:-->
+	<!-- Concept disabled for now...
+	<concept name="General/Measurements/YardsFeetInches" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="((\d{1,3},)?(\d{1,3},)?(\d{1,3},)?\d{1,3}(\.\d{1,3})?\ ?(yards?|yd\.?))?((\d{1,3},)?(\d{1,3},)?(\d{1,3},)?\d{1,3}(\.\d{1,3})?\ ?(feet|foot|ft\.?))?((\d{1,3},)?(\d{1,3},)?(\d{1,3},)?\d{1,3}(\.\d{1,3})?\ ?(inche?s?|in\.?))?"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="MeasurementsYardsFeetInches" type="com.ibm.MeasurementsYardsFeetInches">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="073"
+Matches:  1,120 miles per hour 15 feet per second 2 miles per hr.
+Non-matches:-->
+	<!-- Concept disabled for now...
+	<concept name="General/Measurements/Speed" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(\d{1,3},)?(\d{1,3},)?(\d{1,3},)?\d{1,3}(\.\d{1,3})?\ ((miles|yards|feet)\ per\ (hour|hr\.?|minute|min\.|second|sec\.?))?(mph|kph)?"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="MeasurementsSpeed" type="com.ibm.MeasurementsSpeed">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="074"
+Identifies references to blood pressure measurements 
+matches: blood pressure Blood Pressure BLOOD PRESSURE B.P b/p bp BP 120
+followed by the numeric matches: BP120 B.P 120-130/70 B/P 132/70-80
+
+-->
+	<!-- Concept disabled for now...
+	<concept name="Healthcare/BloodPressure/BPRefs" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(?i)(blood\ pressure)|(B[./]?P)(\ )?\d{3}(-\d{3})?(/\d{2}(-\d{2})?)?"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="BloodPressureBPRefs" type="com.ibm.BloodPressureBPRefs">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="075"
+Identifies references to blood pressure measurements indicated by vital signs
+matches: vital signs Vital Signs VITAL SIGNS V.S v/s vs VS 120
+followed by the numeric matches: VS120 V.S 120-130/70 V/S 132/70-80
+
+-->
+	<!-- Concept disabled for now...
+	<concept name="Healthcare/BloodPressure/VitalSigns" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(?i)(vital\ signs)|(V[./]?S)(\ )?\d{3}(-\d{3})?(/\d{2}(-\d{2})?)?"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="BloodPressureVitalSigns" type="com.ibm.BloodPressureVitalSigns">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+<!-- Concept description: catNo="076"
+Identifies references to blood pressure measurements indicated by physical exam
+matches: physical exam Physical Exam PHYSICAL EXAM P.E p/e pe PE 120
+followed by the numeric matches: PE120 P.E 120-130/70 P/E 132/70-80
+
+-->
+	<!-- Concept disabled for now...
+	<concept name="Healthcare/BloodPressure/PhysicalExam" processAllRules="false">
+		<rules>
+			<rule matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+				confidence="1.0"
+				regEx="(?i)(physical\ exam)|(P[./]?E)(\ )?\d{3}(-\d{3})?(/\d{2}(-\d{2})?)?"/>
+		</rules>
+		<createAnnotations>
+			<annotation id="BloodPressurePhysicalExam" type="com.ibm.BloodPressurePhysicalExam">
+			<begin group="0" location="start"/>
+			<end group="0" location="end"/>
+			</annotation>
+		</createAnnotations>
+	</concept>
+	-->
+
+</conceptSet>

@@ -1,0 +1,70 @@
+		<list key="ruleLanguages">
+			<item value="af"/>
+			<item value="ar"/>
+			<item value="ca"/>
+			<item value="cs"/>
+			<item value="da"/>
+			<item value="de"/>
+			<item value="el"/>
+			<item value="en"/>
+			<item value="es"/>
+			<item value="fi"/>
+			<item value="fr"/>
+			<item value="it"/>
+			<item value="ja"/>
+			<item value="ko"/>
+			<item value="nb"/>
+			<item value="nl"/>
+			<item value="nn"/>
+			<item value="pl"/>
+			<item value="pt"/>
+			<item value="ru"/>
+			<item value="sv"/>
+			<item value="zh"/>
+		</list>
+		<list key="rulePaths.0">
+		</list>
+		<list key="rulePaths.1">
+		</list>
+		<list key="rulePaths.2">
+		</list>
+		<list key="rulePaths.3">
+		</list>
+		<list key="rulePaths.4">
+		</list>
+		<list key="rulePaths.5">
+		</list>
+		<list key="rulePaths.6">
+		</list>
+		<list key="rulePaths.7">
+		</list>
+		<list key="rulePaths.8">
+		</list>
+		<list key="rulePaths.9">
+		</list>	
+		<list key="rulePaths.10">
+		</list>
+		<list key="rulePaths.11">
+		</list>
+		<list key="rulePaths.12">
+		</list>
+		<list key="rulePaths.13">
+		</list>
+		<list key="rulePaths.14">
+		</list>
+		<list key="rulePaths.15">
+		</list>
+		<list key="rulePaths.16">
+		</list>
+		<list key="rulePaths.17">
+		</list>
+		<list key="rulePaths.18">
+		</list>
+		<list key="rulePaths.19">
+		</list>
+		<list key="rulePaths.20">
+		</list>
+		<list key="rulePaths.21">
+		</list>
+		<insertExtraParms/>	
+	</section>

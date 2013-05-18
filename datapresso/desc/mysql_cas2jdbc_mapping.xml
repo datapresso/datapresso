@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2005 sp1 U (http://www.xmlspy.com) by Jimmy (Ru-Board) -->
+<cas2jdbc:cas2JdbcConfiguration xmlns:cas2jdbc="http://www.ibm.com/uima/consumer/cas2jdbc/100/xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ibm.com/uima/consumer/cas2jdbc/100/xml configuration.xsd ">
+<databaseConnection>
+  <connectionUrl>mysql://localhost:3306/datapresso</connectionUrl> 
+  <driver type="jdbc">com.mysql.jdbc.Driver</driver> 
+ <driverLibraries>
+  <driverLibrary>c:/java/lib/mysql-connector-java-5.1.25-bin.jar</driverLibrary> 
+  </driverLibraries>
+ <authentication>
+  <username>root</username> 
+  <password></password> 
+  </authentication>
+  </databaseConnection>
+	<cas2JdbcMappingSpec>
+		<cas2JdbcMappings>
+			<explicitMappings>
+				
+				<!--  
+			<explicitMappingRule applyToSubtypes="false">
+					<type>com.ibm.systemT.Person</type>
+					<table>person</table>
+					<featureMappings>
+						<featureMapping>
+							<feature>uniqueId()</feature>
+							<column>id</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>firstname</feature>
+							<length>50</length>
+							<column>firstname</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>canonicalCoveredText</feature>
+							<length>8000</length>
+							<column>coveredtext</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>lastname</feature>
+							<length>50</length>
+							<column>lastname</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>canonicalForm</feature>
+							<length>50</length>
+							<column>title</column>
+						</featureMapping>
+
+					</featureMappings>
+				</explicitMappingRule>  -->
+ 	<explicitMappingRule applyToSubtypes="false">
+					<type>com.ibm.systemT.Location</type>
+					<table>address</table>
+					<featureMappings>
+						<featureMapping>
+							<feature>canonicalForm</feature>
+							<length>200</length>
+							<column>street</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>canonicalCoveredText</feature>
+							<column>coveredtext</column>
+						</featureMapping>
+					</featureMappings>
+				</explicitMappingRule>
+				<!--  
+				<explicitMappingRule applyToSubtypes="false">
+					<type>com.dp.dhs.Airport</type>
+					<table>address</table>
+					<featureMappings>
+						<featureMapping>
+							<feature>name</feature>
+							<length>200</length>
+							<column>airport</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>ruleId</feature>
+							<column>coveredtext</column>
+						</featureMapping>
+					</featureMappings>
+				</explicitMappingRule>	
+				-->
+						
+				<explicitMappingRule applyToSubtypes="false">
+					<type>com.ibm.systemT.Organization</type>
+					<table>organization</table>
+					<featureMappings>
+						<featureMapping>
+							<feature>canonicalForm</feature>
+							<length>200</length>
+							<column>name</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>canonicalCoveredText</feature>
+							<column>coveredtext</column>
+						</featureMapping>
+					</featureMappings>
+				</explicitMappingRule>	
+				
+
+				<explicitMappingRule applyToSubtypes="false">
+					<type>uima.tcas.DocumentAnnotation</type>
+					<table>document</table>
+					<featureMappings>
+						<featureMapping>
+							<feature>docId()</feature>
+							<column>name</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>docUri()</feature>
+							<length>200</length>
+							<column>url</column>
+						</featureMapping>
+						<!-- <featureMapping>
+							<feature>parentId()</feature>
+							<length>25</length>
+							<column>name</column>
+						</featureMapping>-->
+						<featureMapping>
+							<feature>docTimestamp()</feature>
+							<column>status</column>
+						</featureMapping>						
+					</featureMappings>
+				</explicitMappingRule>
+							
+			
+			<!--  
+				<explicitMappingRule applyToSubtypes="false">
+					<type>org.apache.uima.examples.SourceDocumentInformation</type>
+					<table>document</table>
+					<featureMappings>
+		  			<featureMapping>
+							<feature>docId()</feature>
+							<column>id</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>uri</feature>
+							<length>200</length>
+							<column>url</column>
+						</featureMapping> 
+						<featureMapping>
+							<feature>documentSize</feature>
+							<column>name</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>lastSegment</feature>
+							<column>documenttext</column>
+						</featureMapping>						
+						<featureMapping>
+							<feature>docTimestamp()</feature>
+							<column>dateupdated</column>
+						</featureMapping>					
+					</featureMappings>
+				</explicitMappingRule> 
+				-->
+				
+			    <explicitMappingRule applyToSubtypes="false">
+					<type>com.dp.core.en.PersonName</type>
+					<table>datapresso.person</table>
+					<featureMappings>
+						<featureMapping>
+							<feature>docId()</feature>
+							<column>id</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>uniqueId()</feature>
+							<column>sex</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>typeName()</feature>
+							<column>birthdate</column>
+						</featureMapping>
+						
+						<featureMapping>
+							<feature>firstname</feature>
+							<length>30</length>
+							<column>firstname</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>firstname</feature>
+							<length>30</length>
+							<column>middlename</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>lastname</feature>
+							<length>20</length>
+							<column>lastname</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>ruleId</feature>
+							<length>64</length>
+							<column>title</column>
+						</featureMapping>
+					</featureMappings>
+				</explicitMappingRule> 
+				
+			</explicitMappings>
+		</cas2JdbcMappings>
+	</cas2JdbcMappingSpec>
+</cas2jdbc:cas2JdbcConfiguration>

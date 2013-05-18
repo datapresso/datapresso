@@ -1,0 +1,363 @@
+//*********************** ES COPYRIGHT START  *********************************
+// @copyright(disclaimer)
+// 
+// Licensed Materials - Property of IBM
+// 5724-Z21
+// (C) Copyright IBM Corp. 2003, 2012
+// 
+// US Government Users Restricted Rights
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// 
+// DISCLAIMER OF WARRANTIES :
+// 
+// Permission is granted to copy and modify this Sample code, and to
+// distribute modified versions provided that both the copyright
+// notice, and this permission notice and warranty disclaimer appear
+// in all copies and modified versions.
+// 
+// THIS SAMPLE CODE IS LICENSED TO YOU "AS-IS".
+// IBM  AND ITS SUPPLIERS AND LICENSORS  DISCLAIM
+// ALL WARRANTIES, EITHER EXPRESS OR IMPLIED, IN SUCH SAMPLE CODE,
+// INCLUDING THE WARRANTY OF NON-INFRINGEMENT AND THE IMPLIED WARRANTIES
+// OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT
+// WILL IBM OR ITS LICENSORS OR SUPPLIERS BE LIABLE FOR ANY DAMAGES ARISING
+// OUT OF THE USE OF  OR INABILITY TO USE THE SAMPLE CODE, DISTRIBUTION OF
+// THE SAMPLE CODE, OR COMBINATION OF THE SAMPLE CODE WITH ANY OTHER CODE.
+// IN NO EVENT SHALL IBM OR ITS LICENSORS AND SUPPLIERS BE LIABLE FOR ANY
+// LOST REVENUE, LOST PROFITS OR DATA, OR FOR DIRECT, INDIRECT, SPECIAL,
+// CONSEQUENTIAL,INCIDENTAL OR PUNITIVE DAMAGES, HOWEVER CAUSED AND REGARDLESS
+// OF THE THEORY OF LIABILITY, EVEN IF IBM OR ITS LICENSORS OR SUPPLIERS
+// HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+// 
+// @endCopyright
+//*********************** ES COPYRIGHT END  ***********************************
+dojo.provide("view.searchView.searchView");
+
+dojo.require("dijit.layout._LayoutWidget");
+dojo.require("dijit._Templated");
+dojo.require("widgets.analytics._AnalyticsPane");
+dojo.require("widgets.TypeAhead");
+dojo.require("dijit.form.Button");
+dojo.require("dijit.form.TextBox");
+dojo.require("dijit.form.FilteringSelect");
+dojo.require("dojo.data.ItemFileWriteStore");
+
+
+dojo.declare("view.searchView.searchView", widgets.analytics._AnalyticsPane, {
+	
+	templatePath: dojo.moduleUrl("view.searchView", "searchView.html"),
+	handlers: [],
+	
+	// Query variables
+	curPageStart: 1, 
+	curPageSize: 20, 
+	curTotResults: 0, 
+	curQry: null,
+	
+	// Search View attributes
+	searchBox: null,
+	searchButton: null,
+	emptyDataStore: null,
+
+
+    /////////////////////////
+    postCreate: function() {
+    /////////////////////////
+    	 	
+      	this.emptyDataStore = {};
+    	this.emptyDataStore['identifier'] = "id";
+    	this.emptyDataStore['label'] = "name";
+    	this.emptyDataStore['items'] = [];
+    	
+    	// subscribe to the "postLoad" of search results by the search manager widget. 
+    	// _displaySearchResults is our own function. Note that this custom view always 
+    	// submits searches through the searchManager widget rather than itself. And
+    	// then receives and displays the results through the _displaySearchResults function
+    	
+     	this.subscribe("postLoad","_displaySearchResults"); 
+     	
+     	this._buildSearchView();
+    }, 
+    
+
+    ///////////////////////////////////////////////////
+    _buildSearchView: function() {
+    ///////////////////////////////////////////////////
+    	
+        // Search box 
+	    new dijit.form.TextBox({style: "height: 20px; width: 320px;", id: "sfSearchFilter"}, dojo.byId("sfSearchBox"));
+	    this.searchBox = dijit.byId("sfSearchFilter");
+	    this._attachTypeAhead(this.searchBox);
+        new dijit.form.Button({ style: "height: 14pt; font-size: 8pt; padding-bottom: 4px;", label: "Search", id: "sfSearchButton" }, dojo.byId("sfSearchButton"));
+        new dijit.form.Button({ style: "height: 14pt; font-size: 8pt; padding-bottom: 4px;", label: "Reset", id: "sfClearAllButton" }, dojo.byId("sfClearAllButton"));
+        this.handlers.push(dojo.connect( dojo.byId("sfSearchButton"), "onclick", this, "_onSearchButtonPressed"));
+        this.handlers.push(dojo.connect( dojo.byId("sfClearAllButton"), "onclick", this, "_onClearAllButtonPressed"));
+        // Insert search view fields and facets
+	        
+    },
+    
+    
+    //////////////////////////////////////////////////
+	_attachTypeAhead: function(attachToTextBox){
+	//////////////////////////////////////////////////
+		
+			var typeAhead = dijit.byId(EDR.prefix+"RESTTypeAheadWidget");
+			if(typeAhead){
+				var input = attachToTextBox;
+				if(input!=null){
+					var self = this;
+					var url = "/api/v10/query/typeahead?output=application/json";
+					typeAhead.set("url", url);
+					self.handlers.push(dojo.connect(input, "onfocus", typeAhead, function(e){
+						var banner = dijit.byId(EDR.prefix + "bannerId");
+						if(banner.collectionIds){
+							// handle for multiple collection
+							var collectionIds = banner.collectionIds.split(",");
+							typeAhead.set("collectionId", collectionIds.join("|"));
+						}
+				        typeAhead.set("showBarChart", true);
+						typeAhead.attach(input);
+						//override
+						typeAhead.onClick = function(e){
+							//self.submitSearch();
+							self._onSearchButtonPressed(null);
+						}
+					}));
+				}
+			}
+		},
+
+ 
+    
+    ////////////////////////////////////////
+    _buildCurrentQueryString: function() {
+    ////////////////////////////////////////
+	   
+        var newQueryStr = "";
+        
+        if (this.searchBox.value.length > 0) newQueryStr += this.searchBox.value;
+        
+        // Insert query string additions for fields and facets
+        
+        this.curQry = newQueryStr;
+        return newQueryStr;
+        
+    },
+    
+    
+	    
+    ///////////////////////////////////////////
+    _prevPage: function(evt) {
+    //////////////////////////////////////////
+    	if (this.curPageStart > 1) {
+    		this.curPageStart = this.curPageStart - 1;
+    		this._submitSearch(this.curQry,"page");
+    	}
+    },
+    
+    ///////////////////////////////////////////
+    _nextPage: function(evt) {
+    //////////////////////////////////////////
+    	if ((this.curPageStart * this.curPageSize) < (this.curTotResults)) {
+    		this.curPageStart = this.curPageStart + 1;
+    		this._submitSearch(this.curQry,"page");
+    	}
+    },
+    
+
+	////////////////////////////////////
+    _onSearchButtonPressed: function(evt) {
+    ////////////////////////////////////	   
+		
+    	this.curPageStart = 1;
+		this.curTotResults = 0;		     	    	
+		this._submitSearch(this._buildCurrentQueryString(),"search");	  	    	
+
+    },
+    
+    
+	//////////////////////////////////// 
+    _onClearAllButtonPressed: function(evt) {
+    ////////////////////////////////////
+        dijit.byId("sfSearchFilter").reset();
+        // Insert reset of facets in all widgets
+        
+        this._submitSearch(this._buildCurrentQueryString(),"search");
+    },
+    
+    
+    /////////////////////////////////////////
+    _onChangeFormValue: function(newVal) {
+    /////////////////////////////////////////    	
+    	this._submitSearch(this._buildCurrentQueryString(),"search");
+    },
+    
+    ///////////////////////////////////////
+	_submitSearch: function(queryStr,action) {
+	///////////////////////////////////////
+		if ((queryStr == null) || (queryStr == "")) queryStr = "*:*";
+		var params = {};
+		params.keywords = queryStr;
+		params.page = this.curPageStart;
+		params.resultsPerPage = this.curPageSize; 
+		dijit.byId(EDR.prefix+"searchManager").submitSearch(null, action, params);						
+	},
+		    
+
+    //////////////////////////////////////////////
+    _displaySearchResults: function() {
+    ////////////////////////////////////////////// 
+    		
+    	var data = dijit.byId(EDR.prefix+"searchManager").getSearchResult();		
+    	if (data && data["results"]) {  
+    		
+    		dojo.empty(this.resultsHeader);
+			dojo.empty(this.resultsList);
+    		
+    		var curResultsHeader = dojo.create("tr", null, this.resultsHeader);
+		    dojo.create("td", {innerHTML: "Search Results"}, curResultsHeader);
+    		var pp = dojo.create("td", {innerHTML: "&nbsp;&nbsp;&nbsp;<img alt=\"previous page\" src=\"images/previous_page12.png\" dojoAttachPoint=\"prevPage\"/>"}, curResultsHeader);
+    		var sp = dojo.create("td", {innerHTML: "&nbsp;&nbsp;"}, curResultsHeader);
+        	var np = dojo.create("td", {innerHTML: "<img alt=\"next page\" src=\"images/next_page12.png\" dojoAttachPoint=\"nextPage\"/>"}, curResultsHeader);
+
+    		dojo.connect( pp, "onclick", this, "_prevPage");
+			dojo.connect( np, "onclick", this, "_nextPage");
+    		    
+			this.curTotResults = data.estimatedNumberOfResults;
+    		var fromResult = ((this.curPageStart-1)*this.curPageSize)+1;
+			var toResult = fromResult+this.curPageSize;
+			if (toResult > this.curTotResults) {
+				toResult = this.curTotResults;
+			}
+    		dojo.create("td", {innerHTML: "&nbsp;<span style=\"color: #C61829; font-size: 14px;\">"+fromResult+"-"+toResult+" of "+this.curTotResults+" total results</span>&nbsp;"}, curResultsHeader);
+    		
+    		var searchResults = data["results"];
+    		
+    		for (var i=0; i < searchResults.length; i++) {
+        		var result = searchResults[i];      		
+		        var tr = dojo.create("tr", null, this.resultsList);
+    	        dojo.create("td", {innerHTML: "&nbsp;"}, tr);
+        		var htmlBuf = "<a href='javascript:;' onclick='ica_g_openPreview(event," + i +")' style=\"color: #C61829; text-decoration: underline;\">Incident #"+result.title+" </a>";
+        			htmlBuf = htmlBuf + "<span class=\"conceptDocDesc\"> - "+result.description+"</span>";
+        		tr = dojo.create("tr", null, this.resultsList);
+    	        dojo.create("td", {innerHTML: htmlBuf}, tr);
+    	       
+    		} // End looping thru search results
+    		
+    		// Because we've been notified of the arrival of new search results something changed
+        	// so lets get the current facet values and reload the combo boxes with them.
+    		this._getCurrentFacetValues();	
+    	}
+	
+    },
+ 
+
+    
+    
+    //////////////////////////////////////////////////////////////////
+ 	_getCurrentFacetValues: function() {
+    // Used to retrieve the current facet values from ICA depending
+    // on the current search criteria.
+    ////////////////////////////////////////////////////////////////// 
+
+ 	    var _facet = {"id":				// Insert concatentated facet names list
+ 	    		"",     		         		  
+ 	        	"count": 100, 			// return this many maxiumum facet values
+ 	        	"namespace": "keyword"	// get facet values 
+ 	        };
+
+ 	    var _facetStr = dojo.toJson(_facet);		
+ 	    var args = {
+ 	            handleAs: "json",
+ 	            url: "api/v10/search/facet",						  
+ 	            load: dojo.hitch(this, "_processFacetValues"), 
+ 	            content: {
+ 	            		output: "application/json",
+ 	            		query: this.getCurrentQuery(),
+ 	            		queryLang: this.getCurrentQueryLang(),
+ 	            		collection: this.getSelectedCollection().id,
+ 	            		facet: _facetStr
+ 	            }
+ 	        };
+ 	    dojo.xhrPost(args);    
+
+     },
+
+     
+     
+     /////////////////////////////////////////////////
+     _processFacetValues: function (data) {
+     // This function parses and processes the facet
+     // values returned from the network call made above.
+     // A datastore is built for each facet value of a 
+     // given facet name. The datastore is then associated
+     // with its corresponding FilteringSelect combo box on 
+     // on the search form.
+     /////////////////////////////////////////////////
+     	
+     	if (data && data["es_apiResponse"] && data["es_apiResponse"]["ibmsc_facet"]) {
+     		
+     		this._resetFacetValues();
+     		
+     		var facetResults = data["es_apiResponse"]["ibmsc_facet"];      		
+			if (facetResults.length == null) { // case where a single value exists
+		   		facetResults = [];
+				facetResults.push(data["es_apiResponse"]["ibmsc_facet"]);
+			}
+     		for (var i=0; i<facetResults.length; i++) {
+     			
+     			var facetDataStore = {};
+         		facetDataStore['identifier'] = "id";
+         		facetDataStore['label'] = "name";
+         		facetDataStore['items'] = [];
+         		
+         		var facetObj = facetResults[i];
+         		var facetName = facetObj.id;
+         		var facetValues = facetObj.ibmsc_facetValue;         		       		
+         		if (facetObj.ibmsc_facetValue.length == null) { // case where a single value exists
+         			facetValues = [];
+         			facetValues.push(facetObj.ibmsc_facetValue);
+         		}
+     		
+         		// load up the data store with the retrieved facet values
+         		for (var j=0; j<facetValues.length; j++) {
+ 	    					        	
+         			var facetValueObj = facetValues[j];
+ 	        		var facetValue = facetValueObj.label;
+ 	        		var facetDispValue = facetValueObj.label;
+ 	        		var facetWeight = facetValueObj.weight;
+ 	        			        				    		
+ 		    		if ((facetDispValue != null) && (facetDispValue.length > 0)) {
+ 		    			facetDataStore['items'].push({name: facetDispValue+" ("+facetWeight+")", id: facetValue});
+ 			    	}	        			        		
+ 	    		} // end while looping through facet values 	
+         		
+         		// Insert population of comboboxes with facet datastores
+         		
+     		} // end while looping through facet results
+     	}    	
+     },	
+     
+ 	
+     ////////////////////////////////
+     _resetFacetValues: function() {
+     ////////////////////////////////
+
+     	// Insert empty of facets in all widgets 
+    	 
+     },  
+     
+      
+	destroy: function() {
+		dojo.forEach(this.handlers, dojo.disconnect);
+		this.inherited(arguments);
+	},
+	
+
+    
+ 
+
+	
+	__dummy__ : ''
+});

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fields>
+	<field name="dictfirstname">
+		<fulltextsearchable enabled="false" summary="false"/>
+		<fieldsearchable casesensitive="false" enabled="true" tokenized="true"/>
+		<parametricsearchable enabled="false"/>
+		<returnable enabled="true"/>
+		<analyzable enabled="false"/>
+		<sortable enabled="false"/>
+	</field>
+	<field name="dicttitle">
+		<fulltextsearchable enabled="false" summary="false"/>
+		<fieldsearchable casesensitive="false" enabled="true" tokenized="true"/>
+		<parametricsearchable enabled="false"/>
+		<returnable enabled="true"/>
+		<analyzable enabled="false"/>
+		<sortable enabled="false"/>
+	</field>
+	<field name="dictacronym">
+		<fulltextsearchable enabled="false" summary="false"/>
+		<fieldsearchable casesensitive="false" enabled="true" tokenized="true"/>
+		<parametricsearchable enabled="false"/>
+		<returnable enabled="true"/>
+		<analyzable enabled="false"/>
+		<sortable enabled="false"/>
+	</field>
+	<field name="person">
+		<fulltextsearchable enabled="false" summary="false"/>
+		<fieldsearchable casesensitive="false" enabled="true" tokenized="true"/>
+		<parametricsearchable enabled="false"/>
+		<returnable enabled="true"/>
+		<analyzable enabled="false"/>
+		<sortable enabled="false"/>
+	</field>
+	<field name="person">
+		<fulltextsearchable enabled="false" summary="false"/>
+		<fieldsearchable casesensitive="false" enabled="true" tokenized="true"/>
+		<parametricsearchable enabled="false"/>
+		<returnable enabled="true"/>
+		<analyzable enabled="false"/>
+		<sortable enabled="false"/>
+	</field>
+</fields>

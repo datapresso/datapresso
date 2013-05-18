@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMPONENT_INSTALLATION_DESCRIPTOR>
+    <INSTALLATION>
+        <PROCESS>
+            <ACTION>set_env_variable</ACTION>
+            <PARAMETERS>
+                <VAR_NAME>uima.datapath</VAR_NAME>
+                <VAR_VALUE>$main_root/resources/</VAR_VALUE>
+                <COMMENTS>Resources Data Path</COMMENTS>
+            </PARAMETERS>
+        </PROCESS>
+        <PROCESS>
+            <ACTION>set_env_variable</ACTION>
+            <PARAMETERS>
+                <VAR_NAME>CLASSPATH</VAR_NAME>
+                <VAR_VALUE>$main_root/lib/dlt.jar;$main_root/lib/icu4j.jar;$main_root/lib/rule_dlt.jar;$main_root/lib/an_dlt.jar;$main_root/lib/antlr-2.7.5.jar;$main_root/lib/com.ibm.dltj.FeatureNormalizers-1.jar;$main_root/lib/com.ibm.dltj.FeatureNormalizers-2.jar;$main_root/lib/com.ibm.dltj.FeatureNormalizers-3.jar;$main_root/lib/com.ibm.dltj.FeatureNormalizers-4.jar;$main_root/lib/com.ibm.dltj.FeatureNormalizers-5.jar;$main_root/lib/com.ibm.dltj.FeatureNormalizers-6.jar;$main_root/lib/com.ibm.dltj.FeatureNormalizers-7.jar;$main_root/lib/com.ibm.dltj.FeatureNormalizers-8.jar;$main_root/lib/com.ibm.dltj.FeatureNormalizers.jar;$main_root/lib/jfst.jar</VAR_VALUE>
+                <COMMENTS>Class Path</COMMENTS>
+            </PARAMETERS>
+        </PROCESS>
+        <PROCESS>
+            <ACTION>find_and_replace_path</ACTION>
+            <PARAMETERS>
+                <FILE>$main_root/desc/LWAnnotator1.xml</FILE>
+                <FIND_STRING>file:resources/</FIND_STRING>
+                <REPLACE_WITH>file:///$main_root/resources/</REPLACE_WITH>
+                <COMMENTS>Actual location</COMMENTS>
+            </PARAMETERS>
+        </PROCESS>
+        <PROCESS>
+            <ACTION>find_and_replace_path</ACTION>
+            <PARAMETERS>
+                <FILE>$main_root/desc/LWAnnotator1.xml</FILE>
+                <FIND_STRING>../resources/</FIND_STRING>
+                <REPLACE_WITH>$main_root/resources/</REPLACE_WITH>
+                <COMMENTS>Actual location</COMMENTS>
+            </PARAMETERS>
+        </PROCESS>
+        <PROCESS>
+            <ACTION>find_and_replace_path</ACTION>
+            <PARAMETERS>
+                <FILE>$main_root/desc/LWShallowParser2.xml</FILE>
+                <FIND_STRING>file:resources/</FIND_STRING>
+                <REPLACE_WITH>file:///$main_root/resources/</REPLACE_WITH>
+                <COMMENTS>Actual location</COMMENTS>
+            </PARAMETERS>
+        </PROCESS>
+        <PROCESS>
+            <ACTION>find_and_replace_path</ACTION>
+            <PARAMETERS>
+                <FILE>$main_root/desc/LWShallowParser2.xml</FILE>
+                <FIND_STRING>../resources/</FIND_STRING>
+                <REPLACE_WITH>$main_root/resources/</REPLACE_WITH>
+                <COMMENTS>Actual location</COMMENTS>
+            </PARAMETERS>
+        </PROCESS>
+    </INSTALLATION>
+    <SUBMITTED_COMPONENT>
+        <ID>com.ibm.text.analytics.catalog.MyCustomTAE</ID>
+        <NAME>MyCustomTAE</NAME>
+        <DESC>$main_root/desc/lw_PosRule.xml</DESC>
+        <DEPLOYMENT>standard</DEPLOYMENT>
+        <COMMENTS>LanguageWare Annotator</COMMENTS>
+    </SUBMITTED_COMPONENT>
+</COMPONENT_INSTALLATION_DESCRIPTOR>

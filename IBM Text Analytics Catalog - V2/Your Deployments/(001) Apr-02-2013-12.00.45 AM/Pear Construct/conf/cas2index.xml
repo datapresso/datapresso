@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<indexBuildSpecification xmlns="http://www.ibm.com/of/822/consumer/index/xml">
+	<indexBuildItem>
+		<name>com.ibm.langware.DicCompanies</name>
+		<indexRule>
+			<style name="Field">
+				<attribute name="fixedName" value="diccompanies"/>
+				<attribute name="valueFeature" value="lemma/key"/>
+			</style>
+		</indexRule>
+	</indexBuildItem>
+	<indexBuildItem>
+		<name>com.ibm.langware.en.Company</name>
+		<indexRule>
+			<style name="Field">
+				<attribute name="fixedName" value="company"/>
+			</style>
+		</indexRule>
+	</indexBuildItem>
+	<indexBuildItem>
+		<name>com.ibm.langware.en.Section</name>
+		<indexRule>
+			<style name="Field">
+				<attribute name="fixedName" value="section"/>
+			</style>
+		</indexRule>
+	</indexBuildItem>
+	<indexBuildItem>
+		<name>com.ibm.langware.en.ReferenceCompany</name>
+		<indexRule>
+			<style name="Field">
+				<attribute name="fixedName" value="referencecompany"/>
+			</style>
+		</indexRule>
+	</indexBuildItem>
+	<indexBuildItem>
+		<name>com.ibm.langware.Company</name>
+		<indexRule>
+			<style name="Field">
+				<attribute name="fixedName" value="company"/>
+				<attribute name="valueFeature" value="heading"/>
+			</style>
+		</indexRule>
+	</indexBuildItem>
+	<indexBuildItem>
+		<name>com.ibm.langware.Section</name>
+		<indexRule>
+			<style name="Field">
+				<attribute name="fixedName" value="section"/>
+			</style>
+		</indexRule>
+	</indexBuildItem>
+	<indexBuildItem>
+		<name>com.ibm.langware.ReferenceCompany</name>
+		<indexRule>
+			<style name="Field">
+				<attribute name="fixedName" value="referencecompany"/>
+			</style>
+		</indexRule>
+	</indexBuildItem>
+	<indexBuildItem>
+		<name>com.ibm.DictFirstName</name>
+		<indexRule>
+			<style name="Field">
+				<attribute name="fixedName" value="dictfirstname"/>
+				<attribute name="valueFeature" value="lemma/key"/>
+			</style>
+		</indexRule>
+	</indexBuildItem>
+	<indexBuildItem>
+		<name>com.ibm.DictTitle</name>
+		<indexRule>
+			<style name="Field">
+				<attribute name="fixedName" value="dicttitle"/>
+				<attribute name="valueFeature" value="lemma/key"/>
+			</style>
+		</indexRule>
+	</indexBuildItem>
+	<indexBuildItem>
+		<name>com.ibm.DictAcronym</name>
+		<indexRule>
+			<style name="Field">
+				<attribute name="fixedName" value="dictacronym"/>
+				<attribute name="valueFeature" value="lemma/key"/>
+			</style>
+		</indexRule>
+	</indexBuildItem>
+	<indexBuildItem>
+		<name>com.ibm.en.Person</name>
+		<indexRule>
+			<style name="Field">
+				<attribute name="fixedName" value="person"/>
+			</style>
+		</indexRule>
+	</indexBuildItem>
+	<indexBuildItem>
+		<name>com.ibm.Person</name>
+		<indexRule>
+			<style name="Field">
+				<attribute name="fixedName" value="person"/>
+			</style>
+		</indexRule>
+	</indexBuildItem>
+	<indexBuildItem>
+		<name>com.ibm.DictTitle</name>
+		<indexRule>
+			<style name="Field">
+				<attribute name="fixedName" value="peopletitle"/>
+				<attribute name="valueFeature" value="lemma/key"/>
+			</style>
+		</indexRule>
+	</indexBuildItem>
+</indexBuildSpecification>

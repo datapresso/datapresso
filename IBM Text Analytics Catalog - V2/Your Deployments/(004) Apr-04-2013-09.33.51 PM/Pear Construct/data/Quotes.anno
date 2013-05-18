@@ -1,0 +1,41 @@
+*************************************************************
+This simple example has quotes from various of Shakespeare's
+plays listed under headings that include the play's title. 
+This example uses the Where custom annotator to identify 
+which play various Shakespearean quotes come from based on the
+section of the document they appear in. 
+
+Use with the QuotesExample.annoconfig pipeline.
+
+In the annotator configuration the parameters are set to:
+
+SectionType: com.ibm.ecmuk.Play
+TargetType: com.ibm.ecmuk.Quote
+TargetSectionFeature: source
+*************************************************************
+
+Shakespearean Quotes
+A Shakespearean quote such as "To be, or not to be" is one of literature's most celebrated lines. However, many expressions that we use every day originated in Shakespeare's plays. 
+
+1.	Hamlet -  The play dramatizes the revenge Prince Hamlet exacts on his uncle Claudius for murdering his father.
+
+	"To be, or not to be: that is the question". - (Act III, Scene I).
+	"Neither a borrower nor a lender be". - (Act I, Scene III).
+	"This above all: to thine own self be true". - (Act I, Scene III).
+
+2.	As You Like It - A pastoral comedy believed to have been written in 1599 or early 1600, it relies heavily on mistaken identity and desperate romance to induce humour.
+
+	"All the world 's a stage, and all the men and women merely players." - (Act II, Scene VII).
+	"The fool doth think he is wise, but the wise man knows himself to be a fool". - (Act V, Scene I).
+
+3.	King Richard III - A history play, believed to have been written in approximately 1591. It depicts the Machiavellian rise to power and subsequent short reign of Richard III of England.
+
+	"Now is the winter of our discontent". - (Act I, Scene I).
+	"A horse! a horse! my kingdom for a horse! ". - (Act V, Scene IV).
+
+4.	Romeo and Juliet - A tragedy written early in the career of William Shakespeare about two young star-crossed lovers whose deaths ultimately reconcile their feuding families.
+
+	"O Romeo, Romeo! wherefore art thou Romeo? ". - (Act II, Scene II).
+	"It is the east, and Juliet is the sun" . - (Act II, Scene II).
+	"For you and I are past our dancing days" . - (Act I, Scene V).
+

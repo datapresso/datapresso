@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+    <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+    <primitive>true</primitive>
+    <annotatorImplementationName>com.ibm.ecmuk.WhereAnno</annotatorImplementationName>
+    <analysisEngineMetaData>
+        <name>WhereAEDescriptor</name>
+        <description>Given a heading annotation type and a target annotation type it sets a named 
+feature in the target feature structure with the covered text of the heading annotation.
+
+For example:
+
+Assume document text
+"
+Intro
+-----
+result a
+
+Body
+------
+result b, result c
+result d
+Conclusion
+------------
+result e
+"
+if "Intro", "Body" and "Conclusion" are heading type annotations and all the "result x" strings are target annotations then the target annotations will be updated with the name of the section they are in.
+e.g   result d will include a feature saying it's in "Body"</description>
+        <version>1.0</version>
+        <vendor/>
+        <configurationParameters>
+            <configurationParameter>
+                <name>SectionType</name>
+                <description>The annotation type name that identifies section headers in the document.</description>
+                <type>String</type>
+                <multiValued>false</multiValued>
+                <mandatory>true</mandatory>
+            </configurationParameter>
+            <configurationParameter>
+                <name>TargetType</name>
+                <description>The annotation type name that identifies the annotations that will have a feature updated to the section of the document they are in.</description>
+                <type>String</type>
+                <multiValued>false</multiValued>
+                <mandatory>true</mandatory>
+            </configurationParameter>
+            <configurationParameter>
+                <name>TargetSectionFeature</name>
+                <description>The name of the feature in the target annotation that will be updated with the section of the document the annotation is in.</description>
+                <type>String</type>
+                <multiValued>false</multiValued>
+                <mandatory>true</mandatory>
+            </configurationParameter>
+        </configurationParameters>
+        <configurationParameterSettings>
+            <nameValuePair>
+                <name>SectionType</name>
+                <value>
+                    <string>com.ibm.langware.Section</string>
+                </value>
+            </nameValuePair>
+            <nameValuePair>
+                <name>TargetType</name>
+                <value>
+                    <string>com.ibm.langware.Company</string>
+                </value>
+            </nameValuePair>
+            <nameValuePair>
+                <name>TargetSectionFeature</name>
+                <value>
+                    <string>heading</string>
+                </value>
+            </nameValuePair>
+        </configurationParameterSettings>
+        <typeSystemDescription/>
+        <typePriorities/>
+        <fsIndexCollection/>
+        <capabilities>
+            <capability>
+                <inputs/>
+                <outputs/>
+                <languagesSupported/>
+            </capability>
+        </capabilities>
+        <operationalProperties>
+            <modifiesCas>true</modifiesCas>
+            <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+            <outputsNewCASes>false</outputsNewCASes>
+        </operationalProperties>
+    </analysisEngineMetaData>
+    <resourceManagerConfiguration/>
+</analysisEngineDescription>

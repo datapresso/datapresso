@@ -1,0 +1,41 @@
+*************************************************************
+This second more complex example uses the Where custom 
+annotator to identify which section of the document company 
+names are in. It then uses an additional parsing rule stage 
+to create a new com.ibm.langware.ReferenceCompany annotation 
+that highlights only those companies in the References section 
+of the document. Use with the ReferencesExample.annoconfig 
+pipeline.
+
+In the annotator configuration the parameters are set to:
+
+SectionType: com.ibm.langware.Section
+TargetType: com.ibm.langware.Company
+TargetSectionFeature: heading
+*************************************************************
+
+
+1. Content
+-------
+On Wednesday, IBM shook up its web conferencing strategy adding a hosted option by acquiring WebDialogs.
+
+IBM today announced it has completed its acquisition of Cognos.
+
+While it is true that one mega-deal, Novartis (NYSE: NVS) bid to buy Alcon (NYSE: ACL) for $39.0 billion, the largest medical device deal ever announced, contributes significantly to the overall total, even without it, the remaining figures are impressive.
+
+Roll Call Group, the publisher of Washington’s Roll Call newspaper, said on Friday that it has acquired Capitol Advantage, an Internet lobbying services provider, for $43 million.
+
+2. References
+----------
+IBM - Armonk, NY
+WebDialogs - Billerica, Massachusetts
+Cognos - Ottawa, Ontario
+Alcon - Hünenberg, Switzerland 
+Capitol Advantage -  Fairfax, VA
+
+3. Contacts
+-----------
+IBM - J. Doe
+WebDialogs - B. Smith
+Cognos - H. Reinhart
+

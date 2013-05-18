@@ -1,0 +1,6 @@
+c="Francisco Javier Ibarra Green," 9:0 9:3||t="person"
+c="Carlos Garcia Vasquez," 9:7 9:9||t="person"
+c="Vasquez’s" 9:12 9:12||t="person"
+c="Green" 11:8 11:8||t="person"
+c="Vasquez" 11:10 11:10||t="person"
+c="Vasquez’s" 11:23 11:23||t="person"

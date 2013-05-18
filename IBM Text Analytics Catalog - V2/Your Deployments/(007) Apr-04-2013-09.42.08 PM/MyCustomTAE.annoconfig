@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="annotation">
+	<item key="version" value="2"/>
+	<item key="language" value="en"/>
+	<list key="steps">
+		<item value="langid0"/>
+		<item value="languageware1"/>
+		<item value="afst2"/>
+		<item value="custom3"/>
+		<item value="afst4"/>
+		<item value="typecleanup4"/>
+	</list>
+	<section name="langid0">
+		<item key="langIdType" value="2"/>
+		<item key="userdictFallbackLanguage" value=""/>
+		<item key="fallbackLanguage" value="en"/>
+		<item key="dictPath" value=""/>
+		<list key="userdictAcceptLanguages">
+		</list>
+		<list key="acceptLanguages">
+		</list>
+		<list key="extraConfigNames">
+			<item value="SofaNames"/>
+			<item value="LWDataSubdir"/>
+			<item value="UseExplicitDicts"/>
+			<item value="PreloadLanguages"/>
+			<item value="DefaultLanguage"/>
+			<item value="DictionaryCacheSize"/>
+			<item value="ProcessLanguagesWithNoDictionaries"/>
+			<item value="UseFirstMatchPolicy"/>
+			<item value="UseStrictCaseMode"/>
+			<item value="UseRelativeTokenAndSentenceNumbers"/>
+			<item value="AnnotateMWConstituentTokens"/>
+			<item value="MWBoundary"/>
+			<item value="IgnorePunctuationTokens"/>
+			<item value="AggressiveSentenceBreaks"/>
+			<item value="CrossDictionaryDecomposition"/>
+			<item value="BOFAOnlyDecomposition"/>
+			<item value="FilterDecomposedGlosses"/>
+			<item value="StandaloneDecomposition"/>
+			<item value="JapaneseDecomposition"/>
+			<item value="JapaneseDeepWordBreak"/>
+			<item value="CreateCompoundPartsInsteadOfToken"/>
+			<item value="ReturnOnlyFirstLevelOfCompoundBreakdown"/>
+			<item value="CreateDecompStructure"/>
+			<item value="BreakOnHyphens"/>
+			<item value="DoLookupVariant"/>
+			<item value="DoRuleBasedNormalization4All"/>
+			<item value="DoRuleBasedNormalization4Katakana"/>
+			<item value="CreateGenericAnnotations"/>
+			<item value="CheckGenericTypes"/>
+			<item value="GlossComparatorClassname"/>
+			<item value="LemmaPoolingThreshold"/>
+			<item value="LexicalDicts"/>
+			<item value="MultiWordDicts"/>
+			<item value="OOVDicts"/>
+			<item value="SynonymDicts"/>
+			<item value="VariantDicts"/>
+			<item value="SpellCorrectionDicts"/>
+			<item value="PartOfSpeechDict"/>
+			<item value="PostTagHandling"/>
+			<item value="PostLemmaEntryHandling"/>
+			<item value="MaxCharNumPerSentence"/>
+			<item value="BreakRulesSpec"/>
+			<item value="DecompositionRulesSpec"/>
+		</list>
+		<list key="extraConfigValue0">
+		</list>
+		<list key="extraConfigValue1">
+		</list>
+		<list key="extraConfigValue2">
+			<item value="true"/>
+		</list>
+		<list key="extraConfigValue3">
+		</list>
+		<list key="extraConfigValue4">
+			<item value="en"/>
+		</list>
+		<list key="extraConfigValue5">
+		</list>
+		<list key="extraConfigValue6">
+			<item value="skip"/>
+		</list>
+		<list key="extraConfigValue7">
+			<item value="false"/>
+		</list>
+		<list key="extraConfigValue8">
+			<item value="true"/>
+		</list>
+		<list key="extraConfigValue9">
+			<item value="false"/>
+		</list>
+		<list key="extraConfigValue10">
+			<item value="true"/>
+		</list>
+		<list key="extraConfigValue11">
+			<item value="Sentence"/>
+		</list>
+		<list key="extraConfigValue12">
+			<item value="false"/>
+		</list>
+		<list key="extraConfigValue13">
+		</list>
+		<list key="extraConfigValue14">
+			<item value="true"/>
+		</list>
+		<list key="extraConfigValue15">
+			<item value="false"/>
+		</list>
+		<list key="extraConfigValue16">
+			<item value="true"/>
+		</list>
+		<list key="extraConfigValue17">
+		</list>
+		<list key="extraConfigValue18">
+			<item value="false"/>
+		</list>
+		<list key="extraConfigValue19">
+			<item value="false"/>
+		</list>
+		<list key="extraConfigValue20">
+			<item value="true"/>
+		</list>
+		<list key="extraConfigValue21">
+			<item value="true"/>
+		</list>
+		<list key="extraConfigValue22">
+			<item value="false"/>
+		</list>
+		<list key="extraConfigValue23">
+		</list>
+		<list key="extraConfigValue24">
+			<item value="false"/>
+		</list>
+		<list key="extraConfigValue25">
+			<item value="false"/>
+		</list>
+		<list key="extraConfigValue26">
+			<item value="false"/>
+		</list>
+		<list key="extraConfigValue27">
+			<item value="true"/>
+		</list>
+		<list key="extraConfigValue28">
+			<item value="false"/>
+		</list>
+		<list key="extraConfigValue29">
+			<item value="com.ibm.langware.annotator.GlossComparator"/>
+		</list>
+		<list key="extraConfigValue30">
+		</list>
+		<list key="extraConfigValue31">
+			<item value="../resources/dictionary/0/en-XX-LLex-7030.dic"/>
+			<item value="../resources/dictionary/1/en-XX-OOV-7004.dic"/>
+			<item value="../resources/dictionary/2/Companies.dic"/>
+		</list>
+		<list key="extraConfigValue32">
+		</list>
+		<list key="extraConfigValue33">
+		</list>
+		<list key="extraConfigValue34">
+		</list>
+		<list key="extraConfigValue35">
+		</list>
+		<list key="extraConfigValue36">
+		</list>
+		<list key="extraConfigValue37">
+			<item value="nl-NL-TSimplified-7000.dic"/>
+		</list>
+		<list key="extraConfigValue38">
+		</list>
+		<list key="extraConfigValue39">
+		</list>
+		<list key="extraConfigValue40">
+		</list>
+		<list key="extraConfigValue41">
+		</list>
+		<list key="extraConfigValue42">
+		</list>
+		<list key="extraConfigDataPathRel">
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+		</list>
+		<list key="extraConfigGroups">
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+		</list>
+	</section>
+	<section name="languageware1">
+		<list key="languages">
+			<item value="af"/>
+			<item value="ar"/>
+			<item value="ca"/>
+			<item value="cs"/>
+			<item value="da"/>
+			<item value="de"/>
+			<item value="el"/>
+			<item value="en"/>
+			<item value="es"/>
+			<item value="fi"/>
+			<item value="fr"/>
+			<item value="it"/>
+			<item value="ja"/>
+			<item value="ko"/>
+			<item value="nb"/>
+			<item value="nl"/>
+			<item value="nn"/>
+			<item value="pl"/>
+			<item value="pt"/>
+			<item value="ru"/>
+			<item value="sv"/>
+			<item value="zh"/>
+		</list>
+		<list key="dictPaths.0">
+		</list>
+		<list key="dictPaths.1">
+		</list>
+		<list key="dictPaths.2">
+		</list>
+		<list key="dictPaths.3">
+		</list>
+		<list key="dictPaths.4">
+		</list>
+		<list key="dictPaths.5">
+		</list>
+		<list key="dictPaths.6">
+		</list>
+		<list key="dictPaths.7">
+			<item value="${workspace_loc:/IBM Text Analytics Catalog - V2/Your Deployments/(007) Apr-04-2013-09.42.08 PM/Pear Construct/resources/dictionary/0/}/en-XX-LLex-7030.dic"/>
+			<item value="${workspace_loc:/IBM Text Analytics Catalog - V2/Your Deployments/(007) Apr-04-2013-09.42.08 PM/Pear Construct/resources/dictionary/1/}/en-XX-OOV-7004.dic"/>
+			<item value="${workspace_loc:/IBM Text Analytics Catalog - V2/Your Deployments/(007) Apr-04-2013-09.42.08 PM/Pear Construct/resources/dictionary/2/}/Companies.dic"/>
+			<item value="${lw_lex_dictionary_path:en}"/>
+			<item value="${lw_oov_dictionary_path:en}"/>
+		</list>
+		<list key="dictPaths.8">
+		</list>
+		<list key="dictPaths.9">
+		</list>
+		<list key="dictPaths.10">
+		</list>
+		<list key="dictPaths.11">
+		</list>
+		<list key="dictPaths.12">
+		</list>
+		<list key="dictPaths.13">
+		</list>
+		<list key="dictPaths.14">
+		</list>
+		<list key="dictPaths.15">
+		</list>
+		<list key="dictPaths.16">
+		</list>
+		<list key="dictPaths.17">
+		</list>
+		<list key="dictPaths.18">
+		</list>
+		<list key="dictPaths.19">
+		</list>
+		<list key="dictPaths.20">
+		</list>
+		<list key="dictPaths.21">
+		</list>
+		<list key="extraConfigNames">
+			<item value="SofaNames"/>
+			<item value="LWDataSubdir"/>
+			<item value="UseExplicitDicts"/>
+			<item value="PreloadLanguages"/>
+			<item value="DefaultLanguage"/>
+			<item value="DictionaryCacheSize"/>
+			<item value="ProcessLanguagesWithNoDictionaries"/>
+			<item value="UseFirstMatchPolicy"/>
+			<item value="UseStrictCaseMode"/>
+			<item value="UseRelativeTokenAndSentenceNumbers"/>
+			<item value="AnnotateMWConstituentTokens"/>
+			<item value="MWBoundary"/>
+			<item value="IgnorePunctuationTokens"/>
+			<item value="AggressiveSentenceBreaks"/>
+			<item value="CrossDictionaryDecomposition"/>
+			<item value="BOFAOnlyDecomposition"/>
+			<item value="FilterDecomposedGlosses"/>
+			<item value="StandaloneDecomposition"/>
+			<item value="JapaneseDecomposition"/>
+			<item value="JapaneseDeepWordBreak"/>
+			<item value="CreateCompoundPartsInsteadOfToken"/>
+			<item value="ReturnOnlyFirstLevelOfCompoundBreakdown"/>
+			<item value="CreateDecompStructure"/>
+			<item value="BreakOnHyphens"/>
+			<item value="DoLookupVariant"/>
+			<item value="DoRuleBasedNormalization4All"/>
+			<item value="DoRuleBasedNormalization4Katakana"/>
+			<item value="CreateGenericAnnotations"/>
+			<item value="CheckGenericTypes"/>
+			<item value="GlossComparatorClassname"/>
+			<item value="LemmaPoolingThreshold"/>
+			<item value="LexicalDicts"/>
+			<item value="MultiWordDicts"/>
+			<item value="OOVDicts"/>
+			<item value="SynonymDicts"/>
+			<item value="VariantDicts"/>
+			<item value="SpellCorrectionDicts"/>
+			<item value="PartOfSpeechDict"/>
+			<item value="PostTagHandling"/>
+			<item value="PostLemmaEntryHandling"/>
+			<item value="MaxCharNumPerSentence"/>
+			<item value="BreakRulesSpec"/>
+			<item value="DecompositionRulesSpec"/>
+		</list>
+		<list key="extraConfigValue0">
+		</list>
+		<list key="extraConfigValue1">
+		</list>
+		<list key="extraConfigValue2">
+			<item value="true"/>
+		</list>
+		<list key="extraConfigValue3">
+		</list>
+		<list key="extraConfigValue4">
+			<item value="en"/>
+		</list>
+		<list key="extraConfigValue5">
+		</list>
+		<list key="extraConfigValue6">
+			<item value="skip"/>
+		</list>
+		<list key="extraConfigValue7">
+			<item value="false"/>
+		</list>
+		<list key="extraConfigValue8">
+			<item value="true"/>
+		</list>
+		<list key="extraConfigValue9">
+			<item value="false"/>
+		</list>
+		<list key="extraConfigValue10">
+			<item value="true"/>
+		</list>
+		<list key="extraConfigValue11">
+			<item value="Sentence"/>
+		</list>
+		<list key="extraConfigValue12">
+			<item value="false"/>
+		</list>
+		<list key="extraConfigValue13">
+		</list>
+		<list key="extraConfigValue14">
+			<item value="true"/>
+		</list>
+		<list key="extraConfigValue15">
+			<item value="false"/>
+		</list>
+		<list key="extraConfigValue16">
+			<item value="true"/>
+		</list>
+		<list key="extraConfigValue17">
+		</list>
+		<list key="extraConfigValue18">
+			<item value="false"/>
+		</list>
+		<list key="extraConfigValue19">
+			<item value="false"/>
+		</list>
+		<list key="extraConfigValue20">
+			<item value="true"/>
+		</list>
+		<list key="extraConfigValue21">
+			<item value="true"/>
+		</list>
+		<list key="extraConfigValue22">
+			<item value="false"/>
+		</list>
+		<list key="extraConfigValue23">
+		</list>
+		<list key="extraConfigValue24">
+			<item value="false"/>
+		</list>
+		<list key="extraConfigValue25">
+			<item value="false"/>
+		</list>
+		<list key="extraConfigValue26">
+			<item value="false"/>
+		</list>
+		<list key="extraConfigValue27">
+			<item value="true"/>
+		</list>
+		<list key="extraConfigValue28">
+			<item value="false"/>
+		</list>
+		<list key="extraConfigValue29">
+			<item value="com.ibm.langware.annotator.GlossComparator"/>
+		</list>
+		<list key="extraConfigValue30">
+		</list>
+		<list key="extraConfigValue31">
+			<item value="../resources/dictionary/0/en-XX-LLex-7030.dic"/>
+			<item value="../resources/dictionary/1/en-XX-OOV-7004.dic"/>
+			<item value="../resources/dictionary/2/Companies.dic"/>
+		</list>
+		<list key="extraConfigValue32">
+		</list>
+		<list key="extraConfigValue33">
+		</list>
+		<list key="extraConfigValue34">
+		</list>
+		<list key="extraConfigValue35">
+		</list>
+		<list key="extraConfigValue36">
+		</list>
+		<list key="extraConfigValue37">
+			<item value="nl-NL-TSimplified-7000.dic"/>
+		</list>
+		<list key="extraConfigValue38">
+		</list>
+		<list key="extraConfigValue39">
+		</list>
+		<list key="extraConfigValue40">
+		</list>
+		<list key="extraConfigValue41">
+		</list>
+		<list key="extraConfigValue42">
+		</list>
+		<list key="extraConfigDataPathRel">
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+		</list>
+		<list key="extraConfigGroups">
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+		</list>
+		<section name="breakRules.16">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.15">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.14">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.1">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.13">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.0">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.3">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.7">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.19">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.2">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.6">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.18">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.5">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.9">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.17">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.4">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.8">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.21">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.12">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.20">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.11">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.10">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+	</section>
+	<section name="afst2">
+		<list key="ruleLanguages">
+			<item value="af"/>
+			<item value="ar"/>
+			<item value="ca"/>
+			<item value="cs"/>
+			<item value="da"/>
+			<item value="de"/>
+			<item value="el"/>
+			<item value="en"/>
+			<item value="es"/>
+			<item value="fi"/>
+			<item value="fr"/>
+			<item value="it"/>
+			<item value="ja"/>
+			<item value="ko"/>
+			<item value="nb"/>
+			<item value="nl"/>
+			<item value="nn"/>
+			<item value="pl"/>
+			<item value="pt"/>
+			<item value="ru"/>
+			<item value="sv"/>
+			<item value="zh"/>
+		</list>
+		<list key="rulePaths.0">
+		</list>
+		<list key="rulePaths.1">
+		</list>
+		<list key="rulePaths.2">
+		</list>
+		<list key="rulePaths.3">
+		</list>
+		<list key="rulePaths.4">
+		</list>
+		<list key="rulePaths.5">
+		</list>
+		<list key="rulePaths.6">
+		</list>
+		<list key="rulePaths.7">
+			<item value="${workspace_loc:/IBM Text Analytics Catalog - V2/Your Deployments/(007) Apr-04-2013-09.42.08 PM/Pear Construct/resources/Scanners/3/}/References.jar"/>
+		</list>
+		<list key="rulePaths.8">
+		</list>
+		<list key="rulePaths.9">
+		</list>	
+		<list key="rulePaths.10">
+		</list>
+		<list key="rulePaths.11">
+		</list>
+		<list key="rulePaths.12">
+		</list>
+		<list key="rulePaths.13">
+		</list>
+		<list key="rulePaths.14">
+		</list>
+		<list key="rulePaths.15">
+		</list>
+		<list key="rulePaths.16">
+		</list>
+		<list key="rulePaths.17">
+		</list>
+		<list key="rulePaths.18">
+		</list>
+		<list key="rulePaths.19">
+		</list>
+		<list key="rulePaths.20">
+		</list>
+		<list key="rulePaths.21">
+		</list>
+		<list key="extraConfigNames">
+			<item value="SofaNames"/>
+			<item value="NameSpace"/>
+			<item value="IdFeature"/>
+			<item value="MapAnnotationNames"/>
+			<item value="FstMaxLevel"/>
+			<item value="FstMaxGrammarName"/>
+			<item value="FstMaxGrammarRuleFile"/>
+			<item value="LongTextParameters"/>
+			<item value="TolerateMissingTypes"/>
+			<item value="Focus"/>
+			<item value="RecursiveEngine"/>
+		</list>
+		<list key="extraConfigValue0">
+		</list>
+		<list key="extraConfigValue1">
+			<item value="uima.tt"/>
+		</list>
+		<list key="extraConfigValue2">
+		</list>
+		<list key="extraConfigValue3">
+			<item value="Token,uima.tt.TokenAnnotation"/>
+			<item value="Sentence,uima.tt.SentenceAnnotation"/>
+			<item value="Word,uima.tt.TokenAnnotation"/>
+		</list>
+		<list key="extraConfigValue4">
+			<item value="0"/>
+		</list>
+		<list key="extraConfigValue5">
+		</list>
+		<list key="extraConfigValue6">
+		</list>
+		<list key="extraConfigValue7">
+			<item value="2400,characters,uima.tt.SentenceAnnotation,firstMatch"/>
+		</list>
+		<list key="extraConfigValue8">
+			<item value="true"/>
+		</list>
+		<list key="extraConfigValue9">
+		</list>
+		<list key="extraConfigValue10">
+		</list>
+		<list key="extraConfigDataPathRel">
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+		</list>
+		<list key="extraConfigGroups">
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+		</list>
+	</section>
+	<section name="custom3">
+		<item key="taePath" value="${workspace_loc:/IBM Text Analytics Catalog - V2/Your Deployments/(007) Apr-04-2013-09.42.08 PM/Pear Construct/desc}/custom3.xml"/>
+		<list key="dataPathList">
+			<item value="${workspace_loc:/IBM Text Analytics Catalog - V2/Your Deployments/(007) Apr-04-2013-09.42.08 PM/Pear Construct/resources}"/>
+		</list>
+		<list key="classPath">
+			<item value="${workspace_loc:/IBM Text Analytics Catalog - V2/Your Deployments/(007) Apr-04-2013-09.42.08 PM/Pear Construct/lib}/antlr-2.7.5.jar"/>
+			<item value="${workspace_loc:/IBM Text Analytics Catalog - V2/Your Deployments/(007) Apr-04-2013-09.42.08 PM/Pear Construct/lib}/com.ibm.dltj.FeatureNormalizers-1.jar"/>
+			<item value="${workspace_loc:/IBM Text Analytics Catalog - V2/Your Deployments/(007) Apr-04-2013-09.42.08 PM/Pear Construct/lib}/com.ibm.dltj.FeatureNormalizers-2.jar"/>
+			<item value="${workspace_loc:/IBM Text Analytics Catalog - V2/Your Deployments/(007) Apr-04-2013-09.42.08 PM/Pear Construct/lib}/com.ibm.dltj.FeatureNormalizers-3.jar"/>
+			<item value="${workspace_loc:/IBM Text Analytics Catalog - V2/Your Deployments/(007) Apr-04-2013-09.42.08 PM/Pear Construct/lib}/com.ibm.dltj.FeatureNormalizers-4.jar"/>
+			<item value="${workspace_loc:/IBM Text Analytics Catalog - V2/Your Deployments/(007) Apr-04-2013-09.42.08 PM/Pear Construct/lib}/com.ibm.dltj.FeatureNormalizers-5.jar"/>
+			<item value="${workspace_loc:/IBM Text Analytics Catalog - V2/Your Deployments/(007) Apr-04-2013-09.42.08 PM/Pear Construct/lib}/com.ibm.dltj.FeatureNormalizers-6.jar"/>
+			<item value="${workspace_loc:/IBM Text Analytics Catalog - V2/Your Deployments/(007) Apr-04-2013-09.42.08 PM/Pear Construct/lib}/com.ibm.dltj.FeatureNormalizers-7.jar"/>
+			<item value="${workspace_loc:/IBM Text Analytics Catalog - V2/Your Deployments/(007) Apr-04-2013-09.42.08 PM/Pear Construct/lib}/com.ibm.dltj.FeatureNormalizers-8.jar"/>
+			<item value="${workspace_loc:/IBM Text Analytics Catalog - V2/Your Deployments/(007) Apr-04-2013-09.42.08 PM/Pear Construct/lib}/com.ibm.dltj.FeatureNormalizers.jar"/>
+			<item value="${workspace_loc:/IBM Text Analytics Catalog - V2/Your Deployments/(007) Apr-04-2013-09.42.08 PM/Pear Construct/lib}/icu4j.jar"/>
+			<item value="${workspace_loc:/IBM Text Analytics Catalog - V2/Your Deployments/(007) Apr-04-2013-09.42.08 PM/Pear Construct/lib}/jfst.jar"/>
+			<item value="${workspace_loc:/IBM Text Analytics Catalog - V2/Your Deployments/(007) Apr-04-2013-09.42.08 PM/Pear Construct/lib}/Where.jar"/>
+
+		</list>
+		<list key="extraConfigNames">
+			<item value="SectionType"/>
+			<item value="TargetType"/>
+			<item value="TargetSectionFeature"/>
+		</list>
+		<list key="extraConfigValue0">
+			<item value="com.ibm.langware.Section"/>
+		</list>
+		<list key="extraConfigValue1">
+			<item value="com.ibm.langware.Company"/>
+		</list>
+		<list key="extraConfigValue2">
+			<item value="heading"/>
+		</list>
+		<list key="extraConfigDataPathRel">
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+		</list>
+		<list key="extraConfigGroups">
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+		</list>
+	</section>
+	<section name="afst4">
+		<list key="ruleLanguages">
+			<item value="af"/>
+			<item value="ar"/>
+			<item value="ca"/>
+			<item value="cs"/>
+			<item value="da"/>
+			<item value="de"/>
+			<item value="el"/>
+			<item value="en"/>
+			<item value="es"/>
+			<item value="fi"/>
+			<item value="fr"/>
+			<item value="it"/>
+			<item value="ja"/>
+			<item value="ko"/>
+			<item value="nb"/>
+			<item value="nl"/>
+			<item value="nn"/>
+			<item value="pl"/>
+			<item value="pt"/>
+			<item value="ru"/>
+			<item value="sv"/>
+			<item value="zh"/>
+		</list>
+		<list key="rulePaths.0">
+		</list>
+		<list key="rulePaths.1">
+		</list>
+		<list key="rulePaths.2">
+		</list>
+		<list key="rulePaths.3">
+		</list>
+		<list key="rulePaths.4">
+		</list>
+		<list key="rulePaths.5">
+		</list>
+		<list key="rulePaths.6">
+		</list>
+		<list key="rulePaths.7">
+			<item value="${workspace_loc:/IBM Text Analytics Catalog - V2/Your Deployments/(007) Apr-04-2013-09.42.08 PM/Pear Construct/resources/Scanners/4/}/References2.jar"/>
+		</list>
+		<list key="rulePaths.8">
+		</list>
+		<list key="rulePaths.9">
+		</list>	
+		<list key="rulePaths.10">
+		</list>
+		<list key="rulePaths.11">
+		</list>
+		<list key="rulePaths.12">
+		</list>
+		<list key="rulePaths.13">
+		</list>
+		<list key="rulePaths.14">
+		</list>
+		<list key="rulePaths.15">
+		</list>
+		<list key="rulePaths.16">
+		</list>
+		<list key="rulePaths.17">
+		</list>
+		<list key="rulePaths.18">
+		</list>
+		<list key="rulePaths.19">
+		</list>
+		<list key="rulePaths.20">
+		</list>
+		<list key="rulePaths.21">
+		</list>
+		<list key="extraConfigNames">
+			<item value="SofaNames"/>
+			<item value="NameSpace"/>
+			<item value="IdFeature"/>
+			<item value="MapAnnotationNames"/>
+			<item value="FstMaxLevel"/>
+			<item value="FstMaxGrammarName"/>
+			<item value="FstMaxGrammarRuleFile"/>
+			<item value="LongTextParameters"/>
+			<item value="TolerateMissingTypes"/>
+			<item value="Focus"/>
+			<item value="RecursiveEngine"/>
+		</list>
+		<list key="extraConfigValue0">
+		</list>
+		<list key="extraConfigValue1">
+			<item value="uima.tt"/>
+		</list>
+		<list key="extraConfigValue2">
+		</list>
+		<list key="extraConfigValue3">
+			<item value="Token,uima.tt.TokenAnnotation"/>
+			<item value="Sentence,uima.tt.SentenceAnnotation"/>
+			<item value="Word,uima.tt.TokenAnnotation"/>
+		</list>
+		<list key="extraConfigValue4">
+			<item value="0"/>
+		</list>
+		<list key="extraConfigValue5">
+		</list>
+		<list key="extraConfigValue6">
+		</list>
+		<list key="extraConfigValue7">
+			<item value="2400,characters,uima.tt.SentenceAnnotation,firstMatch"/>
+		</list>
+		<list key="extraConfigValue8">
+			<item value="true"/>
+		</list>
+		<list key="extraConfigValue9">
+		</list>
+		<list key="extraConfigValue10">
+		</list>
+		<list key="extraConfigDataPathRel">
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+			<item value="false"/>
+		</list>
+		<list key="extraConfigGroups">
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+			<item value=""/>
+		</list>
+	</section>
+	<section name="typecleanup4">
+		<item key="showDiscard" value="false"/>
+		<item key="useMultiplierInPear" value="false"/>
+		<list key="extraConfigGroups">
+		</list>
+		<list key="discardTypes">
+		</list>
+		<list key="extraConfigNames">
+		</list>
+		<list key="extraConfigDataPathRel">
+		</list>
+	</section>
+	<section name="exportPearData">
+		<item key="ccaPearName" value=""/>
+		<item key="ccaConfig" value=""/>
+		<item key="ccaRestartIndexer" value="true"/>
+		<item key="cca" value="false"/>
+		<item key="pearId" value=""/>
+		<item key="ccaAssociatePEAR" value="true"/>
+		<item key="ccaCollection" value=""/>
+		<item key="pearName" value=""/>
+		<item key="ccaRebuildIndex" value="false"/>
+		<item key="outputPath" value=""/>
+	</section>
+	<section name="ccaSearchFields">
+		<item key="searchCount" value="7"/>
+		<section name="search0">
+			<item key="searchable" value="true"/>
+			<item key="type" value="com.ibm.langware.DicCompanies"/>
+			<item key="feature" value="Surface Text"/>
+			<item key="facetedSearch" value="true"/>
+			<item key="facet" value="DicCompanies"/>
+			<item key="facetTreePath" value="General.Document.Zoning"/>
+			<item key="searchFieldName" value="diccompanies"/>
+		</section>
+		<section name="search1">
+			<item key="searchable" value="true"/>
+			<item key="type" value="com.ibm.langware.en.Company"/>
+			<item key="feature" value="Surface Text"/>
+			<item key="facetedSearch" value="true"/>
+			<item key="facet" value="Company"/>
+			<item key="facetTreePath" value="General.Document.Zoning"/>
+			<item key="searchFieldName" value="company"/>
+		</section>
+		<section name="search2">
+			<item key="searchable" value="true"/>
+			<item key="type" value="com.ibm.langware.en.Section"/>
+			<item key="feature" value="Surface Text"/>
+			<item key="facetedSearch" value="true"/>
+			<item key="facet" value="Section"/>
+			<item key="facetTreePath" value="General.Document.Zoning"/>
+			<item key="searchFieldName" value="section"/>
+		</section>
+		<section name="search3">
+			<item key="searchable" value="true"/>
+			<item key="type" value="com.ibm.langware.en.ReferenceCompany"/>
+			<item key="feature" value="Surface Text"/>
+			<item key="facetedSearch" value="true"/>
+			<item key="facet" value="ReferenceCompany"/>
+			<item key="facetTreePath" value="General.Document.Zoning"/>
+			<item key="searchFieldName" value="referencecompany"/>
+		</section>
+		<section name="search4">
+			<item key="searchable" value="true"/>
+			<item key="type" value="com.ibm.langware.Company"/>
+			<item key="feature" value="Surface Text"/>
+			<item key="facetedSearch" value="true"/>
+			<item key="facet" value="Company"/>
+			<item key="facetTreePath" value="General.Document.Zoning"/>
+			<item key="searchFieldName" value="company"/>
+		</section>
+		<section name="search5">
+			<item key="searchable" value="true"/>
+			<item key="type" value="com.ibm.langware.Section"/>
+			<item key="feature" value="Surface Text"/>
+			<item key="facetedSearch" value="true"/>
+			<item key="facet" value="Section"/>
+			<item key="facetTreePath" value="General.Document.Zoning"/>
+			<item key="searchFieldName" value="section"/>
+		</section>
+		<section name="search6">
+			<item key="searchable" value="true"/>
+			<item key="type" value="com.ibm.langware.ReferenceCompany"/>
+			<item key="feature" value="Surface Text"/>
+			<item key="facetedSearch" value="true"/>
+			<item key="facet" value="ReferenceCompany"/>
+			<item key="facetTreePath" value="General.Document.Zoning"/>
+			<item key="searchFieldName" value="referencecompany"/>
+		</section>
+	</section>
+</section>

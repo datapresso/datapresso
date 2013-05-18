@@ -1,0 +1,18 @@
+        <PROCESS>
+            <ACTION>find_and_replace_path</ACTION>
+            <PARAMETERS>
+                <FILE>$main_root/desc/custom2.xml</FILE>
+                <FIND_STRING>file:resources/</FIND_STRING>
+                <REPLACE_WITH>file:///$main_root/resources/</REPLACE_WITH>
+                <COMMENTS>Actual location</COMMENTS>
+            </PARAMETERS>
+        </PROCESS>
+        <PROCESS>
+            <ACTION>find_and_replace_path</ACTION>
+            <PARAMETERS>
+                <FILE>$main_root/desc/custom2.xml</FILE>
+                <FIND_STRING>../resources/</FIND_STRING>
+                <REPLACE_WITH>$main_root/resources/</REPLACE_WITH>
+                <COMMENTS>Actual location</COMMENTS>
+            </PARAMETERS>
+        </PROCESS>

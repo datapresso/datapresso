@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fields>
+	<field name="diccompanies">
+		<fulltextsearchable enabled="false" summary="false"/>
+		<fieldsearchable casesensitive="false" enabled="true" tokenized="true"/>
+		<parametricsearchable enabled="false"/>
+		<returnable enabled="true"/>
+		<analyzable enabled="false"/>
+		<sortable enabled="false"/>
+	</field>
+	<field name="company">
+		<fulltextsearchable enabled="false" summary="false"/>
+		<fieldsearchable casesensitive="false" enabled="true" tokenized="true"/>
+		<parametricsearchable enabled="false"/>
+		<returnable enabled="true"/>
+		<analyzable enabled="false"/>
+		<sortable enabled="false"/>
+	</field>
+	<field name="section">
+		<fulltextsearchable enabled="false" summary="false"/>
+		<fieldsearchable casesensitive="false" enabled="true" tokenized="true"/>
+		<parametricsearchable enabled="false"/>
+		<returnable enabled="true"/>
+		<analyzable enabled="false"/>
+		<sortable enabled="false"/>
+	</field>
+	<field name="referencecompany">
+		<fulltextsearchable enabled="false" summary="false"/>
+		<fieldsearchable casesensitive="false" enabled="true" tokenized="true"/>
+		<parametricsearchable enabled="false"/>
+		<returnable enabled="true"/>
+		<analyzable enabled="false"/>
+		<sortable enabled="false"/>
+	</field>
+	<field name="company">
+		<fulltextsearchable enabled="false" summary="false"/>
+		<fieldsearchable casesensitive="false" enabled="true" tokenized="true"/>
+		<parametricsearchable enabled="false"/>
+		<returnable enabled="true"/>
+		<analyzable enabled="false"/>
+		<sortable enabled="false"/>
+	</field>
+	<field name="section">
+		<fulltextsearchable enabled="false" summary="false"/>
+		<fieldsearchable casesensitive="false" enabled="true" tokenized="true"/>
+		<parametricsearchable enabled="false"/>
+		<returnable enabled="true"/>
+		<analyzable enabled="false"/>
+		<sortable enabled="false"/>
+	</field>
+	<field name="referencecompany">
+		<fulltextsearchable enabled="false" summary="false"/>
+		<fieldsearchable casesensitive="false" enabled="true" tokenized="true"/>
+		<parametricsearchable enabled="false"/>
+		<returnable enabled="true"/>
+		<analyzable enabled="false"/>
+		<sortable enabled="false"/>
+	</field>
+	<field name="peopletitle">
+		<fulltextsearchable enabled="false" summary="false"/>
+		<fieldsearchable casesensitive="false" enabled="true" tokenized="true"/>
+		<parametricsearchable enabled="false"/>
+		<returnable enabled="true"/>
+		<analyzable enabled="false"/>
+		<sortable enabled="false"/>
+	</field>
+</fields>

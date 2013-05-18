@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taeDescription xmlns="http://uima.apache.org/resourceSpecifier">
+    <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+    <primitive>true</primitive>
+    <annotatorImplementationName>com.ibm.dltj.uima_annotator.flow.ManualLangIdAnnotator</annotatorImplementationName>
+    <analysisEngineMetaData>
+        <name>LanguageWare Manual Language Id Annotator</name>
+        <description>Manually specified document language.</description>
+        <version>7.2.0.1</version>
+        <vendor>IBM Corporation</vendor>
+        <configurationParameters>
+            <configurationParameter>
+                <name>Language</name>
+                <description>The manually specified language</description>
+                <type>String</type>
+                <multiValued>false</multiValued>
+                <mandatory>true</mandatory>
+            </configurationParameter>
+        </configurationParameters>
+        <configurationParameterSettings>
+            <nameValuePair>
+                <name>Language</name>
+                <value>
+                    <insertManualLang/>
+                </value>
+            </nameValuePair>
+        </configurationParameterSettings>
+        <typeSystemDescription>
+            <types>
+                <typeDescription>
+                    <name>uima.tcas.DocumentAnnotation</name>
+                    <description/>
+                    <supertypeName>uima.tcas.Annotation</supertypeName>
+                    <features>
+                        <featureDescription>
+                            <name>language</name>
+                            <description/>
+                            <rangeTypeName>uima.cas.String</rangeTypeName>
+                        </featureDescription>
+                    </features>
+                </typeDescription>
+            </types>
+        </typeSystemDescription>
+        <fsIndexCollection/>
+        <capabilities>
+            <capability>
+                <inputs/>
+                <outputs>
+                    <feature>uima.tcas.DocumentAnnotation:language</feature>
+                </outputs>
+                <languagesSupported>
+                    <language>x-unspecified</language>
+                </languagesSupported>
+            </capability>
+        </capabilities>
+        <operationalProperties>
+            <modifiesCas>true</modifiesCas>
+            <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+            <outputsNewCASes>false</outputsNewCASes>
+        </operationalProperties>
+    </analysisEngineMetaData>
+</taeDescription>

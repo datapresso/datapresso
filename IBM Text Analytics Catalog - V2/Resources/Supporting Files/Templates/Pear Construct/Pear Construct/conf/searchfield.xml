@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fields>
+    <field name="timemilitary">
+        <fulltextsearchable enabled="false" summary="false"/>
+        <fieldsearchable casesensitive="false" enabled="true" tokenized="true"/>
+        <parametricsearchable enabled="false"/>
+        <returnable enabled="false"/>
+        <analyzable enabled="false"/>
+        <sortable enabled="false"/>
+    </field>
+    <field name="timeampm">
+        <fulltextsearchable enabled="false" summary="false"/>
+        <fieldsearchable casesensitive="false" enabled="true" tokenized="true"/>
+        <parametricsearchable enabled="false"/>
+        <returnable enabled="false"/>
+        <analyzable enabled="false"/>
+        <sortable enabled="false"/>
+    </field>
+    <field name="acronymsacronyms">
+        <fulltextsearchable enabled="false" summary="false"/>
+        <fieldsearchable casesensitive="false" enabled="true" tokenized="true"/>
+        <parametricsearchable enabled="false"/>
+        <returnable enabled="false"/>
+        <analyzable enabled="false"/>
+        <sortable enabled="false"/>
+    </field>
+</fields>

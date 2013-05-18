@@ -1,0 +1,4 @@
+C:\ding\LW_COREF_V1\test2\docs\42.txt
+1:8 1:8
+C:\ding\LW_COREF_V1\test2\docs\42.txt
+17:1 17:2

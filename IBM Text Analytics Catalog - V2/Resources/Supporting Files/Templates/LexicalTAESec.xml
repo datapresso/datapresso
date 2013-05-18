@@ -1,0 +1,159 @@
+	<section name="languageware.1">
+		<list key="languages">
+			<item value="af"/>
+			<item value="ar"/>
+			<item value="ca"/>
+			<item value="cs"/>
+			<item value="da"/>
+			<item value="de"/>
+			<item value="el"/>
+			<item value="en"/>
+			<item value="es"/>
+			<item value="fi"/>
+			<item value="fr"/>
+			<item value="it"/>
+			<item value="ja"/>
+			<item value="ko"/>
+			<item value="nb"/>
+			<item value="nl"/>
+			<item value="nn"/>
+			<item value="pl"/>
+			<item value="pt"/>
+			<item value="ru"/>
+			<item value="sv"/>
+			<item value="zh"/>
+		</list>
+		<list key="dictPaths.0">
+		</list>
+		<list key="dictPaths.1">
+		</list>
+		<list key="dictPaths.2">
+		</list>
+		<list key="dictPaths.3">
+		</list>
+		<list key="dictPaths.4">
+		</list>
+		<list key="dictPaths.5">
+		</list>
+		<list key="dictPaths.6">
+		</list>
+		<list key="dictPaths.7">
+		</list>
+		<list key="dictPaths.8">
+		</list>
+		<list key="dictPaths.9">
+		</list>
+		<list key="dictPaths.10">
+		</list>
+		<list key="dictPaths.11">
+		</list>
+		<list key="dictPaths.12">
+		</list>
+		<list key="dictPaths.13">
+		</list>
+		<list key="dictPaths.14">
+		</list>
+		<list key="dictPaths.15">
+		</list>
+		<list key="dictPaths.16">
+		</list>
+		<list key="dictPaths.17">
+		</list>
+		<list key="dictPaths.18">
+		</list>
+		<list key="dictPaths.19">
+		</list>
+		<list key="dictPaths.20">
+		</list>
+		<list key="dictPaths.21">
+		</list>
+		<insertExtraParms/>
+		<section name="breakRules.16">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.15">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.14">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.1">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.13">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.0">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.3">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.7">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.19">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.2">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.6">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.18">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.5">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.9">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.17">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.4">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.8">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.21">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.12">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.20">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.11">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+		<section name="breakRules.10">
+			<item key="breakRulesType" value="0"/>
+			<item key="breakRulesSpec" value=""/>
+		</section>
+	</section>

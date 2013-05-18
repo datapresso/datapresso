@@ -1,0 +1,25 @@
+<div style="width: 100%; padding: 5px;" >
+
+    <div id="searchCriteria" style="width: 100%; padding: 5px 0px 20px 0px; float: left;" >
+        <table>
+        	<tr><td><span style="color: #1880A0; font-style: bold; font-size: 22px;">Search Form</span></td></tr>
+        	<tr><td>&nbsp;</td></tr>
+            <tr>
+                <td>
+                    <div style="position: relative; top: -8px;">               
+                    	<input type="text"   dojoAttachPoint="cspSearchBox" />
+                    	<input type="button" dojoAttachPoint="cspSearchButton" value="Search" />
+                    	<input type="button" dojoAttachPoint="cspResetButton" value="Reset" />
+						<div dojoAttachPoint="messageArea"/>      
+                    </div>
+                </td>
+            </tr>
+	    </table>        
+	    <hr style="width: 95%; position: relative; top: -4px; height: 1px; color: #D4D0C8;"/>
+	    <span style="color: #1880A0; font-style: bold; font-size: 14px;">Fields and Facets</span><br/>
+	    <div dojoAttachPoint="cspSearchFields" style="height: 500px; width: 100%; overflow-y: auto;">
+	    </div>            
+    </div>
+
+
+</div>

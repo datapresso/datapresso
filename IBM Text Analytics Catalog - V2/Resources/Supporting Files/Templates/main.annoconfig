@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="annotation">
+	<item key="version" value="2"/>
+	<item key="language" value="en"/>
+	<list key="steps">
+		<item value="langid0"/>
+		<item value="typecleanup2"/>
+	</list>
+	<section name="langid0">
+		<item key="langIdType" value="2"/>
+		<item key="userdictFallbackLanguage" value=""/>
+		<item key="fallbackLanguage" value="en"/>
+		<item key="dictPath" value=""/>
+		<list key="userdictAcceptLanguages">
+		</list>
+		<list key="acceptLanguages">
+		</list>
+		<insertExtraParms4LangID0/>
+	</section>
+	<section name="typecleanup2">
+		<item key="showDiscard" value="false"/>
+		<item key="useMultiplierInPear" value="false"/>
+		<list key="extraConfigGroups">
+		</list>
+		<list key="discardTypes">
+		</list>
+		<list key="extraConfigNames">
+		</list>
+		<list key="extraConfigDataPathRel">
+		</list>
+	</section>
+	<section name="exportPearData">
+		<item key="ccaPearName" value=""/>
+		<item key="ccaConfig" value=""/>
+		<item key="ccaRestartIndexer" value="true"/>
+		<item key="cca" value="false"/>
+		<item key="pearId" value=""/>
+		<item key="ccaAssociatePEAR" value="true"/>
+		<item key="ccaCollection" value=""/>
+		<item key="pearName" value=""/>
+		<item key="ccaRebuildIndex" value="false"/>
+		<item key="outputPath" value=""/>
+	</section>
+	<section name="ccaSearchFields">
+		<item key="searchCount" value="0"/>
+	</section>
+</section>

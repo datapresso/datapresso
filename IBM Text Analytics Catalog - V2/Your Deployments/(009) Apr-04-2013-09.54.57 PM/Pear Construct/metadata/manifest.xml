@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextAnalyticsCatalogManifest>
+	<SelectedAnalytics>
+		<SelectedAnalytic CatNo="318" type="3" lang="en">
+			<Title>Document Zoning (reference example)</Title>
+			<Name>General/Document/Zoning/DocumentZoningReference</Name>
+			<Category>General/Document/Zoning</Category>
+			<Desc>This annotator identifies different sections or zones of a document and allows you to assoicate the zone name with any annotation as a feature. This allows you to segregate your annotations into the sections or zones  of the document they were found. By way of example this annotator specifically looks for company names and then adds as a feature where in which sections (zones) those company names were found.</Desc>
+		</SelectedAnalytic>
+		<SelectedAnalytic CatNo="142" type="1" lang="en">
+			<Title>English Dictionary of Person Titles</Title>
+			<Name>People/Title</Name>
+			<Category>People</Category>
+			<Desc>English dictionary of person titles</Desc>
+		</SelectedAnalytic>
+	</SelectedAnalytics>
+	<AggregateICAFields>
+		<ICAfield uimaType="com.ibm.langware.DicCompanies" fieldName="diccompanies" feature="lemma/key" facetPath="General/Document/Zoning" facetName="DicCompanies" formUse="true" formElement="Facet" formControl="TextBox">
+			<feature type="uima.tcas.Annotation">Surface Text</feature>
+			<feature type="uima.cas.String">lemma/key</feature>
+		</ICAfield>
+		<ICAfield uimaType="com.ibm.langware.en.Company" fieldName="company" feature="Surface Text" facetPath="General/Document/Zoning" facetName="Company" formUse="true" formElement="Facet" formControl="TextBox">
+			<feature type="uima.tcas.Annotation">Surface Text</feature>
+		</ICAfield>
+		<ICAfield uimaType="com.ibm.langware.en.Section" fieldName="section" feature="Surface Text" facetPath="General/Document/Zoning" facetName="Section" formUse="true" formElement="Facet" formControl="TextBox">
+			<feature type="uima.tcas.Annotation">Surface Text</feature>
+		</ICAfield>
+		<ICAfield uimaType="com.ibm.langware.en.ReferenceCompany" fieldName="referencecompany" feature="Surface Text" facetPath="General/Document/Zoning" facetName="ReferenceCompany" formUse="true" formElement="Facet" formControl="TextBox">
+			<feature type="uima.tcas.Annotation">Surface Text</feature>
+		</ICAfield>
+		<ICAfield uimaType="com.ibm.langware.Company" fieldName="company" feature="heading" facetPath="General/Document/Zoning" facetName="Company" formUse="true" formElement="Facet" formControl="TextBox">
+			<feature type="uima.tcas.Annotation">Surface Text</feature>
+			<feature type="uima.cas.String">heading</feature>
+		</ICAfield>
+		<ICAfield uimaType="com.ibm.langware.Section" fieldName="section" feature="Surface Text" facetPath="General/Document/Zoning" facetName="Section" formUse="true" formElement="Facet" formControl="TextBox">
+			<feature type="uima.tcas.Annotation">Surface Text</feature>
+		</ICAfield>
+		<ICAfield uimaType="com.ibm.langware.ReferenceCompany" fieldName="referencecompany" feature="Surface Text" facetPath="General/Document/Zoning" facetName="ReferenceCompany" formUse="true" formElement="Facet" formControl="TextBox">
+			<feature type="uima.tcas.Annotation">Surface Text</feature>
+		</ICAfield>
+		<ICAfield uimaType="com.ibm.DictTitle" fieldName="peopletitle" feature="lemma/key" facetPath="People" facetName="Title" formUse="true" formElement="Facet" formControl="TextBox">
+			<feature type="uima.tcas.Annotation">Surface Text</feature>
+			<feature type="uima.cas.String">lemma/key</feature>
+		</ICAfield>
+	</AggregateICAFields>
+	<AggregateLangSupport type="2"/>
+</TextAnalyticsCatalogManifest>

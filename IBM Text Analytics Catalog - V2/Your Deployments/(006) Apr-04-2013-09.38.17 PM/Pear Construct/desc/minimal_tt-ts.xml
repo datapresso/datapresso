@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <name>Minimal TypeSystem for IBM Content Analytics Studio</name>
+  <description></description>
+  <version>8.0</version>
+  <vendor>IBM Corporation</vendor>
+  <types>
+	<typeDescription>
+	  <name>uima.tcas.DocumentAnnotation</name>
+	  <description>Annotation covering the entire document, containing document meta information, for example the document language</description>
+	  <supertypeName>uima.tcas.Annotation</supertypeName>
+	  <features>
+		<featureDescription>
+		  <name>language</name>
+		  <description>The document language</description>
+		  <rangeTypeName>uima.cas.String</rangeTypeName>
+		</featureDescription>
+		<featureDescription>
+		  <name>languageCandidates</name>
+		  <description>A list of language candidates for the document produced during language identification. These are sorted by confidence value</description>
+		  <rangeTypeName>uima.cas.FSList</rangeTypeName>
+		</featureDescription>
+	  </features>
+	</typeDescription>
+
+	<typeDescription>
+	  <name>uima.tt.TTAnnotation</name>
+	  <description>Base type for lexical and document structure annotation types</description>
+	  <supertypeName>uima.tcas.Annotation</supertypeName>
+	</typeDescription>
+
+	<typeDescription>
+	  <name>uima.tt.DocStructureAnnotation</name>
+	  <description>Base type for document structure annotation types</description>
+	  <supertypeName>uima.tt.TTAnnotation</supertypeName>
+	</typeDescription>
+
+	<typeDescription>
+	  <name>uima.tt.ParagraphAnnotation</name>
+	  <description>A paragraph</description>
+	  <supertypeName>uima.tt.DocStructureAnnotation</supertypeName>
+	  <features>
+		<featureDescription>
+		  <name>paragraphNumber</name>
+		  <description>The sequence number of the paragraph in the document</description>
+		  <rangeTypeName>uima.cas.Integer</rangeTypeName>
+		</featureDescription>
+	  </features>
+	</typeDescription>
+
+	<typeDescription>
+	  <name>uima.tt.SentenceAnnotation</name>
+	  <description>A sentence</description>
+	  <supertypeName>uima.tt.DocStructureAnnotation</supertypeName>
+	  <features>
+		<featureDescription>
+		  <name>sentenceNumber</name>
+		  <description>The sequence number of the sentence in the paragraph (or the document)</description>
+		  <rangeTypeName>uima.cas.Integer</rangeTypeName>
+		</featureDescription>
+	  </features>
+	</typeDescription>
+
+	<typeDescription>
+	  <name>uima.tt.LexicalAnnotation</name>
+	  <description>Base type for lexical annotation types</description>
+	  <supertypeName>uima.tt.TTAnnotation</supertypeName>
+	</typeDescription>
+
+	<typeDescription>
+	  <name>uima.tt.DictionaryEntryAnnotation</name>
+	  <description>Base type for dictionary-based user-defined annotation types</description>
+	  <supertypeName>uima.tt.LexicalAnnotation</supertypeName>
+	  <features>
+		<featureDescription>
+		  <name>lemma</name>
+		  <description>Morphological information for the dictionary entry</description>
+		  <rangeTypeName>uima.tt.Lemma</rangeTypeName>
+		</featureDescription>
+	  </features>
+	</typeDescription>
+
+	<typeDescription>
+	  <name>uima.tt.TokenLikeAnnotation</name>
+	  <description>Base type for token annotation types</description>
+	  <supertypeName>uima.tt.LexicalAnnotation</supertypeName>
+	  <features>
+		<featureDescription>
+		  <name>lemma</name>
+		  <description>The best probable entry containing all morphological information for the token</description>
+		  <rangeTypeName>uima.tt.Lemma</rangeTypeName>
+		</featureDescription>
+		<featureDescription>
+		  <name>lemmaEntries</name>
+		  <description>List of lemma entries containing all morphological information for the token</description>
+		  <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+		</featureDescription>
+		<featureDescription>
+		  <name>dictionaryMatch</name>
+		  <description>A flag indicating whether or not the token matches a dictionary entry</description> 
+		  <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+		</featureDescription>
+	  </features>
+	</typeDescription>
+
+	<typeDescription>
+	  <name>uima.tt.TokenAnnotation</name>
+	  <description>General token annotation type. It is also the base type for the special token types</description>
+	  <supertypeName>uima.tt.TokenLikeAnnotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>posTag</name>
+          <description>Part-of-Speech tag</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+	</typeDescription>
+
+	<typeDescription>
+	  <name>uima.tt.CompPartAnnotation</name>
+	  <description>A part of a compound word</description>
+	  <supertypeName>uima.tt.TokenLikeAnnotation</supertypeName>
+	</typeDescription>
+
+	<typeDescription>
+	  <name>uima.tt.KeyStringEntry</name>
+	  <description>Base type for types defining key/value feature (e.g. uima.tt.Lemma type)</description>
+	  <supertypeName>uima.cas.TOP</supertypeName>
+	  <features>
+		<featureDescription>
+		  <name>key</name>
+		  <description>A key/value feature (e.g. lemma string in uima.tt.Lemma type)</description>
+		  <rangeTypeName>uima.cas.String</rangeTypeName>
+		</featureDescription>
+	  </features>
+	</typeDescription>
+
+	<typeDescription>
+	  <name>uima.tt.Lemma</name>
+	  <description>Morphological information retrieved from a lexical dictionary entry</description>
+	  <supertypeName>uima.tt.KeyStringEntry</supertypeName>
+	  <features>
+		<featureDescription>
+		  <name>partOfSpeech</name>
+		  <description>An integral encoding representing the part-of-speech for the lemma</description>
+		  <rangeTypeName>uima.cas.Integer</rangeTypeName>
+		</featureDescription>
+		<featureDescription>
+		  <name>frost_ExtendedPOS</name>
+		  <description>An integer representing additional information related to the part-of-speech</description>
+		  <rangeTypeName>uima.cas.Integer</rangeTypeName>
+		</featureDescription>
+	  </features>
+	</typeDescription>
+
+	<typeDescription>
+	  <name>uima.tt.LanguageConfidencePair</name>
+	  <description>Language-Confidence pair of a language candidate for the document text</description>
+	  <supertypeName>uima.cas.TOP</supertypeName>
+	  <features>
+		<featureDescription>
+		  <name>languageConfidence</name>
+		  <description>An indication (a float value between 0 and 1) of how well the candidate language actually fits the language of the document</description>
+		  <rangeTypeName>uima.cas.Float</rangeTypeName>
+		</featureDescription>
+		<featureDescription>
+		  <name>language</name>
+		  <description>Language name (ISO Locale code)</description>
+		  <rangeTypeName>uima.cas.String</rangeTypeName>
+		</featureDescription>
+	  </features>
+	</typeDescription>
+
+	<typeDescription>
+	  <name>com.ibm.langware.uimatypes.WordLikeToken</name>
+	  <description>Base type for possible words (not punctuations nor symbols). Also represents alphanumeric tokens</description>
+	  <supertypeName>uima.tt.TokenAnnotation</supertypeName>
+	</typeDescription>
+	<typeDescription>
+	  <name>com.ibm.langware.uimatypes.Alphabetic</name>
+	  <description>Alphabetic word</description>
+	  <supertypeName>com.ibm.langware.uimatypes.WordLikeToken</supertypeName>
+	</typeDescription>
+	<typeDescription>
+	  <name>com.ibm.langware.uimatypes.UppercaseAlphabetic</name>
+	  <description>Uppercase alphabetic word</description>
+	  <supertypeName>com.ibm.langware.uimatypes.Alphabetic</supertypeName>
+	</typeDescription>
+	<typeDescription>
+	  <name>com.ibm.langware.uimatypes.TitlecaseAlphabetic</name>
+	  <description>Titlecase alphabetic word</description>
+	  <supertypeName>com.ibm.langware.uimatypes.Alphabetic</supertypeName>
+	</typeDescription>
+	<typeDescription>
+	  <name>com.ibm.langware.uimatypes.LowercaseAlphabetic</name>
+	  <description>Lowercase alphabetic word</description>
+	  <supertypeName>com.ibm.langware.uimatypes.Alphabetic</supertypeName>
+	</typeDescription>
+	<typeDescription>
+	  <name>com.ibm.langware.uimatypes.Arabic</name>
+	  <description>Arabic word</description>
+	  <supertypeName>com.ibm.langware.uimatypes.Alphabetic</supertypeName>
+	</typeDescription>
+	<typeDescription>
+	  <name>com.ibm.langware.uimatypes.Hebrew</name>
+	  <description>Hebrew word</description>
+	  <supertypeName>com.ibm.langware.uimatypes.Alphabetic</supertypeName>
+	</typeDescription>
+	<typeDescription>
+	  <name>com.ibm.langware.uimatypes.Syllabic</name>
+	  <description>Syllabic word</description>
+	  <supertypeName>com.ibm.langware.uimatypes.WordLikeToken</supertypeName>
+	</typeDescription>
+	<typeDescription>
+	  <name>com.ibm.langware.uimatypes.Hiragana</name>
+	  <description>Hiragana (Syllabic) word</description>
+	  <supertypeName>com.ibm.langware.uimatypes.Syllabic</supertypeName>
+	</typeDescription>
+	<typeDescription>
+	  <name>com.ibm.langware.uimatypes.Katakana</name>
+	  <description>Katakana (Syllabic) word</description>
+	  <supertypeName>com.ibm.langware.uimatypes.Syllabic</supertypeName>
+	</typeDescription>
+	<typeDescription>
+	  <name>com.ibm.langware.uimatypes.Hangul</name>
+	  <description>Hangul (Syllabic) word</description>
+	  <supertypeName>com.ibm.langware.uimatypes.Syllabic</supertypeName>
+	</typeDescription>
+	<typeDescription>
+	  <name>com.ibm.langware.uimatypes.Ideographic</name>
+	  <description>Ideographic word</description>
+	  <supertypeName>com.ibm.langware.uimatypes.WordLikeToken</supertypeName>
+	</typeDescription>
+	<typeDescription>
+	  <name>com.ibm.langware.uimatypes.Han</name>
+	  <description>Han (Ideographic) word</description>
+	  <supertypeName>com.ibm.langware.uimatypes.Ideographic</supertypeName>
+	</typeDescription>
+	<typeDescription>
+	  <name>com.ibm.langware.uimatypes.Numeric</name>
+	  <description>A numeric sequence</description>
+	  <supertypeName>com.ibm.langware.uimatypes.WordLikeToken</supertypeName>
+	</typeDescription>
+	<typeDescription>
+	  <name>com.ibm.langware.uimatypes.ChineseNumeral</name>
+	  <description>A Chinese numeral</description>
+	  <supertypeName>com.ibm.langware.uimatypes.Numeric</supertypeName>
+	</typeDescription>
+	<typeDescription>
+	  <name>com.ibm.langware.uimatypes.Punctuation</name>
+	  <description>A punctuation or symbol</description>
+	  <supertypeName>uima.tt.TokenAnnotation</supertypeName>
+	</typeDescription>
+	<typeDescription>
+	  <name>com.ibm.langware.uimatypes.ClauseEndingPunctuation</name>
+	  <description>A clause terminating punctuation</description>
+	  <supertypeName>com.ibm.langware.uimatypes.Punctuation</supertypeName>
+	</typeDescription>
+
+  </types>
+</typeSystemDescription>

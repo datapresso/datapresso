@@ -1,0 +1,235 @@
+//*********************** ES COPYRIGHT START  *********************************
+// @copyright(disclaimer)
+// 
+// Licensed Materials - Property of IBM
+// 5724-Z21
+// (C) Copyright IBM Corp. 2003, 2012
+// 
+// US Government Users Restricted Rights
+// Use, duplication or disclosure restricted by GSA ADP Schedule
+// Contract with IBM Corp.
+// 
+// DISCLAIMER OF WARRANTIES :
+// 
+// Permission is granted to copy and modify this Sample code, and to
+// distribute modified versions provided that both the copyright
+// notice, and this permission notice and warranty disclaimer appear
+// in all copies and modified versions.
+// 
+// THIS SAMPLE CODE IS LICENSED TO YOU "AS-IS".
+// IBM  AND ITS SUPPLIERS AND LICENSORS  DISCLAIM
+// ALL WARRANTIES, EITHER EXPRESS OR IMPLIED, IN SUCH SAMPLE CODE,
+// INCLUDING THE WARRANTY OF NON-INFRINGEMENT AND THE IMPLIED WARRANTIES
+// OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT
+// WILL IBM OR ITS LICENSORS OR SUPPLIERS BE LIABLE FOR ANY DAMAGES ARISING
+// OUT OF THE USE OF  OR INABILITY TO USE THE SAMPLE CODE, DISTRIBUTION OF
+// THE SAMPLE CODE, OR COMBINATION OF THE SAMPLE CODE WITH ANY OTHER CODE.
+// IN NO EVENT SHALL IBM OR ITS LICENSORS AND SUPPLIERS BE LIABLE FOR ANY
+// LOST REVENUE, LOST PROFITS OR DATA, OR FOR DIRECT, INDIRECT, SPECIAL,
+// CONSEQUENTIAL,INCIDENTAL OR PUNITIVE DAMAGES, HOWEVER CAUSED AND REGARDLESS
+// OF THE THEORY OF LIABILITY, EVEN IF IBM OR ITS LICENSORS OR SUPPLIERS
+// HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+// 
+// @endCopyright
+//*********************** ES COPYRIGHT END  ***********************************
+dojo.provide("pane.searchPane.searchPane");
+
+dojo.require("widgets.PanePluginBase");
+dojo.require("dijit._Templated");
+
+dojo.declare("pane.searchPane.searchPane", [widgets.PanePluginBase, dijit._Templated], 
+{
+	templateString: dojo.cache("pane.searchPane", "searchPane.html"),
+	widgetsInTemplate: true,
+		
+	
+	postCreate: function() {
+		this.inherited(arguments);
+		this.subscribe("postLoad","_processSearchResults"); 			
+      	this.connect(this.cspSearchButton, "onclick", "onSearchButtonPressed");
+      	this.connect(this.cspResetButton, "onclick", "onResetButtonPressed");
+	},
+	
+
+	////////////////////////////////////
+    onSearchButtonPressed: function() {
+    ////////////////////////////////////	   
+		
+    	this.curPageStart = 1;
+		this.curTotResults = 0;		     	    	
+		this._submitSearch(this._buildCurrentQueryString(),"search");	  	    	
+
+    },
+    
+    
+	//////////////////////////////////// 
+    onResetButtonPressed: function() {
+    ////////////////////////////////////
+    	
+        this.cspSearchBox.value = "";
+        // Insert reset of facets in all widgets
+        
+        this._submitSearch(this._buildCurrentQueryString(),"search");
+    },
+    
+    
+    
+    
+    ////////////////////////////////////////
+    _buildCurrentQueryString: function() {
+   	////////////////////////////////////////
+	   
+        var newQueryStr = "";
+        
+        if (this.cspSearchBox.value.length > 0) newQueryStr += this.cspSearchBox.value;
+        
+        // Insert query string additions for fields and facets
+		
+        
+        this.curQry = newQueryStr;
+        return newQueryStr;
+        
+    },
+    
+
+    
+    ///////////////////////////////////////
+	_submitSearch: function(queryStr,action) {
+	///////////////////////////////////////
+
+		var col = this.getSelectedCollection();
+		
+		if (col.id !=
+		// Insert collection id test here
+		    ) {
+		   	 this.messageArea.innerHTML = 
+		   	"<span style=\"color: red;\">This search form only works with the "+
+		// Insert collection label test here	   	
+		   	+"collection</span>";
+		} else {
+			this.messageArea.innerHTML = ""; 
+			if ((queryStr == null) || (queryStr == "")) queryStr = "*:*";
+			var params = {};
+			params.keywords = queryStr;
+			params.page = this.curPageStart;
+			params.resultsPerPage = this.curPageSize; 
+			dijit.byId(EDR.prefix+"searchManager").submitSearch(null, action, params);	
+		}
+						
+	},
+    
+ 
+
+    //////////////////////////////////////////////
+    _processSearchResults: function() {
+   	////////////////////////////////////////////// 
+    		
+    	var data = dijit.byId(EDR.prefix+"searchManager").getSearchResult();		
+    	if (data && data["results"]) { 
+    		// Because we've been notified of the arrival of new search results something changed
+        	// so lets get the current facet values and reload the combo boxes with them.
+    		this._getCurrentFacetValues();   	
+    	}
+	
+    },
+    
+        
+    
+    //////////////////////////////////////////////////////////////////
+ 	_getCurrentFacetValues: function() {
+    // Used to retrieve the current facet values from ICA depending
+    // on the current search criteria.
+    ////////////////////////////////////////////////////////////////// 
+
+ 	    var _facet = {"id":				// Insert concatentated facet names list
+ 	    		"",     		         		  
+ 	        	"count": 100, 			// return this many maxiumum facet values
+ 	        	"namespace": "keyword"	// get facet values 
+ 	        };
+ 	        
+ 	    if (_facet.id.length > 0) {
+ 	    	var _facetStr = dojo.toJson(_facet);		
+ 	    	var args = {
+ 	            handleAs: "json",
+ 	            url: "api/v10/search/facet",						  
+ 	            load: dojo.hitch(this, "_processFacetValues"), 
+ 	            content: {
+ 	            		output: "application/json",
+ 	            		query: this.getCurrentQuery(),
+ 	            		queryLang: this.getCurrentQueryLang(),
+ 	            		collection: this.getSelectedCollection().id,
+ 	            		facet: _facetStr
+ 	            }
+ 	        };
+ 	    	dojo.xhrPost(args);  
+ 	    }  
+
+     },
+
+     
+     
+     /////////////////////////////////////////////////
+     _processFacetValues: function (data) {
+     // This function parses and processes the facet
+     // values returned from the network call made above.
+     // A datastore is built for each facet value of a 
+     // given facet name. The datastore is then associated
+     // with its corresponding FilteringSelect combo box on 
+     // on the search form.
+     /////////////////////////////////////////////////
+     	
+     	if (data && data["es_apiResponse"] && data["es_apiResponse"]["ibmsc_facet"]) {
+     		
+     		var facetResults = data["es_apiResponse"]["ibmsc_facet"];      		
+			if (facetResults.length == null) { // case where a single value exists
+		   		facetResults = [];
+				facetResults.push(data["es_apiResponse"]["ibmsc_facet"]);
+			}
+     		for (var i=0; i<facetResults.length; i++) {
+     			
+     			var trId = null; 
+     			var ctrlId = null;			
+     			var comboBoxOptions = "<option value=\"\" selected></option>\n";      		
+         		var facetObj = facetResults[i];
+         		var facetFullName = facetObj.id;
+         		var facetName = facetFullName.substring(facetFullName.lastIndexOf(".")+1);
+         		var facetValues = facetObj.ibmsc_facetValue;         		       		
+         		if (facetObj.ibmsc_facetValue.length == null) { // case where a single value exists
+         			facetValues = [];
+         			facetValues.push(facetObj.ibmsc_facetValue);
+         		}        
+         			
+         		// Insert get IDs for widget controls
+     			
+     			var curValue = ctrlId.value;    	
+     		
+         		// load up the data store with the retrieved facet values
+         		for (var j=0; j<facetValues.length; j++) {
+   					        	
+         			var facetValueObj = facetValues[j];
+ 	        		var facetValue = facetValueObj.label;
+ 	        		var facetWeight = facetValueObj.weight;
+ 	        		var facetDispValue = facetValueObj.label+" ("+facetWeight+")";
+ 	        		var selected = "";
+ 	        		if (curValue == facetValue) selected = "selected";
+ 	        		        			        				    		
+ 		    		if ((facetValue != null) && (facetValue.length > 0)) {
+ 		    			comboBoxOptions += "<option value=\""+facetValue+"\" "+selected+">"+facetDispValue+"</option>\n";
+ 			    	}	        			        		
+ 	    		} // end while looping through facet values 	       		
+         		
+         		dojo.empty(trId);
+         		dojo.create("td", {innerHTML: facetName+":"}, trId);
+         		dojo.create("td", {innerHTML: "<select id=\"CSP"+facetName+"\">\n"+comboBoxOptions+"</Select>\n"}, trId);
+         		
+     		} // end while looping through facet results
+     	}    	
+     },	
+ 
+
+
+	dummy: function() {			
+	}
+
+
+});

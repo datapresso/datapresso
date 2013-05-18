@@ -1,0 +1,26 @@
+Where Annotator
+General Installation Instructions for New Projects
+--------------------------------------------------
+Note: no further installation is required in this project. 
+      The examples provided should run as is.
+       
+       
+1. Add a Folder to hold the Where annotator (typically Resources\Custom\Where).
+ 
+2. To this folder add the files Where.jar and WhereAEDescriptor.xml
+
+3. Add a custom stage to your annotation pipeline
+
+   3.1 Configure such that so the Analysis Engine File Path points to the WhereAEDescriptor.xml file
+   3.2 configure such that the Class Path includes Where.jar
+   3.3 complete the Configuration section
+       3.3.1 SectionType is the name of your existing annotation that marks the beginning of sections in the document.  
+       For example you might have com.ibm.langware.ChapterTitles.
+       3.3.2 TargetType is the name of the existing annotation that you want the Where annotator to update with positional information. 
+       For example you might have com.ibm.langware.CharacterRole
+       3.3.3 TargetSectionFeature is the name of the feature in the TargetType that will be filled in with the section name by the Where annotator. 
+       For example your CharacterRole annotation might include a feature "chapter".
+
+***IMPORTANT***   The TargetSectionFeature must exist in your TargetType annotation. The Where annotator fills this feature with a value, it does not create it. It is sufficient to create a string feature in your rule that creates the TargetType and just set it to some arbitary value. This will get overwritten by the Where annotator.
+
+4. Run the pipeline.

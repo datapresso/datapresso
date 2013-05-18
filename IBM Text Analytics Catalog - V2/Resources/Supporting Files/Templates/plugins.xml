@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<viewPlugins>
+	<!-- Dojo only plug-in sample -->
+	<!--plugin id="myFirstPlugin" title="My First Plugin" titleKey="resource.key.myFirstPlugin" activeIconPath="images/facet16.png">
+		<mainComponent file="myFirstPlugin.js" dojoType="view.myFirstPlugin.myFirstPlugin" facetDimension="1" />
+	</plugin-->
+	
+	<!-- Dojo and flex combination sample -->
+	<!--plugin id="mySecondPlugin" title="My Second Plugin" activeIconPath="images/email16.png">
+		<mainComponent file="mySecondPlugin.js" dojoType="view.mySecondPlugin.mySecondPlugin" facetDimension="2" />
+		<flashObject file="mySecondPlugin.swf" bridgeFile="mySecondPluginBridge.js" bridgeName="b_mySecondPlugin" />
+	</plugin-->
+  	<!-- plugin id="TiaraPlugin" title="Tiara Plugin" activeIconPath="images/tiara-icon.png">
+		<mainComponent file="TiaraPlugin.js" dojoType="view.TiaraPlugin.TiaraPlugin" facetDimension="1" />
+    	<flashObject id="ICATrendChart" file="ICATrendChart.swf"  bridgeFile="ICATrendChart.js" bridgeName="b_ICATrendChart"/>  
+	</plugin-->	
+</viewPlugins>

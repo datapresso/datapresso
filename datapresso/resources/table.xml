@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tables>
+   <Table name="CompensationTable">
+         <Columns>
+            <Column name="name" nonrepeating="true" multiword="true" 
+                    confidence=".5" primary_key="true" datatype="String">
+                <Preprocess>
+                   <Replace pattern="\." with=""/>
+                   <Replace pattern="," with=""/>
+                   <Replace pattern="\(\d+\)" with=""/>
+                   <Replace pattern="--" with=""/>
+                </Preprocess>
+                <CheckContext weight=".25"/>
+                <Pattern weight=".25">[\w\.]+</Pattern>
+                <Vocabulary weight=".5">names.txt</Vocabulary>
+                <dbName>name</dbName>
+            </Column>
+            <Column name="position" multiline="true" multiword="true" 
+                    confidence=".5" datatype="String">
+                <Preprocess>
+                   <Replace pattern="\." with=""/>
+                   <Replace pattern="\(\d+\)" with=""/>
+                   <Replace pattern="-" with=""/>
+                </Preprocess>
+                <CheckContext weight=".25"/>
+                <Vocabulary weight=".5">positions.txt</Vocabulary>
+                <Pattern weight=".25">[\w\.]+</Pattern>
+                <dbName>position</dbName> 
+                <dbMap>positions.xml</dbMap> 
+            </Column>
+            <Column name="year" confidence="1" primary_key="true" 
+                    datatype="Date">
+                <Pattern weight=".50">\d{4}</Pattern>
+                <Range weight=".50" low="1950" high="2050"/>
+                <dbName>year</dbName> 
+            </Column>
+            <Column name="salary" confidence="1" datatype="Double">
+                <Preprocess>
+                   <Replace pattern="--" with="0"/>
+                   <Replace pattern="\$" with=""/>
+                   <Replace pattern="\(\d+\)" with=""/>
+                   <Replace pattern="," with=""/>
+                </Preprocess>
+                 <Pattern weight=".5">\d+</Pattern>
+                <Range weight=".5" low="0" high="1000000000"/>
+                <dbName>salary</dbName> 
+            </Column>
+            <Column name="bonus" confidence="1" datatype="Double">
+                <Preprocess>
+                   <Replace pattern="--" with="0"/>
+                   <Replace pattern="\$" with=""/>
+                   <Replace pattern="\(\d+\)" with=""/>
+                   <Replace pattern="," with=""/>
+                </Preprocess>
+                <Pattern weight=".5">\d+</Pattern>
+                <Range weight=".5" low="0" high="1000000000"/>
+                <dbName>bonus</dbName> 
+            </Column>
+            <Column name="options" confidence="1" datatype="Double">
+                <Preprocess>
+                   <Replace pattern="--" with="0"/>
+                   <Replace pattern="\(\d+\)" with=""/>
+                   <Replace pattern="," with=""/>
+                </Preprocess>
+                <Pattern weight=".5">\d+</Pattern>
+                <Range weight=".5" low="0" high="1000000000"/>
+                <dbName>stock_options</dbName> 
+            </Column>
+            <Column name="all" confidence="1" datatype="Double">
+                <Preprocess>
+                   <Replace pattern="--" with="0"/>
+                   <Replace pattern="\$" with=""/>
+                   <Replace pattern="\(\d+\)" with=""/>
+                   <Replace pattern="," with=""/>
+                </Preprocess>
+                <Pattern weight=".5">\d+|--</Pattern>
+                <Range weight=".5" low="0" high="1000000000"/>
+                <dbName>all_other_compensation</dbName> 
+            </Column>
+        </Columns>
+   </Table>
+</Tables>

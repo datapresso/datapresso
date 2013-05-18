@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><CAS version="2">
+    <uima.cas.Sofa _indexed="0" _id="7" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="When Tyrese Little, 35, told inquiring police who approached him Sunday morning that he had &quot;just a little weed,&quot; which turned out to be a gross underestimation, police said.&#10;&#10;Little, approached at 2:30 a.m. by officers Michael Styles and Carlos Conceicao near the Van Dome Nightclub, aroused suspicion when he closed a car door and looked as if he was tucking something into his pants, police said.&#10;&#10;The smell of marijuana emanating from where Little stood didnâ€™t help his case.&#10;&#10;He was arrested for possessing over 50 grams of crack cocaine packaged in 14 bags for sale, a sandwich bag of marijuana and a loaded &quot;Raven Arms&quot; MP-25 handgun.&#10;&#10;Also confiscated from Little were two cell phones and several bundles of cash totaling $11,767. Little faces two weapons and five drug charges.&#10;"/>
+    <uima.tcas.DocumentAnnotation _indexed="1" _id="1" _ref_sofa="7" begin="0" end="789" language="en"/>
+    <com.ibm.en.PersonName _indexed="1" _id="2462" _ref_sofa="7" begin="5" end="18" ruleId="83F35E97BB77AE4037E9190C14F93D9A"/>
+    <com.ibm.en.PersonName _indexed="1" _id="2467" _ref_sofa="7" begin="61" end="64" ruleId="B5F99FFD5B2662C237C9188F2983AAB7"/>
+    <com.ibm.en.PersonName _indexed="1" _id="2472" _ref_sofa="7" begin="85" end="87" ruleId="25E7EA882C3B658FD7A0E6DE639AD385"/>
+    <com.ibm.en.PersonName _indexed="1" _id="2477" _ref_sofa="7" begin="220" end="234" ruleId="2E816C54D13CE2059FF7A77BA9E5ACDD"/>
+    <com.ibm.en.PersonName _indexed="1" _id="2482" _ref_sofa="7" begin="239" end="255" ruleId="2E816C54D13CE2059FF7A77BA9E5ACDD"/>
+    <com.ibm.en.PersonName _indexed="1" _id="2487" _ref_sofa="7" begin="265" end="273" ruleId="2E816C54D13CE2059FF7A77BA9E5ACDD"/>
+    <com.ibm.en.PersonName _indexed="1" _id="2492" _ref_sofa="7" begin="308" end="310" ruleId="25E7EA882C3B658FD7A0E6DE639AD385"/>
+    <com.ibm.en.PersonName _indexed="1" _id="2497" _ref_sofa="7" begin="346" end="348" ruleId="25E7EA882C3B658FD7A0E6DE639AD385"/>
+    <com.ibm.en.PersonName _indexed="1" _id="2502" _ref_sofa="7" begin="376" end="379" ruleId="823C555B54CC3632E9192EC76891A29F"/>
+    <com.ibm.en.PersonName _indexed="1" _id="2507" _ref_sofa="7" begin="472" end="475" ruleId="823C555B54CC3632E9192EC76891A29F"/>
+    <com.ibm.en.PersonName _indexed="1" _id="2512" _ref_sofa="7" begin="483" end="485" ruleId="25E7EA882C3B658FD7A0E6DE639AD385"/>
+    <com.ibm.en.PersonName _indexed="1" _id="2517" _ref_sofa="7" begin="617" end="627" ruleId="2E816C54D13CE2059FF7A77BA9E5ACDD"/>
+</CAS>

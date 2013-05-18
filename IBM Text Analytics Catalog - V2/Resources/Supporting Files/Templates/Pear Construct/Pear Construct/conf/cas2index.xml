@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<indexBuildSpecification xmlns="http://www.ibm.com/of/822/consumer/index/xml">
+    <indexBuildItem>
+        <name>com.ibm.TimeMilitary</name>
+        <indexRule>
+            <style name="Field">
+                <attribute name="fixedName" value="timemilitary"/>
+            </style>
+        </indexRule>
+    </indexBuildItem>
+    <indexBuildItem>
+        <name>com.ibm.TimeAmPm</name>
+        <indexRule>
+            <style name="Field">
+                <attribute name="fixedName" value="timeampm"/>
+            </style>
+        </indexRule>
+    </indexBuildItem>
+    <indexBuildItem>
+        <name>com.ibm.DictAcronym</name>
+        <indexRule>
+            <style name="Field">
+                <attribute name="fixedName" value="acronymsacronyms"/>
+            </style>
+        </indexRule>
+    </indexBuildItem>
+</indexBuildSpecification>

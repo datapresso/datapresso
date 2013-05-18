@@ -1,0 +1,13 @@
+C:\ding\LW_COREF_V1\test2\docs\02_test.txt
+1:14 1:15
+C:\ding\LW_COREF_V1\test2\docs\02_test.txt
+19:1 19:2
+21:21 21:21
+23:29 23:29
+C:\ding\LW_COREF_V1\test2\docs\02_test.txt
+27:14 27:15
+29:0 29:0
+31:15 31:15
+33:19 33:19
+C:\ding\LW_COREF_V1\test2\docs\49.txt
+12:27 12:28

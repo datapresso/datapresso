@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMPONENT_INSTALLATION_DESCRIPTOR>
+    <INSTALLATION>
+        <PROCESS>
+            <ACTION>set_env_variable</ACTION>
+            <PARAMETERS>
+                <VAR_NAME>uima.datapath</VAR_NAME>
+                <VAR_VALUE>$main_root/resources/</VAR_VALUE>
+                <COMMENTS>Resources Data Path</COMMENTS>
+            </PARAMETERS>
+        </PROCESS>
+        <PROCESS>
+            <ACTION>set_env_variable</ACTION>
+            <PARAMETERS>
+                <VAR_NAME>CLASSPATH</VAR_NAME>
+		    <insertClassPathVal/>
+                <COMMENTS>Class Path</COMMENTS>
+            </PARAMETERS>
+        </PROCESS>
+        <PROCESS>
+            <ACTION>find_and_replace_path</ACTION>
+            <PARAMETERS>
+                <FILE>$main_root/desc/LWAnnotator1.xml</FILE>
+                <FIND_STRING>file:resources/</FIND_STRING>
+                <REPLACE_WITH>file:///$main_root/resources/</REPLACE_WITH>
+                <COMMENTS>Actual location</COMMENTS>
+            </PARAMETERS>
+        </PROCESS>
+        <PROCESS>
+            <ACTION>find_and_replace_path</ACTION>
+            <PARAMETERS>
+                <FILE>$main_root/desc/LWAnnotator1.xml</FILE>
+                <FIND_STRING>../resources/</FIND_STRING>
+                <REPLACE_WITH>$main_root/resources/</REPLACE_WITH>
+                <COMMENTS>Actual location</COMMENTS>
+            </PARAMETERS>
+        </PROCESS>
+	  <insertCustom2/>
+    </INSTALLATION>
+    <SUBMITTED_COMPONENT>
+        <ID>com.ibm.text.analytics.catalog.ICACustomAnnotator</ID>
+        <NAME>ICACustomAnnotator</NAME>
+        <DESC>$main_root/desc/lw_PosRule.xml</DESC>
+        <DEPLOYMENT>standard</DEPLOYMENT>
+        <COMMENTS>LanguageWare Annotator</COMMENTS>
+    </SUBMITTED_COMPONENT>
+</COMPONENT_INSTALLATION_DESCRIPTOR>

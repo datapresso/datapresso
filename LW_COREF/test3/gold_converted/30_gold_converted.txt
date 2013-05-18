@@ -1,0 +1,3 @@
+c="Adriana Cantu Lopez," 9:6 9:8||t="person"
+c="she" 9:17 9:17||t="person"
+c="Lopez" 11:0 11:0||t="person"

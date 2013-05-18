@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taeDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+  <primitive>false</primitive>
+  <delegateAnalysisEngineSpecifiers>
+		<delegateAnalysisEngine key="LWAnnotator1">
+			<import location="LWAnnotator1.xml"/>
+		</delegateAnalysisEngine>
+		<delegateAnalysisEngine key="LWAnnotator2">
+			<import location="LWAnnotator2.xml"/>
+		</delegateAnalysisEngine>
+		<delegateAnalysisEngine key="LWShallowParser3">
+			<import location="LWShallowParser3.xml"/>
+		</delegateAnalysisEngine>
+  </delegateAnalysisEngineSpecifiers>
+  <flowController key="lrwFlowController">
+    <flowControllerDescription>
+    	<frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+		  <implementationName>com.ibm.dltj.uima_annotator.flow.LrwPearFlowController</implementationName>
+			<processingResourceMetaData>
+			  <name>LRWFlowController</name>
+				<description>LRW PEAR export flow controller</description>
+			  <configurationParameters defaultGroup="0" searchStrategy="none">
+ 					<commonParameters>
+     				<configurationParameter>
+      				<name>RunIds</name>
+      				<type>String</type>
+      				<multiValued>true</multiValued>
+      				<mandatory>true</mandatory>
+      			</configurationParameter>
+				    <configurationParameter>
+      				<name>ConditionType</name>
+       				<type>String</type>
+      			  <multiValued>false</multiValued>
+      				<mandatory>false</mandatory>
+    				</configurationParameter>
+				    <configurationParameter>
+      				<name>ConditionFeature</name>
+				      <type>String</type>
+      				<multiValued>false</multiValued>
+      				<mandatory>false</mandatory>
+    				</configurationParameter>
+			      <configurationParameter>
+      				<name>ConditionValues</name>
+ 				      <type>String</type>
+      				<multiValued>true</multiValued>
+      				<mandatory>false</mandatory>
+    				</configurationParameter>
+					</commonParameters>
+					<configurationGroup names="1 2"/>
+				</configurationParameters>
+				<configurationParameterSettings>
+			<settingsForGroup name="1">
+				<nameValuePair>
+					<name>RunIds</name>
+					<value>
+						<array>
+							<string>LWAnnotator1</string>
+						</array>
+					</value>
+				</nameValuePair>
+			</settingsForGroup>
+				<settingsForGroup name="1">
+                        <nameValuePair>
+                            <name>RunIds</name>
+                            <value>
+                                <array>
+								<string>LWAnnotator2</string>
+								<string>LWShallowParser3</string>
+                                </array>
+                            </value>
+                        </nameValuePair>
+                    </settingsForGroup>
+                </configurationParameterSettings>
+			</processingResourceMetaData>
+			<externalResourceDependencies>
+			</externalResourceDependencies>
+			<resourceManagerConfiguration>
+			</resourceManagerConfiguration>
+    </flowControllerDescription>
+  </flowController>
+  <analysisEngineMetaData>
+    <name>Aggregate LanguageWare TextAnalysisEngine</name>
+    <description>Aggregate LanguageWare analysis engine</description>
+    <configurationParameters/>
+    <configurationParameterSettings/>
+    <capabilities>
+		<capability>
+			<inputs/>
+			<outputs>
+                    <type>uima.tt.ParagraphAnnotation</type>
+                    <type>uima.tt.SentenceAnnotation</type>
+                    <type>uima.tt.TokenAnnotation</type>
+                    <feature>uima.tt.TokenAnnotation:lemma</feature>
+                    <feature>uima.tt.TokenAnnotation:lemmaEntries</feature>
+					<type>com.ibm.DictTitle</type>
+                    <type>uima.tt.CompPartAnnotation</type>
+                    <type>uima.tt.Lemma</type>
+                    <feature>uima.tt.ParagraphAnnotation:paragraphNumber</feature>
+                    <feature>uima.tt.SentenceAnnotation:sentenceNumber</feature>
+                    <feature>uima.tt.TokenAnnotation:posTag</feature>
+                    <feature>uima.tt.TokenAnnotation:dictionaryMatch</feature>
+                    <feature>uima.tt.Lemma:key</feature>
+                    <feature>uima.tt.Lemma:partOfSpeech</feature>
+                    <feature>uima.tt.Lemma:frost_ExtendedPOS</feature>
+            </outputs>
+		</capability>
+	</capabilities>
+	<operationalProperties>
+		 <modifiesCas>true</modifiesCas>
+		 <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+		 <outputsNewCASes>false</outputsNewCASes>
+	</operationalProperties>
+	   
+  </analysisEngineMetaData>
+</taeDescription>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fields>
+	<field name="peopletitle">
+		<fulltextsearchable enabled="false" summary="false"/>
+		<fieldsearchable casesensitive="false" enabled="true" tokenized="true"/>
+		<parametricsearchable enabled="false"/>
+		<returnable enabled="true"/>
+		<analyzable enabled="false"/>
+		<sortable enabled="false"/>
+	</field>
+</fields>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+    <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+    <primitive>true</primitive>
+    <annotatorImplementationName>com.ibm.dltj.uima_annotator.cleanup.TypeCleanupAnnotator</annotatorImplementationName>
+    <analysisEngineMetaData>
+        <name>Type Cleanup</name>
+        <description>Cleanup types</description>
+        <version>7.2.0.1</version>
+        <vendor>IBM Corporation</vendor>
+        <configurationParameters>
+            <configurationParameter>
+                <name>DiscardTypes</name>
+                <description>Types to discard from the CAS copy.</description>
+                <type>String</type>
+                <multiValued>true</multiValued>
+                <mandatory>true</mandatory>
+            </configurationParameter>
+        </configurationParameters>
+        <configurationParameterSettings>
+            <nameValuePair>
+                <name>DiscardTypes</name>
+                <value>
+                    <array>
+                    </array>
+                </value>
+            </nameValuePair>
+        </configurationParameterSettings>
+        <typeSystemDescription/>
+        <capabilities>
+            <capability>
+                <inputs/>
+                <outputs/>
+                <languagesSupported/>
+            </capability>
+        </capabilities>
+        <operationalProperties>
+            <modifiesCas>true</modifiesCas>
+            <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+            <outputsNewCASes>false</outputsNewCASes>
+        </operationalProperties>
+    </analysisEngineMetaData>
+</analysisEngineDescription>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<typePriorities xmlns="http://uima.apache.org/resourceSpecifier">
+  <priorityList>
+    <type>uima.tcas.DocumentAnnotation</type>
+    <type>uima.tt.ParagraphAnnotation</type>
+    <type>uima.tt.SentenceAnnotation</type>
+    <type>com.ibm.langware.CompanyAcquisition</type>
+    <type>com.ibm.langware.Company</type>
+    <type>com.ibm.langware.AcquisitionByPhrase</type>
+    <type>com.ibm.langware.AcquisitionPhrase</type>
+    <type>com.ibm.lw.marker.Markeren_XX_AcquisitionsOutputType</type>
+    <type>com.ibm.langware.DictAcquisitionIndicator</type>
+    <type>com.ibm.langware.CompanyInfo</type>
+    <type>com.ibm.langware.DictCompanyIndicator</type>
+    <type>com.ibm.langware.DictNotACompany</type>
+    <type>com.ibm.langware.CompanyB</type>
+    <type>com.ibm.langware.CompanyA</type>
+    <type>uima.tt.DictionaryEntryAnnotation</type>
+    <type>uima.tt.TokenAnnotation</type>
+  </priorityList>
+</typePriorities>

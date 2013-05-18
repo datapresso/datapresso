@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <name>RegExTypes</name>
+  <description>RegEx dictionary based types.</description>
+  <vendor>IBM</vendor>
+  <version>1.0</version>
+  <types>
+    <typeDescription>
+      <name>com.ibm.ecmuk.CharReference</name>
+      <description></description>
+      <supertypeName>uima.tt.DictionaryEntryAnnotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>ruleId</name>
+          <description></description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>com.ibm.ecmuk.CharQuoteSymbol</name>
+      <description></description>
+      <supertypeName>uima.tt.DictionaryEntryAnnotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>ruleId</name>
+          <description></description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+  </types>
+</typeSystemDescription>
