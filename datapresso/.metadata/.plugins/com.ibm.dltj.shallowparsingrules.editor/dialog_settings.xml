@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="insertAnnotationDialog">
+		<item key="version" value="1"/>
+		<item key="width" value="656"/>
+		<item key="height" value="319"/>
+	</section>
+	<section name="newFeatureDialog">
+		<item key="version" value="1"/>
+		<item key="width" value="525"/>
+		<item key="height" value="319"/>
+	</section>
+	<section name="pipelineSelectionDialog">
+		<item key="version" value="1"/>
+		<item key="selection" value="/dip/Annotators/datapresso.annoconfig"/>
+		<item key="width" value="525"/>
+		<item key="height" value="533"/>
+	</section>
+	<section name="insertPreconditionDialog">
+		<item key="version" value="0"/>
+		<item key="width" value="525"/>
+		<item key="height" value="319"/>
+	</section>
+	<section name="addFeatureDialog">
+		<item key="version" value="1"/>
+		<item key="width" value="525"/>
+		<item key="height" value="319"/>
+	</section>
+</section>

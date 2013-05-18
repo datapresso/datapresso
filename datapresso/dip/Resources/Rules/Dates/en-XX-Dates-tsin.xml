@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <name>en-XX-Dates-ts</name>
+  <description></description>
+  <vendor></vendor>
+  <version></version>
+  <types>
+    <typeDescription>
+      <name>com.ibm.langware.DictDay</name>
+      <description>Required by rule</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>com.ibm.langware.DictMonth</name>
+      <description>Required by rule</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>com.ibm.langware.DictOrdinal</name>
+      <description>Required by rule</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>uima.tt.TokenAnnotation</name>
+      <description>Required by rule</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+    </typeDescription>
+    </types>
+</typeSystemDescription>

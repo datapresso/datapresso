@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<styleMap>
+<rule>
+<pattern>com.dp.edgar.uima.type.Company</pattern>
+<label>Company</label>
+<style>color:black; background:lightblue;</style>
+</rule>
+</styleMap>

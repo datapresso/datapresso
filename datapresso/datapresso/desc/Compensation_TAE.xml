@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taeDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+  <primitive>true</primitive>
+  <annotatorImplementationName>com.dp.edgar.uima.annotator.CompTableRowAnnotator</annotatorImplementationName>
+  <analysisEngineMetaData>
+    <name>Compensation_TAE</name>
+    <configurationParameters>
+      <configurationParameter>
+        <name>edgar.config.home</name>
+        <type>String</type>
+        <multiValued>false</multiValued>
+        <mandatory>false</mandatory>
+      </configurationParameter>
+      <configurationParameter>
+        <name>edgar.config.file</name>
+        <type>String</type>
+        <multiValued>false</multiValued>
+        <mandatory>false</mandatory>
+      </configurationParameter>
+      <configurationParameter>
+        <name>DataStartTag</name>
+        <type>String</type>
+        <multiValued>false</multiValued>
+        <mandatory>false</mandatory>
+      </configurationParameter>
+    </configurationParameters>
+    <configurationParameterSettings>
+      <nameValuePair>
+        <name>edgar.config.file</name>
+        <value>
+          <string>config.xml</string>
+        </value>
+      </nameValuePair>
+      <nameValuePair>
+        <name>edgar.config.home</name>
+        <value>
+          <string>c:/workspace/datapresso/EdgarProcessor/resources/</string>
+        </value>
+      </nameValuePair>
+      <nameValuePair>
+        <name>DataStartTag</name>
+        <value>
+          <string>&lt;S&gt;</string>
+        </value>
+      </nameValuePair>
+    </configurationParameterSettings>
+    <typeSystemDescription>
+      <imports>
+        <import location="file:/C:/workspace/datapresso/EdgarProcessor/desc/Company.xml"/>
+        <import location="file:/C:/workspace/datapresso/EdgarProcessor/desc/Compensation.xml"/>
+        <import location="SummaryCompensationTable.xml"/>
+        <import location="Person.xml"/>
+        <import location="../../DataTool/desc/of_typesystem.xml"/>
+      </imports>
+    </typeSystemDescription>
+    <typePriorities/>
+    <fsIndexCollection/>
+    <capabilities>
+      <capability>
+        <inputs>
+          <type allAnnotatorFeatures="true">com.dp.edgar.uima.type.Company</type>
+          <type allAnnotatorFeatures="true">com.dp.edgar.uima.type.SummaryCompensationTable</type>
+          <type allAnnotatorFeatures="true">com.ibm.es.tt.DocumentMetaData</type>
+          <type allAnnotatorFeatures="true">uima.tcas.DocumentAnnotation</type>
+        </inputs>
+        <outputs>
+          <type>com.dp.edgar.uima.type.Compensation</type>
+          <feature>com.dp.edgar.uima.type.Compensation:all</feature>
+          <feature>com.dp.edgar.uima.type.Compensation:options</feature>
+          <feature>com.dp.edgar.uima.type.Compensation:bonus</feature>
+          <feature>com.dp.edgar.uima.type.Compensation:salary</feature>
+          <feature>com.dp.edgar.uima.type.Compensation:year</feature>
+          <feature>com.dp.edgar.uima.type.Compensation:position</feature>
+          <feature>com.dp.edgar.uima.type.Compensation:name</feature>
+          <type>com.dp.edgar.uima.type.Person</type>
+          <feature>com.dp.edgar.uima.type.Person:companyid</feature>
+          <feature>com.dp.edgar.uima.type.Person:middlename</feature>
+          <feature>com.dp.edgar.uima.type.Person:lastame</feature>
+          <feature>com.dp.edgar.uima.type.Person:firstname</feature>
+          <feature>com.dp.edgar.uima.type.Person:id</feature>
+          <feature>com.dp.edgar.uima.type.Person:end</feature>
+          <feature>com.dp.edgar.uima.type.Person:begin</feature>
+          <feature>com.dp.edgar.uima.type.Person:sofa</feature>
+          <type allAnnotatorFeatures="true">com.dp.edgar.uima.type.Company</type>
+          <type allAnnotatorFeatures="true">com.ibm.es.tt.DocumentMetaData</type>
+          <type allAnnotatorFeatures="true">uima.tcas.DocumentAnnotation</type>
+        </outputs>
+        <languagesSupported/>
+      </capability>
+    </capabilities>
+    <operationalProperties>
+      <modifiesCas>true</modifiesCas>
+      <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+      <outputsNewCASes>false</outputsNewCASes>
+    </operationalProperties>
+  </analysisEngineMetaData>
+  <resourceManagerConfiguration/>
+</taeDescription>

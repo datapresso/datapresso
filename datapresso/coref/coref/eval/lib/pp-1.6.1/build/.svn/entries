@@ -1,0 +1,41 @@
+10
+
+dir
+373
+svn+ssh://andreeab@svn.csail.mit.edu/afs/csail.mit.edu/group/medg-nlp/repository/CoreferenceResolution/trunk/root/src/evalScripts/lib/pp-1.6.1/build
+svn+ssh://andreeab@svn.csail.mit.edu/afs/csail.mit.edu/group/medg-nlp/repository
+
+
+
+2011-06-15T18:37:51.569951Z
+357
+andreeab
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+25ed1d95-c95b-48be-9a20-196d3f26784a
+
+
+
+
+
+
+0
+
+lib
+dir
+
+scripts-2.6
+dir
+

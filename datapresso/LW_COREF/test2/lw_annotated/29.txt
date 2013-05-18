@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><CAS version="2">
+    <uima.cas.Sofa _indexed="0" _id="7" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="CBP Officers in Arizona Seize Marijuana Hidden in Seafood-Filled Ice Chests&#10;&#10; &#10;Details&#10;Published on Sunday, 12 August 2012 13:20&#10;Written by Border Scope&#10;Lukeville, Arizona - A Scottsdale, Arizona man and woman were arrested Wednesday for allegedly attempting to smuggle nearly 47 pounds of marijuana into the U.S. through the Lukeville, Arizona Port.&#10;&#10;Customs and Border Protection officers arrested Kent Edward Raley, 60, and his passenger, Robyn Michelle Mayhan, 45. When they searched Mayhanâ€™s Ford SUV, officers found 25 packages of marijuana, worth an estimated $23,000, inside ice chests containing various types of seafood.&#10;&#10;The vehicle and drugs were processed for seizure. Raley and Mayhan were turned over to the Pima County Sheriffâ€™s Department for prosecution.&#10;&#10;The Office of Field Operations is the primary organization within Customs and Border Protection tasked with an anti-terrorism mission at our nationâ€™s ports.&#10;"/>
+    <uima.tcas.DocumentAnnotation _indexed="1" _id="1" _ref_sofa="7" begin="0" end="937" language="en"/>
+    <com.ibm.en.PersonName _indexed="1" _id="2822" _ref_sofa="7" begin="337" end="349" ruleId="2E816C54D13CE2059FF7A77BA9E5ACDD"/>
+    <com.ibm.en.PersonName _indexed="1" _id="2827" _ref_sofa="7" begin="400" end="417" ruleId="6AEAC76E067AD5F4D45175B532CA7384"/>
+    <com.ibm.en.PersonName _indexed="1" _id="2832" _ref_sofa="7" begin="427" end="430" ruleId="823C555B54CC3632E9192EC76891A29F"/>
+    <com.ibm.en.PersonName _indexed="1" _id="2837" _ref_sofa="7" begin="442" end="463" ruleId="6AEAC76E067AD5F4D45175B532CA7384"/>
+    <com.ibm.en.PersonName _indexed="1" _id="2842" _ref_sofa="7" begin="792" end="808" ruleId="2E816C54D13CE2059FF7A77BA9E5ACDD"/>
+</CAS>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <name>first_name-ts</name>
+  <description>first_name</description>
+  <vendor></vendor>
+  <version></version>
+  <types>
+    <typeDescription>
+      <name>com.dp.core.First_name</name>
+      <description>first_name</description>
+      <supertypeName>uima.tt.DictionaryEntryAnnotation</supertypeName>
+    </typeDescription>
+    </types>
+</typeSystemDescription>

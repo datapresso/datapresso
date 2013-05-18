@@ -1,0 +1,8 @@
+c="Amal Abdullahi," 1:23 1:24||t="person"
+c="woman" 1:32 1:32||t="person"
+c="Amal Abdullahi" 3:2 3:3||t="person"
+c="she" 3:8 3:8||t="person"
+c="She" 3:26 3:26||t="person"
+c="her," 3:41 3:41||t="person"
+c="she" 3:43 3:43||t="person"
+c="Abdullahi" 5:6 5:6||t="person"

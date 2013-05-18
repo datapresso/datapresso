@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SearchDialog.ScopePart">
+		<item key="scope" value="0"/>
+	</section>
+	<section name="TextSearchPage">
+		<item key="HISTORY_SIZE" value="2"/>
+		<item key="SEARCH_DERIVED" value="false"/>
+		<item key="REG_EX_SEARCH" value="false"/>
+		<item key="CASE_SENSITIVE" value="false"/>
+		<section name="HISTORY1">
+			<item key="ignoreCase" value="true"/>
+			<item key="scope" value="0"/>
+			<item key="textPattern" value="uhd"/>
+			<item key="isRegExSearch" value="false"/>
+			<list key="workingSets">
+			</list>
+			<list key="fileNamePatterns">
+				<item value="*"/>
+			</list>
+		</section>
+		<section name="HISTORY0">
+			<item key="ignoreCase" value="true"/>
+			<item key="scope" value="0"/>
+			<item key="textPattern" value="com.ibm.US"/>
+			<item key="isRegExSearch" value="false"/>
+			<list key="workingSets">
+			</list>
+			<list key="fileNamePatterns">
+				<item value="*"/>
+			</list>
+		</section>
+	</section>
+	<section name="org.eclipse.search.text.FileSearchResultPage">
+		<item key="org.eclipse.search.resultpage.limit" value="1000"/>
+	</section>
+	<section name="Search">
+		<list key="Search.enabledPageIds">
+			<item value="com.ibm.dltj.project.dictionary.dictionarySearchPage"/>
+			<item value="org.eclipse.search.internal.ui.text.TextSearchPage"/>
+			<item value="org.eclipse.jdt.ui.JavaSearchPage"/>
+		</list>
+		<list key="Search.processedPageIds">
+			<item value="com.ibm.dltj.project.dictionary.dictionarySearchPage"/>
+			<item value="org.eclipse.search.internal.ui.text.TextSearchPage"/>
+			<item value="org.eclipse.jdt.ui.JavaSearchPage"/>
+		</list>
+	</section>
+	<section name="DialogBounds_SearchDialog">
+		<item key="DIALOG_FONT_NAME" value="1|Tahoma|8.4|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma"/>
+		<item key="DIALOG_X_ORIGIN" value="432"/>
+		<item key="DIALOG_HEIGHT" value="462"/>
+		<item key="DIALOG_Y_ORIGIN" value="110"/>
+		<item key="DIALOG_WIDTH" value="584"/>
+	</section>
+	<section name="">
+		<item key="org.eclipse.search.resultpage.limit" value="1000"/>
+	</section>
+	<section name="">
+		<item key="org.eclipse.search.resultpage.limit" value="1000"/>
+	</section>
+</section>

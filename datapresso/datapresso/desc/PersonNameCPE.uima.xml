@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cpeDescription>
+<collectionReader>
+<collectionIterator>
+<descriptor>
+<include href="C:\Program Files\IBM\uima\eclipse_location_extensions\tools\eclipse\plugins\com.ibm.uima.runtimetoolkit.container_0.5.0\UIMA-INF\descriptors\BuiltinFileSystemCollectionReader.xml"/>
+</descriptor>
+<configurationParameterSettings>
+<nameValuePair>
+<name>InputDirectory</name>
+<value>
+<string_p>C:\workspace\datapresso\EdgarProcessor\data</string_p>
+</value>
+</nameValuePair>
+</configurationParameterSettings>
+</collectionIterator>
+</collectionReader>
+<casProcessors casPoolSize="1" processingUnitThreadCount="1">
+<casProcessor deployment="integrated" name="OpenNLPTokenAndSentenceAggregate">
+<descriptor>
+<include href="C:\Program Files\IBM\uima\docs\examples\opennlp_wrappers\descriptors\OpenNLPTokenAndSentenceAggregate.xml"/>
+</descriptor>
+<deploymentParameters/>
+<filter></filter>
+<errorHandling>
+<errorRateThreshold action="terminate" value="100/1000"/>
+<maxConsecutiveRestarts action="terminate" value="30"/>
+<timeout max="100000"/>
+</errorHandling>
+<checkpoint batch="1"/>
+<configurationParameterSettings>
+<nameValuePair>
+<name>SentenceDetectorModelFile</name>
+<value>
+<string_p>C:\java\OpenNLPModel\EnglishSD.bin.gz</string_p>
+</value>
+</nameValuePair>
+<nameValuePair>
+<name>TokenizerModelFile</name>
+<value>
+<string_p>C:\java\OpenNLPModel\EnglishTok.bin.gz</string_p>
+</value>
+</nameValuePair>
+</configurationParameterSettings>
+</casProcessor>
+<casProcessor deployment="integrated" name="OpenNLPNEDetector">
+<descriptor>
+<include href="C:\Program Files\IBM\uima\docs\examples\opennlp_wrappers\descriptors\OpenNLPNEDetector.xml"/>
+</descriptor>
+<deploymentParameters/>
+<filter></filter>
+<errorHandling>
+<errorRateThreshold action="terminate" value="100/1000"/>
+<maxConsecutiveRestarts action="terminate" value="30"/>
+<timeout max="100000"/>
+</errorHandling>
+<checkpoint batch="1"/>
+<configurationParameterSettings>
+<nameValuePair>
+<name>ModelDirectory</name>
+<value>
+<string_p>C:\java\OpenNLPModel</string_p>
+</value>
+</nameValuePair>
+<nameValuePair>
+<name>EntityTypeMappings</name>
+<value>
+<array>
+<string_p>person,com.ibm.uima.examples.opennlp.Person</string_p>
+<string_p>organization,com.ibm.uima.examples.opennlp.Organization</string_p>
+<string_p>location,com.ibm.uima.examples.opennlp.Location</string_p>
+<string_p>date,com.ibm.uima.examples.opennlp.Date</string_p>
+<string_p>money,com.ibm.uima.examples.opennlp.Money</string_p>
+<string_p>percentage,com.ibm.uima.examples.opennlp.Percentage</string_p>
+<string_p>time,com.ibm.uima.examples.opennlp.Time</string_p>
+</array>
+</value>
+</nameValuePair>
+</configurationParameterSettings>
+</casProcessor>
+<casProcessor deployment="integrated" name="Built-in Cas to Xcas Cas Consumer">
+<descriptor>
+<include href="C:\Program Files\IBM\uima\eclipse_location_extensions\tools\eclipse\plugins\com.ibm.uima.runtimetoolkit.container_0.5.0\UIMA-INF\descriptors\BuiltinCas2XcasCasConsumer.xml"/>
+</descriptor>
+<deploymentParameters/>
+<filter></filter>
+<errorHandling>
+<errorRateThreshold action="terminate" value="100/1000"/>
+<maxConsecutiveRestarts action="terminate" value="30"/>
+<timeout max="100000"/>
+</errorHandling>
+<checkpoint batch="1"/>
+<configurationParameterSettings>
+<nameValuePair>
+<name>OutputDirectory</name>
+<value>
+<string_p>C:\workspace\datapresso\EdgarProcessor\data\processed</string_p>
+</value>
+</nameValuePair>
+<nameValuePair>
+<name>WriteTypeSystem</name>
+<value>
+<boolean_p>true</boolean_p>
+</value>
+</nameValuePair>
+</configurationParameterSettings>
+</casProcessor>
+</casProcessors>
+<cpeConfig>
+<numToProcess>-1</numToProcess>
+<deployAs>immediate</deployAs>
+<checkpoint file="" time="300000"/>
+<timerImpl></timerImpl>
+</cpeConfig>
+</cpeDescription>

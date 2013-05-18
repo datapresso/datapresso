@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="UIMA_HOME/lib/juru.jar"/>
+	<classpathentry kind="var" path="UIMA_HOME/lib/siapi.jar"/>
+	<classpathentry kind="var" path="UIMA_HOME/lib/uima-adapter-soap.jar"/>
+	<classpathentry kind="var" path="UIMA_HOME/lib/uima-adapter-vinci.jar"/>
+	<classpathentry kind="var" path="UIMA_HOME/lib/uima-core.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/C:\Program Files\IBM\uima/docs/api"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="UIMA_HOME/lib/uima-cpe.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/C:\Program Files\IBM\uima/docs/api"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="UIMA_HOME/lib/uima-examples.jar" sourcepath="/UIMA_HOME/lib"/>
+	<classpathentry kind="var" path="UIMA_HOME/lib/uima-tools.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/C:\Program Files\IBM\uima/docs/api"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="UIMA_HOME/lib/xsdbeans.jar"/>
+	<classpathentry exported="true" kind="var" path="MY_LIB/postgresql-8.1-408.jdbc3.jar"/>
+	<classpathentry kind="var" path="UIMA_HOME/lib/cc_cas2jdbc.jar"/>
+	<classpathentry kind="var" path="UIMA_HOME/lib/common.jar"/>
+	<classpathentry kind="var" path="UIMA_HOME/lib/ecore.jar"/>
+	<classpathentry kind="var" path="UIMA_HOME/lib/ecore.xmi.jar"/>
+	<classpathentry kind="var" path="UIMA_HOME/lib/uima-document-annotation.jar"/>
+	<classpathentry exported="true" kind="var" path="MY_LIB/jdom.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/DataTool"/>
+	<classpathentry kind="var" path="UIMA_HOME/lib/an_dlt.jar"/>
+	<classpathentry kind="var" path="UIMA_HOME/lib/an_regex.jar"/>
+	<classpathentry kind="var" path="UIMA_HOME/lib/an_tok.jar"/>
+	<classpathentry kind="var" path="UIMA_HOME/lib/dlt.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

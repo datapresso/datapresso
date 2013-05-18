@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cpeDescription xmlns="http://uima.apache.org/resourceSpecifier">
+    <collectionReader>
+        <collectionIterator>
+            <descriptor>
+                <import location="desc/FileSystemCollectionReader.xml"/>
+            </descriptor>
+            <configurationParameterSettings>
+                <nameValuePair>
+                    <name>InputDirectory</name>
+                    <value>
+                        <string>C:\workspace\datapresso\EdgarProcessor\data\gooddata</string>
+                    </value>
+                </nameValuePair>
+            </configurationParameterSettings>
+        </collectionIterator>
+    </collectionReader>
+    <casProcessors casPoolSize="3" processingUnitThreadCount="1">
+        <casProcessor deployment="integrated" name="FilingTypeAnnotator">
+            <descriptor>
+                <import location="desc/FilingTypeAnnotator.xml"/>
+            </descriptor>
+            <deploymentParameters/>
+            <filter/>
+            <errorHandling>
+                <errorRateThreshold action="terminate" value="1/1000"/>
+                <maxConsecutiveRestarts action="terminate" value="30"/>
+                <timeout max="100000"/>
+            </errorHandling>
+            <checkpoint batch="10000"/>
+            <configurationParameterSettings>
+                <nameValuePair>
+                    <name>FilingType</name>
+                    <value>
+                        <array>
+                            <string>DEF-14A</string>
+                            <string>10-K</string>
+                        </array>
+                    </value>
+                </nameValuePair>
+            </configurationParameterSettings>
+        </casProcessor>
+        <casProcessor deployment="integrated" name="Company Info Recognizer using Regular Expressions">
+            <descriptor>
+                <import location="desc/Company_TAE.xml"/>
+            </descriptor>
+            <deploymentParameters/>
+            <filter/>
+            <errorHandling>
+                <errorRateThreshold action="terminate" value="1/1000"/>
+                <maxConsecutiveRestarts action="terminate" value="30"/>
+                <timeout max="999"/>
+            </errorHandling>
+            <checkpoint batch="1"/>
+            <configurationParameterSettings>
+                <nameValuePair>
+                    <name>AnnotateEntireContainingAnnotation</name>
+                    <value>
+                        <boolean>true</boolean>
+                    </value>
+                </nameValuePair>
+            </configurationParameterSettings>
+        </casProcessor>
+        <casProcessor deployment="integrated" name="SummaryCompensationTable_TAE">
+            <descriptor>
+                <import location="desc/SummaryCompensationTable_TAE.xml"/>
+            </descriptor>
+            <deploymentParameters/>
+            <filter/>
+            <errorHandling>
+                <errorRateThreshold action="terminate" value="1/1000"/>
+                <maxConsecutiveRestarts action="terminate" value="30"/>
+                <timeout max="100000"/>
+            </errorHandling>
+            <checkpoint batch="10000"/>
+            <configurationParameterSettings>
+                <nameValuePair>
+                    <name>TableStartTag</name>
+                    <value>
+                        <string>&lt;S&gt;</string>
+                    </value>
+                </nameValuePair>
+            </configurationParameterSettings>
+        </casProcessor>
+        <casProcessor deployment="integrated" name="Compensation_TAE">
+            <descriptor>
+                <import location="desc/Compensation_TAE.xml"/>
+            </descriptor>
+            <deploymentParameters/>
+            <filter/>
+            <errorHandling>
+                <errorRateThreshold action="terminate" value="10/1000"/>
+                <maxConsecutiveRestarts action="terminate" value="30"/>
+                <timeout max="100000"/>
+            </errorHandling>
+            <checkpoint batch="10000"/>
+            <configurationParameterSettings>
+                <nameValuePair>
+                    <name>edgar.config.home</name>
+                    <value>
+                        <string>c:/workspace/datapresso/EdgarProcessor/resources/</string>
+                    </value>
+                </nameValuePair>
+                <nameValuePair>
+                    <name>edgar.config.file</name>
+                    <value>
+                        <string>config.xml</string>
+                    </value>
+                </nameValuePair>
+                <nameValuePair>
+                    <name>DataStartTag</name>
+                    <value>
+                        <string>&lt;S&gt;</string>
+                    </value>
+                </nameValuePair>
+                <nameValuePair>
+                    <name>DataEndTag</name>
+                    <value>
+                        <string>&lt;/table&gt;|&lt;FN&gt;</string>
+                    </value>
+                </nameValuePair>
+            </configurationParameterSettings>
+        </casProcessor>
+        <casProcessor deployment="integrated" name="XCAS Writer CAS Consumer">
+            <descriptor>
+                <import location="../../../java/apache-uima/examples/descriptors/cas_consumer/XCasWriterCasConsumer.xml"/>
+            </descriptor>
+            <deploymentParameters/>
+            <errorHandling>
+                <errorRateThreshold action="terminate" value="1/1000"/>
+                <maxConsecutiveRestarts action="terminate" value="30"/>
+                <timeout max="100000" default="-1"/>
+            </errorHandling>
+            <checkpoint batch="10000" time="1000ms"/>
+            <configurationParameterSettings>
+                <nameValuePair>
+                    <name>OutputDirectory</name>
+                    <value>
+                        <string>c:\temp\uima</string>
+                    </value>
+                </nameValuePair>
+            </configurationParameterSettings>
+        </casProcessor>
+        <casProcessor deployment="integrated" name="EdgarDBWriterCasConsumer">
+            <descriptor>
+                <import location="desc/EdgarDBWriterCasConsumer.xml"/>
+            </descriptor>
+            <deploymentParameters/>
+            <errorHandling>
+                <errorRateThreshold action="terminate" value="0/1000"/>
+                <maxConsecutiveRestarts action="terminate" value="30"/>
+                <timeout max="100000" default="-1"/>
+            </errorHandling>
+            <checkpoint batch="10000" time="1000ms"/>
+        </casProcessor>
+    </casProcessors>
+    <cpeConfig>
+        <numToProcess>-1</numToProcess>
+        <deployAs>immediate</deployAs>
+        <checkpoint batch="0" time="300000"/>
+        <timerImpl/>
+    </cpeConfig>
+</cpeDescription>

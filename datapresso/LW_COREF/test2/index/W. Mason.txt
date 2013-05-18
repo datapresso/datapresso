@@ -1,0 +1,3 @@
+C:\ding\LW_COREF_V1\test2\docs\50.txt
+36:10 36:11
+38:22 38:22

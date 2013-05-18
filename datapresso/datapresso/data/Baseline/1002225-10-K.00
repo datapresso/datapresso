@@ -1,0 +1,2535 @@
+HTTP/1.1 200 OK
+Date: Thu, 22 Apr 2004 23:56:26 GMT
+Server: SEC
+Cache-Control: max-age=0
+Expires: Thu, 22 Apr 2004 23:56:26 GMT
+Last-Modified: Fri, 21 Jul 2000 19:37:52 GMT
+ETag: "1e6a6e1-20fc4-3978a690"
+Accept-Ranges: bytes
+Content-Length: 135108
+Content-Type: text/plain
+
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ SZQnUVWUVYss7fX5Rw77nGDvVyqXUJiCtapgXwfTFmsEzcO1gqwrYWCfMkt6FFdK
+ VRx5g6pybH0u44pd8h0NSg==
+
+<SEC-DOCUMENT>0001012870-97-000616.txt : 19970401
+<SEC-HEADER>0001012870-97-000616.hdr.sgml : 19970401
+ACCESSION NUMBER:		0001012870-97-000616
+CONFORMED SUBMISSION TYPE:	10-K405
+PUBLIC DOCUMENT COUNT:		6
+CONFORMED PERIOD OF REPORT:	19961231
+FILED AS OF DATE:		19970331
+SROS:			NASD
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			ADVENT SOFTWARE INC /DE/
+		CENTRAL INDEX KEY:			0001002225
+		STANDARD INDUSTRIAL CLASSIFICATION:	SERVICES-COMPUTER PROGRAMMING SERVICES [7371]
+		IRS NUMBER:				942901952
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		10-K405
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	000-26994
+		FILM NUMBER:		97568425
+
+	BUSINESS ADDRESS:	
+		STREET 1:		301 BRANNAN ST
+		CITY:			SAN FRANCISCO
+		STATE:			CA
+		ZIP:			94107
+		BUSINESS PHONE:		4155437696
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>10-K405
+<SEQUENCE>1
+<DESCRIPTION>FORM 10-K405
+<TEXT>
+
+<PAGE>
+ 
+- -------------------------------------------------------------------------------
+- -------------------------------------------------------------------------------
+ 
+                      SECURITIES AND EXCHANGE COMMISSION
+                            WASHINGTON, D.C. 20549
+                               ----------------
+ 
+                                   FORM 10-K
+ 
+[X]Annual Report Pursuant to Section 13 or 15 (d) of the Securities Exchange
+   Act of 1934 for the fiscal year ended December 31, 1996
+ 
+[_]Transition Report Pursuant to Section 13 or 15 (d) of the Securities
+   Exchange Act of 1934
+ 
+                        Commission File Number: 0-26994
+ 
+                             ADVENT SOFTWARE, INC.
+            (EXACT NAME OF REGISTRANT AS SPECIFIED IN ITS CHARTER)
+ 
+<TABLE>
+<S>                                            <C>
+                  DELAWARE                                       94-2901952
+          (State of incorporation)                            (I.R.S. Employer
+                                                            (Identification No.)
+</TABLE>
+ 
+              301 BRANNAN STREET, SAN FRANCISCO, CALIFORNIA 94107
+             (Address of principal executive offices and zip code)
+ 
+                                (415) 543-7696
+             (Registrant's telephone number, including area code)
+ 
+       Securities registered pursuant to Section 12(b) of the Acts: None
+ 
+          Securities registered pursuant to Section 12(g) of the Act:
+                         COMMON STOCK, $0.01 PAR VALUE
+                               (Title of Class)
+ 
+  Indicate by check mark whether the registrant (1) has filed all reports
+required to be filed by Section 13 or 15(d) of the Securities Exchange Act of
+1934 during the preceding 12 months (or for such shorter period that the
+registrant was required to file such reports), and (2) has been subject to
+such filing requirements for the past 90 days.
+ 
+                                Yes [X] No [_]
+ 
+  Indicate by check mark if disclosure of delinquent filers pursuant to Item
+405 of Regulation S-K is not contained herein, and will not be contained, to
+the best of the registrant's knowledge, in definitive proxy or information
+statements incorporated by reference in Part III of this Form 10-K or any
+amendment to this Form 10-K. [X]
+ 
+  The number of shares of the registrant's Common Stock outstanding as of
+March 24, 1997 was 7,423,569. The aggregate market value of the registrant's
+Common Stock held by non-affiliates, based upon the closing price on March 24,
+1997, as reported on the Nasdaq National Market System, was approximately
+$96.0 million. Shares of Common Stock held by each officer and director and by
+each person who owns 5% or more of the outstanding Common Stock have been
+excluded in that such persons may be deemed to be affiliates. This
+determination of affiliate status is not necessarily a conclusive
+determination for other purposes.
+ 
+                      DOCUMENTS INCORPORATED BY REFERENCE
+ 
+  Parts of the following documents are incorporated by reference into Parts II
+and III of this Form 10-K: (1) 1996 Annual Report to Stockholders of the
+Registrant (Parts II of this Form 10-K); and (2) Definitive Proxy Statement
+for the registrant's Annual Meeting of Stockholders to be held May 13, 1997
+(Part III of this Form 10-K).
+ 
+- -------------------------------------------------------------------------------
+- -------------------------------------------------------------------------------
+- -------------------------------------------------------------------------------
+<PAGE>
+ 
+                                    PART I
+ 
+ITEM 1. BUSINESS
+ 
+OVERVIEW
+ 
+  Advent Software, Inc. (Advent) is a leading provider of stand-alone and
+client/server software products, data interfaces and related services that
+automate and integrate certain mission-critical functions of investment
+management organizations. Advent's suite of complementary products for the
+front, middle and back office includes Axys(TM), Advent Partner(TM), WinDx(TM)
+and Geneva(TM), Advent's portfolio accounting and management systems;
+Moxy(TM), a trade order management system; and Qube(TM), a client management
+system. These products address the need to facilitate the management of
+increasingly large and complex information and data flows both within
+investment management organizations and between such organizations and third
+parties, such as brokerage firms, clients, custodians, banks, pricing services
+and other data providers. Advent's products are designed to reduce client
+costs, improve the accuracy of client information, and generally enable
+clients to devote more time to improving the service they provide to their
+customers rather than focusing on operational details. Advent's strategy is to
+develop long-term client relationships and to maintain a high level of
+lifetime client satisfaction which Advent believes will result in additional
+recurring revenues from new product licenses, renewals of maintenance
+contracts and new data products.
+ 
+  Advent's clients include many of the world's leading investment management
+organizations. These organizations vary significantly in size, assets under
+management and the complexity of their investment environments. At present,
+Advent has licensed its products to over 4,000 institutions, for use by more
+than 25,000 concurrent users.
+ 
+  Advent was incorporated in 1983 in California and reincorporated in the
+State of Delaware in November 1995.
+ 
+ACQUISITIONS
+ 
+  In November 1996, Advent issued 35,000 shares of Advent's common stock in
+exchange for all of the outstanding shares of Bold Software, Inc., a private
+software development company based in New York. This business combination was
+accounted for as a pooling of interests. Prior year amounts have not been
+restated to include Bold Software's results of operations as such operations
+were immaterial. As a result of this business combination, Advent introduced
+Advent Partner, a tax layering and partnership allocation solution which
+integrates with Axys.
+ 
+  In February, 1996, Advent acquired Data Exchange, Inc. (the DX Group), a
+private company based in New York for $4.0 million in cash and an $800,000
+note payable. This note was paid during the third quarter of 1996 and did not
+bear interest. The transaction was accounted for as a purchase. Advent
+incurred a one-time charge of $5.6 million in connection with the write-off of
+in-process research and development. This expense was recorded in purchased
+research and development and other expenses. The DX Group's results of
+operations are included in Advent's consolidated statements of operations
+starting at the date of the acquisition.
+ 
+INDUSTRY BACKGROUND
+ 
+  The investment management business includes a range of organizations that
+manage investment portfolios, including investment advisors, brokerage firms,
+banks and hedge funds. In addition, corporations, public funds, universities
+and non-profit organizations manage investment portfolios and have many of the
+same portfolio management needs. Recently, the investment management industry
+has experienced significant growth which, in
+ 
+                                       2
+<PAGE>
+ 
+combination with other factors, has led to increasing demand for software
+products that automate, simplify and integrate functions within investment
+management organizations. This increasing demand is driven by several industry
+dynamics. Financial assets under management have increased substantially
+during the last decade. As the value of total financial assets under
+management has increased, there has been a substantial increase in the number
+of investment management organizations and a steady introduction of
+increasingly sophisticated financial instruments. As a result, investment
+managers are faced with increasingly complicated portfolio accounting and
+management requirements. Investment management organizations are subject to
+extensive and evolving industry standards and government regulations. These
+dynamics have increased the volume and complexity of information and data
+flows within investment management organizations and between such
+organizations and third parties, such as brokerage firms, clients, custodians,
+banks, pricing services and other data providers. Consequently, investment
+management organizations require more sophisticated and integrated software
+products for their front, middle and back offices. In order to operate
+efficiently within this environment, investment management organizations must
+automate and integrate their mission-critical and labor-intensive functions,
+including (i) investment decision support and client relationship management,
+(ii) order management and trading and (iii) portfolio accounting, performance
+measurement, report generation and compliance. Investment management
+organizations historically have relied on internally developed systems,
+timesharing services or simple spreadsheet-based systems to manage information
+flows. Due to inherent limitations in each of these types of systems,
+investment management organizations are demanding highly functional, easy-to-
+use, scalable, cost-effective and flexible software applications that automate
+and integrate their mission-critical business functions.
+ 
+SOFTWARE PRODUCTS
+ 
+  Advent offers a suite of stand-alone and client/server software products
+that automate and integrate work and data flows across the front, middle and
+back offices within the investment management organization, as well as the
+information flows between the investment management organization and external
+parties. Advent's products are intended to reduce client costs, improve the
+accuracy of client information and generally enable clients to improve the
+service they provide to their customers rather than focusing on operational
+details. Each software product is focused on certain mission-critical
+functions of the front, middle or back offices of investment management
+organizations. Individual products are tailored to meet the needs of a
+particular market segment, as determined by size, assets under management and
+complexity of the investment environment. In addition, Advent believes its
+products are well suited for the investment management functions of
+corporations, public funds, universities and non-profit organizations.
+ 
+                                       3
+<PAGE>
+
+                             [Chart Appears Here]
+ 
+PORTFOLIO ACCOUNTING AND MANAGEMENT
+ 
+  Advent offers four portfolio accounting and management systems, Axys, Advent
+Partner, Geneva and WinDx, each targeted at a different segment of the
+investment management industry.
+ 
+  Axys, Advent's core product introduced in 1993, is a highly functional
+portfolio accounting and management system targeted towards investment
+management organizations of all sizes. Axys provides investment professionals
+with broad portfolio accounting functionality, timely decision support,
+sophisticated performance measurement and flexible reporting. Specifically,
+clients can record, account for and report on a variety of investment
+instruments, including equities, fixed income, mutual funds and cash. Axys
+users gain access on demand to portfolio holdings, asset allocation, realized
+and unrealized gains and losses, actual and projected income and other
+valuable data. Portfolio performance can be measured for individual portfolios
+or related groups, and for any specified time period. Investment professionals
+can choose from over 200 pre-defined reports with flexible "as-of" reporting,
+which can be customized as to formats and fonts. Additionally, clients can
+easily generate fully customized reports with the assistance of the Axys
+Report Writer. Clients can also produce presentation-quality graphics via an
+integrated link with Microsoft Excel's charting capability. In addition, Axys
+offers integrated multicurrency capabilities which, among other things, allows
+reports to be restated in any currency, withholding tax to be automatically
+calculated, and components of return attributable to market prices versus
+currency rate fluctuations to be identified.
+ 
+ 
+                                       4
+<PAGE>
+ 
+  Axys also provides integration with a variety of investment tools and data,
+including (i) trade order management via Moxy, (ii) pricing, corporate
+actions, analytics and fundamental data via interfaces to data vendors and
+(iii) automatic data entry and reconciliation of trades with interfaces to The
+Depository Trust Corporation ( DTC ), and to certain brokerage firms and
+custodians.
+ 
+  Advent Partner, the software product introduced as a result of the Bold
+Software acquisition, is a tax layering and partnership allocation solution
+which integrates with Axys. This product is specifically designed for hedge
+funds, venture funds and limited investment partnerships who face the complex
+and time-consuming task of consistently and accurately accounting for and
+reporting on partnership tax allocation and other activities. The Window's-
+based system tracks partner-specific information, layers realized and
+unrealized gains, allocates performance incentive fees, provides on-demand
+partner and partnership reporting on a book or tax allocation basis and
+streamlines the production of partnership tax returns.
+ 
+  Geneva, currently in limited release in test environments, is a high-end
+portfolio management system designed to meet the needs of investment
+management organizations with complex, international accounting requirements,
+such as hedge funds. Geneva offers feature-rich global accounting, extensive
+reporting and sophisticated multicurrency capabilities. In addition, Geneva's
+highly flexible design allows users to add newly created financial instruments
+and tailor accounting treatments to their specific needs. Geneva operates on
+UNIX-based servers with Windows-based clients. There can be no assurance that
+Geneva will not require substantial software enhancements or modifications to
+satisfy performance requirements of clients or to fix design defects or
+previously undetected errors.
+ 
+  WinDx, the primary software product acquired in the Data Exchange
+acquisition, is a high-end portfolio management and accounting system that
+offers the benefits of a client/server platform and a Sybase(R) relational
+database in a Windows environment. This product is designed for certain
+regional broker/dealers and other professional money managers with more than
+$1 billion in assets under management. WinDx provides investment professionals
+with a wide range of decision support, performance measurement, external and
+internal reporting, billing and portfolio accounting. Additionally WinDx
+provides pricing and corporate action information as well as complex
+interactive trade confirmation functionality through its DTC interface.
+ 
+ORDER MANAGEMENT AND TRADING
+ 
+  Moxy, introduced in 1995, automates and streamlines the trade order
+management process. An open system, Moxy can be integrated with any portfolio
+accounting system. Moxy facilitates accurate trade order management and
+preparation, tracks trade order status, automates the allocation of block
+trades across multiple portfolios and electronically interfaces with Axys for
+an integrated solution. Moxy supports fixed income, mutual funds, and equity
+trading and offers multicurrency capabilities. Moxy enables investment
+managers to accurately adjust portfolio holdings, rebalance portfolios against
+models, interactively assess "what-if" scenarios and automatically create
+orders to be executed. For traders, Moxy tracks cash and positions during the
+trading day, enables the accurate preparation of block trades and internal
+electronic trade tickets, facilitates compliance with investment restrictions
+and trading requirements and minimizes trading errors. Moxy also allows
+traders and others to view the status of orders via customizable screens and
+maintain an electronic audit trail of the trade process. Moxy automates the
+allocation process of partial and complete executions and allows the user to
+send allocation results by fax directly from the computer to brokers and
+banks. Moxy allows clients using OASYS, an electronic allocation system, to
+communicate allocations to brokers electronically. In the future, Moxy will
+have additional electronic links that instantly communicate trade and
+allocation information to brokers and custodians. Moxy electronically posts
+allocated trades into Axys on demand, eliminating time-consuming and error-
+prone manual entry.
+ 
+CLIENT CONTACT AND MANAGEMENT
+ 
+  Qube, introduced in 1995, is Advent's client management system initially
+targeted to the brokerage industry. Qube is currently being deployed in
+PaineWebber Incorporated's retail brokerage network. Qube is designed to
+ 
+                                       5
+<PAGE>
+ 
+help securities professionals develop and improve client relationships by
+automating scheduling, client communications and client data. For example,
+Qube enables investment professionals to interactively screen client
+investment profiles and notes of conversations to identify appropriate
+candidates for various investment opportunities. In addition, Qube can be used
+to enhance direct marketing campaigns by matching clients with market
+opportunities. Qube captures extensive investment profile information, has on-
+line query capability, networking features and mail merge capabilities and
+facilitates information sharing across professionals in an office. Moreover,
+Qube is designed to be integrated with Axys, allowing users to provide
+accurate and timely portfolio information to clients.
+ 
+MAINTENANCE SUPPORT AND DATA INTERFACES
+ 
+  Advent earns recurring revenues by offering a choice of maintenance
+contracts and by providing proprietary interfaces to external sources of
+critical data. These interfaces allow clients to (i) download pricing,
+corporate actions and other data from third party vendors such as Interactive
+Data, a wholly owned indirect subsidiary of Pearson plc (Interactive Data),
+and (ii) interface with DTC, certain brokerage firms and custodians for
+trading activity. Advent continually analyzes the ongoing external data needs
+of its clients and expects to offer new data products in the future. Many of
+Advent's clients use Advent's proprietary interface to electronically retrieve
+pricing and other data from Interactive Data. Interactive Data pays Advent a
+commission based on Interactive Data's revenues from providing such data to
+Advent's clients. This commission accounted for approximately 9% and 12% of
+Advent's net revenues for the years ended December 31, 1996 and 1995,
+respectively. The term of Advent's contract with Interactive Data ends on
+September 30, 2003 and is renewed automatically for additional 12 month
+periods unless either party gives the other at least 24 months prior notice of
+termination.
+ 
+  As part of Advent's acquisition of Data Exchange, Advent acquired the
+technical infrastructure and know-how to (i) deliver end-of-day pricing data
+to our customers in an on-line, electronic format, and (ii) to provide our
+customers with the ability to electronically confirm trades cleared and
+settled through DTC. The revenues generated by these activities are based upon
+client usage of the applicable services.
+ 
+  Due to the mission-critical nature of Advent's products, many clients
+purchase annual maintenance contracts which entitle them to technical support
+and product upgrades as they become available. Advent continually upgrades and
+enhances its products to respond to changing market needs, evolving regulatory
+requirements and new technologies
+ 
+PROFESSIONAL SERVICES
+ 
+  Professional services consists of consulting, systems integration, custom
+programming, and training. To ensure a successful product implementation,
+consultants assist clients with the initial installation of a system, assist
+in the conversion of the client's historical data and provide ongoing training
+and education. Consulting services may be required for as little as two days
+for small systems or up to many weeks for large implementations. Advent
+believes that its consulting services facilitate a client's early success with
+its products, strengthen the relationship with the client and generate
+valuable feedback for Advent.
+ 
+  Advent's systems integration services develop new interfaces, either at the
+request of existing clients or external organizations such as brokerage firms,
+custodians, DTC, pricing services, and other data providers. These interfaces
+are designed to provide easier and faster data entry, automatic reconciliation
+or confirmations. These interfaces are licensed as an option which clients can
+obtain when configuring the Axys system or later as their information needs
+change. In addition, Advent also uses its systems integration services to
+develop interfaces which Advent expects will satisfy anticipated needs of its
+clients.
+ 
+  Advent provides its clients with custom programming services that enable
+clients to tailor end-user reports to their own specifications. Advent also
+provides training sessions to its clients at various sites across the country.
+ 
+ 
+                                       6
+<PAGE>
+ 
+CLIENTS
+ 
+  Advent's clients vary significantly in size and assets under management and
+include investment advisors, brokerage firms, banks, hedge funds,
+corporations, public funds, universities and non-profit organizations. At
+present, Advent has licensed Axys, The Professional Portfolio, Geneva, WinDx,
+Moxy, Qube, and Advent Partner to over 4,000 institutions for use by more than
+25,000 concurrent users.
+ 
+SALES AND MARKETING
+ 
+ Sales
+ 
+  Advent sells its products and services through a direct sales organization
+comprised of field sales and telesales representatives. Advent's field sales
+force is organized by geographic region and is primarily responsible for
+selling Axys and Moxy to mid-sized and large investment management
+organizations. Advent has sales offices in San Francisco, New York and Boston.
+Advent's telesales organization is primarily focused on selling Advent's
+products to existing Axys clients and small and mid-sized investment
+management organizations. Advent's telesales representatives are located in
+San Francisco. Advent's sales force is supported by extensive ongoing product
+and sales training.
+ 
+ Marketing
+ 
+  The marketing department is responsible for assessing market opportunities,
+product planning and management and specific sales support. In addition to its
+traditional marketing functions, the marketing organization is actively
+involved in a process called "Market Validation SM," using a system of
+interaction with and input from potential and existing clients, product
+development, sales and client services and support departments to define the
+scope, features and functionality of new products and product upgrades. In
+addition, product managers are responsible for all phases of a product life
+cycle from product development through product introduction and beyond. The
+marketing department is also responsible for corporate marketing, including
+generating client leads, targeted direct mail campaigns, seminars,
+advertising, trade shows and conferences and public relations efforts. The
+marketing department also provides the sales force with appropriate written
+and electronic materials to use during the sales process.
+ 
+PRODUCT DEVELOPMENT
+ 
+  In recent years, Advent has substantially increased its product development
+expenditures in order to accelerate the rate of new product introductions,
+incorporate new technologies and sustain the quality of its products. In 1996,
+1995, and 1994, Advent's product development expenditures were approximately
+$6.7 million, $4.2 million and $3.0 million, respectively. In addition to
+engineering, quality assurance and documentation, Advent's product development
+activities include the identification and validation of product
+specifications. Advent believes that a principal factor in the success of its
+products is its system of performing extensive market research and testing of
+products at important phases of development to ensure that each new product or
+product upgrade is of the highest quality and addresses an identified market
+opportunity. Advent believes that this can best be accomplished through the
+Market Validation process which involves substantial input from existing and
+potential clients at each stage of development from product conception to
+product launch, and, ultimately, also includes post introduction reviews.
+Advent relies on multi-disciplinary teams to validate each new product or
+product upgrade. Market Validation teams include Advent employees from
+marketing, product development, client services and sales.
+ 
+  Advent's new products and product upgrades require varying degrees of
+development time, depending upon the complexity of the accounting requirements
+and securities regulations which they are intended to address, as well as the
+number and type of features incorporated. Advent has primarily relied upon the
+internal development of its products. Advent has in the past acquired, and may
+again in the future acquire, additional technologies or products from third
+parties or consultants. Advent intends to continue to support industry
+standard operating
+ 
+                                       7
+<PAGE>
+ 
+environments, client/server architectures and network protocols. There can be
+no assurance that Advent will be successful in developing, introducing and
+marketing new products or product enhancements on a timely and cost effective
+basis, if at all, or that its new products and product enhancements will
+adequately meet the requirements of the marketplace or achieve market
+acceptance. Delays in the commencement of commercial shipments of new products
+or enhancements may result in client dissatisfaction and delay or loss of
+product revenues. If Advent is unable, for technological or other reasons, to
+develop and introduce new products or enhancements of existing products in a
+timely manner in response to changing market conditions or client
+requirements, or if new products or new versions of existing products do not
+achieve market acceptance, Advent's business, operating results and financial
+condition will be materially adversely affected. In addition, Advent's ability
+to develop new products and product enhancements is dependent upon the
+products of other software vendors, including certain system software vendors,
+such as Microsoft Corporation, database vendors and development tool vendors.
+In the event that the products of such vendors have design defects or flaws,
+or if such products are unexpectedly delayed in their introduction, Advent's
+business, operating results and financial condition could be materially
+adversely affected. Software products as complex as those offered by Advent,
+particularly Advent's new Geneva product, may contain undetected defects or
+errors when first introduced or as new versions are released. Although Advent
+has not experienced material adverse effects resulting from any software
+errors, there can be no assurance that, despite testing by Advent and its
+clients, defects or errors will not be found in new products after
+commencement of commercial shipments, resulting in loss of or delay in market
+acceptance, which could have a material adverse effect upon Advent's business,
+operating results and financial condition.
+ 
+COMPETITION
+ 
+  The market for investment management software is segmented by the relative
+size of the organizations that manage investment portfolios. In addition, the
+market in each segment is intensely competitive and highly fragmented, subject
+to rapid change and highly sensitive to new product introductions and
+marketing efforts by industry participants. Advent's competitors include
+providers of software and related services as well as providers of timeshare
+services. Competitors vary in size, scope of services offered and platforms
+supported. In addition, Advent competes indirectly with existing and potential
+clients, many of whom develop their own software for their particular needs
+and therefore may be reluctant to license software products offered by
+independent vendors such as Advent. With respect to the market for its
+portfolio accounting products, Advent currently competes primarily with Shaw
+Data, a division of SunGard Data Systems, Inc., Thomson Financial, a division
+of The Thomson Corporation, and with a number of other smaller companies.
+Advent believes that the principal competitive factors affecting its market
+include product performance and functionality, ease of use, scalability,
+ability to integrate external data sources, product and company reputation,
+client service and support and price. There can be no assurance that Advent
+will be able to compete successfully against current and future competitors or
+that competitive pressures will not result in price reductions, reduced
+operating margins and the loss of market share, any one of which could
+materially adversely affect Advent's business, operating results and financial
+condition.
+ 
+INTELLECTUAL PROPERTY AND OTHER PROPRIETARY RIGHTS
+ 
+  Advent's success is dependent in part on its ability to protect its
+proprietary technology. Advent relies on a combination of copyright and
+trademark laws, trade secrets, software security measures, confidentiality
+agreements and license agreements to establish and protect its proprietary
+rights and its software. Despite these efforts, it may be possible for
+unauthorized third parties to copy certain portions of Advent's products or to
+reverse engineer or otherwise obtain and use proprietary information of
+Advent. Advent does not have any patents, and existing copyright laws afford
+only limited protection. In addition, Advent cannot be certain that others
+will not develop substantially equivalent or superseding proprietary
+technology, or that equivalent products will not be marketed in competition
+with Advent's products, thereby substantially reducing the value of Advent's
+proprietary rights. Furthermore, there can be no assurance that any
+confidentiality agreements between Advent and its employees or any license
+agreements with its clients will provide meaningful protection of Advent's
+proprietary information in the event of any unauthorized use or disclosure of
+such proprietary
+ 
+                                       8
+<PAGE>
+ 
+information. In addition, the laws of certain countries do not protect
+Advent's proprietary rights to the same extent as do the laws of the United
+States. Accordingly, there can be no assurance that Advent will be able to
+protect its proprietary software against unauthorized third party copying or
+use, which could adversely affect Advent's business, operating results and
+financial condition.
+ 
+  Advent is not currently engaged in any intellectual property litigation or
+proceedings. Nonetheless, from time to time Advent may receive notices
+claiming that it is infringing the proprietary rights of third parties, and
+there can be no assurance that Advent will not become the subject of
+infringement claims or legal proceedings by third parties with respect to
+current or future products. In addition, Advent may initiate claims or
+litigation against third parties for infringement of Advent's proprietary
+rights or to establish the validity of Advent's proprietary rights. Any such
+claims could be time consuming, result in costly litigation, cause product
+shipment delays or lead Advent to enter into royalty or licensing agreements
+rather than disputing the merits of such claims.
+ 
+EMPLOYEES
+ 
+  As of December 31, 1996, Advent had 281 full-time employees, including 33 in
+sales, 44 in professional services, 13 in marketing, 82 in product
+development, 59 in client services and support and 50 in finance,
+administration, operations and general management. Advent believes that it
+maintains competitive compensation, benefits, equity participation and work
+environment policies to assist in attracting and retaining qualified
+personnel. Advent's success depends to a significant extent upon a limited
+number of members of senior management and other key employees, including
+Stephanie DiMarco, Advent's Chairman of the Board, President and Chief
+Executive Officer. The loss of the service of one or more senior managers or
+other employees could have a material adverse effect upon Advent's business,
+operating results and financial condition. None of Advent's employees is
+represented by a labor union. Advent has not experienced any work stoppages
+and considers its relations with its employees to be good.
+ 
+ITEM 2. PROPERTIES
+ 
+  Advent leases office space in facilities in San Francisco and New York.
+Advent's 35,232 square foot lease in San Francisco is Advent's principal
+executive office and is where product development, marketing, technical
+support and production are located. The San Francisco lease expires in 1998.
+Advent's leases two separate office spaces in New York; the 12,068 square foot
+lease in New York expires in 2003 and the 8,500 square foot lease expires in
+2002. Advent believes that its facilities are adequate for its current needs
+and that suitable additional or alternative space will be available in the
+future on commercially reasonable terms as needed.
+ 
+ITEM 3. LEGAL PROCEEDINGS
+ 
+  None.
+ 
+ITEM 4. SUBMISSION OF MATTERS TO A VOTE OF STOCKHOLDERS
+ 
+  None.
+ 
+ 
+                                       9
+<PAGE>
+ 
+EXECUTIVE OFFICERS OF THE REGISTRANT
+ 
+  The following sets forth certain information regarding the executive
+officers of Advent as of March 14, 1997:
+ 
+<TABLE>
+<CAPTION>
+           NAME         AGE                   POSITION
+           ----         ---                   --------
+   <C>                  <C> <S>
+                            
+   Stephanie G. DiMarco  39 Chairman of the Board, President and Chief   
+                            Executive Officer                            
+   Peter M. Caswell      40 Senior Vice President, Sales, Marketing and  
+                            Professional Services                         
+   Lily S. Chang         48 Senior Vice President, Technology             
+   Irv H. Lichtenwald    41 Senior Vice President, CFO and Secretary       
+</TABLE>                    
+- --------
+  Ms. DiMarco founded Advent in June 1983 and, since such date, has served as
+its President and Chief Executive Officer. She became Chairman of the Board in
+September 1995. Ms. DiMarco holds a B.S. in Business Administration from the
+University of California at Berkeley.
+ 
+  Mr. Caswell joined Advent in December 1993 as Vice President, Sales and
+Professional Services. In 1996 Mr. Caswell took on responsibility for Advent's
+marketing efforts upon the departure of John J. Griffin who had been the Vice
+President of Marketing. Mr. Caswell was promoted to Senior Vice President.
+From May 1986 to December 1993, Mr. Caswell held various management positions,
+including Vice President and General Manager, Western Region, with Dun &
+Bradstreet Software Services, Inc. and its predecessor, Management Science
+America, Inc., a supplier of computer software for finance, marketing,
+manufacturing and human resource functions. Mr. Caswell holds a diploma in
+Management Studies (M.B.A. equivalent) and a Higher National Diploma in
+Agriculture (B.S. equivalent) from Seale Hayne College in England.
+ 
+  Ms. Chang joined Advent in May 1993 as Vice President, Technology. In 1996,
+Ms. Chang was promoted to Senior Vice President, Technology. From July 1989 to
+May 1993, Ms. Chang held various positions, including Vice President,
+Strategic Accounts and Vice President of Oracle Financial Applications, with
+Oracle Corporation, a software licensing and consulting business. Ms. Chang
+holds a B.S. in Biochemistry from Taiwan University.
+ 
+  Mr. Lichtenwald joined Advent in March 1995 as Chief Financial Officer. From
+February 1984 to March 1995, Mr. Lichtenwald served as Chief Financial Officer
+of Trinzic Corporation, a computer software developer, and its predecessor
+Aion Corporation. From February 1982 to February 1984, he served as controller
+of Visicorp, a computer software developer. Mr. Lichtenwald holds an M.B.A.
+from the University of Chicago and a B.B.A. from Saginaw Valley State College.
+Mr. Lichtenwald is a Certified Public Accountant.
+ 
+                                      10
+<PAGE>
+ 
+                                    PART II
+ 
+  With the exception of the information incorporated by reference to the 1996
+Annual Report to Stockholders in Part II of this Form 10-K, Advent's 1996
+Annual Report to Stockholders is not deemed to be filed as part of this Form
+10-K or otherwise.
+ 
+ITEM 5. MARKET FOR COMPANY'S COMMON EQUITY AND RELATED STOCKHOLDER MATTERS
+ 
+  Advent had approximately 200 stockholders of record at March 24, 1997. Other
+information required by this Item is incorporated by reference to the sections
+entitled "Selected Financial Data--Price Range of Common Stock" and "Corporate
+Information--Stock Information" in Advent's 1996 Annual Report to
+Stockholders.
+ 
+ITEM 6. SELECTED FINANCIAL DATA
+ 
+  Other information required by this Item is incorporated by reference to the
+sections entitled "Selected Financial Data--Selected Annual Data" and "--
+Selected Quarterly Data" in Advent's 1996 Annual Report to Stockholders.
+ 
+ITEM 7. MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND
+       RESULTS OF OPERATIONS
+ 
+  The information required by this Item is incorporated by reference to the
+section entitled "Management's Discussion and Analysis of Financial Condition
+and Results of Operations" in Advent's 1996 Annual Report to Stockholders.
+ 
+  In addition, Advent operates in a rapidly changing environment that involves
+a number of risks, some of which are beyond Advent's control. The following
+discussion highlights some of these risks.
+ 
+  Period to Period Fluctuations Advent's net revenues and operating results
+have varied substantially from period to period on a quarterly basis and may
+continue to fluctuate due to a number of factors. As Advent's licenses into
+multi-user networked environments have increased both in individual size and
+number, the timing and size of individual license transactions are becoming
+increasingly important factors in Advent's quarterly operating results. The
+sales cycles for transactions of this size are often lengthy and
+unpredictable. There can be no assurance that Advent will be successful in
+closing large license transactions such as these on a timely basis or at all.
+Accordingly, if in the future revenues from large site licenses constitute a
+material portion of Advent's net revenues, the timing of such licenses could
+cause additional variability in Advent's quarterly operating results. Advent's
+software products typically are shipped shortly after receipt of a signed
+license agreement and initial payment and, consequently, software product
+backlog at the beginning of any quarter typically represents only a small
+portion of that quarter's expected revenues. Advent's expense levels are based
+in significant part on Advent's expectations of future revenues and therefore
+are relatively fixed in the short term. Due to the fixed nature of these
+expenses combined with the relatively high gross margin historically achieved
+by Advent on products and services, an unanticipated decline in net revenues
+in any particular quarter is likely to disproportionately adversely affect
+operating results.
+ 
+  Advent generally has realized lower revenues from license fees in the first
+quarter of the year than in the immediately preceding quarter. Advent believes
+that this has been due primarily to the concentration by some clients of
+larger capital purchases in the fourth quarter of the calendar year and their
+lower purchasing activity during the subsequent first quarter, compounded by
+Advent's annual incentive compensation plans which result in increased year-
+end sales activity. Furthermore, Advent has often recognized a substantial
+portion of its license revenues in the last month of a quarter.
+ 
+  Due to all of the foregoing factors, Advent believes that period to period
+comparisons of its operating results are not necessarily meaningful and that
+such comparisons cannot be relied upon as indicators of future performance.
+ 
+ 
+                                      11
+<PAGE>
+ 
+  Prior to the initial public offering in November 1995, there was no market
+for the Advent's common stock. Advent's stock price has shown significant
+fluctuation since the IPO date. Like many companies in the technology and
+emerging growth sector, Advent's stock price may be subject to wide
+fluctuations. If net revenues or earnings in any quarter fail to meet the
+investment community's expectations, there could be an immediate impact on
+Advent's stock price. In addition, the stock price may be affected by broader
+market trends unrelated to Advent's performance
+ 
+  Product Concentration. During 1994, 1995 and 1996, Advent derived a
+substantial majority of its net revenues from the licensing of Axys and
+related products and services. In addition, certain of Advent's new products,
+such as Moxy, Qube and various data interfaces, are currently designed to
+operate with Axys and not on a stand-alone basis. Advent released in 1996 new
+versions of Axys and Moxy. As a result, Advent believes that a majority of its
+net revenues, at least through 1997, will be dependent upon continued market
+acceptance of Axys, enhancements or upgrades to Axys and related products and
+services.
+ 
+  Geneva. In 1995, Advent introduced Geneva to target organizations with
+complex international accounting and reporting requirements. Geneva is
+currently in limited release in test environments. To date, revenues derived
+from these licenses of Geneva have not been material. Advent is directing a
+significant amount of its product development expenditures to the on-going
+development of Geneva and plans to devote a significant amount of its future
+sales and marketing resources to the full commercial introduction of Geneva.
+Advent has limited experience in developing products for this market. Because
+of such limited client experience, there can be no assurance that Geneva will
+not require substantial software enhancements or modifications to satisfy
+performance requirements of clients or to fix design defects or previously
+undetected errors. Further, there can be no assurance that Advent will be
+successful in marketing a fully commercial version of Geneva. Advent's failure
+to successfully develop and market a fully commercial version of Geneva could
+adversely affect Advent's business and operating results.
+ 
+  New Products and Product Enhancements. Advent's future success will continue
+to depend upon its ability to develop new products that address the future
+needs of its target markets and to respond to emerging industry standards and
+practices. Delays in the commencement of commercial shipments of new products
+or enhancements may result in client dissatisfaction and delay or loss of
+product revenues. In addition, Advent's ability to develop new products and
+product enhancements is dependent upon the products of other software vendors,
+including certain system software vendors, such as Microsoft Corporation,
+database vendors and development tool vendors. In the event that the products
+of such vendors have design defects or flaws, or if such products are
+unexpectedly delayed in their introduction, Advent's business, operating
+results and financial condition could be materially adversely affected.
+ 
+  Financial Markets. The target clients for Advent's products include a range
+of organizations that manage investment portfolios, including investment
+advisors, brokerage firms, banks and hedge funds. In addition, Advent targets
+corporations, public funds, universities and non-profit organizations which
+also manage investment portfolios and have many of the same needs. The success
+of many of Advent's clients is intrinsically linked to the health of the
+financial markets. Advent believes that demand for its products could be
+disproportionately affected by fluctuations, disruptions, instability or
+downturns in the financial markets which may cause clients and potential
+clients to exit the industry or delay, cancel or reduce any planned
+expenditures for investment management systems and software products.
+ 
+  Relationship with Interactive Data. Many of Advent's clients use Advent's
+proprietary interface to electronically retrieve pricing and other data from
+Interactive Data. Interactive Data pays Advent a commission based on
+Interactive Data's revenues from providing such data to Advent's clients. This
+commission accounted for approximately 9% and 12% of Advent's net revenues for
+the years ended December 31, 1996 and 1995, respectively. Advent's software
+products have been customized to be compatible with Interactive Data's system
+and such software would need to be redesigned if Interactive Data's services
+were unavailable for any reason. The term of Advent's contract with
+Interactive Data ends on September 30, 2003 and is renewed automatically for
+additional 12 month periods unless either party gives the other at least 24
+months prior notice of termination.
+ 
+                                      12
+<PAGE>
+ 
+In the event that Advent's relationship with Interactive Data were terminated
+or Interactive Data's services were unavailable to Advent's clients for any
+reason, replacing these services could be costly and time consuming.
+ 
+  Competition. The market for investment management software is segmented by
+the relative size of the organizations that manage investment portfolios. In
+addition, the market in each segment is intensely competitive and highly
+fragmented, subject to rapid change and highly sensitive to new product
+introductions and marketing efforts by industry participants. Advent's
+competitors include providers of software and related services as well as
+providers of timeshare services. Competitors vary in size, scope of services
+offered and platforms supported. In addition, Advent competes indirectly with
+existing and potential clients, many of whom develop their own software for
+their particular needs and therefore may be reluctant to license software
+products offered by independent vendors such as Advent. Many of Advent's
+competitors have longer operating histories and greater financial, technical,
+sales and marketing resources than Advent. There can be no assurance that
+Advent will be able to compete successfully against current and future
+competitors or that competitive pressures will not result in price reductions,
+reduced operating margins and loss of market share, any one of which could
+materially adversely affect Advent's business, operating results and financial
+condition.
+ 
+  Data Exchange Acquisition As a result of its acquisition of Data Exchange,
+Advent must successfully manage the development and sale of the WinDx product
+and successfully integrate the products, technologies, and personnel of the
+two companies. There can be no assurance that Advent will be able to manage
+this process successfully.
+ 
+ITEM 8. FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA
+ 
+  (1) Financial Statements.
+ 
+    The following financial statements of Advent including the notes thereto,
+  and Report of Independent Accountants are incorporated by reference to page
+  23 through 35 of Advent's 1996 Annual Report to Stockholders:
+ 
+    Consolidated Balance Sheets--December 31, 1996 and 1995
+ 
+    Consolidated Statements of Operations--Years Ended December 31, 1996,
+    1995, and 1994
+ 
+    Consolidated Statements of Stockholders' Equity--Years Ended December
+    31, 1996, 1995, and 1994
+ 
+    Consolidated Statements of Cash Flows--Years Ended December 31, 1996,
+    1995, and 1994
+ 
+    Notes to Consolidated Financial Statements
+ 
+    Report of Independent Accountants
+ 
+  (2) Financial Statement Schedules.
+ 
+    The following financial statement schedules of Advent for the years ended
+  December 31, 1996, 1995, and 1994 are filed as part of this Form 10-K and
+  should be read in conjunction with Advent's financial statements listed in
+  Item 8(1) above.
+ 
+<TABLE>
+<CAPTION>
+      SCHEDULE                                        PAGE
+      --------                                        ----
+      <S>                                             <C>
+      Report of Independent Accountants               S-1
+      Schedule II--Valuation and Qualifying Accounts  S-2
+</TABLE>
+ 
+    Schedules not listed above have been omitted because they are not
+  applicable or are not required or because the required information is
+  included in the financial statements or notes thereto.
+ 
+ITEM 9. CHANGES IN AND DISAGREEMENTS WITH ACCOUNTANTS ON ACCOUNTING AND
+       FINANCIAL DISCLOSURE
+ 
+  None.
+ 
+ 
+                                      13
+<PAGE>
+ 
+                                   PART III
+ 
+  Certain information required by Part III is omitted from this Form 10-K in
+that the Registrant will file a definitive proxy statement pursuant to
+Regulation 14A of the Securities Exchange Act of 1934, as amended, ("Proxy
+Statement") not later than 120 days after the end of the fiscal year covered
+by this Form 10-K and certain information included therein is incorporated
+herein by reference. Only those sections of the Proxy Statement that
+specifically address the items set forth herein are incorporated by reference.
+Such incorporation does not include the Performance Graph included in the
+Proxy Statement.
+ 
+ITEM 10. DIRECTORS AND EXECUTIVE OFFICERS OF THE REGISTRANT
+ 
+  The information concerning Advent's directors required by this Item is
+incorporated by reference to Advent's Proxy Statement.
+ 
+  The information concerning Advent's executive officers required by this Item
+is incorporated by reference herein to the section of the Form 10-K in Part I,
+Item 4, entitled "Executive Officers of Advent."
+ 
+  The information regarding compliance with Section 16(a) of the Securities
+Exchange Act of 1934 is to be set forth in Advent's Proxy Statement and such
+information is hereby incorporated by reference.
+ 
+ITEM 11. EXECUTIVE COMPENSATION
+ 
+  Information required by this Item is incorporated by reference to Advent's
+Proxy Statement.
+ 
+ITEM 12. SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEMENT
+ 
+  Information required by this Item is incorporated by reference to Advent's
+Proxy Statement.
+ 
+ITEM 13. CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS
+ 
+  Information required by this Item is incorporated by reference to Advent's
+Proxy Statement.
+ 
+ITEM 14. EXHIBITS, FINANCIAL STATEMENT SCHEDULES AND REPORTS ON FORM 8-K
+ 
+  (a)The following documents are filed as a part of this Annual Report on Form
+10-K
+ 
+    1. Consolidated Financial Statements required to be filed by Item 8 of
+       Form 10-K. See the list of Financial Statements contained in Item 8
+       of this Report.
+ 
+    2. Financial Statement Schedules required to be filed by Item 8 of Form
+       10-K. See the list of Financial Statement Schedules contained in
+       Item 8 of this Report.
+ 
+ 
+                                      14
+<PAGE>
+ 
+    3.Exhibits
+ 
+  The exhibits listed on the accompanying Index to Exhibits immediately
+following the financial statement schedules are filed as part of, or
+incorporated by reference into, this Form 10-K.
+ 
+<TABLE>
+<CAPTION>
+ EXHIBIT
+ NUMBER                          DESCRIPTION OF DOCUMENT
+ -------                         -----------------------
+ <C>     <S>
+  2.1+   Agreement and Plan of Merger between Registrant and Advent Software,
+         Inc., a California corporation, effective November 10, 1995.
+  2.2++  Stock Acquisition Agreement, dated as of February 15, 1996, by and
+         among Advent Software, Inc., a Delaware corporation, Data Exchange,
+         Inc., a Pennsylvania corporation, and Bruce Hechler, sole shareholder
+         of Data Exchange, Inc.
+  3.1+   Certificate of Incorporation of Registrant.
+  3.2+   Amended and Restated Certificate of Incorporation of Registrant.
+  3.3+   Bylaws of Registrant.
+  4.1+   Specimen Common Stock Certificate of Registrant.
+ 10.1+   Form of Indemnification Agreement for Executive Officers and
+         Directors.
+ 10.2+   1992 Stock Plan, as amended, and form of stock option agreement.
+ 10.3+   1993 Profit Sharing & Employee Savings Plan, as amended.
+ 10.4+   1995 Employee Stock Purchase Plan and form of subscription agreement.
+ 10.5+   1995 Director Option Plan and form of stock option agreement.
+ 10.6+   Common Stock Option Agreement between Advent and Maurice J. Duca dated
+         September 15, 1989 as amended by the Amendment and Correction to
+         Common Stock Option Agreement dated July 1993.
+ 10.7+   Full Service Office Lease dated April 14, 1992, as amended, between
+         Brannan Street Properties and Advent for facilities located at 301
+         Brannan in San Francisco, California.
+ 10.8+   Standard Form of Lease dated November 6, 1992 between Broadway
+         Management Company as agent for 500 Fifth Avenue Associates and Advent
+         for facilities located at 500 Fifth Avenue, New York, New York.
+ 10.9+   Severance Agreement between Advent and Peter M. Caswell dated December
+         10, 1993.
+ 10.10+* Agreement between Advent and Interactive Data Corporation dated
+         January 1, 1995.
+ 10.11+  Registration Rights Agreement dated December 20, 1993, among Advent
+         and IGSB Investment Partnership I, Mayfield VII, Mayfield Associates
+         Fund II, MF Partners and WS Investment Company 93E.
+ 10.13** Lease dated January 28, 1992 between Orient Overseas Associates and
+         Data Exchange, Inc. for facilities located at 88 Pine Street, a/k/a
+         Wall Street Plaza, New York, New York.
+ 11.1    Statement Regarding Computation of Net Income (Loss) Per Share.
+ 13.1    Selected Portions of Advent Software, Inc.'s 1996 Annual Report to
+         Stockholders.
+ 21.1    Subsidiaries of Advent.
+ 23.1    Consent of Coopers & Lybrand LLP, Independent Accountants.
+ 24.1    Power of Attorney (included on page 16 of this Form 10-K).
+ 27.1    Financial Data Schedule.
+</TABLE>
+- --------
+ + Incorporated by reference to the exhibit filed with Advent's registration
+   statement filed on Form SB-2 (commission file number 33-97912-LA), declared
+   effective on November 15, 1995
+++ Incorporated by reference to Advent's Form 8-K dated February 15, 1996.
+*  Confidential treatment requested as to certain portions of this exhibit.
+** Incorporated by reference to Advent's Annual Report on Form 10-KSB for the
+   year ended December 31, 1995.
+ 
+  (b) Reports on Form 8-K
+ 
+    None
+ 
+                                       15
+<PAGE>
+ 
+                                  SIGNATURES
+ 
+  Pursuant to the requirements of Section 13 or 15(d) of the Securities Act of
+1934, the registrant has duly caused this Form 10-K to be signed on its behalf
+by the undersigned, thereunto duly authorized, on this 24th day of March,
+1997.
+ 
+                                          Advent Software, Inc.
+ 
+                                                 /s/ Stephanie G. DiMarco
+                                          By___________________________________
+                                             STEPHANIE G. DIMARCO, CHAIRMAN OF
+                                              THE BOARD, PRESIDENT AND CHIEF
+                                                     EXECUTIVE OFFICER
+ 
+                               POWER OF ATTORNEY
+ 
+  KNOW ALL PERSONS BY THESE PRESENTS, that each person whose signature appears
+below constitutes and appoints Stephanie G. DiMarco and Irv H. Lichtenwald,
+jointly and severally, his attorneys-in-fact, each with the power of
+substitution, for him or her in any and all capacities, to sign any amendments
+to this Form 10-K, and to file the same, with exhibits thereto and other
+documents in connection therewith, with the Securities and Exchange
+Commission, hereby ratifying and confirming all that each of said attorneys-
+in-fact, or his or her substitute or substitutes, may do or cause to be done
+by virtue hereof.
+ 
+  Pursuant to the requirements of section 13 or 15(d) of the Securities
+Exchange Act of 1934, as amended, this Form 10-K has been signed by the
+following persons in the capacities and on the dates indicated.
+ 
+              SIGNATURE                        TITLE                 DATE
+ 
+    /s/ Stephanie G. DiMarco       Chairman of the Board,       March 24, 1997
+- ---------------------------------   President, Chief
+      STEPHANIE G. DIMARCO          Executive Officer and
+                                    Director (Principal
+                                    Executive Officer)
+
+     /s/ Irv H. Lichtenwald        Senior Vice President of     March 24, 1997
+- ---------------------------------   Finance and Chief
+       IRV H. LICHTENWALD           Financial Officer and
+                                    Secretary (Principal
+                                    Financial and
+                                    Accounting Officer)
+ 
+       /s/ Maurice J. Duca         Director                     March 24, 1997
+- ---------------------------------
+         MAURICE J. DUCA
+ 
+      /s/ Frank H. Robinson        Director                     March 24, 1997
+- ---------------------------------
+        FRANK H. ROBINSON
+ 
+                                      16
+<PAGE>
+ 
+                       REPORT OF INDEPENDENT ACCOUNTANTS
+ 
+To the Board of Directors of
+ Advent Software, Inc.:
+ 
+  Our report on the financial statements of Advent Software, Inc. has been
+incorporated by reference in this report on Form 10-K from page 35 of the 1996
+Annual Report to Shareholders of Advent Software, Inc. In connection with our
+audit of such financial statements, we have audited the related financial
+statement schedule listed in the index on page 15 of this Form 10-K.
+ 
+  In our opinion, the financial statement schedule referred to above, when
+considered in relation to the basic financial statements taken as a whole,
+presents fairly, in all material aspects, the information required to be
+included therein.
+ 
+COOPERS & LYBRAND L.L.P.
+ 
+San Francisco, California
+January 23, 1997
+ 
+                                      S-1
+<PAGE>
+ 
+                                                                     SCHEDULE II
+ 
+                              ADVENT SOFTWARE, INC
+ 
+                       VALUATION AND QUALIFYING ACCOUNTS
+             FOR THE YEARS ENDED DECEMBER 31, 1994, 1995, AND 1996
+ 
+<TABLE>
+<CAPTION>
+         COLUMN A            COLUMN B  COLUMN C COLUMN D  COLUMN E   COLUMN F
+         --------           ---------- -------- -------- ---------- ----------
+                                           ADDITIONS
+                                           ---------
+                            BALANCE AT CHARGED  CHARGED             BALANCE AT
+                            BEGINNING     TO    TO OTHER              END OF
+        DESCRIPTION         OF PERIOD  EXPENSE  ACCOUNTS DEDUCTIONS   PERIOD
+        -----------         ---------- -------- -------- ---------- ----------
+<S>                         <C>        <C>      <C>      <C>        <C>
+Allowance for doubtful
+ accounts:
+1994.......................  $120,000  $101,000   --      $154,000   $ 67,000
+1995.......................  $ 67,000  $240,000   --      $ 49,000   $258,000
+1996.......................  $258,000  $115,000   --      $138,000   $235,000
+</TABLE>
+ 
+                                      S-2
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-11.1
+<SEQUENCE>2
+<DESCRIPTION>STATEMENT RE COMPUTATION OF NET INCOME
+<TEXT>
+
+<PAGE>
+ 
+                                                                    EXHIBIT 11.1
+
+                            ADVENT SOFTWARE, INC.
+
+       STATEMENT REGARDING COMPUTATION OF NET INCOME (LOSS) PER SHARE
+                (amounts in thousands, except per share data)
+
+                                       Year Ended December 31,
+                                -------------------------------------
+                                  1996           1995          1994
+                                --------       --------      --------
+Primary and Fully Diluted:
+   Weighted average common
+     shares outstanding for
+     the period...............    7,070          3,455         2,925
+   Common equivalent shares:
+   Convertible preferred 
+     stock....................        -          1,955         2,197
+   Options and warrants.......        -            750           722
+   Shares pursuant to SAB 83..        -            196           261
+                                =======         ======        ======
+   Shares used in per share
+     calculations.............    7,070          6,356         6,105
+   Net income (loss)..........  $(1,099)        $2,819        $1,064
+                                =======         ======        ======
+   Net income (loss) per 
+     share....................  $ (0.16)        $ 0.44        $ 0.17
+                                =======         ======        ======
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-13.1
+<SEQUENCE>3
+<DESCRIPTION>SELECTED PORTIONS OF ADVENT SOFTWARE
+<TEXT>
+
+<PAGE>
+ 
+                                                                    EXHIBIT 13.1
+
+      SELECTED PORTIONS OF ADVENT'S 1996 ANNUAL REPORT TO STOCKHOLDERS
+<PAGE>
+ 
+                   MANAGEMENT'S DISCUSSION AND ANALYSIS OF
+                FINANCIAL CONDITION AND RESULTS OF OPERATIONS
+
+  Advent provides stand-alone and client/server software products, data
+interfaces and related maintenance and services that automate, integrate and
+support certain mission-critical functions of the front, middle and back office
+of investment management organizations. Advent's clients are principally
+domestic and vary significantly in size and assets under management and include
+investment advisors, brokerage firms, banks, hedge funds, corporations, public
+funds, universities and non-profit organizations.
+
+INITIAL PUBLIC OFFERING
+
+  In November 1995, Advent completed an initial public offering (IPO) in which
+it sold 1,450,000 shares of its common stock at $18.00 per share which generated
+net proceeds to Advent of $23.4 million.
+
+ACQUISITIONS
+
+  In February 1996, Advent acquired Data Exchange, Inc. (the DX Group), a
+private company based in New York, for $4.0 million in cash and an $800,000 note
+payable. This note was paid during the third quarter of 1996 and did not bear
+interest. The DX Group's main product, WinDx, is a client/server portfolio
+management system designed for certain regional broker/dealers and other
+professional money managers with more than $1 billion in assets under
+management. The transaction was accounted for as a purchase. Advent incurred a
+one-time charge of $5.6 million in connection with the write-off of in-process
+research and development. This expense was recorded in purchased research and
+development and other expenses. As a result of this expense, Advent incurred a
+net loss per share of ($0.16) for the year ended December 31, 1996. Excluding
+this write-off, net income per share would have been $0.58. Net income per share
+for the years ended December 31, 1995 and 1994 was $0.44 and $0.17,
+respectively.
+
+  In November 1996, Advent issued 35,000 shares of Advent's common stock in
+exchange for all of the outstanding shares of Bold Software, Inc., a private
+software development company based in New York. This business combination was
+accounted for as a pooling of interests. Prior year amounts have not been
+restated to include Bold Software's results of operations as such operations
+were immaterial. As a result of this business combination, Advent introduced
+Advent Partner, a tax layering and partnership allocation solution which
+integrates with Axys.
+
+RESULTS OF OPERATIONS FOR THE YEARS ENDED DECEMBER 31, 1996, 1995 AND 1994
+
+REVENUES
+
+  Net revenues were $36.7 million, $26.0 million and $20.1 million in 1996, 1995
+and 1994, respectively, representing increases of  42% from 1995 to 1996 and 29%
+from 1994 to 1995. Advent's net revenues are derived from license fees,
+maintenance and other recurring revenues, and professional services related to
+its software products. Substantially all of Advent's net revenues were from
+domestic sales with international sales representing less than 2% of net
+revenues in each of 1996, 1995 and 1994. License revenues are derived from the
+licensing of software products. Maintenance and other recurring revenues are
+derived from maintenance fees charged in the initial licensing year, renewals of
+maintenance services in subsequent years and revenues derived from client
+utilization of proprietary interfaces to access pricing and other data supplied
+by third parties. Professional services and other includes fees for consulting,
+systems integration projects, custom programming and conversions of data from
+clients' previous systems.
+
+  During 1994, Axys and its related products and services provided substantially
+all of Advent's net revenues, and in 1995 accounted for a substantial majority
+of such net revenues. In 1996, revenues from license fees and related services
+derived from its new products, Moxy, Qube, Geneva and WinDx accounted for an
+increasing portion of net revenues.
+<PAGE>
+ 
+  Each of the major revenue categories has historically varied as a percentage
+of net revenues and this variability is expected to continue in future periods.
+This variability is primarily due to the timing of the introduction of new
+products, the relative size and timing of individual licenses, as well as the
+complexity of the implementation and the resulting proportion of the maintenance
+and professional services components of these license transactions, Advent's
+pricing model and the amount of client utilization of pricing and related data.
+
+  License. License revenues were $17.0 million, $12.1 million and $9.4 million
+  -------
+in 1996, 1995 and 1994, respectively, representing increases of 40% from 1995 to
+1996 and 29% from 1994 to 1995. License revenues as a percentage of net revenues
+decreased slightly from 47% in 1995 and 1994 to 46% in 1996. The growth in
+license revenues during 1996 was primarily due to license revenue of WinDx, and
+higher revenues derived from licensing of Moxy and Axys. Although new products
+also contributed to the growth of license revenue in 1995, the growth in 1995
+was primarily attributable to an increase in both the size and number of
+licenses to new clients and conversion of existing clients into multi-user
+networked environments which typically bear higher average licensing fees.
+Advent typically licenses its products on a per server, per user basis with the
+price per site varying based on the selection of the products licensed and the
+number of authorized users.
+
+  Maintenance and Other Recurring. Maintenance and other recurring revenues were
+  -------------------------------
+$14.7 million, $9.9 million and $7.5 million in 1996, 1995 and 1994,
+respectively, representing increases of 49% from 1995 to 1996 and 32% from 1994
+to 1995. Maintenance and other recurring revenues as a percentage of net
+revenues increased to 40% in 1996 from 38% and 37% in 1995 and 1994,
+respectively. The growth in maintenance and other recurring revenues in each
+period in absolute dollars and as a percentage of net revenues was primarily
+attributable to a larger customer base, additional revenues generated from the
+DX Group, and higher average maintenance fees. Higher average maintenance fees
+are due to the increased complexity of the maintenance services provided and
+increased client utilization of proprietary interfaces to access pricing and
+other data supplied by external parties. Advent's proprietary interfaces enable
+users of Axys to retrieve critical data from external sources, including
+pricing, corporate actions and analytical and fundamental data via interfaces
+to information vendors, such as Interactive Data.
+
+  Professional Services and Other. Revenues from professional services and other
+  -------------------------------
+were $5.1 million, $3.9 million  and $3.2 million in 1996, 1995 and 1994,
+respectively, representing increases of 30% from 1995 to 1996 and 22% from 1994
+to 1995. Professional services and other as a percentage of net revenues was
+relatively stable at 14%, 15%, and 16% in 1996, 1995 and 1994, respectively. The
+growth in revenues from professional services and other in 1996 was due to
+additional consulting revenue from the DX Group, and additional consulting
+revenue associated with higher product sales activity, and additional interface
+business resulting from higher market demand for automated interfaces. The
+growth in 1995 was principally due to increased demand for consulting,
+implementation and training services as a result of the release of Axys and the
+increasing scope of the services performed for larger, more complex, multi-user
+networked environments.
+
+COST OF REVENUES
+
+  Cost of License. Cost of license revenues were $600,000, $469,000 and $433,000
+  ---------------
+in 1996, 1995 and 1994, respectively, representing 4%, 4% and 5% of license
+revenues in these periods, respectively. Cost of license revenues consists
+primarily of the cost of product media and duplication, manuals, packaging
+materials and the direct labor involved in producing and distributing Advent's
+software. Also included in cost of license revenues for a part of 1994 was
+amortization of certain previously capitalized software development costs.
+
+  Cost of Maintenance and Other Recurring. Cost of maintenance and other
+  ---------------------------------------
+recurring revenues were $3.8 million, $2.4 million and $2.1 million in 1996,
+1995 and 1994, respectively, representing 26%, 24% and 
+<PAGE>
+ 
+28% of maintenance and other recurring revenues in these periods,
+respectively. These costs are primarily comprised of the direct costs of
+providing technical support and other services for recurring revenues and the
+engineering costs associated with product updates. These expenses as a
+percentage of maintenance and other recurring revenues increased in 1996 due
+to increased resources allocated to the support services. These expenses as a
+percentage of maintenance and other recurring revenues decreased in 1995
+primarily reflecting economies of scale and efficiencies associated with a
+larger installed base.
+
+  Cost of Professional Services and Other. Cost of professional services and
+  ---------------------------------------
+other revenues were $2.5 million, $2.0 million and $1.4 million in 1996, 1995
+and 1994, respectively, representing 49%, 52% and 44% of professional services
+and other revenues in these periods, respectively. These costs consist primarily
+of personnel related costs of the client services and support organization that
+are incurred in providing consulting, systems integration projects, custom
+programming, conversions of data from clients' previous systems, and
+participating in Advent-sponsored conferences. To the extent that such personnel
+are not fully utilized in consulting, training, conversion or custom programming
+projects, they are allocated to presales, marketing and engineering activities
+and the resultant costs are charged to operating expenses. Cost of professional
+services and other increased in 1996 and 1995 primarily as a result of the
+increased staffing necessary to provide services to an expanding installed base.
+Cost of professional services decreased as a percentage of the related revenues
+in 1996 compared with 1995 due to economies of scale. In addition, cost of
+professional services and other increased in absolute dollars and as a
+percentage of the related revenues in 1996 and 1995 compared with 1994 as a
+result of Advent's sponsoring two conferences during 1996 and 1995 compared to
+one conference for 1994.
+
+OPERATING EXPENSES
+
+  Sales and Marketing. Sales and marketing expenses were $12.4 million, $9.3
+  -------------------
+million and $7.8 million in 1996, 1995 and 1994, respectively, representing
+increases of  34% from 1995 to 1996 and 19% from 1994  to 1995. Sales and
+marketing expenses as a percentage of net revenues were 34%, 36% and 39% in
+1996, 1995 and 1994, respectively. Sales and marketing expenses consist
+primarily of costs of all personnel involved in the sales and marketing process,
+sales commissions, advertising and promotional materials, sales facilities
+expense, trade shows, and seminars. Sales and marketing expenses increased in
+1996 and 1995 primarily due to the continued increase in sales and marketing
+employees and expenses for marketing materials needed to address new sales
+opportunities and to support the introduction of new products. Also, during
+1996, there were additional sales and marketing expenses incurred by the DX
+Group.
+
+  Product Development. Product development expenses were $6.7 million, $4.2
+  -------------------
+million and $3.0 million in 1996, 1995 and 1994, respectively, representing
+increases of 60% from 1995 to 1996 and 39% from 1994  to 1995. Product
+development expenses as a percentage of net revenues were 18%, 16% and 15% of
+net revenues in these periods, respectively. Product development expenses
+consist primarily of personnel costs and, accordingly, the increase in product
+development expenses in absolute dollars and as a percentage of net revenues in
+each of these periods was primarily attributable to an increase in personnel as
+Advent increased its product development efforts to accelerate the rate of new
+product introductions. Also, during 1996, there were additional product
+development expenses incurred by the DX Group. Advent anticipates that it will
+continue to devote substantial resources to product development. Development
+costs subsequent to achievement of technological feasibility have not been
+significant during these periods and, accordingly, all such costs have been
+expensed as incurred.
+
+  General and Administrative. General and administrative expenses were $4.4
+  --------------------------
+million, $3.4 million and $2.3 million in 1996, 1995 and 1994, respectively,
+representing increases of 29% from 1995 to 1996 and 51% from 1995 to 1994.
+General and administrative expenses as a percentage of net revenues were 12%,
+13% and 11% of net revenues in 1996, 1995 and 1994, respectively. General and
+administrative expenses consist primarily of personnel costs for finance,
+administration, operations and general management, as well as legal and
+accounting expenses. The increase in general and administrative expenses in
+these periods was primarily due to continued growth in finance, administration
+and operations which was necessary to support Advent's growth.
+<PAGE>
+ 
+  Purchased Research and Development and Other. In the first quarter of 1996,
+  --------------------------------------------
+Advent incurred a one-time charge of $5.6 million in connection with the write-
+off of in-process research and development due to the acquisition of the DX
+Group. In 1993, Advent agreed to repurchase all of the shares of common stock
+owned by a former officer and director of Advent and, in connection therewith,
+entered into a noncompetition and severance arrangement. Advent recognized
+expenses in connection with the amortization of the noncompetition and severance
+agreement of $405,000 in 1994. In 1994, Advent acquired the source code for a
+software product for $1.0 million, the cost of which was recorded as in-process
+research and development and fully expensed in 1994.
+
+INTEREST INCOME, NET
+
+  Interest income, net was $1,165,000, $447,000 and $121,000 in 1996, 1995 and
+1994, respectively. Interest income, net consists of interest income, interest
+expense and miscellaneous non-operating income and expense items. The increases
+were primarily due to greater interest income generated in 1996 and 1995 from
+higher cash and cash equivalent balances as a result of the IPO.
+
+
+INCOME TAXES
+
+  Advent had effective tax rates of 163%, 39% and 40% in 1996, 1995 and 1994,
+respectively. The effective tax rate increased in 1996 due to the $5.6 million
+write-off of in-process research and development which was not deductible for
+tax purposes. Excluding the effect of the write-off on the 1996 rate, these
+rates differ from the federal statutory rate primarily due to state income tax,
+offset by certain research and development credits. As of December 31, 1996,
+Advent did not have any net operating loss carryforwards or any research and
+development credit carryforwards.
+
+
+LIQUIDITY AND CAPITAL RESOURCES
+
+Advent funds its operations primarily from cash generated from operations. Net
+cash provided by operating activities was $1.6 million, $5.7 million and $1.9
+million in 1996, 1995 and 1994, respectively. Net cash used in investing
+activities was $5.6 million, $1.0 million and $1.5 million in 1996, 1995 and
+1994, respectively. Included in the 1996 amount was $4.0 million for the
+acquisition of the DX Group. The remaining 1996 amount and the 1995 and 1994
+amounts were primarily for the acquisition of fixed assets. Net cash provided by
+financing activities was $601,000 in 1996. Net cash provided by financing
+activities in 1995 was $22.7 million, primarily from net proceeds from the IPO.
+Net cash used in financing activities in 1994 was $2.4 million, primarily from
+the repayment of a note in connection with a repurchase of common stock in 1993
+and an additional repurchase of common stock in 1994.
+
+As of December 31, 1996, Advent had $31.7 million in cash, cash equivalents and
+short-term investments. At December 31, 1995, Advent had a bank line of credit
+that was secured by the assets of Advent that permitted borrowings of up to $5
+million subject to compliance with certain financial covenants. At December 31,
+1995, Advent had no borrowings outstanding under this agreement. This line of
+credit expired in 1996 and Advent elected not to renew it.
+
+Advent issued a $800,000 note payable as a part of the acquisition of the DX
+Group. This note was paid during the third quarter of 1996 and did not bear
+interest.
+
+Advent believes that its existing cash and cash equivalents, short-term
+investments and cash expected to be generated from operations will be sufficient
+to meet its cash and capital requirements at least through fiscal 1997.
+<PAGE>
+ 
+FORWARD-LOOKING STATEMENTS
+
+The discussion in "Management's Discussion and Analysis of Financial Condition
+and Results of Operations" contains trend analysis and other forward-looking
+statements that are based on current expectations and assumptions made by
+management. Words such as "expects", "anticipates", "intends", "plans",
+"believes", "seeks", "estimates", and variations of such words and similar
+expressions are intended to identify such forward-looking statements. These
+statements are not guarantees of future performance and involve certain risks
+and uncertainties which are difficult to predict. Therefore, actual results
+could differ materially from those expressed or forecasted in the forward-
+looking statements as a result of the factors summarized below and other risks
+detailed from time to time in reports filed with the Securities and Exchange
+Commission, including Advent's 1996 Form 10-K Report. Advent undertakes no
+obligation to update any forward-looking statements.
+
+Advent operates in a rapidly changing environment that involves a number of
+risks, some of which are beyond Advent's control. These risks include the
+potential for period to period fluctuations in operating results and the
+dependence on the successful development and market acceptance of new products
+and product enhancements on a timely, cost effective basis, as well as the
+stability of financial markets, maintenance of Advent's relationship with
+Interactive Data and price and product/performance competition. In particular,
+Advent's net revenues and operating results have varied substantially from
+period-to-period on a quarterly basis and may continue to fluctuate due to a
+number of factors. Advent's software products typically are shipped shortly
+after receipt of a signed license agreement and initial payment and,
+consequently, software backlog at the beginning of any quarter typically
+represents only a small portion of that quarter's expected revenues. In
+addition, as Advent's licenses into multi-user networked environments have
+increased both in individual size and number, the timing and size of individual
+license transactions are becoming increasingly important factors in Advent's
+quarterly operating results. The sales cycles for these transactions are often
+lengthy and unpredictable, and the ability to close large license transactions
+on a timely basis or at all could cause additional variability in Advent's
+quarterly operating results. Advent's future success will continue to depend
+upon its ability to develop new products, such as Moxy, Qube, and Geneva, that
+address the future needs of its target markets and to respond to emerging
+industry standards and practices. Advent is directing a significant amount of
+its product development efforts on the on-going development of Geneva. The
+failure to successfully develop and achieve widespread market acceptance of a
+fully commercial version of Geneva on a timely basis would adversely affect
+Advent's business and operating results.
+<PAGE>
+ 
+                      CONSOLIDATED FINANCIAL STATEMENTS
+                         CONSOLIDATED BALANCE SHEETS
+ 
+ 
+ 
+                                                       DECEMBER 31,
+                                                ------------------------
+                                                   1996          1995
+- ------------------------------------------------------------------------
+(in thousands, except per share data)
+
+                                   ASSETS
+Current assets:
+  Cash and cash equivalents                      $30,477       $33,918  
+  Short-term investments                           1,173         1,166
+  Accounts receivable, net of allowance for 
+    doubtful accounts of $235 in 1996
+    and $258 in 1995                               8,499         4,832  
+  Prepaid and other                                  592           347  
+  Deferred income taxes                            1,064           441   
+                                                 -------       -------
+       Total current assets                       41,805        40,704
+                                                 -------       -------
+  Fixed assets, net                                3,862         3,656
+  Deferred income taxes, noncurrent                  361           361
+  Other assets, net                                  663            29
+                                                 -------       -------
+       Total assets                              $46,691       $44,750
+                                                 =======       =======
+
+                    LIABILITIES AND STOCKHOLDERS' EQUITY
+
+Current liabilities:  
+  Accounts payable                               $   646       $ 1,130
+  Accrued liabilities                              2,627         2,119  
+  Deferred revenues                                5,071         5,376
+  Income taxes payable                               686         1,071
+                                                 -------       -------
+    Total current liabilities                      9,030         9,696
+                                                 -------       -------
+Long-term liabilities:
+  Other liabilities                                  599           470
+                                                 -------       -------
+    Total liabilities                              9,629        10,166
+                                                 -------       -------
+Stockholders'equity:
+Preferred stock, $0.01 par value
+  Authorized: 2,000
+  Issued and outstanding: None                        --            --
+Common stock, $0.01 par value
+  Authorized: 40,000
+  Issued and outstanding: 7,344 shares in 
+    1996 and 6,873 shares in 1995                     73            68
+Additional paid-in-capital                        35,061        31,202
+Retained earnings                                  1,928         3,314
+                                                 -------       -------
+    Total stockholders' equity                    37,062        34,584
+                                                 -------       -------
+      Total liabilities and stockholders' 
+        equity                                   $46,691       $44,750
+                                                 =======       =======
+
+- ------------------------------------------------------------------------
+
+               The accompanying notes are an integral part of 
+                  these consolidated financial  statements.
+<PAGE>
+ 
+                    CONSOLIDATED STATEMENTS OF OPERATIONS
+
+                                                YEAR ENDED DECEMBER 31,
+                                                -----------------------
+                                                 1996     1995    1994
+- --------------------------------------------------------------------------------
+(in thousands, except per share data)
+
+Revenues:
+  License                                       $16,951  $12,146  $ 9,412
+  Maintenance and other recurring                14,707    9,903    7,488  
+  Professional services and other                 5,086    3,908    3,201
+                                                -------  -------  -------
+    Net revenues                                 36,744   25,957   20,101
+                                                -------  -------  -------
+Cost of revenues:  
+    License                                         600      469      433  
+    Maintenance and other recurring               3,793    2,389    2,120
+    Professional services and other               2,513    2,049    1,405
+                                                -------  -------  -------
+      Total cost of revenues                      6,906    4,907    3,958
+                                                -------  -------  -------
+        Gross margin                             29,838   21,050   16,143
+                                                -------  -------  -------
+Operating expenses:
+  Sales and marketing                            12,446    9,268    7,800
+  Product development                             6,731    4,206    3,024
+  General and administrative                      4,422    3,418    2,266
+  Purchased research and development and other    5,648       --    1,405
+                                                -------  -------  -------
+     Total operating expenses                    29,247   16,892   14,495
+                                                -------  -------  -------
+       Income from operations                       591    4,158    1,648
+Interest income, net                              1,165      447      121
+                                                -------  -------  -------
+       Income before income taxes                 1,756    4,605    1,769
+Provision for income taxes                        2,855    1,786      705
+                                                -------  -------  -------
+          Net income (loss)                     $(1,099)  $2,819   $1,064
+                                                =======  =======  =======
+Net income (loss) per share                     $ (0.16)  $ 0.44   $ 0.17
+                                                =======  =======  =======
+Shares used in per share calculations             7,070    6,356    6,105
+                                                =======  =======  =======
+- --------------------------------------------------------------------------------
+
+               The accompanying notes are an integral part of 
+                  these consolidated financial  statements.
+<PAGE>
+ 
+<TABLE> 
+<CAPTION> 
+                                          CONSOLIDATED STATEMENTS OF STOCKHOLDERS' EQUITY
+
+                                       FOR THE YEARS ENDED DECEMBER 31, 1996, 1995 AND 1994
+
+                                                PREFERRED STOCK          COMMON STOCK       ADDITIONAL
+                                               ----------------         --------------        PAID-IN-             RETAINED   TOTAL
+                                               SHARES    AMOUNT         SHARES  AMOUNT        CAPITAL     OTHER    EARNINGS   EQUITY
+- ------------------------------------------------------------------------------------------------------------------------------------
+<S>                                           <C>    <C>            <C>      <C>         <C>          <C>      <C>       <C> 
+Balances, December 31, 1993                    1,117  $  7,530          3,096   $156      $    --        $(87)      $558   $ 8,157
+  Repurchase of common stock                                             (178)   (21)                     110       (983)     (894)
+  Unrealized loss on investments                                                                          (36)                 (36)
+  Net income                                                                                                       1,064     1,064
+                                              ------    ------          -----   ----         ----        ----      -----    ------
+Balances, December 31, 1994                    1,117     7,530          2,918    135           --         (13)       639     8,291
+  Repurchase of common stock prior to  
+    initial public offering                                               (30)   (19)                               (144)     (163)
+  Reincorporation in Delaware                                                   (227)         227
+  Preferred stock converted to common stock   (1,117)   (7,530)         2,234     22        7,508
+  Initial public offering of common stock, 
+    net of expenses of $2,677                                           1,450     14       23,409                           23,423
+  Exercise of stock options and warrants                                  301    143           58                              201
+  Realized loss on sale of investments                                                                     13                   13
+  Net income                                                                                                       2,819     2,819
+                                             ------    ------           -----   ----         ----        ----      -----    ------
+Balances, December 31, 1995                      --        --           6,873     68       31,202          --      3,314    34,584
+
+  Exercise of stock options                                               383      4          702                              706
+  Tax benefit from exercise of stock options                                                2,175                            2,175
+  Common stock issued under employee stock 
+    purchase plan                                                          53      1          982                              983
+  Pooling of interests with Bold Software                                  35     --                                (287)     (287)
+  Net loss                                                                                                        (1,099)   (1,099)
+- ------------------------------------------------------------------------------------------------------------------------------------
+
+Balances, December 31, 1996                      --   $    --           7,344  $  73      $35,061        $ --     $1,928   $37,062
+                                             ------    ------           -----   ----      -------        ----      -----   -------
+- ------------------------------------------------------------------------------------------------------------------------------------
+
+</TABLE> 
+
+
+               The accompanying notes are an integral part of 
+                  these consolidated financial  statements.
+<PAGE>
+ 
+                           STATEMENTS OF CASH FLOWS
+
+                                                    YEAR ENDED DECEMBER 31,    
+                                                   -------------------------
+                                                      1996    1995    1994
+- ----------------------------------------------------------------------------
+(in thousands)
+Cash flows from operating activities:
+  Net income (loss)                                 $(1,099) $2,819  $1,064
+  Adjustments to reconcile net income (loss) to 
+    net cash provided by operating activities:
+    Purchased research and development and other      5,648      --      --
+    Depreciation and amortization                     1,528   1,016     827
+    Provision for doubtful accounts                     (15)    191     (53)
+    Deferred income taxes                               247    (179)   (185)
+    Deferred rent                                       129     (10)     28
+    Cash provided by (used in) operating assets 
+      and liabilities:
+      Accounts receivable                            (3,625) (2,069)  1,378
+      Income taxes receivable                            --     335    (339)
+      Prepaid and other current                        (213)    (54)    281
+      Note payable                                       --      --     400
+      Accounts payable                                 (885)    838      76
+      Accrued liabilities                               234     682    (201)
+      Deferred revenues                              (2,130)  1,390  (1,330)
+      Income taxes payable                            1,780     726     (42)
+                                                    -------  ------  ------
+         Net cash provided by operating activities    1,599   5,685   1,904
+                                                    -------  ------  ------
+Cash flow from investing activities:
+  Net cash used in acquisition of DX Group           (3,963)     --      --
+  Acquisition of fixed assets                        (1,384) (1,182) (1,562)
+  Purchases of short-term investments                (1,167) (1,011) (3,030)
+  Maturities of short-term investments                1,160   1,218   3,121
+  Other                                                (287)     --      --
+                                                    -------  ------  ------
+         Net cash used in investing activities       (5,641)   (975) (1,471)
+                                                    -------  ------  ------
+Cash flow from financing activities:
+  Payment of note issued in acquisition of the 
+     DX Group                                          (800)     --      --
+  Payment of debt assumed in the DX Group 
+     acquisition                                       (288)     --      --
+  Proceeds from issuance of common stock                983  23,423      --
+  Proceeds from exercise of stock options and 
+     warrants                                           706     201      --
+  Payment of note used for repurchase of 
+     common stock                                        --      --  (1,380)
+  Repurchase of common stock                             --    (163)   (894)
+  Principal payments on long-term debt                   --    (759)   (153)
+                                                    -------  ------  ------
+     Net cash provided by (used in) financing 
+       activities                                       601  22,702  (2,427)
+                                                    -------  ------  ------
+Net increase (decrease) in cash and cash 
+   equivalents                                       (3,441) 27,412  (1,994)
+Cash and cash equivalents at beginning of year       33,918   6,506   8,500
+                                                    -------  ------  ------
+Cash and cash equivalents at end of year            $30,477 $33,918  $6,506
+                                                    ======= =======  ======
+Supplemental disclosure of cash flow information:
+Cash paid during year for:
+    Interest                                        $     3 $    11  $   40
+    Income taxes                                    $ 1,012 $ 1,009  $  888
+Contractual obligation for purchased software       $    -- $    --  $  400
+- ----------------------------------------------------------------------------
+
+               The accompanying notes are an integral part of 
+                  these consolidated financial statements.
+<PAGE>
+ 
+                  NOTES TO CONSOLIDATED FINANCIAL STATEMENTS
+
+1. SUMMARY OF SIGNIFICANT ACCOUNTING POLICIES
+
+   Operations
+   ----------
+
+   Advent provides stand-alone and client/server software products, data
+interfaces and related maintenance and services that automate, integrate and
+support certain mission-critical functions of the front, middle and back office
+of investment management organizations. Advent's clients are principally
+domestic and vary significantly in size and assets under management and include
+investment advisors, brokerage firms, banks, hedge funds, corporations, public
+funds, universities and non-profit organizations.
+
+   Principles of consolidation
+   ---------------------------
+
+   The consolidated financial statements include the accounts of Advent and its
+wholly-owned subsidiary. All intercompany transactions and amounts have been
+eliminated.
+
+   Financial Instruments
+   ---------------------
+
+   Cash equivalents comprise highly liquid investments purchased with a
+remaining maturity of 90 days or less. These investments are maintained with
+major financial institutions.
+
+   Short-term investments are comprised of various marketable securities carried
+at cost. These investments are maintained with major financial institutions.
+Securities are considered to be held-to-maturity. Amounts reported for short-
+term investments are considered to approximate the fair value based on
+comparable market information available at each year end. All investments had
+remaining maturities of less than one year. Realized gains and losses have not
+been significant.
+
+   The amounts reported for cash equivalents, receivables, accounts payable,
+accrued liabilities and other financial instruments are considered to
+approximate their market values based on comparable market information available
+at the respective balance sheet dates.
+
+   Financial instruments that potentially subject Advent to concentrations of
+credit risks comprise, principally, cash, short-term investments, and trade
+accounts receivable. Advent invests excess cash through banks, mutual funds, and
+brokerage houses primarily in highly liquid investments with remaining
+maturities of 90 days or less and has investment policies and procedures which
+are reviewed periodically to minimize credit risk. Advent does not require
+collateral from its customers but performs ongoing credit evaluations and
+maintains reserves for potential credit losses which historically have been
+within management's estimates.
+
+   Depreciation and Amortization
+   -----------------------------
+
+   Fixed assets are stated at cost. Depreciation is computed using the straight-
+line method over the estimated useful life of the related assets, generally five
+years. Amortization of leasehold improvements is computed using the straight-
+line method over the shorter of the estimated useful life of the assets or the
+remaining lease term.
+
+   Capitalized Software
+   --------------------
+
+   Costs incurred for software development prior to technological feasibility
+are expensed as product development costs in the period incurred. Once the point
+of technological feasibility is reached, production costs are capitalized. Such
+capitalized software costs were not material in 1996, 1995 and 1994.
+<PAGE>
+ 
+   Revenue Recognition
+   -------------------
+ 
+   Advent licenses application software programs and offers annual maintenance
+programs which provides for technical support and updates to software products.
+Advent also offers customers on-site consulting services, training, custom
+programming, and other services.
+
+   License revenue is recognized upon the shipment of a product to the client if
+collection is probable and Advent's remaining obligations with respect to that
+contract are insignificant. License revenue for licenses with remaining
+significant obligations is deferred until the product has been shipped and
+Advent's related obligations become insignificant. Maintenance revenues are
+recognized ratably over the term of the contract. Annual payments for
+maintenance contracts are generally received in advance and are nonrefundable.
+Revenues for interface development and custom programming are recognized using
+the percentage of completion method of accounting based on the costs incurred to
+date compared with the estimated cost of completion. Revenues from professional
+services are recognized as work is performed.
+
+   Net Income (Loss) Per Share
+   ---------------------------
+
+   The computation of net income (loss) per share is based on the weighted
+average number of common and common equivalent shares outstanding during the
+period. Common equivalent shares comprise preferred stock, warrants and stock
+options using the treasury stock method. Common equivalent shares from stock
+options, warrants, and preferred stock are excluded from the computation if
+their effect is antidilutive, except that, pursuant to the Securities and
+Exchange Commission Staff Accounting Bulletins, common and common equivalent
+shares issued at prices below the public offering price during the 12 months
+immediately preceding the initial public offering date have been included in the
+calculation as if they were outstanding for all periods prior to the offering
+(using the treasury stock method and the initial public offering price).
+
+   Reclassifications
+   -----------------
+
+   Certain reclassifications have been made to the 1995 and 1994 financial
+statement amounts to conform to the 1996 presentation. These reclassifications
+had no impact on net income, working capital, or cash flows.
+
+   Use of Estimates
+   ----------------
+
+   The preparation of financial statements in conformity with generally accepted
+accounting principles requires management to make estimates and assumptions that
+affect reported amounts. These estimates are based on information available as
+of the date of the financial statements. Actual results could differ from those
+estimates.
+
+2. ACQUISITIONS
+
+   In November 1996, Advent issued 35,000 shares of Advent's common stock in
+exchange for all of the outstanding shares of Bold Software, Inc., a private
+software development company based in New York. This business combination was
+accounted for as a pooling of interests. Prior year amounts have not been
+restated to include Bold Software's results of operations as such operations
+were immaterial. As a result of this business combination, Advent introduced
+Advent Partner, a partnership tax accounting solution which integrates with
+Axys.
+
+   In February 1996, Advent acquired Data Exchange, Inc. (the DX Group), a
+private company based in New York, for $4.0 million in cash and an $800,000 note
+payable. This note was paid during the third quarter of 1996 and did not bear
+interest. The DX Group's main product, WinDx, is a client/server portfolio
+management system designed for certain regional broker/dealers and other
+professional money managers with more than $1 billion in assets under
+management. The transaction was accounted for as a purchase. Advent incurred a
+
+<PAGE>
+ 
+one-time charge of $5.6 million in connection with the write-off of in-process
+research and development. This expense was recorded in purchased research and
+development and other expenses.
+
+3. BALANCE SHEET DETAIL
+
+The following is a summary of fixed assets:
+
+                                                           DECEMBER 31,
+                                                        ------------------
+                                                         1996       1995  
+- --------------------------------------------------------------------------
+(in thousands)
+
+Fixed Assets:
+  Computer equipment                                  $ 4,455   $  3,119
+  Leasehold improvements                                2,273      2,239
+  Furniture and fixtures                                  726        641
+  Telephone systems                                       461        363
+                                                      -------   --------
+                                                        7,915      6,362
+  Less accumulated depreciation and amortization       (4,053)    (2,706)
+                                                      -------   --------
+     Total fixed assets, net                            3,862    $ 3,656
+                                                      =======   ========
+
+
+The following is a summary of accrued liabilities:
+
+                                                           DECEMBER 31,
+                                                        ------------------
+                                                         1996       1995  
+- --------------------------------------------------------------------------
+(in thousands)
+
+Accrued Liabilities:
+  Salaries and benefits payable                        $1,365      $1,161
+  Commissions payable                                     583         429
+  Sales taxes payable                                     307         383
+  Other                                                   372         146
+                                                       ------      ------
+     Total accrued liabilities                         $2,627      $2,119
+                                                       ======      ======
+
+- --------------------------------------------------------------------------
+<PAGE>
+ 
+4. INCOME TAXES
+
+   The provision for income taxes includes:
+
+                                                 YEAR ENDED DECEMBER 31,
+                                                 -----------------------
+                                                  1996    1995     1994
+- ------------------------------------------------------------------------------
+(in thousands)
+
+Current:
+   Federal                                       $1,994  $1,578   $ 736
+   State                                            577     403     154
+Deferred:
+   Federal                                          227    (168)   (196)
+   State                                             57     (27)     11
+                                                 ------  ------   -----
+     Total                                       $2,855  $1,786   $ 705
+                                                 ======  ======   =====
+
+   Advent's effective tax rate, as a percent of pre-tax income, differs from the
+statutory federal rate as follows:
+
+                                                 YEAR ENDED DECEMBER 31,
+                                                 -----------------------
+                                                   1996    1995    1994
+- ------------------------------------------------------------------------------
+
+Statutory federal rate                             34.0%   34.0%   34.0%
+State taxes                                        23.8     6.9     7.3
+Purchased research and development                109.4      --      --
+Research and development tax credits               (5.1)   (5.0)  (10.8)
+Other                                               0.5     2.9     9.5
+                                                  -----    ----    ----
+   Total                                          162.6%   38.8%   40.0%
+                                                  =====    ====    ====
+- ------------------------------------------------------------------------------
+
+   The effective tax rate increased in 1996 due to the $5.6 million write-off of
+in-process research and development which was not deductible for tax purposes.
+
+   Deferred income taxes reflect the net tax effects of temporary differences
+between the basis of assets and liabilities for financial reporting and income
+tax purposes. The approximate tax effects of temporary differences which give
+rise to net deferred tax assets are:
+
+                                                      DECEMBER 31,
+                                                 -----------------------
+                                                     1996       1995   
+- ------------------------------------------------------------------------------
+(in thousands)
+
+Current:
+     Deferred revenue                              $  718      $  --
+     Accrued liabilities                              201        118
+     Reserves                                         145        285
+     State taxes                                       --         38
+                                                   ------      -----
+                                                    1,064        441
+                                                   ------      -----
+Noncurrent:
+     Depreciation and amortization                     99        172
+     Deferred rent                                    262        189
+                                                   ------      -----
+                                                      361        361
+                                                   ------      -----
+          Total deferred tax assets                $1,425      $ 802
+                                                   ======      =====
+- ------------------------------------------------------------------------------
+<PAGE>
+ 
+5. COMMITMENTS
+
+   Advent leases office space and equipment under noncancelable operating lease
+agreements, which expire at various dates through February 2004. Some operating
+leases contain escalation provisions for adjustments in the consumer price
+index. Advent is responsible for maintenance, insurance, and property taxes and
+has five year extension options on both of its facilities leases. Future minimum
+payments under the noncancelable operating leases consist of the following at
+December 31, 1996 (in thousands):
+
+               1997                             $1,252
+               1998                              1,154
+               1999                                706
+               2000                                706
+               2001                                706
+               2002 and thereafter                 942
+                                                ------
+               Total minimum lease payments     $5,466
+                                                ======
+
+   Rent expense for 1996, 1995, and 1994 was approximately $1,159,000, $894,000,
+and $888,000, respectively.
+
+6. EMPLOYEE BENEFIT PLANS
+
+   401(k) Plan
+   -----------
+
+   Advent has a 401(k) deferred savings plan covering substantially all
+employees. Employee contributions, limited to 15% of compensation, are matched
+50% by Advent, up to a maximum of $500 per employee per year. Matching
+contributions by Advent in 1996, 1995 and 1994 were $73,000, $61,000, and
+$58,000, respectively. In addition to the employer matching contribution,
+Advent may make a profit sharing contribution at the discretion of the Board
+of Directors. Advent made profit sharing contributions of $87,000, $92,000,
+and $50,000 in 1996, 1995 and 1994, respectively.
+
+   1995 Employee Stock Purchase Plan
+   ---------------------------------
+
+   All individuals employed by Advent are eligible to participate in the
+Employee Stock Purchase Plan (Purchase Plan) if they are employed by Advent
+for at least 20 hours per week and at least five months per year. Any
+individual who holds 5% or more of Advent's common stock (directly or upon the
+exercise of options) is not eligible to participate. The Purchase Plan permits
+eligible employees to purchase Advent's common stock through payroll
+deductions at a price equal to 85% of the lower of the closing sale price for
+Advent's common stock reported on the Nasdaq National Market at the beginning
+and the end of each six-month offering period. In any calendar year, eligible
+employees can withhold up to 10% of their salary and variable compensation
+subject to certain restrictions. A total of 100,000 shares of common stock
+have been reserved for issuance under the Purchase Plan. In 1996, 53,000
+shares were sold through the Purchase Plan.
+
+7. STOCKHOLDERS' EQUITY
+
+   Common Stock
+   ------------
+
+   On November 15, 1995, Advent completed an IPO in which it sold 1,450,000
+shares of its common stock at $18.00 per share which generated net proceeds to
+Advent of $23.4 million. Prior to the effective date of Advent's IPO, Advent
+reincorporated in the state of Delaware and exchanged each outstanding share
+of no par common stock for one share of $.01 par value common stock.
+<PAGE>
+ 
+Stock Options
+- -------------
+
+   Under Advent's 1992 Stock Plan (the Plan) Advent may grant options to
+purchase common stock to employees and consultants. Options granted may be
+incentive stock options or nonstatutory stock options and shall be granted at
+a price not less than fair market value on the date of grant. Fair market
+value (as defined in the Plan) and the vesting of these options shall be
+determined by the Board of Directors. The options expire no later than 10
+years from the date of grant. Unvested options on termination of employment
+are canceled and returned to the Plan.
+
+   The activity under the Plan was as follows:
+
+<TABLE> 
+<CAPTION> 
+                                                                                OUTSTANDING OPTIONS
+                                                             ----------------------------------------------------------
+                                                                                                              WEIGHTED
+                                                                                              AGGREGATE        AVERAGE
+                                               AVAILABLE      NUMBER OF     PRICE PER         EXERCISE        PRICE PER
+                                               FOR GRANT       OPTIONS        SHARE             PRICE           SHARE
+                                               ---------      ---------     ---------         ---------       ---------
+<S>                                           <C>            <C>            <C>              <C>             <C> 
+Balances, December 31, 1993                     306,000        674,000    $0.63 - $4.50       $1,044,000       $ 1.55  
+  Options granted                               (90,000)        90,000             5.00          450,000         5.00  
+  Options canceled                               82,000        (82,000)    0.63 -  5.00          (62,000)        0.76
+                                                -------      ---------    -------------      -----------       ------
+Balances, December 31, 1994                     298,000        682,000     0.63 -  5.00        1,432,000         2.10
+  Authorized                                    300,000             --               --               --           --
+  Options granted                              (466,000)       466,000     5.00 - 12.00        2,940,000         6.31
+  Options exercised                                  --       (101,000)    0.63 -  5.00         (115,000)        1.14
+  Options canceled                               21,000        (21,000)    1.00 -  6.50          (97,000)        4.62
+                                                -------      ---------    -------------      -----------       ------
+Balances, December 31, 1995                     153,000      1,026,000     0.63 - 12.00        4,160,000         4.05
+  Authorized                                    400,000             --               --               --           --
+  Options granted                              (412,000)       412,000    19.50 - 32.00       10,376,000        25.18
+  Options exercised                                  --       (283,000)    0.63 - 12.00         (642,000)        2.27
+  Options canceled                               58,000        (58,000)    1.00 - 19.50         (754,000)       13.00
+                                                -------      ---------    -------------      -----------       ------
+Balances, December 31, 1996                     199,000      1,097,000    $0.63 -$32.00      $13,140,000       $11.98
+                                                =======      =========                       ===========       ======
+
+</TABLE> 
+
+   Of the 1,097,000 options under the Plan outstanding at December 31, 1996,
+241,000 options were exercisable with an aggregate exercise price of $957,000.
+
+   In addition to the Plan, Advent had granted options to purchase
+common stock to employees or consultants under special arrangements. These
+options have an exercise price of $1.00 per share. There were 16,000 of these
+options outstanding at December 31, 1995 and 1994. During 1996, 4,000 options
+were exercised . There were 12,000 options outstanding at December 31, 1996, all
+of which are fully vested.
+
+   Advent's 1995 Director Option Plan (the Director Plan) provides for the grant
+of nonstatutory stock options to nonemployee directors of Advent (Outside
+Directors). Under the Director Plan, each Outside Director is granted a non-
+qualified option to purchase 10,000 shares on the last to occur of the date of
+effectiveness of the Director Plan or the date upon which such person first
+becomes a director with an exercise price equal to the fair market value of
+Advent's common stock as of the date of the grant. In subsequent years, each
+Outside Director is automatically granted an option to purchase 2,000 shares on
+December 1 with an exercise price equal to the fair value of the Advent's common
+stock on that date. Options granted under the Director Plan vest over a five 
+year period and have a ten year term.
+
+<PAGE>
+ 
+   The activity under the Director Plan was as follows:
+
+
+<TABLE> 
+<CAPTION> 
+
+                                                                   OUTSTANDING OPTIONS  
+                                               --------------------------------------------------------
+                                                                                               WEIGHTED  
+                                                                               AGGREGATE        AVERAGE  
+                                AVAILABLE      NUMBER OF        PRICE PER      EXERCISE        PRICE PER   
+                                FOR GRANT       OPTIONS          SHARE          PRICE            SHARE    
+                                ---------      ---------        ---------      ---------      ---------
+<S>                             <C>            <C>              <C>            <C>            <C> 
+Balances, December 31, 1994            --             --           $   --              --            --
+ Authorized                        75,000             --               --              --            --
+ Options granted                  (30,000)        30,000            18.00         540,000         18.00
+                                ---------      ---------      -----------      ---------      ---------
+Balances, December 31, 1995        45,000         30,000            18.00         540,000         18.00  
+ Options granted                   (6,000)         6,000            32.75         196,500         32.75
+                                ---------      ---------      -----------       ---------     ---------
+Balances, December 31, 1996        39,000         36,000      18.00-32.75         736,500         20.45
+                                =========      =========      ===========       =========     ========= 
+
+</TABLE> 
+
+   Of the 36,000 options under the Director Plan outstanding at December 31,
+1996, 6,000 options were exercisable with an aggregate exercise price of
+$108,000.
+
+   In addition to the Director Plan, Advent granted options prior to 1994 to an
+Outside Director for the purchase of 96,000 shares of common stock with an
+exercise price of $0.63 per share. These options were exercised during 1996.
+
+   At December 31, 1996, Advent had reserved 1,688,000 shares of common stock
+for the exercise of stock options.
+
+   Advent has adopted the disclosure-only provisions of SFAS No. 123.
+Accordingly, no compensation cost has been recognized for Advent's stock option
+plans. Had compensation cost been determined based on the fair value at the
+grant date for awards in 1996 and 1995 consistent with the provisions of SFAS
+No. 123, Advent's net income (loss) and net income (loss) per share for the year
+ended December 31, 1996 and 1995, respectively, would have been as follows:
+
+
+                                                  1996       1995
+                                                -------     ------
+Net income (loss) - as reported                 $(1,099)    $2,819
+Net income (loss) - pro forma                   $(1,528)    $2,717
+Net income (loss) per share - as reported       $ (0.16)    $ 0.44
+Net income (loss) per share - pro forma         $ (0.22)    $ 0.43
+
+
+   Such pro forma disclosures may not be representative of future compensation
+cost because options vest over several years and additional grants are made each
+year.
+
+   The weighted-average grant-date fair value of options granted were $14.50 and
+$3.82 per option for the years ended December 31, 1996 and 1995, respectively.
+
+   The fair value of each option grant is estimated on the date of grant using
+the Black-Scholes valuation model with the following weighted average
+assumptions:
+
+                                1996       1995
+                              -------    ------- 
+Risk-free interest rate          6.03%      6.40%
+Volatility                      55.04      55.04
+Expected life                 5 years    5 years
+Expected dividends               None       None
+<PAGE>
+ 
+   The risk-free interest rate was calculated in accordance with the grant date
+and expected life. Volatility was calculated using an analysis of an Advent peer
+group of publicly traded companies. The weighted average expected life was
+calculated based on the vesting period and the exercise behavior of the
+participants.
+
+   The options outstanding and currently exercisable by exercise price at
+December 31, 1996 are as follows:
+
+
+<TABLE> 
+<CAPTION> 
+
+                              OPTIONS OUTSTANDING                                 OPTIONS EXERCISABLE
+                 -------------------------------------------------       -------------------------------------
+<S>              <C>             <C>                <C>                   <C>                <C> 
+                                   Weighted 
+                                   Average
+                                   Remaining        Weighted                                 Weighted
+Exercise Prices   Number           Contractual      average               Number             Average Exercise
+                  Outstanding      Life             Exercise Price        Exercisable        Price
+- ------------------------------------------------------------------       -------------------------------------
+$ 0.63-$ 6.50         730,000             7.51              $ 4.43             251,000                  $ 3.74
+$12.00-$19.50         183,000             9.09               18.31               8,000                   17.25
+$29.75-$32.75         232,000             9.86               31.91                  --                      --
+                    ---------             ----              ------             -------                   -----
+                    1,145,000             8.24              $12.22             259,000                  $ 4.16
+                    =========             ====              ======             =======                  ======
+
+
+</TABLE> 
+<PAGE>
+ 
+                       REPORT OF INDEPENDENT ACCOUNTANTS
+
+To the Board of Directors
+Advent Software, Inc.:
+
+   We have audited the accompanying consolidated balance sheets of Advent
+Software, Inc. as of December 31, 1996 and 1995 and the related consolidated
+statements of operations, stockholders' equity, and cash flows for each of the
+three years in the period ended December 31, 1996. These financial statements
+are the responsibility of Advent Software, Inc.'s management. Our responsibility
+is to express an opinion on these financial statements based on our audits.
+
+   We conducted our audits in accordance with generally accepted auditing
+standards. Those standards require that we plan and perform the audit to obtain
+reasonable assurance about whether the financial statements are free of material
+misstatement. An audit includes examining, on a test basis, evidence supporting
+the amounts and disclosures in the financial statements. An audit also includes
+assessing the accounting principles used and significant estimates made by
+management, as well as evaluating the overall financial statement presentation.
+We believe that our audits provide a reasonable basis for our opinion.
+
+   In our opinion, the financial statements referred to above present fairly, in
+all material respects, the consolidated financial position of Advent Software,
+Inc. as of December 31, 1996 and 1995 and the consolidated results of its
+operations and its cash flows for each of the three years in the period ended
+December 31, 1996 in conformity with generally accepted accounting principles.
+
+COOPERS & LYBRAND L.L.P.
+
+San Francisco, California
+January 23, 1997
+<PAGE>
+                                   SELECTED
+                                FINANCIAL DATA 
+
+<TABLE> 
+<CAPTION> 
+
+                             SELECTED ANNUAL DATA
+                             --------------------
+
+YEAR ENDED DECEMBER 31,                  1996*    1995      1994     1993     1992
+ .....................................................................................
+(in thousands except per share data)
+<S>                                    <C>       <C>       <C>      <C>      <C>     
+STATEMENT OF OPERATIONS
+Net revenues                            $36,744   $25,957   $20,101  $16,740  $10,598
+Income from operations                      591     4,158     1,648    2,061    1,238  
+Net income (loss)                        (1,099)    2,819     1,064    1,259      760
+Net income (loss) per share               (0.16)     0.44      0.17     0.24     0.14
+Shares used in per share calculation**    7,070     6,356     6,105    5,153    5,340
+
+
+BALANCE SHEET
+Working capital                         $32,775   $31,008   $ 5,093  $ 5,987  $    16   
+Total assets                             46,691    44,750    15,594   18,066    6,561
+Long-term liabilities                       599       470       708      801      617
+Stockholders' equity                     37,062    34,584     8,291    8,157    1,970 
+
+</TABLE> 
+
+
+
+                            SELECTED QUARTERLY DATA
+                            -----------------------
+                                        FIRST     SECOND    THIRD   FOURTH
+                                       QUARTER    QUARTER  QUARTER  QUARTER
+ .............................................................................
+
+1996
+Net revenues                            $ 6,975   $9,022   $10,146   $10,601
+Income (loss) from operations            (5,087)*  1,376     1,920     2,383
+Net income (loss)                        (5,102)*  1,015     1,349     1,640
+Net income (loss) per share               (0.74)*   0.13      0.17      0.21
+
+
+1995
+Net revenues                            $ 5,166   $6,256   $ 6,800   $ 7,735  
+Income from operations                      211    1,000     1,155     1,792 
+Net income                                  176      673       772     1,198
+Net income per share                       0.03     0.11      0.13      0.17
+
+
+
+
+
+                          PRICE RANGE OF COMMON STOCK
+                          ---------------------------
+
+
+NASDAQ NATIONAL MARKET SYMBOL "ADVS"         High       Low
+- ----------------------------------------------------------------
+YEAR ENDED DECEMBER 31, 1996
+First Quarter                               $21 3/4   $14
+Second Quarter                               32 1/8    19
+Third Quarter                                32 3/4    20 1/4
+Fourth Quarter                               36 1/2    25 5/8
+
+YEAR ENDED DECEMBER 31, 1996
+ Fourth Quarter (November 16, 1995 - 
+  December 31, 1995                        $ 24 3/4   $14
+
+(1) In 1996 and 1994, Advent recognized no recurring charges of $5.6 million and
+    $1 million, respectively, in connection with the write-off of purchased
+    research and development. Excluding these non-recurring charges, net income
+    per share would have been $0.58 and $0.27 in 1996 and 1994, respectively.
+    For further explanation, see "Purchased Research and Development and Other"
+    in Management's Discussion and Analysis of Financial Condition and Results
+    of Operations on page 21.
+
+** For an explanations of shares used in per share calculations, see Note 1 of 
+   the Notes to Consolidated Financial Statements.
+
+
+Stock Information
+Advent's common stock has traded on the Nasdaq National Market under the symbol 
+ADVS since it's initial public offering on November 15,1996.
+
+Advent has not paid cash dividends on its common stock and presently intends to 
+continue this policy in order to retain its earnings for the development if its 
+business.
+
+Transfer Agent & Registrar
+First National Bank of Boston is the Transfer Agent and Registrar of Advent's 
+common stock and maintains stockholder accounting records. Inquires regarding 
+lost certificates, consolidation of accounts, and changes in address, name or 
+ownership should be addressed to:
+
+
+Bank of Boston
+c/o Boston EquiServe, LP
+PO Box 8040
+Boston, MA 02266-8040
+Telephone: (617) 575-3120
+Internet: www.equiserve.com
+
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-21.1
+<SEQUENCE>4
+<DESCRIPTION>SUBSIDIARIES OF ADVENT
+<TEXT>
+
+<PAGE>
+ 
+                                                                    EXHIBIT 21.1
+
+                     SUBSIDIARIES OF ADVENT SOFTWARE, INC.
+
+
+Name                   State of Incoporation
+- ----                   ---------------------
+
+Data Exchange, Inc.    Pennsylvania
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-23.1
+<SEQUENCE>5
+<DESCRIPTION>CONSENT OF COOPERS & LYBRAND
+<TEXT>
+
+<PAGE>
+ 
+                                                                    EXHIBIT 23.1
+
+
+                      CONSENT OF INDEPENDENT ACCOUNTANTS
+
+
+        We consent to the incorporation by reference in the registration 
+statement of Advent Software, Inc. on Form S-8 (File No. 333-918) of our report 
+dated January 23, 1997, on our audit of the financial statements of Advent 
+Software, Inc. as of December 31, 1996 and 1995, and for the years ended 
+December 31, 1996, 1995, and 1994, which report is incorporated by reference in 
+this report on Form 10-K, and our report dated January 23, 1997, on our audit of
+the financial statement schedule, which report is included in this report on 
+Form 10-K.
+
+
+
+COOPERS & LYBRAND L.L.P.
+
+
+
+San Francisco, California
+March 27, 1997
+
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>EX-27
+<SEQUENCE>6
+<DESCRIPTION>FINANCIAL DATA SCHEDULE
+<TEXT>
+
+<TABLE> <S> <C>
+
+<PAGE>
+<ARTICLE> 5
+<MULTIPLIER>  1,000
+       
+<S>                             <C>
+<PERIOD-TYPE>                   YEAR
+<FISCAL-YEAR-END>                          DEC-31-1996
+<PERIOD-START>                             JAN-01-1996
+<PERIOD-END>                               DEC-31-1996
+<CASH>                                          30,477
+<SECURITIES>                                     1,173
+<RECEIVABLES>                                    8,734
+<ALLOWANCES>                                       235
+<INVENTORY>                                          0
+<CURRENT-ASSETS>                                41,805
+<PP&E>                                           7,915
+<DEPRECIATION>                                   4,053
+<TOTAL-ASSETS>                                  46,691
+<CURRENT-LIABILITIES>                            9,030
+<BONDS>                                              0
+<PREFERRED-MANDATORY>                                0
+<PREFERRED>                                          0
+<COMMON>                                            73
+<OTHER-SE>                                      36,989
+<TOTAL-LIABILITY-AND-EQUITY>                    46,691
+<SALES>                                         16,951
+<TOTAL-REVENUES>                                36,744
+<CGS>                                              600
+<TOTAL-COSTS>                                    6,906
+<OTHER-EXPENSES>                                     0
+<LOSS-PROVISION>                                     0
+<INTEREST-EXPENSE>                                   0
+<INCOME-PRETAX>                                  1,756
+<INCOME-TAX>                                     2,855
+<INCOME-CONTINUING>                             (1,099)
+<DISCONTINUED>                                       0
+<EXTRAORDINARY>                                      0
+<CHANGES>                                            0
+<NET-INCOME>                                    (1,099)
+<EPS-PRIMARY>                                    (0.16)
+<EPS-DILUTED>                                    (0.16)
+        
+
+</TABLE>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----
