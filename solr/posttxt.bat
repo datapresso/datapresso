@@ -1,0 +1,1 @@
+curl "http://localhost:8080/solr/update/extract?literal.id=doc8&uprefix=attr_&fmap.content=body&commit=true" -F "myfile=@c://java//pear//data//esp1.txt"

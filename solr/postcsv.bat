@@ -1,0 +1,1 @@
+java -Durl=http://localhost:8080/solr/update/csv -Dtype=text/csv -jar post.jar c:\java\pear\data\*.csv

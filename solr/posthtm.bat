@@ -1,0 +1,1 @@
+java -Durl=http://localhost:8080/solr/update/extract -Dparams=literal.id=doc5  -Dtype=text/html -jar post.jar c:\java\pear\data\4752.html
