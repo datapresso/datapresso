@@ -4,3 +4,9 @@ C:\Users\daniel\documents\visual studio 2010\Projects\LW_COREF_V1\LW_COREF_V1\bi
 C:\Users\daniel\documents\visual studio 2010\Projects\LW_COREF_V1\LW_COREF_V1\bin\Debug\LW_COREF_V1.pdb
 C:\Users\daniel\documents\visual studio 2010\Projects\LW_COREF_V1\LW_COREF_V1\obj\x86\Debug\LW_COREF_V1.exe
 C:\Users\daniel\documents\visual studio 2010\Projects\LW_COREF_V1\LW_COREF_V1\obj\x86\Debug\LW_COREF_V1.pdb
+E:\CS Research\datapresso\datapresso\LW_COREF\LW_COREF_V1\obj\x86\Debug\LW_COREF_V1.exe
+E:\CS Research\datapresso\datapresso\LW_COREF\LW_COREF_V1\obj\x86\Debug\LW_COREF_V1.pdb
+E:\CS Research\datapresso\datapresso\LW_COREF\LW_COREF_V1\bin\Debug\LW_COREF_V1.exe
+E:\CS Research\datapresso\datapresso\LW_COREF\LW_COREF_V1\bin\Debug\LW_COREF_V1.pdb
+E:\CS Research\datapresso\datapresso\LW_COREF\LW_COREF_V1\obj\x86\Debug\LW_COREF_V1.Properties.Resources.resources
+E:\CS Research\datapresso\datapresso\LW_COREF\LW_COREF_V1\obj\x86\Debug\LW_COREF_V1.csproj.GenerateResource.Cache

@@ -1072,12 +1072,13 @@ namespace LW_COREF
                                 count = 0;
                             }
                         }
-
                         // save the extracted entity locations in entity list
                         entities.Add(new Tuple<int, int, int, int>(beginLine, beginWord, endLine, endWord));
                     }
                 }
             }
+            // Close the StreamReader, comment added by Wiliam Chatham
+            documentText.Close(); // statement and comment added by Wiliam Chatham, fixed bug that prevented multiple scorings in a single session
             return entities;
         }
     }
