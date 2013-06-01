@@ -1,3 +1,0 @@
-c="Felipe De Jesus Gonzalez-Rocha" 9:5 9:8||t="person"
-c="Gonzalez-Rocha" 9:39 9:39||t="person"
-c="Gonzalez-Rocha" 11:17 11:17||t="person"

@@ -1,2 +1,2 @@
-C:\ding\LW_COREF_V1\test4\docs\49.txt
+C:\workspace\datapresso\LW_COREF\test4\docs\49.txt
 39:2 39:3

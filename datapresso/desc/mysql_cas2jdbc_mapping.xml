@@ -9,21 +9,42 @@
   </driverLibraries>
  <authentication>
   <username>root</username> 
-  <password></password> 
+  <password>datapresso</password> 
   </authentication>
   </databaseConnection>
 	<cas2JdbcMappingSpec>
 		<cas2JdbcMappings>
 			<explicitMappings>
-				
-				<!--  
-			<explicitMappingRule applyToSubtypes="false">
-					<type>com.ibm.systemT.Person</type>
-					<table>person</table>
+				<explicitMappingRule applyToSubtypes="false">
+					<type>uima.tcas.DocumentAnnotation</type>
+					<table>document</table>
 					<featureMappings>
 						<featureMapping>
-							<feature>uniqueId()</feature>
+							<feature>docId()</feature>
 							<column>id</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>docUri()</feature>
+							<length>200</length>
+							<column>uri</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>docTimestamp()</feature>
+							<column>doctimestamp</column>
+						</featureMapping>						
+					</featureMappings>
+				</explicitMappingRule>  
+				<explicitMappingRule applyToSubtypes="false">
+					<type>com.ibm.systemT.Person</type>
+					<table>datapresso.person</table>
+					<featureMappings>
+						<featureMapping>
+							<feature>docId()</feature>
+							<column>sectionid</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>objectId()</feature>
+							<column>uid</column>
 						</featureMapping>
 						<featureMapping>
 							<feature>firstname</feature>
@@ -31,100 +52,236 @@
 							<column>firstname</column>
 						</featureMapping>
 						<featureMapping>
-							<feature>canonicalCoveredText</feature>
-							<length>8000</length>
-							<column>coveredtext</column>
-						</featureMapping>
-						<featureMapping>
 							<feature>lastname</feature>
 							<length>50</length>
 							<column>lastname</column>
 						</featureMapping>
+			            <featureMapping>
+			            	<feature>typeName()</feature>
+			            	<column>entitytype</column>
+			            </featureMapping>
 						<featureMapping>
-							<feature>canonicalForm</feature>
-							<length>50</length>
-							<column>title</column>
-						</featureMapping>
-
-					</featureMappings>
-				</explicitMappingRule>  -->
- 	<explicitMappingRule applyToSubtypes="false">
-					<type>com.ibm.systemT.Location</type>
-					<table>address</table>
+							<feature>canonicalCoveredText</feature>
+								<column>coveredtext</column>
+						</featureMapping> 
+			            <featureMapping>
+			            	<feature>begin</feature>
+			            	<column>beginpos</column>
+			            </featureMapping>
+			            <featureMapping>
+			            	<feature>end</feature>
+			            	<column>endpos</column>
+			            </featureMapping>
+					</featureMappings>						
+				</explicitMappingRule>  
+ 			    <explicitMappingRule applyToSubtypes="false">
+					<type>com.dp.core.en.PersonName</type>
+					<table>person</table>
 					<featureMappings>
 						<featureMapping>
-							<feature>canonicalForm</feature>
-							<length>200</length>
-							<column>street</column>
+							<feature>docId()</feature>
+							<column>sectionid</column>
+						</featureMapping>
+  						<featureMapping>
+							<feature>objectId()</feature>
+							<column>uid</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>typeName()</feature>
+							<column>entitytype</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>firstname</feature>
+							<length>30</length>
+							<column>firstname</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>lastname</feature>
+							<length>20</length>
+							<column>lastname</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>ruleId</feature>
+							<length>64</length>
+							<column>ruleid</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>coveredText()</feature>
+							<column>coveredtext</column>
+						</featureMapping> 
+					</featureMappings>
+				</explicitMappingRule> 
+ 				<explicitMappingRule applyToSubtypes="false">
+					<type>com.ibm.systemT.Location</type>
+					<table>datapresso.address</table>
+					<featureMappings>
+						<featureMapping>
+							<feature>docId()</feature>
+							<column>sectionid</column>
+						</featureMapping>
+  						<featureMapping>
+							<feature>objectId()</feature>
+							<column>uid</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>typeName()</feature>
+							<column>entitytype</column>
 						</featureMapping>
 						<featureMapping>
 							<feature>canonicalCoveredText</feature>
-							<column>coveredtext</column>
-						</featureMapping>
+								<column>coveredtext</column>
+							</featureMapping> 
+						<featureMapping>
+							<feature>canonicalForm</feature>
+								<column>street</column>
+							</featureMapping> 
+			            <featureMapping>
+			            	<feature>begin</feature>
+			            	<column>beginpos</column>
+			            </featureMapping>
+			            <featureMapping>
+			            	<feature>end</feature>
+			            	<column>endpos</column>
+			            </featureMapping>
 					</featureMappings>
-				</explicitMappingRule>
-				<!--  
-				<explicitMappingRule applyToSubtypes="false">
+				</explicitMappingRule>  
+		 		<explicitMappingRule applyToSubtypes="false">
 					<type>com.dp.dhs.Airport</type>
 					<table>address</table>
 					<featureMappings>
 						<featureMapping>
-							<feature>name</feature>
-							<length>200</length>
-							<column>airport</column>
+							<feature>docId()</feature>
+							<column>sectionid</column>
 						</featureMapping>
+  						<featureMapping>
+							<feature>objectId()</feature>
+							<column>uid</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>typeName()</feature>
+							<column>entitytype</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>coveredText()</feature>
+							<column>coveredtext</column>
+						</featureMapping> 
 						<featureMapping>
 							<feature>ruleId</feature>
-							<column>coveredtext</column>
-						</featureMapping>
-					</featureMappings>
-				</explicitMappingRule>	
-				-->
-						
-				<explicitMappingRule applyToSubtypes="false">
-					<type>com.ibm.systemT.Organization</type>
-					<table>organization</table>
-					<featureMappings>
-						<featureMapping>
-							<feature>canonicalForm</feature>
-							<length>200</length>
-							<column>name</column>
+							<column>ruleid</column>
 						</featureMapping>
 						<featureMapping>
-							<feature>canonicalCoveredText</feature>
-							<column>coveredtext</column>
-						</featureMapping>
+							<feature>name</feature>
+							<column>airport</column>
+						</featureMapping> 
 					</featureMappings>
 				</explicitMappingRule>	
 				
-
 				<explicitMappingRule applyToSubtypes="false">
-					<type>uima.tcas.DocumentAnnotation</type>
-					<table>document</table>
+					<type>com.ibm.systemT.Organization</type>
+					<table>datapresso.organization</table>
 					<featureMappings>
 						<featureMapping>
 							<feature>docId()</feature>
-							<column>name</column>
+							<column>sectionid</column>
+						</featureMapping>
+  						<featureMapping>
+							<feature>objectId()</feature>
+							<column>uid</column>
 						</featureMapping>
 						<featureMapping>
-							<feature>docUri()</feature>
-							<length>200</length>
-							<column>url</column>
+							<feature>typeName()</feature>
+							<column>entitytype</column>
 						</featureMapping>
-						<!-- <featureMapping>
-							<feature>parentId()</feature>
-							<length>25</length>
-							<column>name</column>
-						</featureMapping>-->
 						<featureMapping>
-							<feature>docTimestamp()</feature>
-							<column>status</column>
-						</featureMapping>						
+							<feature>coveredText()</feature>
+								<column>coveredtext</column>
+						</featureMapping> 
+						<featureMapping>
+			            	<feature>begin</feature>
+			            	<column>beginpos</column>
+			            </featureMapping>
+			            <featureMapping>
+			            	<feature>end</feature>
+			            	<column>endpos</column>
+			            </featureMapping>
+						<featureMapping>	
+							<feature>canonicalForm</feature>
+							<column>name</column>
+						</featureMapping>	
 					</featureMappings>
-				</explicitMappingRule>
-							
-			
-			<!--  
+				</explicitMappingRule>	
+				
+				<explicitMappingRule applyToSubtypes="false">
+					<type>com.ibm.coast.NegativeOpinion</type>
+					<table>event</table>
+					<featureMappings>
+						<featureMapping>
+							<feature>docId()</feature>
+							<column>sectionid</column>
+						</featureMapping>
+  						<featureMapping>
+							<feature>objectId()</feature>
+							<column>uid</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>typeName()</feature>
+							<column>entitytype</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>coveredText()</feature>
+								<column>coveredtext</column>
+							</featureMapping> 
+						<featureMapping>
+			            	<feature>begin</feature>
+			            	<column>beginpos</column>
+			            </featureMapping>
+			            <featureMapping>
+			            	<feature>end</feature>
+			            	<column>endpos</column>
+			            </featureMapping>
+    					<featureMapping>	
+							<feature>coveredText()</feature>
+							<column>negsentiment</column>
+						</featureMapping>
+					</featureMappings>
+				</explicitMappingRule>	
+				<explicitMappingRule applyToSubtypes="false">
+					<type>com.ibm.coast.PositiveOpinion</type>
+					<table>datapresso.event</table>
+					<featureMappings>
+						<featureMapping>
+							<feature>docId()</feature>
+							<column>sectionid</column>
+						</featureMapping>
+  						<featureMapping>
+							<feature>objectId()</feature>
+							<column>uid</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>typeName()</feature>
+							<column>entitytype</column>
+						</featureMapping>
+						<featureMapping>
+							<feature>coveredText()</feature>
+								<column>coveredtext</column>
+						</featureMapping> 
+						<featureMapping>
+			            	<feature>begin</feature>
+			            	<column>beginpos</column>
+			            </featureMapping>
+			            <featureMapping>
+			            	<feature>end</feature>
+			            	<column>endpos</column>
+			            </featureMapping>
+			            <featureMapping>
+							<feature>coveredText()</feature>
+							<column>possentiment</column>
+						</featureMapping>
+					</featureMappings>
+				</explicitMappingRule>	
+
+		
+	<!--		
 				<explicitMappingRule applyToSubtypes="false">
 					<type>org.apache.uima.examples.SourceDocumentInformation</type>
 					<table>document</table>
@@ -152,47 +309,7 @@
 						</featureMapping>					
 					</featureMappings>
 				</explicitMappingRule> 
-				-->
-				
-			    <explicitMappingRule applyToSubtypes="false">
-					<type>com.dp.core.en.PersonName</type>
-					<table>datapresso.person</table>
-					<featureMappings>
-						<featureMapping>
-							<feature>docId()</feature>
-							<column>id</column>
-						</featureMapping>
-						<featureMapping>
-							<feature>uniqueId()</feature>
-							<column>sex</column>
-						</featureMapping>
-						<featureMapping>
-							<feature>typeName()</feature>
-							<column>birthdate</column>
-						</featureMapping>
-						
-						<featureMapping>
-							<feature>firstname</feature>
-							<length>30</length>
-							<column>firstname</column>
-						</featureMapping>
-						<featureMapping>
-							<feature>firstname</feature>
-							<length>30</length>
-							<column>middlename</column>
-						</featureMapping>
-						<featureMapping>
-							<feature>lastname</feature>
-							<length>20</length>
-							<column>lastname</column>
-						</featureMapping>
-						<featureMapping>
-							<feature>ruleId</feature>
-							<length>64</length>
-							<column>title</column>
-						</featureMapping>
-					</featureMappings>
-				</explicitMappingRule> 
+-->				
 				
 			</explicitMappings>
 		</cas2JdbcMappings>

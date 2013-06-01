@@ -8,7 +8,7 @@
                 <nameValuePair>
                     <name>InputDirectory</name>
                     <value>
-                        <string>C:\java\pear\data\new</string>
+                        <string>C:\workspace\datapresso\dip\Documents\DIP</string>
                     </value>
                 </nameValuePair>
             </configurationParameterSettings>
@@ -39,9 +39,9 @@
             </errorHandling>
             <checkpoint batch="10000" time="1000ms"/>
         </casProcessor>
-        <casProcessor deployment="integrated" name="Xmi Writer CAS Consumer">
+        <casProcessor deployment="integrated" name="XCAS Writer CAS Consumer">
             <descriptor>
-                <import location="XmiWriterCasConsumer.xml"/>
+                <import location="XCasWriterCasConsumer.xml"/>
             </descriptor>
             <deploymentParameters/>
             <errorHandling>
@@ -54,7 +54,7 @@
                 <nameValuePair>
                     <name>OutputDirectory</name>
                     <value>
-                        <string>c:\workspace\datapresso\datapresso\data\result</string>
+                        <string>C:\workspace\datapresso\datapresso\data\result</string>
                     </value>
                 </nameValuePair>
             </configurationParameterSettings>

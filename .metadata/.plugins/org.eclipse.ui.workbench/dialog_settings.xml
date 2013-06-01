@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<section name="FileSystemImportWizard">
-		<item value="true" key="WizardFileSystemResourceImportPage1.STORE_PATH_VARIABLE_SELECTED_ID"/>
-		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
-		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
-		<item value="PROJECT_LOC" key="WizardFileSystemResourceImportPage1.STORE_PATH_VARIABLE_NAME_ID"/>
-		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_VIRTUAL_FOLDERS_ID"/>
-		<item value="true" key="WizardFileSystemResourceImportPage1.STORE_CREATE_LINKS_IN_WORKSPACE_ID"/>
-		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
-			<item value="C:\java\pear"/>
-			<item value="C:\java\pear\dip\dip.datapresso"/>
-		</list>
-	</section>
-	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item value="1200" key="dialogWidth"/>
-		<item value="624" key="dialogHeight"/>
-		<list key="orderedProviders">
-		</list>
-		<list key="textArray">
-		</list>
-		<list key="orderedElements">
-		</list>
-		<list key="textEntries">
-		</list>
-	</section>
-	<section name="WorkbenchPreferenceDialogSettings">
-		<item value="4" key="DIALOG_Y_ORIGIN"/>
-		<item value="97" key="DIALOG_X_ORIGIN"/>
-	</section>
-	<section name="InstallationDialogSettings">
-		<item value="698" key="DIALOG_WIDTH"/>
-		<item value="-186" key="DIALOG_Y_ORIGIN"/>
-		<item value="828" key="DIALOG_HEIGHT"/>
-		<item value="-75" key="DIALOG_X_ORIGIN"/>
-		<item value="1|Tahoma|8.4|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
-	</section>
-	<section name="NewWizardAction">
-		<item value="org.eclipse.datatools.connectivity.internal.ui.wizards.newconnectionprofile" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
-		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.datatools.connectivity"/>
-		</list>
-	</section>
-	<section name="ShowViewDialog">
-		<item value="347" key="DIALOG_WIDTH"/>
-		<item value="org.apache.uima.caseditor.selection" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
-		<item value="116" key="DIALOG_Y_ORIGIN"/>
-		<item value="453" key="DIALOG_HEIGHT"/>
-		<item value="551" key="DIALOG_X_ORIGIN"/>
-		<item value="1|Tahoma|8.4|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
-		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.apache.uima.caseditor.ui.views"/>
-		</list>
-	</section>
-	<section name="EditorSelectionDialog">
-	</section>
 	<section name="ImportExportAction">
-		<item value="org.apache.uima.caseditor.ide.wizards.NewDocumentWizard" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
-		<item value="com.ibm.dltj.uimaannotator.configPearExport" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="com.ibm.dltj.uimaannotator.configPearExport"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.apache.uima.caseditor.ide.wizards.NewDocumentWizard"/>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="com.ibm.dltj.plugin.project"/>
+		</list>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
 			<item value="org.apache.uima.caseditor.ide.wizards"/>
 		</list>
-		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
-			<item value="com.ibm.dltj.plugin.project"/>
+	</section>
+	<section name="EditorSelectionDialog">
+	</section>
+	<section name="ShowViewDialog">
+		<item key="DIALOG_FONT_NAME" value="1|Tahoma|8.4|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma"/>
+		<item key="DIALOG_HEIGHT" value="453"/>
+		<item key="DIALOG_X_ORIGIN" value="551"/>
+		<item key="DIALOG_Y_ORIGIN" value="116"/>
+		<item key="ShowViewDialog.STORE_SELECTED_VIEW_ID" value="org.apache.uima.caseditor.selection"/>
+		<item key="DIALOG_WIDTH" value="347"/>
+		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.apache.uima.caseditor.ui.views"/>
+		</list>
+	</section>
+	<section name="InstallationDialogSettings">
+		<item key="DIALOG_FONT_NAME" value="1|Tahoma|8.4|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma"/>
+		<item key="DIALOG_HEIGHT" value="828"/>
+		<item key="DIALOG_X_ORIGIN" value="-75"/>
+		<item key="DIALOG_Y_ORIGIN" value="-186"/>
+		<item key="DIALOG_WIDTH" value="698"/>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.datatools.connectivity.internal.ui.wizards.newconnectionprofile"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.datatools.connectivity"/>
+		</list>
+	</section>
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="271"/>
+		<item key="DIALOG_Y_ORIGIN" value="83"/>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item key="dialogHeight" value="624"/>
+		<item key="dialogWidth" value="1200"/>
+		<list key="textEntries">
+		</list>
+		<list key="orderedElements">
+		</list>
+		<list key="textArray">
+		</list>
+		<list key="orderedProviders">
+		</list>
+	</section>
+	<section name="FileSystemImportWizard">
+		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_LINKS_IN_WORKSPACE_ID" value="true"/>
+		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_VIRTUAL_FOLDERS_ID" value="false"/>
+		<item key="WizardFileSystemResourceImportPage1.STORE_PATH_VARIABLE_NAME_ID" value="PROJECT_LOC"/>
+		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
+		<item key="WizardFileSystemResourceImportPage1.STORE_PATH_VARIABLE_SELECTED_ID" value="true"/>
+		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\java\pear"/>
+			<item value="C:\java\pear\dip\dip.datapresso"/>
 		</list>
 	</section>
 </section>

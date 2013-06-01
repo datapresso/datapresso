@@ -1,2 +1,0 @@
-c="Michael Albanese" 1:12 1:13||t="person"
-c="Philip Schmidt," 1:15 1:16||t="person"

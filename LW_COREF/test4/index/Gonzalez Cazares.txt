@@ -1,3 +1,3 @@
-C:\ding\LW_COREF_V1\test4\docs\17.txt
+C:\workspace\datapresso\LW_COREF\test4\docs\17.txt
 9:12 9:13
 9:38 9:38

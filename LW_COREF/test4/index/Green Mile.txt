@@ -1,13 +1,13 @@
-C:\ding\LW_COREF_V1\test4\docs\41.txt
+C:\workspace\datapresso\LW_COREF\test4\docs\41.txt
 27:19 27:20
-C:\ding\LW_COREF_V1\test4\docs\41.txt
+C:\workspace\datapresso\LW_COREF\test4\docs\41.txt
 27:37 27:38
 27:39 27:39
 27:42 27:42
 27:50 27:50
 28:5 28:5
 28:13 28:13
-C:\ding\LW_COREF_V1\test4\docs\41.txt
+C:\workspace\datapresso\LW_COREF\test4\docs\41.txt
 29:12 29:13
 29:15 29:15
 31:3 31:3

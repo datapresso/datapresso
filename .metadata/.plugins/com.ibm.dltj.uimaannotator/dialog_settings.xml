@@ -19,4 +19,8 @@
 	</section>
 	<section name="findMissingTypesWizard">
 	</section>
+	<section name="annotationDisplayEditor">
+		<item key="saveTypeSystem" value="false"/>
+		<item key="saveXCAS" value="/dip/Results/01.xcas"/>
+	</section>
 </section>

@@ -1,6 +1,6 @@
-C:\ding\LW_COREF_V1\test4\docs\41.txt
+C:\workspace\datapresso\LW_COREF\test4\docs\41.txt
 49:0 49:1
-C:\ding\LW_COREF_V1\test4\docs\41.txt
+C:\workspace\datapresso\LW_COREF\test4\docs\41.txt
 49:8 49:9
 49:11 49:11
 50:10 50:10
