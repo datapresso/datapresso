@@ -40,7 +40,7 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.ibm.text.analytics.catalog.editors.TextAnalyticsCatalog" name="Catalog Browser.xml" partName="Text Analytics Catalog Browser" path="C:/workspace/datapresso/IBM Text Analytics Catalog - V2/Catalog Browser.xml" title="Text Analytics Catalog Browser" tooltip="IBM Text Analytics Catalog - V2/Catalog Browser.xml" workbook="DefaultEditorWorkbook">
+<editor focus="true" id="com.ibm.text.analytics.catalog.editors.TextAnalyticsCatalog" name="Catalog Browser.xml" partName="Text Analytics Catalog Browser" path="C:/workspace/datapresso/IBM Text Analytics Catalog - V2/Catalog Browser.xml" title="Text Analytics Catalog Browser" tooltip="IBM Text Analytics Catalog - V2/Catalog Browser.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IBM Text Analytics Catalog - V2/Catalog Browser.xml"/>
 </editor>
 <editor id="com.ibm.dltj.uimaannotator.editor" name="ESP2.txt" partName="ESP2.txt" path="C:/comkraft/datapresso/datapresso/dip/Documents/Airports/ESP2.txt" title="ESP2.txt" tooltip="dip/Documents/Airports/ESP2.txt (UIMA Annotations)" workbook="DefaultEditorWorkbook">
@@ -60,6 +60,10 @@
 <element path="/dip/Annotators"/>
 <element path="/dip/Documents"/>
 <element path="/dip/Resources"/>
+<element path="/dip/Resources/Dictionaries"/>
+<element path="/dip/Resources/Parsing Rules"/>
+<element path="/dip/Resources/Parsing Rules/Person"/>
+<element path="/dip/Resources/Parsing Rules/Person/people"/>
 <element path="/dip/Results"/>
 </expanded>
 <selection>
@@ -78,8 +82,7 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Errors"/>
+<expanded>&#x0A;<category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="203" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="523"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -93,7 +96,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="com.ibm.dltj.project.dictionary.explorerView" activePerspective="com.ibm.dltj.lrwrcp.workbenchPerspective">
+<perspectives activePerspective="com.ibm.dltj.lrwrcp.workbenchPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.ibm.dltj.lrwrcp.WorkbenchPerspective" id="com.ibm.dltj.lrwrcp.workbenchPerspective" label="LanguageWare Workbench"/>
 <alwaysOnActionSet id="com.ibm.dltj.lrwrcp.web"/>
@@ -128,8 +131,8 @@
 <view id="com.ibm.dltj.project.dictionary.explorerView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
-<viewLayoutRec closeable="false" id="org.eclipse.ui.views.ContentOutline"/>
 <viewLayoutRec closeable="false" id="com.ibm.dltj.project.dictionary.explorerView"/>
+<viewLayoutRec closeable="false" id="org.eclipse.ui.views.ContentOutline"/>
 <viewLayoutRec closeable="false" id="com.ibm.dltj.shallowparsingrules.editor.createcharacterrulesview"/>
 <viewLayoutRec closeable="false" id="com.ibm.dltj.shallowparsingrules.editor.createrulesview"/>
 <layout>

@@ -3,7 +3,6 @@ IAD is a an airport close to Washington DC. iad, airport
 BWI, airport, test
 Dulles International Airport (IAD).
 
-Mark Smith International Airport
 
 DCA is interesting. 
 

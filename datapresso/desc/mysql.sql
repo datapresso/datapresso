@@ -4,6 +4,7 @@ select * from datapresso_webpage;
 select * from datapresso.address
 select * from datapresso.person
 select * from datapresso.document
+select * from datapresso.event
 
 
 -- INSERT INTO user (Host,User,Password) VALUES('localhost','my_user',PASSWORD('my_pass'))

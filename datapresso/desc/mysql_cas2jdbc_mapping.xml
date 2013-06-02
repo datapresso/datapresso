@@ -15,6 +15,7 @@
 	<cas2JdbcMappingSpec>
 		<cas2JdbcMappings>
 			<explicitMappings>
+				<!--  
 				<explicitMappingRule applyToSubtypes="false">
 					<type>uima.tcas.DocumentAnnotation</type>
 					<table>document</table>
@@ -34,6 +35,7 @@
 						</featureMapping>						
 					</featureMappings>
 				</explicitMappingRule>  
+				-->
 				<explicitMappingRule applyToSubtypes="false">
 					<type>com.ibm.systemT.Person</type>
 					<table>datapresso.person</table>
@@ -75,7 +77,7 @@
 					</featureMappings>						
 				</explicitMappingRule>  
  			    <explicitMappingRule applyToSubtypes="false">
-					<type>com.dp.core.en.PersonName</type>
+					<type>com.dp.en.PersonName</type>
 					<table>person</table>
 					<featureMappings>
 						<featureMapping>
@@ -146,7 +148,7 @@
 					</featureMappings>
 				</explicitMappingRule>  
 		 		<explicitMappingRule applyToSubtypes="false">
-					<type>com.dp.dhs.Airport</type>
+					<type>com.dp.dhs.en.Airport</type>
 					<table>address</table>
 					<featureMappings>
 						<featureMapping>
@@ -280,8 +282,6 @@
 					</featureMappings>
 				</explicitMappingRule>	
 
-		
-	<!--		
 				<explicitMappingRule applyToSubtypes="false">
 					<type>org.apache.uima.examples.SourceDocumentInformation</type>
 					<table>document</table>
@@ -293,23 +293,23 @@
 						<featureMapping>
 							<feature>uri</feature>
 							<length>200</length>
-							<column>url</column>
+							<column>uri</column>
 						</featureMapping> 
 						<featureMapping>
 							<feature>documentSize</feature>
 							<column>name</column>
 						</featureMapping>
 						<featureMapping>
-							<feature>lastSegment</feature>
+							<feature>coveredText()</feature>
 							<column>documenttext</column>
 						</featureMapping>						
-						<featureMapping>
+					<featureMapping>
 							<feature>docTimestamp()</feature>
-							<column>dateupdated</column>
-						</featureMapping>					
+							<column>doctimestamp</column>
+						</featureMapping>						
 					</featureMappings>
 				</explicitMappingRule> 
--->				
+			
 				
 			</explicitMappings>
 		</cas2JdbcMappings>

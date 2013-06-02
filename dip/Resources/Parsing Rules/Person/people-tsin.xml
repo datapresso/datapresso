@@ -9,21 +9,65 @@
       <name>com.dp.core.First_name</name>
       <description>Required by rule</description>
       <supertypeName>uima.tt.DictionaryEntryAnnotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>lemma</name>
+          <description></description>
+          <rangeTypeName>uima.tt.Lemma</rangeTypeName>
+        </featureDescription>
+        </features>
     </typeDescription>
     <typeDescription>
       <name>com.dp.core.Last_name</name>
       <description>Required by rule</description>
       <supertypeName>uima.tt.DictionaryEntryAnnotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>lemma</name>
+          <description></description>
+          <rangeTypeName>uima.tt.Lemma</rangeTypeName>
+        </featureDescription>
+        </features>
     </typeDescription>
     <typeDescription>
       <name>com.dp.core.US_Cities</name>
       <description>Required by rule</description>
-      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <supertypeName>uima.tt.DictionaryEntryAnnotation</supertypeName>
     </typeDescription>
     <typeDescription>
       <name>com.dp.core.US_States</name>
       <description>Required by rule</description>
       <supertypeName>uima.tcas.Annotation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>dip.Continents</name>
+      <description>Required by rule</description>
+      <supertypeName>uima.tt.DictionaryEntryAnnotation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>dip.Countries</name>
+      <description>Required by rule</description>
+      <supertypeName>uima.tt.DictionaryEntryAnnotation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>dip.Days_of_week</name>
+      <description>Required by rule</description>
+      <supertypeName>uima.tt.DictionaryEntryAnnotation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>dip.Directional_indicators</name>
+      <description>Required by rule</description>
+      <supertypeName>uima.tt.DictionaryEntryAnnotation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>dip.Famous_person_name</name>
+      <description>Required by rule</description>
+      <supertypeName>uima.tt.DictionaryEntryAnnotation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>dip.Months_of_year</name>
+      <description>Required by rule</description>
+      <supertypeName>uima.tt.DictionaryEntryAnnotation</supertypeName>
     </typeDescription>
     <typeDescription>
       <name>uima.tt.TokenAnnotation</name>
@@ -34,6 +78,11 @@
           <name>dictionaryMatch</name>
           <description></description>
           <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>lemma</name>
+          <description></description>
+          <rangeTypeName>uima.tt.Lemma</rangeTypeName>
         </featureDescription>
         </features>
     </typeDescription>
