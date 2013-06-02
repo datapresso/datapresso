@@ -1,0 +1,732 @@
+\N,"jd000Ax600g00000","851",\N,"Lebanon",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Lebanon","9","16",\N
+\N,"jd000Yx600g00000","851",\N,"Lebanon",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Lebanon","143","150",\N
+\N,"jd000ky600g00000","851",\N,"Damascus",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Damascus","176","184",\N
+\N,"jd000Iy600g00000","851",\N,"Tripoli",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Tripoli","272","279",\N
+\N,"jd0004z600g00000","851",\N,"Syria",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Syria","301","306",\N
+\N,"jd000sz600g00000","851",\N,"Damascus",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Damascus","654","662",\N
+\N,"jd000Qz600g00000","851",\N,"Lebanon",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Lebanon","674","681",\N
+\N,"jd000cA600g00000","851",\N,"Syria",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Syria","732","737",\N
+\N,"KY000Exr00g00000","3886",\N,"New Delhi",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","New Delhi","0","9",\N
+\N,"KY0000yr00g00000","3886",\N,"China",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","China","1677","1682",\N
+\N,"KY000oyr00g00000","3886",\N,"Nepal",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Nepal","1684","1689",\N
+\N,"KY000Myr00g00000","3886",\N,"Russia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Russia","1694","1700",\N
+\N,"ud000MU200g00000","862",\N,\N,\N,\N,\N,\N,"Dublin",\N,\N,"com.dp.dhs.en.Airport","Dublin Airport",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"ud000cV200g00000","862",\N,\N,\N,\N,\N,\N,"The",\N,\N,"com.dp.dhs.en.Airport","The flight",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"ud000EV200g00000","862",\N,\N,\N,\N,\N,\N,"The",\N,\N,"com.dp.dhs.en.Airport","The flight",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"ud000QP600g00000","862",\N,"Milan",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Milan","196","201",\N
+\N,"ud000cQ600g00000","862",\N,"Dublin",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Dublin","205","211",\N
+\N,"ud000AQ600g00000","862",\N,"Dublin",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Dublin","379","385",\N
+\N,"ro100IAi00g00000","5659",\N,\N,\N,\N,\N,\N,"Air",\N,\N,"com.dp.dhs.en.Airport","Dana Air flight",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"ro1008Bi00g00000","5659",\N,\N,\N,\N,\N,\N,"The",\N,\N,"com.dp.dhs.en.Airport","The flight",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"ro100ABi00g00000","5659",\N,\N,\N,\N,\N,\N,"Enugu",\N,\N,"com.dp.dhs.en.Airport","Enugu Airport",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"ro1000Ci00g00000","5659",\N,\N,\N,\N,\N,\N,"Harcourt",\N,\N,"com.dp.dhs.en.Airport","Port Harcourt Airport",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"ro100sCi00g00000","5659",\N,\N,\N,\N,\N,\N,"BFD",\N,\N,"com.dp.dhs.en.Airport","BFD",\N,\N,"E1C278129D26762A6DA086CC7876CCB5"
+\N,"ro100UCi00g00000","5659",\N,\N,\N,\N,\N,\N,"International",\N,\N,"com.dp.dhs.en.Airport","Abuja International Airport",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"ro1008wH00g00000","5659",\N,"Lagos",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Lagos","532","537",\N
+\N,"ro100wwH00g00000","5659",\N,"Nigeria",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Nigeria","1401","1408",\N
+\N,"ro100UwH00g00000","5659",\N,"Indonesia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Indonesia","1942","1951",\N
+\N,"ro100gxH00g00000","5659",\N,"Iran",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Iran","1953","1957",\N
+\N,"ro100ExH00g00000","5659",\N,"Libya",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Libya","1959","1964",\N
+\N,"ro1000yH00g00000","5659",\N,"Burkina Faso",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Burkina Faso","1969","1981",\N
+\N,"ro100oyH00g00000","5659",\N,"Kano",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Kano","2214","2218",\N
+\N,"ro100MyH00g00000","5659",\N,"Nigeria",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Nigeria","2863","2870",\N
+\N,"ro1008zH00g00000","5659",\N,"Port Harcourt",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Port Harcourt","3135","3148",\N
+\N,"ro100wzH00g00000","5659",\N,"Abuja",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Abuja","3463","3468",\N
+\N,"ro100UzH00g00000","5659",\N,"Nigeria",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Nigeria","3754","3761",\N
+\N,"ro100gAH00g00000","5659",\N,"Bellview",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Bellview","4138","4146",\N
+\N,"ro100EAH00g00000","5659",\N,"Nigeria",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Nigeria","4688","4695",\N
+\N,"ro1000BH00g00000","5659",\N,"Nigeria",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Nigeria","5386","5393",\N
+\N,"ur000YW500g00000","1758",\N,\N,\N,\N,\N,\N,"International",\N,\N,"com.dp.dhs.en.Airport","International Airport",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"ur000I0e00g00000","1758",\N,"Delhi",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Delhi","32","37",\N
+\N,"ur00041e00g00000","1758",\N,"Dubai",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Dubai","322","327",\N
+\N,"ur000s1e00g00000","1758",\N,"Bangkok",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Bangkok","333","340",\N
+\N,"ur000Q1e00g00000","1758",\N,"Delhi",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Delhi","683","688",\N
+\N,"ur000c2e00g00000","1758",\N,"Asia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Asia","1026","1030",\N
+\N,"ur000A2e00g00000","1758",\N,"Asia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Asia","1046","1050",\N
+\N,"ur000Y2e00g00000","1758",\N,"India",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","India","1121","1126",\N
+\N,"ur000k3e00g00000","1758",\N,"Sri Lanka",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Sri Lanka","1131","1140",\N
+\N,"ur000I3e00g00000","1758",\N,"Indonesia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Indonesia","1351","1360",\N
+\N,"ur00044e00g00000","1758",\N,"United Arab Emirates",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United Arab Emirates","1647","1667",\N
+\N,"dh000UG800g00000","1101",\N,"Wales",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Wales","95","100",\N
+\N,"0D000EQl00g00000","2496",\N,"Miami",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Miami","936","941",\N
+\N,"0D0000Rl00g00000","2496",\N,"New York",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","New York","985","993",\N
+\N,"0D000oRl00g00000","2496",\N,"Miami",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Miami","998","1003",\N
+\N,"0D000MRl00g00000","2496",\N,"New York",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","New York","1308","1316",\N
+\N,"0D0008Sl00g00000","2496",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","1814","1818",\N
+\N,"po000Y5500g00000","1561",\N,\N,\N,\N,\N,\N,"International",\N,\N,"com.dp.dhs.en.Airport","International Airport",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"po000o6500g00000","1561",\N,\N,\N,\N,\N,\N,"Airways",\N,\N,"com.dp.dhs.en.Airport","Jet Airways flight",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"po000wPb00g00000","1561",\N,"Dubai",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Dubai","44","49",\N
+\N,"po000UPb00g00000","1561",\N,"Bangkok",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Bangkok","472","479",\N
+\N,"po000gQb00g00000","1561",\N,"Dubai",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Dubai","533","538",\N
+\N,"lw000YOg00g00000","2069",\N,"Germany",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Germany","1359","1366",\N
+\N,"lw000kPg00g00000","2069",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","1584","1588",\N
+\N,"4r100wdK00g00000","5828",\N,"Mexico",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Mexico","59","65",\N
+\N,"4r100UdK00g00000","5828",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","186","190",\N
+\N,"4r100geK00g00000","5828",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","563","567",\N
+\N,"4r100EeK00g00000","5828",\N,"Mexico",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Mexico","568","574",\N
+\N,"4r1000fK00g00000","5828",\N,"Tucson",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Tucson","897","903",\N
+\N,"4r100ofK00g00000","5828",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","998","1002",\N
+\N,"4r100MfK00g00000","5828",\N,"Mexico",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Mexico","1003","1009",\N
+\N,"4r1008gK00g00000","5828",\N,"Mexico",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Mexico","2048","2054",\N
+\N,"4r100wgK00g00000","5828",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","2062","2075",\N
+\N,"4r100UgK00g00000","5828",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","2221","2225",\N
+\N,"4r100ghK00g00000","5828",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","2318","2322",\N
+\N,"4r100EhK00g00000","5828",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","2876","2889",\N
+\N,"4r1000iK00g00000","5828",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","3750","3754",\N
+\N,"4r100oiK00g00000","5828",\N,"Frontera",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Frontera","4312","4320",\N
+\N,"4r100MiK00g00000","5828",\N,"Guatemala",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Guatemala","5059","5068",\N
+\N,"4r1008jK00g00000","5828",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","5151","5155",\N
+\N,"lK000son00g00000","2965",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","132","136",\N
+\N,"lK000Qon00g00000","2965",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","251","255",\N
+\N,"lK000cpn00g00000","2965",\N,"Los Angeles Quinta",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Los Angeles Quinta","420","429",\N
+\N,"lK000Apn00g00000","2965",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","888","892",\N
+\N,"lK000Ypn00g00000","2965",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","949","953",\N
+\N,"PB100cpS00g00000","6515",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","26","30",\N
+\N,"PB100ApS00g00000","6515",\N,"Arizona",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Arizona","146","153",\N
+\N,"PB100YpS00g00000","6515",\N,"Mexico",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Mexico","311","317",\N
+\N,"PB100kqS00g00000","6515",\N,"Tucson",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Tucson","1135","1141",\N
+\N,"PB100IqS00g00000","6515",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","1481","1485",\N
+\N,"PB1004rS00g00000","6515",\N,"Mexico",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Mexico","1678","1684",\N
+\N,"PB100srS00g00000","6515",\N,"Tucson",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Tucson","1847","1853",\N
+\N,"PB100QrS00g00000","6515",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","1856","1860",\N
+\N,"PB100csS00g00000","6515",\N,"El Paso",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","El Paso, Texas","1924","1938",\N
+\N,"PB100AsS00g00000","6515",\N,"Guanajuato",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Guanajuato","2024","2034",\N
+\N,"PB100YsS00g00000","6515",\N,"Tucson",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Tucson","2073","2079",\N
+\N,"PB100ktS00g00000","6515",\N,"Mexico City",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Mexico City","2083","2094",\N
+\N,"PB100ItS00g00000","6515",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","2139","2143",\N
+\N,"PB1004uS00g00000","6515",\N,"Arizona",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Arizona","2222","2229",\N
+\N,"PB100suS00g00000","6515",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","2388","2392",\N
+\N,"PB100QuS00g00000","6515",\N,"Homeland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Homeland","2393","2401",\N
+\N,"PB100cvS00g00000","6515",\N,"Mexico",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Mexico","2432","2438",\N
+\N,"PB100AvS00g00000","6515",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","2588","2601",\N
+\N,"PB100YvS00g00000","6515",\N,"Mexico",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Mexico","2612","2618",\N
+\N,"PB100kwS00g00000","6515",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","3205","3209",\N
+\N,"PB100IwS00g00000","6515",\N,"Arizona",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Arizona","3528","3535",\N
+\N,"PB1004xS00g00000","6515",\N,"Tucson",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Tucson","3720","3726",\N
+\N,"PB100sxS00g00000","6515",\N,"Mexico City",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Mexico City","4003","4014",\N
+\N,"PB100QxS00g00000","6515",\N,"Tucson",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Tucson","4387","4393",\N
+\N,"PB100cyS00g00000","6515",\N,"Del Rio",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Del Rio, Texas","4463","4477",\N
+\N,"PB100AyS00g00000","6515",\N,"San Diego",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","San Diego","4540","4549",\N
+\N,"PB100YyS00g00000","6515",\N,"Calexico",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Calexico","4553","4561",\N
+\N,"PB100kzS00g00000","6515",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","4873","4877",\N
+\N,"PB100IzS00g00000","6515",\N,"Nogales",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Nogales","4944","4951",\N
+\N,"PB1004AS00g00000","6515",\N,"Mexico",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Mexico","4953","4959",\N
+\N,"PB100sAS00g00000","6515",\N,"Tucson",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Tucson","5026","5032",\N
+\N,"PB100QAS00g00000","6515",\N,"Arizona",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Arizona","5065","5072",\N
+\N,"PB100cBS00g00000","6515",\N,"Aguascalientes",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Aguascalientes","5699","5713",\N
+\N,"PB100ABS00g00000","6515",\N,"Prescott Ariz",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Prescott Ariz","5888","5902",\N
+\N,"PB100YBS00g00000","6515",\N,"Mexico City",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Mexico City","6018","6029",\N
+\N,"PB100kCS00g00000","6515",\N,"Nogales",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Nogales","6126","6133",\N
+\N,"PB100ICS00g00000","6515",\N,"Atlanta",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Atlanta","6207","6214",\N
+\N,"PB1004DS00g00000","6515",\N,"Mexico",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Mexico","6436","6442",\N
+\N,"Vl000ICb00g00000","1401",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","4","8",\N
+\N,"Vl0004Db00g00000","1401",\N,"Missouri",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Missouri","70","78",\N
+\N,"Vl000sDb00g00000","1401",\N,"Street Louis",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Street Louis","294","303",\N
+\N,"Vl000QDb00g00000","1401",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","1056","1060",\N
+\N,"Vl000cEb00g00000","1401",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","1314","1317",\N
+\N,"2i0008X800g00000","1154",\N,"Massachusetts",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Massachusetts","806","819",\N
+\N,"2i000wX800g00000","1154",\N,"Cape, Congo",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Cape, Congo","849","857",\N
+\N,"2i000UX800g00000","1154",\N,"Chatham",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Chatham","988","995",\N
+\N,"2i000gY800g00000","1154",\N,"Yarmouth",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Yarmouth","1024","1032",\N
+\N,"2b000ox500g00000","706",\N,"New, Mexico",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","New, Mexico","104","114",\N
+\N,"2b000Mx500g00000","706",\N,"Santa Teresa",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Santa Teresa","117","129",\N
+\N,"2b0008y500g00000","706",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","137","141",\N
+\N,"2b000wy500g00000","706",\N,"Mexico",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Mexico","253","259",\N
+\N,"Gt000sBd00g00000","1898",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","13","17",\N
+\N,"Gt000QBd00g00000","1898",\N,"El Paso",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","El Paso","203","210",\N
+\N,"Gt000cCd00g00000","1898",\N,"New, Mexico",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","New, Mexico","504","514",\N
+\N,"Gt000ACd00g00000","1898",\N,"El Paso",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","El Paso","734","741",\N
+\N,"Gt000YCd00g00000","1898",\N,"Mexico",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Mexico","1042","1048",\N
+\N,"Gt000kDd00g00000","1898",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","1387","1391",\N
+\N,"Gt000IDd00g00000","1898",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","1526","1539",\N
+\N,"Gt0004Ed00g00000","1898",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","1620","1633",\N
+\N,"Hu000EKe00g00000","1963",\N,"Arizona",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Arizona","25","32",\N
+\N,"Hu0000Le00g00000","1963",\N,"Nogales",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Nogales, Arizona","153","169",\N
+\N,"Hu000oLe00g00000","1963",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","172","176",\N
+\N,"Hu000MLe00g00000","1963",\N,"Nogales",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Nogales","219","226",\N
+\N,"Hu0008Me00g00000","1963",\N,"Nogales",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Nogales","530","537",\N
+\N,"Hu000wMe00g00000","1963",\N,"Sonora",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Sonora","539","545",\N
+\N,"Hu000UMe00g00000","1963",\N,"Mexico",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Mexico","547","553",\N
+\N,"Hu000gNe00g00000","1963",\N,"Nogales",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Nogales","873","880",\N
+\N,"Hu000ENe00g00000","1963",\N,"Sonora",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Sonora","1339","1345",\N
+\N,"Hu0000Oe00g00000","1963",\N,"Mexico",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Mexico","1347","1353",\N
+\N,"Hu000oOe00g00000","1963",\N,"Homeland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Homeland","1631","1639",\N
+\N,"JJ0000ca00g00000","2925",\N,\N,\N,\N,\N,\N,"Kennedy",\N,\N,"com.dp.dhs.en.Airport","Kennedy Airport",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"JJ000MTn00g00000","2925",\N,"Yonkers",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Yonkers","248","255",\N
+\N,"JJ0008Un00g00000","2925",\N,"New, Jersey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","New, Jersey","1838","1848",\N
+\N,"JJ000wUn00g00000","2925",\N,"New, Jersey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","New, Jersey","1977","1987",\N
+\N,"JJ000UUn00g00000","2925",\N,"Newark",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Newark","2861","2867",\N
+\N,"8k000MLa00g00000","1288",\N,"Swampscott",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Swampscott","108","118",\N
+\N,"8k0008Ma00g00000","1288",\N,"Boston",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Boston","257","263",\N
+\N,"8k000wMa00g00000","1288",\N,"Cape Cod",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Cape Cod, Marshall Islands","976","987",\N
+\N,"8k000UMa00g00000","1288",\N,"Swampscott",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Swampscott","1037","1047",\N
+\N,"8k000gNa00g00000","1288",\N,"Massachusetts",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Massachusetts","1102","1115",\N
+\N,"8k000ENa00g00000","1288",\N,"Marblehead",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Marblehead","1137","1147",\N
+\N,"8k0000Oa00g00000","1288",\N,"Swampscott",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Swampscott","1226","1236",\N
+\N,";m0000v500g00000","1471",\N,\N,\N,\N,\N,\N,"Airways",\N,\N,"com.dp.dhs.en.Airport","Airways flight",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,";m000wBd00g00000","1471",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","186","188",\N
+\N,";m000UBd00g00000","1471",\N,"Philadelphia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Philadelphia","739","751",\N
+\N,";m000gCd00g00000","1471",\N,"Texas",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Texas","784","789",\N
+\N,"cv000o1i00g00000","1996",\N,"Essex",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Essex","271","276",\N
+\N,"It100gcO00g00000","5996",\N,"Riverside",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Riverside","400","409",\N
+\N,"It100EcO00g00000","5996",\N,"Murrieta",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Murrieta","1388","1396",\N
+\N,"It1000dO00g00000","5996",\N,"Murrieta",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Murrieta","1568","1576",\N
+\N,"It100odO00g00000","5996",\N,"Murrieta",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Murrieta","1735","1743",\N
+\N,"It100MdO00g00000","5996",\N,"Miami",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Miami","1990","1995",\N
+\N,"It1008eO00g00000","5996",\N,"Murrieta",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Murrieta","2113","2121",\N
+\N,"It100weO00g00000","5996",\N,"San Diego",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","San Diego","2125","2134",\N
+\N,"It100UeO00g00000","5996",\N,"Riverside",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Riverside","2151","2160",\N
+\N,"It100gfO00g00000","5996",\N,"Murrieta",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Murrieta","2425","2433",\N
+\N,"It100EfO00g00000","5996",\N,"Noble",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Noble","2601","2606",\N
+\N,"It1000gO00g00000","5996",\N,"Murrieta",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Murrieta","3231","3239",\N
+\N,"It100ogO00g00000","5996",\N,"Murrieta",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Murrieta","4094","4102",\N
+\N,"uc0000B600g00000","798",\N,"Raven",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Raven","623","628",\N
+\N,"gY10083:00g00000","7952",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","451","455",\N
+\N,"gY100w3:00g00000","7952",\N,"Costa Rica",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Costa Rica","551","561",\N
+\N,"gY100U3:00g00000","7952",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","597","610",\N
+\N,"gY100g4:00g00000","7952",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","672","676",\N
+\N,"gY100E4:00g00000","7952",\N,"Florida",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Florida","811","818",\N
+\N,"gY10005:00g00000","7952",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","1151","1164",\N
+\N,"gY100o5:00g00000","7952",\N,"Pacific",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Pacific","1456","1463",\N
+\N,"gY100M5:00g00000","7952",\N,"S. America",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","S. America","1710","1723",\N
+\N,"gY10086:00g00000","7952",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","1744","1757",\N
+\N,"gY100w6:00g00000","7952",\N,"Ecuador",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Ecuador","2274","2281",\N
+\N,"gY100U6:00g00000","7952",\N,"Los Angeles",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Los Angeles","2285","2296",\N
+\N,"gY100g7:00g00000","7952",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","3445","3458",\N
+\N,"gY100E7:00g00000","7952",\N,"Mohawk",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Mohawk","3532","3538",\N
+\N,"gY10008:00g00000","7952",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","3829","3842",\N
+\N,"gY100o8:00g00000","7952",\N,"Iraq",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Iraq","4146","4150",\N
+\N,"gY100M8:00g00000","7952",\N,"Afghanistan",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Afghanistan","4155","4166",\N
+\N,"gY10089:00g00000","7952",\N,"Key West",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Key West","4343","4351",\N
+\N,"gY100w9:00g00000","7952",\N,"Latin America",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Latin America","4581","4594",\N
+\N,"gY100U9:00g00000","7952",\N,"Colombia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Colombia","4626","4634",\N
+\N,"gY100ga:00g00000","7952",\N,"Honduras",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Honduras","4646","4654",\N
+\N,"gY100Ea:00g00000","7952",\N,"Mohawk",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Mohawk","4702","4708",\N
+\N,"gY1000b:00g00000","7952",\N,"Honduras",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Honduras","4831","4839",\N
+\N,"gY100ob:00g00000","7952",\N,"Key West",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Key West","5576","5584",\N
+\N,"gY100Mb:00g00000","7952",\N,"Homeland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Homeland","5691","5699",\N
+\N,"gY1008c:00g00000","7952",\N,"Key West",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Key West","6275","6283",\N
+\N,"gY100wc:00g00000","7952",\N,"S. America",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","S. America","6370","6383",\N
+\N,"gY100Uc:00g00000","7952",\N,"S. America",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","S. America","6513","6526",\N
+\N,"gY100gd:00g00000","7952",\N,"Honduras",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Honduras","6629","6637",\N
+\N,"gY100Ed:00g00000","7952",\N,"Guatemala",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Guatemala","6642","6651",\N
+\N,"gY1000e:00g00000","7952",\N,"S. America",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","S. America","6937","6950",\N
+\N,"gY100oe:00g00000","7952",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","7067","7080",\N
+\N,"gY100Me:00g00000","7952",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","7167","7180",\N
+\N,"gY1008f:00g00000","7952",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","7556","7569",\N
+\N,"2y000sN700g00000","2178",\N,\N,\N,\N,\N,\N,"Philadelphia",\N,\N,"com.dp.dhs.en.Airport","Philadelphia Airport",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"2y0008;h00g00000","2178",\N,"Philadelphia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Philadelphia","183","195",\N
+\N,"2y000w;h00g00000","2178",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","379","381",\N
+\N,"2y000U;h00g00000","2178",\N,"Philadelphia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Philadelphia","410","422",\N
+\N,"2y000g0i00g00000","2178",\N,"Dallas",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Dallas","426","432",\N
+\N,"2y000E0i00g00000","2178",\N,"Philadelphia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Philadelphia","510","522",\N
+\N,"2y00001i00g00000","2178",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","1071","1075",\N
+\N,"2y000o1i00g00000","2178",\N,"Philadelphia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Philadelphia","1298","1310",\N
+\N,"2y000M1i00g00000","2178",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","1624","1628",\N
+\N,"2y00082i00g00000","2178",\N,"Dallas",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Dallas","1872","1878",\N
+\N,"2y000w2i00g00000","2178",\N,"Philadelphia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Philadelphia","1957","1969",\N
+\N,"2y000U2i00g00000","2178",\N,"Dallas",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Dallas","2077","2083",\N
+\N,"yT000ALb00g00000","3554",\N,\N,\N,\N,\N,\N,"Heathrow",\N,\N,"com.dp.dhs.en.Airport","Heathrow Airport",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"yT000oQq00g00000","3554",\N,"Dublin",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Dublin","291","297",\N
+\N,"yT000MQq00g00000","3554",\N,"Ireland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Ireland","299","306",\N
+\N,"yT0008Rq00g00000","3554",\N,"Pittsburgh",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Pittsburgh","458","468",\N
+\N,"yT000wRq00g00000","3554",\N,"Erie",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Erie","470","474",\N
+\N,"yT000URq00g00000","3554",\N,"Pittsburgh",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Pittsburgh","533","543",\N
+\N,"yT000gSq00g00000","3554",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","550","554",\N
+\N,"yT000ESq00g00000","3554",\N,"Ireland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Ireland","733","740",\N
+\N,"yT0000Tq00g00000","3554",\N,"Pittsburgh",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Pittsburgh","972","982",\N
+\N,"yT000oTq00g00000","3554",\N,"United Kingdom",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United Kingdom","1244","1258",\N
+\N,"yT000MTq00g00000","3554",\N,"London",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","London","1627","1633",\N
+\N,"yT0008Uq00g00000","3554",\N,"Heathrow",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Heathrow","1636","1644",\N
+\N,"yT000wUq00g00000","3554",\N,"New York City",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","New York City","1657","1670",\N
+\N,"yT000UUq00g00000","3554",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","1734","1747",\N
+\N,"yT000gVq00g00000","3554",\N,"Ohio",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Ohio","3280","3284",\N
+\N,"kB000wrh00g00000","2388",\N,"San Luis",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","San Luis","0","8",\N
+\N,"kB000Urh00g00000","2388",\N,"San Luis",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","San Luis, Arizona","144","161",\N
+\N,"kB000gsh00g00000","2388",\N,"Miranda",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Miranda","396","403",\N
+\N,"kB000Esh00g00000","2388",\N,"Yuma",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Yuma","412","416",\N
+\N,"kB0000th00g00000","2388",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","488","501",\N
+\N,"kB000oth00g00000","2388",\N,"Yuma",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Yuma","748","752",\N
+\N,"kB000Mth00g00000","2388",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","821","834",\N
+\N,"kB0008uh00g00000","2388",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","1146","1159",\N
+\N,"kB000wuh00g00000","2388",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","1439","1443",\N
+\N,"kB000Uuh00g00000","2388",\N,"Homeland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Homeland","1484","1492",\N
+\N,"kB000gvh00g00000","2388",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","1878","1882",\N
+\N,"kB000Evh00g00000","2388",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","2017","2030",\N
+\N,"kB0000wh00g00000","2388",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","2111","2124",\N
+\N,"Se000E:600g00000","950",\N,"Arizona",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Arizona","16","23",\N
+\N,"Se0000;600g00000","950",\N,"Arizona",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Arizona","170","177",\N
+\N,"Se000o;600g00000","950",\N,"Scottsdale",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Scottsdale, Arizona","182","201",\N
+\N,"Se000M;600g00000","950",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","315","319",\N
+\N,"Se00080700g00000","950",\N,"Arizona",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Arizona","343","350",\N
+\N,"ci0008n800g00000","1164",\N,"Tucson",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Tucson","34","40",\N
+\N,"ci000wn800g00000","1164",\N,"Nogales",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Nogales, Arizona","130","146",\N
+\N,"ci000Un800g00000","1164",\N,"Tucson",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Tucson","151","157",\N
+\N,"ci000go800g00000","1164",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","423","427",\N
+\N,"ci000Eo800g00000","1164",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","600","604",\N
+\N,"ci0000p800g00000","1164",\N,"Homeland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Homeland","645","653",\N
+\N,"ci000op800g00000","1164",\N,"Homeland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Homeland","1082","1090",\N
+\N,";d000gL600g00000","895",\N,"San Luis",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","San Luis, Arizona","135","152",\N
+\N,";d000EL600g00000","895",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","307","311",\N
+\N,";d0000M600g00000","895",\N,"San Luis",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","San Luis, Arizona","324","341",\N
+\N,";d000oM600g00000","895",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","773","777",\N
+\N,";d000MM600g00000","895",\N,"Homeland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Homeland","818","826",\N
+\N,"ck000Mx900g00000","1292",\N,"Tucson",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Tucson, Arizona","138","153",\N
+\N,"ck0008y900g00000","1292",\N,"San Luis Potosi",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","San Luis Potosi","179","194",\N
+\N,"ck000wy900g00000","1292",\N,"San Luis Potosi",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","San Luis Potosi","196","211",\N
+\N,"ck000Uy900g00000","1292",\N,"Mexico",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Mexico","213","219",\N
+\N,"ck000gz900g00000","1292",\N,"Casa Grande",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Casa Grande, Arizona","236","256",\N
+\N,"ck000Ez900g00000","1292",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","349","353",\N
+\N,"ck0000A900g00000","1292",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","480","493",\N
+\N,"ck000oA900g00000","1292",\N,"Santa Cruz",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Santa Cruz","711","721",\N
+\N,"ck000MA900g00000","1292",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","862","866",\N
+\N,"ck0008B900g00000","1292",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","953","957",\N
+\N,"ck000wB900g00000","1292",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","1202","1215",\N
+\N,"Rx000khf00g00000","2165",\N,"San Luis",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","San Luis, Arizona","134","151",\N
+\N,"Rx000Ihf00g00000","2165",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","154","158",\N
+\N,"Rx0004if00g00000","2165",\N,"Homeland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Homeland","1719","1727",\N
+\N,"Rx000sif00g00000","2165",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","1864","1877",\N
+\N,"lb000o0600g00000","725",\N,"Nashville",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Nashville","84","93",\N
+\N,"3P000oyq00g00000","3267",\N,"Littleton",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Littleton, Colorado","85","104",\N
+\N,"3P000Myq00g00000","3267",\N,"Littleton",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Littleton","412","421",\N
+\N,"3P0008zq00g00000","3267",\N,"Columbine",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Columbine","540","549",\N
+\N,"3P000wzq00g00000","3267",\N,"Littleton",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Littleton","753","762",\N
+\N,"3P000Uzq00g00000","3267",\N,"Wisconsin",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Wisconsin","1222","1231",\N
+\N,"3P000gAq00g00000","3267",\N,"Columbine",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Columbine","1275","1284",\N
+\N,"3P000EAq00g00000","3267",\N,"Green Bay",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Green Bay","1381","1390",\N
+\N,"3P0000Bq00g00000","3267",\N,"Colorado",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Colorado","1816","1824",\N
+\N,"3P000oBq00g00000","3267",\N,"Beaufort",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Beaufort","2299","2307",\N
+\N,"3P000MBq00g00000","3267",\N,"South Carolina",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","South Carolina","2309","2323",\N
+\N,"3P0008Cq00g00000","3267",\N,"White Pine",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","White Pine","2498","2508",\N
+\N,"us000wCe00g00000","1822",\N,"Georgia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Georgia","1362","1369",\N
+\N,"us000UCe00g00000","1822",\N,"Tennessee",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Tennessee","1371","1380",\N
+\N,"us000gDe00g00000","1822",\N,"Alabama",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Alabama","1382","1389",\N
+\N,"us000EDe00g00000","1822",\N,"Kentucky",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Kentucky","1391","1399",\N
+\N,"us0000Ee00g00000","1822",\N,"North Carolina",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","North Carolina","1404","1418",\N
+\N,"us000oEe00g00000","1822",\N,"Atlanta",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Atlanta","1560","1567",\N
+\N,"us000MEe00g00000","1822",\N,"Colorado",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Colorado","1649","1657",\N
+\N,"bK0000nm00g00000","2955",\N,"Syracuse",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Syracuse","0","8",\N
+\N,"bK000onm00g00000","2955",\N,"Syracuse",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Syracuse","200","208",\N
+\N,"bK000Mnm00g00000","2955",\N,"Syracuse",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Syracuse","835","843",\N
+\N,"bK0008om00g00000","2955",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","876","889",\N
+\N,"bK000wom00g00000","2955",\N,"Syracuse",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Syracuse","1333","1341",\N
+\N,"bK000Uom00g00000","2955",\N,"Iraq",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Iraq","2154","2158",\N
+\N,"bK000gpm00g00000","2955",\N,"Afghanistan",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Afghanistan","2163","2174",\N
+\N,"bK000Epm00g00000","2955",\N,"Texas",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Texas","2245","2250",\N
+\N,"bK0000qm00g00000","2955",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","2696","2700",\N
+\N,"w4100EXt00g00000","4384",\N,"Los Gatos",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Los Gatos","0","9",\N
+\N,"jt1000Cj00g00000","5971",\N,\N,\N,\N,\N,\N,"Australian",\N,\N,"com.dp.dhs.en.Airport","Australian airports",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"jt100sCj00g00000","5971",\N,\N,\N,\N,\N,\N,"Sydney",\N,\N,"com.dp.dhs.en.Airport","Sydney Airport",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"jt100UCj00g00000","5971",\N,\N,\N,\N,\N,\N,"Perth",\N,\N,"com.dp.dhs.en.Airport","Perth Airport",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"jt100o4K00g00000","5971",\N,"Perth",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Perth","841","846",\N
+\N,"jt100M4K00g00000","5971",\N,"Australia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Australia","2009","2018",\N
+\N,"jt10085K00g00000","5971",\N,"China",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","China","2145","2150",\N
+\N,"jt100w5K00g00000","5971",\N,"Hong Kong",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Hong Kong","2155","2164",\N
+\N,"jt100U5K00g00000","5971",\N,"Australia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Australia","2369","2378",\N
+\N,"jt100g6K00g00000","5971",\N,"Australia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Australia","2557","2566",\N
+\N,"jt100E6K00g00000","5971",\N,"Australia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Australia","2701","2710",\N
+\N,"jt10007K00g00000","5971",\N,"Perth",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Perth","4236","4241",\N
+\N,"jt100o7K00g00000","5971",\N,"Australia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Australia","5003","5012",\N
+\N,"jt100M7K00g00000","5971",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","5702","5704",\N
+\N,"jt10088K00g00000","5971",\N,"Edinburgh",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Edinburgh","5786","5795",\N
+\N,"jt100w8K00g00000","5971",\N,"Australia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Australia","5806","5815",\N
+\N,"jt100U8K00g00000","5971",\N,"Afghanistan",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Afghanistan","5957","5968",\N
+\N,"NE0000Bj00g00000","2609",\N,"Rhode Island",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Rhode Island","76","88",\N
+\N,"NE000MBj00g00000","2609",\N,"Rhode Island",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Rhode Island","387","399",\N
+\N,"NE0008Cj00g00000","2609",\N,"Elmwood",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Elmwood","1692","1699",\N
+\N,"FS200glC00g00000","11689",\N,\N,\N,\N,\N,\N,"Austin",\N,\N,"com.dp.dhs.en.Airport","Austin airport",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"FS200IlC00g00000","11689",\N,\N,\N,\N,\N,\N,"International",\N,\N,"com.dp.dhs.en.Airport","Bergstrom International Airport",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"FS200kMl10g00000","11689",\N,"Austin",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Austin","266","272",\N
+\N,"FS200IMl10g00000","11689",\N,"Italy",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Italy","1574","1579",\N
+\N,"FS2004Nl10g00000","11689",\N,"Los Angeles",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Los Angeles","2023","2034",\N
+\N,"FS200sNl10g00000","11689",\N,"Hollywood",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Hollywood","2650","2659",\N
+\N,"FS200QNl10g00000","11689",\N,"Los Angeles",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Los Angeles","2742","2753",\N
+\N,"FS200cOl10g00000","11689",\N,"New York",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","New York","2968","2976",\N
+\N,"FS200AOl10g00000","11689",\N,"London",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","London","6371","6377",\N
+\N,"FS200YOl10g00000","11689",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","7522","7524",\N
+\N,"FS200kPl10g00000","11689",\N,"America",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","America","7580","7587",\N
+\N,"FS200IPl10g00000","11689",\N,"America",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","America","7767","7774",\N
+\N,"FS2004Ql10g00000","11689",\N,"Philadelphia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Philadelphia","8490","8502",\N
+\N,"FS200sQl10g00000","11689",\N,"Houston",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Houston","8675","8682",\N
+\N,"FS200QQl10g00000","11689",\N,"Texas",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Texas","8724","8729",\N
+\N,"FS200cRl10g00000","11689",\N,"Los Angeles",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Los Angeles","8790","8801",\N
+\N,"FS200ARl10g00000","11689",\N,"Marne",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Marne","8834","8839",\N
+\N,"FS200YRl10g00000","11689",\N,"Germany",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Germany","8884","8891",\N
+\N,"FS200kSl10g00000","11689",\N,"Europe",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Europe","8964","8970",\N
+\N,"FS200ISl10g00000","11689",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","9036","9040",\N
+\N,"FS2004Tl10g00000","11689",\N,"Munich",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Munich","9532","9538",\N
+\N,"FS200sTl10g00000","11689",\N,"Sacramento",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Sacramento","9844","9854",\N
+\N,"FS200QTl10g00000","11689",\N,"Karachi",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Karachi","9929","9936",\N
+\N,"FS200cUl10g00000","11689",\N,"Pakistan",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Pakistan","9938","9946",\N
+\N,"FS200AUl10g00000","11689",\N,"Calcutta",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Calcutta","10266","10274",\N
+\N,"FS200YUl10g00000","11689",\N,"India",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","India","10276","10281",\N
+\N,"FS200kVl10g00000","11689",\N,"Kabul",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Kabul","10445","10450",\N
+\N,"FS200IVl10g00000","11689",\N,"Germany",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Germany","10614","10621",\N
+\N,"FS2004Wl10g00000","11689",\N,"Detroit",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Detroit","10756","10763",\N
+\N,"FS200sWl10g00000","11689",\N,"Cairo",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Cairo","11150","11155",\N
+\N,"or000ctd00g00000","1752",\N,"Holly",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Holly","49","54",\N
+\N,"or000Atd00g00000","1752",\N,"Holly",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Holly","356","361",\N
+\N,"or000Ytd00g00000","1752",\N,"Grosse Pointe",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Grosse Pointe","554","567",\N
+\N,"or000kud00g00000","1752",\N,"Michigan",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Michigan","636","644",\N
+\N,"or000Iud00g00000","1752",\N,"South Dakota",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","South Dakota","733","745",\N
+\N,"or0004vd00g00000","1752",\N,"Hartland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Hartland","794","802",\N
+\N,"or000svd00g00000","1752",\N,"Hartland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Hartland","865","873",\N
+\N,"or000Qvd00g00000","1752",\N,"Detroit",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Detroit","884","891",\N
+\N,"or000cwd00g00000","1752",\N,"Michigan",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Michigan","1022","1030",\N
+\N,"jC000Mkj00g00000","2451",\N,"Homeland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Homeland","22","30",\N
+\N,"jC0008lj00g00000","2451",\N,"Cambridge",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Cambridge","69","78",\N
+\N,"jC000wlj00g00000","2451",\N,"Cambridge",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Cambridge","313","322",\N
+\N,"jC000Ulj00g00000","2451",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","457","461",\N
+\N,"jC000gmj00g00000","2451",\N,"Harvard",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Harvard","773","780",\N
+\N,"jC000Emj00g00000","2451",\N,"Cambridge",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Cambridge","811","820",\N
+\N,"jC0000nj00g00000","2451",\N,"Somerville",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Somerville","853","863",\N
+\N,"jC000onj00g00000","2451",\N,"Cambridge",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Cambridge","1558","1567",\N
+\N,"jC000Mnj00g00000","2451",\N,"Boston",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Boston","1685","1691",\N
+\N,"s:5004US20g00000","24476",\N,"Cleveland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Cleveland","697","706",\N
+\N,"s:500sUS20g00000","24476",\N,"Cleveland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Cleveland","3900","3909",\N
+\N,"s:500QUS20g00000","24476",\N,"Cleveland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Cleveland","4458","4467",\N
+\N,"s:500cVS20g00000","24476",\N,"Seattle",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Seattle","11295","11302",\N
+\N,"s:500AVS20g00000","24476",\N,"Oakland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Oakland","11329","11336",\N
+\N,"s:500YVS20g00000","24476",\N,"Canada",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Canada","11376","11382",\N
+\N,"s:500kWS20g00000","24476",\N,"Paris",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Paris","16520","16525",\N
+\N,"s:500IWS20g00000","24476",\N,"Chile",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Chile","19443","19448",\N
+\N,"s:5004XS20g00000","24476",\N,"Greece",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Greece","21146","21152",\N
+\N,"s:500sXS20g00000","24476",\N,"Athens",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Athens","21376","21382",\N
+\N,"bf200cWa10g00000","9163",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","144","148",\N
+\N,"bf200AWa10g00000","9163",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","349","353",\N
+\N,"bf200YWa10g00000","9163",\N,"Atlanta",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Atlanta","458","465",\N
+\N,"bf200kXa10g00000","9163",\N,"Nigeria",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Nigeria","513","520",\N
+\N,"bf200IXa10g00000","9163",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","558","562",\N
+\N,"bf2004Ya10g00000","9163",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","717","721",\N
+\N,"bf200sYa10g00000","9163",\N,"California",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","California","850","860",\N
+\N,"bf200QYa10g00000","9163",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","1126","1130",\N
+\N,"bf200cZa10g00000","9163",\N,"Seattle",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Seattle","2024","2031",\N
+\N,"bf200AZa10g00000","9163",\N,"Vancouver",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Vancouver","2062","2071",\N
+\N,"bf200YZa10g00000","9163",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","2144","2148",\N
+\N,"bf200k:a10g00000","9163",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","2351","2355",\N
+\N,"bf200I:a10g00000","9163",\N,"Europe",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Europe","3250","3256",\N
+\N,"bf2004;a10g00000","9163",\N,"Europe",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Europe","3607","3613",\N
+\N,"bf200s;a10g00000","9163",\N,"New York",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","New York, New York","3634","3646",\N
+\N,"bf200Q;a10g00000","9163",\N,"Poland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Poland","4555","4561",\N
+\N,"bf200c0b10g00000","9163",\N,"Granite Bay",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Granite Bay","4658","4669",\N
+\N,"bf200A0b10g00000","9163",\N,"Hong Kong",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Hong Kong","5093","5102",\N
+\N,"bf200Y0b10g00000","9163",\N,"Shanghai",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Shanghai","5107","5115",\N
+\N,"bf200k1b10g00000","9163",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","5798","5811",\N
+\N,"bf200I1b10g00000","9163",\N,"Atlanta",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Atlanta","6836","6843",\N
+\N,"bf20042b10g00000","9163",\N,"Portland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Portland, Oregon","7048","7064",\N
+\N,"bf200s2b10g00000","9163",\N,"Mexico",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Mexico","7079","7085",\N
+\N,"bf200Q2b10g00000","9163",\N,"Mexico",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Mexico","7200","7206",\N
+\N,"bf200c3b10g00000","9163",\N,"Salt Lake City",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Salt Lake City","7999","8013",\N
+\N,"bf200A3b10g00000","9163",\N,"Canada",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Canada","8094","8100",\N
+\N,"bf200Y3b10g00000","9163",\N,"Street George",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Street George","8435","8445",\N
+\N,"bf200k4b10g00000","9163",\N,"Mexico",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Mexico","8715","8721",\N
+\N,"bf200I4b10g00000","9163",\N,"China",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","China","8723","8728",\N
+\N,"bf20045b10g00000","9163",\N,"Hong Kong",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Hong Kong","8730","8739",\N
+\N,"bf200s5b10g00000","9163",\N,"India",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","India","8743","8748",\N
+\N,"Ea000go200g00000","680",\N,\N,\N,\N,\N,\N,"Kansai",\N,\N,"com.dp.dhs.en.Airport","Kansai Airport",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"Ea000Io200g00000","680",\N,\N,\N,\N,\N,\N,"Gimpo",\N,\N,"com.dp.dhs.en.Airport","Gimpo Airport",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"Ea000oh500g00000","680",\N,"Japan",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Japan","268","273",\N
+\N,"Ea000Mh500g00000","680",\N,"Seoul",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Seoul","278","283",\N
+\N,"Ea0008i500g00000","680",\N,"S. , Korea",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","S. , Korea","291","302",\N
+\N,"Ea000wi500g00000","680",\N,"Seoul",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Seoul","629","634",\N
+\N,"bk000sd400g00000","1291",\N,\N,\N,\N,\N,\N,"Ciampino",\N,\N,"com.dp.dhs.en.Airport","Ciampino Airport",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"bk000Ud400g00000","1291",\N,\N,\N,\N,\N,\N,"The",\N,\N,"com.dp.dhs.en.Airport","The airport",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"bk0004K900g00000","1291",\N,"Rome",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Rome","26","30",\N
+\N,"bk000sK900g00000","1291",\N,"Denmark",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Denmark","276","283",\N
+\N,"bk000QK900g00000","1291",\N,"Rome",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Rome","288","292",\N
+\N,"bk000cL900g00000","1291",\N,"Italy",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Italy","303","308",\N
+\N,"bk000AL900g00000","1291",\N,"Rome",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Rome","871","875",\N
+\N,"NZ000s4c00g00000","3953",\N,\N,\N,\N,\N,\N,"International",\N,\N,"com.dp.dhs.en.Airport","Ben Gurion International Airport",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"NZ000UWs00g00000","3953",\N,"Israel",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Israel","8","14",\N
+\N,"NZ000gXs00g00000","3953",\N,"Israel",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Israel","85","91",\N
+\N,"NZ000EXs00g00000","3953",\N,"Israel",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Israel","280","286",\N
+\N,"NZ0000Ys00g00000","3953",\N,"Israel",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Israel","731","737",\N
+\N,"NZ000oYs00g00000","3953",\N,"Israel",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Israel","971","977",\N
+\N,"NZ000MYs00g00000","3953",\N,"Lebanon",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Lebanon","1017","1024",\N
+\N,"NZ0008Zs00g00000","3953",\N,"Lebanon",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Lebanon","1448","1455",\N
+\N,"NZ000wZs00g00000","3953",\N,"Israel",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Israel","3031","3037",\N
+\N,"pP0008Eq00g00000","3289",\N,"Prospect",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Prospect","435","443",\N
+\N,"pP000wEq00g00000","3289",\N,"Michigan",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Michigan","1433","1441",\N
+\N,"pP000UEq00g00000","3289",\N,"Waterloo",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Waterloo","1442","1450",\N
+\N,"pP000gFq00g00000","3289",\N,"Blackstone",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Blackstone","2017","2027",\N
+\N,"pP000EFq00g00000","3289",\N,"Michigan",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Michigan","2115","2123",\N
+\N,"Qz100wKQ00g00000","6388",\N,"Washington",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Washington","239","249",\N
+\N,"Qz100UKQ00g00000","6388",\N,"Sandusky",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Sandusky","2086","2094",\N
+\N,"Qz100gLQ00g00000","6388",\N,"Three Rivers",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Three Rivers","3326","3338",\N
+\N,"Qz100ELQ00g00000","6388",\N,"Pittsburgh",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Pittsburgh","3399","3409",\N
+\N,"Qz1000MQ00g00000","6388",\N,"Pittsburgh",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Pittsburgh","3588","3598",\N
+\N,"Qz100oMQ00g00000","6388",\N,"Portland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Portland","5696","5704",\N
+\N,"Qz100MMQ00g00000","6388",\N,"Washington",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Washington","6221","6231",\N
+\N,"6s000MTd00g00000","1798",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","195","199",\N
+\N,"6s0008Ud00g00000","1798",\N,"Mississippi",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Mississippi","470","481",\N
+\N,"6s000wUd00g00000","1798",\N,"Hamilton",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Hamilton","1223","1231",\N
+\N,"6s000UUd00g00000","1798",\N,"Hamilton",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Hamilton","1532","1540",\N
+\N,"6s000gVd00g00000","1798",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","1624","1628",\N
+\N,"n;000k:x00g00000","4055",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","479","483",\N
+\N,"n;000I:x00g00000","4055",\N,"Mexico",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Mexico","484","490",\N
+\N,"n;0004;x00g00000","4055",\N,"Mexico",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Mexico","553","559",\N
+\N,"n;000s;x00g00000","4055",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","2790","2794",\N
+\N,"n;000Q;x00g00000","4055",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","3777","3781",\N
+\N,"n;000c0y00g00000","4055",\N,"Mexico",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Mexico","3782","3788",\N
+\N,"uB2004r910g00000","10590",\N,"Afghanistan",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Afghanistan","885","896",\N
+\N,"uB200sr910g00000","10590",\N,"Iraq",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Iraq","1337","1341",\N
+\N,"uB200Qr910g00000","10590",\N,"Afghanistan",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Afghanistan","1346","1357",\N
+\N,"uB200cs910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","1575","1577",\N
+\N,"uB200As910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","2044","2046",\N
+\N,"uB200Ys910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","2216","2218",\N
+\N,"uB200kt910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","2663","2665",\N
+\N,"uB200It910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","2745","2747",\N
+\N,"uB2004u910g00000","10590",\N,"Russia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Russia","2808","2814",\N
+\N,"uB200su910g00000","10590",\N,"Afghanistan",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Afghanistan","3054","3065",\N
+\N,"uB200Qu910g00000","10590",\N,"Russia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Russia","3097","3103",\N
+\N,"uB200cv910g00000","10590",\N,"Afghanistan",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Afghanistan","3112","3123",\N
+\N,"uB200Av910g00000","10590",\N,"Afghanistan",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Afghanistan","3136","3147",\N
+\N,"uB200Yv910g00000","10590",\N,"Russia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Russia","3155","3161",\N
+\N,"uB200kw910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","3217","3219",\N
+\N,"uB200Iw910g00000","10590",\N,"Afghanistan",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Afghanistan","3266","3277",\N
+\N,"uB2004x910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","3344","3346",\N
+\N,"uB200sx910g00000","10590",\N,"Iraq",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Iraq","3355","3359",\N
+\N,"uB200Qx910g00000","10590",\N,"Kuwait",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Kuwait","3396","3402",\N
+\N,"uB200cy910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","3418","3420",\N
+\N,"uB200Ay910g00000","10590",\N,"Afghanistan",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Afghanistan","3491","3502",\N
+\N,"uB200Yy910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","3617","3619",\N
+\N,"uB200kz910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","3676","3678",\N
+\N,"uB200Iz910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","3732","3734",\N
+\N,"uB2004A910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","3834","3836",\N
+\N,"uB200sA910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","3903","3905",\N
+\N,"uB200QA910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","4549","4551",\N
+\N,"uB200cB910g00000","10590",\N,"Iraq",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Iraq","4718","4722",\N
+\N,"uB200AB910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","4743","4745",\N
+\N,"uB200YB910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","4846","4848",\N
+\N,"uB200kC910g00000","10590",\N,"Iraq",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Iraq","5033","5037",\N
+\N,"uB200IC910g00000","10590",\N,"London",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","London","5615","5621",\N
+\N,"uB2004D910g00000","10590",\N,"Iraq",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Iraq","5673","5677",\N
+\N,"uB200sD910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","5783","5785",\N
+\N,"uB200QD910g00000","10590",\N,"Sri Lanka",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Sri Lanka","6070","6079",\N
+\N,"uB200cE910g00000","10590",\N,"Sri Lanka",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Sri Lanka","6255","6264",\N
+\N,"uB200AE910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","6327","6329",\N
+\N,"uB200YE910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","6368","6370",\N
+\N,"uB200kF910g00000","10590",\N,"Iraq",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Iraq","6397","6401",\N
+\N,"uB200IF910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","6445","6447",\N
+\N,"uB2004G910g00000","10590",\N,"Iraq",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Iraq","6709","6713",\N
+\N,"uB200sG910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","7209","7211",\N
+\N,"uB200QG910g00000","10590",\N,"Afghanistan",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Afghanistan","7254","7265",\N
+\N,"uB200cH910g00000","10590",\N,"Pakistan",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Pakistan","7267","7275",\N
+\N,"uB200AH910g00000","10590",\N,"Turkmenistan",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkmenistan","7277","7289",\N
+\N,"uB200YH910g00000","10590",\N,"India",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","India","7294","7299",\N
+\N,"uB200kI910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","7344","7346",\N
+\N,"uB200II910g00000","10590",\N,"Afghanistan",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Afghanistan","7433","7444",\N
+\N,"uB2004J910g00000","10590",\N,"Afghanistan",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Afghanistan","7542","7553",\N
+\N,"uB200sJ910g00000","10590",\N,"Iran",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Iran","7648","7652",\N
+\N,"uB200QJ910g00000","10590",\N,"Iran",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Iran","7700","7704",\N
+\N,"uB200cK910g00000","10590",\N,"N. , Korea",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","N. , Korea","7744","7755",\N
+\N,"uB200AK910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","7817","7819",\N
+\N,"uB200YK910g00000","10590",\N,"Venezuela",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Venezuela","7877","7886",\N
+\N,"uB200kL910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","8001","8003",\N
+\N,"uB200IL910g00000","10590",\N,"Philippines",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Philippines","8016","8027",\N
+\N,"uB2004M910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","8154","8156",\N
+\N,"uB200sM910g00000","10590",\N,"Pakistan",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Pakistan","8170","8178",\N
+\N,"uB200QM910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","8204","8206",\N
+\N,"uB200cN910g00000","10590",\N,"Libya",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Libya","8778","8783",\N
+\N,"uB200AN910g00000","10590",\N,"Syria",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Syria","8788","8793",\N
+\N,"uB200YN910g00000","10590",\N,"Syria",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Syria","8874","8879",\N
+\N,"uB200kO910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","9180","9182",\N
+\N,"uB200IO910g00000","10590",\N,"Iraq",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Iraq","9294","9298",\N
+\N,"uB2004P910g00000","10590",\N,"Afghanistan",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Afghanistan","9303","9314",\N
+\N,"uB200sP910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","9524","9526",\N
+\N,"uB200QP910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","9898","9900",\N
+\N,"uB200cQ910g00000","10590",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","9936","9938",\N
+\N,"LF000k1n00g00000","2671",\N,"Los Angeles",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Los Angeles","135","146",\N
+\N,"LF000I1n00g00000","2671",\N,"Los Angeles",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Los Angeles","262","273",\N
+\N,"LF000s2n00g00000","2671",\N,"Los Angeles",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Los Angeles","1211","1222",\N
+\N,"LF000Q2n00g00000","2671",\N,"Australia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Australia","1821","1830",\N
+\N,"LF000c3n00g00000","2671",\N,"Pennsylvania",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Pennsylvania","2223","2235",\N
+\N,"Uh000oh900g00000","1144",\N,"Suffolk",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Suffolk","426","433",\N
+\N,"Uh000Mh900g00000","1144",\N,"Suffolk",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Suffolk","811","818",\N
+\N,"Uh0008i900g00000","1144",\N,"Brookhaven",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Brookhaven","1116","1126",\N
+\N,"5z1000PP00g00000","6341",\N,"Cambridge",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Cambridge","0","9",\N
+\N,"5z100oPP00g00000","6341",\N,"Harvard",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Harvard","500","507",\N
+\N,"5z100MPP00g00000","6341",\N,"Tokyo",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Tokyo","3100","3105",\N
+\N,"5z1008QP00g00000","6341",\N,"London",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","London","3107","3113",\N
+\N,"5z100wQP00g00000","6341",\N,"Madrid",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Madrid","3115","3121",\N
+\N,"5z100UQP00g00000","6341",\N,"Mumbai",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Mumbai","3127","3133",\N
+\N,"5z100gRP00g00000","6341",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","3956","3960",\N
+\N,"5z100ERP00g00000","6341",\N,"New York",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","New York","3973","3981",\N
+\N,"5z1000SP00g00000","6341",\N,"Davis",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Davis","4127","4132",\N
+\N,"5z100oSP00g00000","6341",\N,"Harvard",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Harvard","4145","4152",\N
+\N,"hc00042600g00000","785",\N,"Boston",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Boston","537","543",\N
+\N,"2d1000LC00g00000","4930",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","23","29",\N
+\N,"2d100oLC00g00000","4930",\N,"Syria",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Syria","195","200",\N
+\N,"2d100MLC00g00000","4930",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","394","400",\N
+\N,"2d1008MC00g00000","4930",\N,"Syria",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Syria","431","436",\N
+\N,"2d100wMC00g00000","4930",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","505","511",\N
+\N,"2d100UMC00g00000","4930",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","622","628",\N
+\N,"2d100gNC00g00000","4930",\N,"Syria",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Syria","633","638",\N
+\N,"2d100ENC00g00000","4930",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","707","713",\N
+\N,"2d1000OC00g00000","4930",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","762","768",\N
+\N,"2d100oOC00g00000","4930",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","964","970",\N
+\N,"2d100MOC00g00000","4930",\N,"Izmir",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Izmir","1094","1099",\N
+\N,"2d1008PC00g00000","4930",\N,"Greece",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Greece","1361","1367",\N
+\N,"2d100wPC00g00000","4930",\N,"Izmir",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Izmir","1560","1565",\N
+\N,"2d100UPC00g00000","4930",\N,"Izmir",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Izmir","2058","2063",\N
+\N,"2d100gQC00g00000","4930",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","2338","2344",\N
+\N,"2d100EQC00g00000","4930",\N,"Asia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Asia","2373","2377",\N
+\N,"2d1000RC00g00000","4930",\N,"Europe",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Europe","2381","2387",\N
+\N,"2d100oRC00g00000","4930",\N,"Asia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Asia","2573","2577",\N
+\N,"2d100MRC00g00000","4930",\N,"Tunisia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Tunisia","2910","2917",\N
+\N,"2d1008SC00g00000","4930",\N,"Libya",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Libya","2922","2927",\N
+\N,"2d100wSC00g00000","4930",\N,"Syria",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Syria","2996","3001",\N
+\N,"2d100USC00g00000","4930",\N,"Iraq",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Iraq","3084","3088",\N
+\N,"2d100gTC00g00000","4930",\N,"Lebanon",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Lebanon","3090","3097",\N
+\N,"2d100ETC00g00000","4930",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","3113","3119",\N
+\N,"2d1000UC00g00000","4930",\N,"Greece",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Greece","3297","3303",\N
+\N,"2d100oUC00g00000","4930",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","3351","3357",\N
+\N,"2d100MUC00g00000","4930",\N,"Syria",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Syria","3435","3440",\N
+\N,"2d1008VC00g00000","4930",\N,"Izmir",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Izmir","3564","3569",\N
+\N,"2d100wVC00g00000","4930",\N,"Greece",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Greece","3662","3668",\N
+\N,"2d100UVC00g00000","4930",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","3688","3694",\N
+\N,"2d100gWC00g00000","4930",\N,"Greece",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Greece","4342","4348",\N
+\N,"2d100EWC00g00000","4930",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","4406","4412",\N
+\N,"2d1000XC00g00000","4930",\N,"Greece",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Greece","4417","4423",\N
+\N,"2d100oXC00g00000","4930",\N,"Greece",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Greece","4579","4585",\N
+\N,"2d100MXC00g00000","4930",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","4590","4596",\N
+\N,"2d1008YC00g00000","4930",\N,"Greece",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Greece","4649","4655",\N
+\N,"2d100wYC00g00000","4930",\N,"Ankara",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Ankara","4875","4881",\N
+\N,"z1100kMu00g00000","4195",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","62","68",\N
+\N,"z1100IMu00g00000","4195",\N,"Greece",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Greece","70","76",\N
+\N,"z11004Nu00g00000","4195",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","177","183",\N
+\N,"z1100sNu00g00000","4195",\N,"Greece",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Greece","187","193",\N
+\N,"z1100QNu00g00000","4195",\N,"Izmir",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Izmir","220","225",\N
+\N,"z1100cOu00g00000","4195",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","493","499",\N
+\N,"z1100AOu00g00000","4195",\N,"Europe",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Europe","505","511",\N
+\N,"z1100YOu00g00000","4195",\N,"Greece",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Greece","513","519",\N
+\N,"z1100kPu00g00000","4195",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","537","543",\N
+\N,"z1100IPu00g00000","4195",\N,"Syria",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Syria","1056","1061",\N
+\N,"z11004Qu00g00000","4195",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","1470","1476",\N
+\N,"z1100sQu00g00000","4195",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","1792","1798",\N
+\N,"z1100QQu00g00000","4195",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","1999","2005",\N
+\N,"z1100cRu00g00000","4195",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","2437","2443",\N
+\N,"z1100ARu00g00000","4195",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","2501","2507",\N
+\N,"z1100YRu00g00000","4195",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","2784","2790",\N
+\N,"z1100kSu00g00000","4195",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","2867","2873",\N
+\N,"z1100ISu00g00000","4195",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","3003","3009",\N
+\N,"z11004Tu00g00000","4195",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","3088","3094",\N
+\N,"z1100sTu00g00000","4195",\N,"Syria",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Syria","3130","3135",\N
+\N,"z1100QTu00g00000","4195",\N,"Kyrgyzstan",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Kyrgyzstan","3137","3147",\N
+\N,"z1100cUu00g00000","4195",\N,"Romania",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Romania","3149","3156",\N
+\N,"z1100AUu00g00000","4195",\N,"Ukraine",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Ukraine","3158","3165",\N
+\N,"z1100YUu00g00000","4195",\N,"Greece",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Greece","3170","3176",\N
+\N,"z1100kVu00g00000","4195",\N,"Pakistan",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Pakistan","3245","3253",\N
+\N,"z1100IVu00g00000","4195",\N,"Europe",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Europe","3381","3387",\N
+\N,"z11004Wu00g00000","4195",\N,"Greece",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Greece","3422","3428",\N
+\N,"z1100sWu00g00000","4195",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","3433","3439",\N
+\N,"z1100QWu00g00000","4195",\N,"Athens",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Athens","3746","3752",\N
+\N,"z1100cXu00g00000","4195",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","3900","3906",\N
+\N,"z1100AXu00g00000","4195",\N,"Asia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Asia","3952","3956",\N
+\N,"z1100YXu00g00000","4195",\N,"Europe",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Europe","3961","3967",\N
+\N,"z1100kYu00g00000","4195",\N,"Turkey",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Turkey","4073","4079",\N
+\N,"Ev000YXe00g00000","2024",\N,"Texas",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Texas","42","47",\N
+\N,"Ev000kYe00g00000","2024",\N,"Texas",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Texas","155","160",\N
+\N,"Ev000IYe00g00000","2024",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","165","169",\N
+\N,"Ev0004Ze00g00000","2024",\N,"Edinburg",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Edinburg, Texas","309","324",\N
+\N,"Ev000sZe00g00000","2024",\N,"Hidalgo",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Hidalgo","591","598",\N
+\N,"Ev000QZe00g00000","2024",\N,"Pharr",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Pharr","599","604",\N
+\N,"Ev000c:e00g00000","2024",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","902","915",\N
+\N,"Ev000A:e00g00000","2024",\N,"Edinburg",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Edinburg","929","937",\N
+\N,"Ev000Y:e00g00000","2024",\N,"Reynosa",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Reynosa","963","970",\N
+\N,"Ev000k;e00g00000","2024",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","1024","1028",\N
+\N,"Ev000I;e00g00000","2024",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","1457","1470",\N
+\N,"Ev00040f00g00000","2024",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","1506","1510",\N
+\N,"Ev000s0f00g00000","2024",\N,"Homeland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Homeland","1957","1965",\N
+\N,"Zq0004U500g00000","1725",\N,\N,\N,\N,\N,\N,"International",\N,\N,"com.dp.dhs.en.Airport","Chaudhary Charan Singh International Airport",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"Zq000YEd00g00000","1725",\N,"Lucknow",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Lucknow","57","64",\N
+\N,"Zq000kFd00g00000","1725",\N,"Delhi",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Delhi","1521","1526",\N
+\N,"Y:000Qec00g00000","4028",\N,\N,\N,\N,\N,\N,"International",\N,\N,"com.dp.dhs.en.Airport","Shanghai Pudong International Airport",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"Y:000otr00g00000","4028",\N,"Israel",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Israel","356","362",\N
+\N,"Y:000Mtr00g00000","4028",\N,"Bangalore",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Bangalore","433","442",\N
+\N,"Y:0008ur00g00000","4028",\N,"Bangalore",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Bangalore","2157","2166",\N
+\N,"Y:000wur00g00000","4028",\N,"Beijing",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Beijing","3871","3878",\N
+\N,"Y:000Uur00g00000","4028",\N,"Shanghai",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Shanghai","3914","3922",\N
+\N,"2h000ck900g00000","1090",\N,"NY",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","NY","0","2",\N
+\N,"2h000Ak900g00000","1090",\N,"New York",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","New York","132","140",\N
+\N,"2h000Yk900g00000","1090",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","147","151",\N
+\N,"2h000kl900g00000","1090",\N,"Buffalo",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Buffalo","374","381",\N
+\N,"2h000Il900g00000","1090",\N,"Ontario",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Ontario","536","543",\N
+\N,"2h0004m900g00000","1090",\N,"Alexandria",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Alexandria","619","629",\N
+\N,"2h000sm900g00000","1090",\N,"Alexandria",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Alexandria","882","892",\N
+\N,"2h000Qm900g00000","1090",\N,"Syracuse",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Syracuse","950","958",\N
+\N,"2h000cn900g00000","1090",\N,"NY",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","NY","1013","1015",\N
+\N,"JP000owp00g00000","3309",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","233","237",\N
+\N,"JP000Mwp00g00000","3309",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","2959","2963",\N
+\N,"JP0008xp00g00000","3309",\N,"Norwalk",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Norwalk","3299","3306",\N
+\N,"0L000kta00g00000","3008",\N,\N,\N,\N,\N,\N,"Teterboro",\N,\N,"com.dp.dhs.en.Airport","Teterboro Airport",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"0L000Mta00g00000","3008",\N,\N,\N,\N,\N,\N,"Teterboro",\N,\N,"com.dp.dhs.en.Airport","Teterboro Airport",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"yE000cE800g00000","2594",\N,\N,\N,\N,\N,\N,"Dulles International Airport",\N,\N,"com.dp.dhs.en.Airport","Dulles International Airport",\N,\N,"2A4157ECDF09102606E3767E6262D122"
+\N,"yE000EE800g00000","2594",\N,\N,\N,\N,\N,\N,"Township",\N,\N,"com.dp.dhs.en.Airport","Richland Township airport",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"yE0004F800g00000","2594",\N,\N,\N,\N,\N,\N,"County",\N,\N,"com.dp.dhs.en.Airport","Cambria County Airport",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"yE000wF800g00000","2594",\N,\N,\N,\N,\N,\N,"Dulles International Airport",\N,\N,"com.dp.dhs.en.Airport","Dulles International Airport",\N,\N,"2A4157ECDF09102606E3767E6262D122"
+\N,"yE000YF800g00000","2594",\N,\N,\N,\N,\N,\N,"Township",\N,\N,"com.dp.dhs.en.Airport","Richland Township airport",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"yE000oG800g00000","2594",\N,\N,\N,\N,\N,\N,"County",\N,\N,"com.dp.dhs.en.Airport","Cambria County Airport",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"yE000kXi00g00000","2594",\N,"Richland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Richland","53","61",\N
+\N,"yE000IXi00g00000","2594",\N,"Richland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Richland","402","410",\N
+\N,"yE0004Yi00g00000","2594",\N,"Cambria",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Cambria","663","670",\N
+\N,"yE000sYi00g00000","2594",\N,"Richland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Richland","978","986",\N
+\N,"yE000QYi00g00000","2594",\N,"Cleveland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Cleveland","1275","1284",\N
+\N,"yE000cZi00g00000","2594",\N,"Richland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Richland","1349","1357",\N
+\N,"yE000AZi00g00000","2594",\N,"Richland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Richland","1698","1706",\N
+\N,"yE000YZi00g00000","2594",\N,"Cambria",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Cambria","1959","1966",\N
+\N,"yE000k:i00g00000","2594",\N,"Richland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Richland","2274","2282",\N
+\N,"yE000I:i00g00000","2594",\N,"Cleveland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Cleveland","2571","2580",\N
+\N,"XA000YYi00g00000","2363",\N,"Ohio",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Ohio","26","30",\N
+\N,"XA000kZi00g00000","2363",\N,"Ohio",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Ohio","317","321",\N
+\N,"XA000IZi00g00000","2363",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","402","406",\N
+\N,"XA0004:i00g00000","2363",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","539","543",\N
+\N,"XA000s:i00g00000","2363",\N,"Cleveland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Cleveland","565","574",\N
+\N,"XA000Q:i00g00000","2363",\N,"Lakewood",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Lakewood","641","649",\N
+\N,"XA000c;i00g00000","2363",\N,"Berea",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Berea","674","679",\N
+\N,"XA000A;i00g00000","2363",\N,"Indianapolis",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Indianapolis","708","720",\N
+\N,"XA000Y;i00g00000","2363",\N,"Cleveland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Cleveland","1315","1324",\N
+\N,"XA000k0j00g00000","2363",\N,"Cleveland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Cleveland","1450","1459",\N
+\N,"XA000I0j00g00000","2363",\N,"Cleveland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Cleveland","1935","1944",\N
+\N,"XA00041j00g00000","2363",\N,"Cleveland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Cleveland","2205","2214",\N
+\N,"Zj000EO900g00000","1277",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","180","184",\N
+\N,"Zj0000P900g00000","1277",\N,"Philadelphia",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Philadelphia","328","340",\N
+\N,"ay000Moh00g00000","2186",\N,"New Delhi",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","New Delhi","1994","2003",\N
+\N,"yk000MG400g00000","1314",\N,\N,\N,\N,\N,\N,"Heathrow",\N,\N,"com.dp.dhs.en.Airport","London Heathrow airport",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"yk000E0b00g00000","1314",\N,"London",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","London","134","140",\N
+\N,"yk00001b00g00000","1314",\N,"Heathrow",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Heathrow","141","149",\N
+\N,"yk000o1b00g00000","1314",\N,"Heathrow",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Heathrow","653","661",\N
+\N,"yk000M1b00g00000","1314",\N,"London",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","London","1188","1194",\N
+\N,"Sk000Qg900g00000","1334",\N,"India",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","India","633","638",\N
+\N,"OG000ETp00g00000","2738",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","97","101",\N
+\N,"OG0000Up00g00000","2738",\N,"Kodiak",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Kodiak","171","177",\N
+\N,"OG000oUp00g00000","2738",\N,"Alaska",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Alaska","179","185",\N
+\N,"OG000MUp00g00000","2738",\N,"Kodiak",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Kodiak","216","222",\N
+\N,"OG0008Vp00g00000","2738",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","318","322",\N
+\N,"OG000wVp00g00000","2738",\N,"Kodiak",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Kodiak","635","641",\N
+\N,"OG000UVp00g00000","2738",\N,"Los Angeles",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Los Angeles","2563","2574",\N
+\N,"OG000gWp00g00000","2738",\N,"Alaska",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Alaska","2579","2585",\N
+\N,"OG000EWp00g00000","2738",\N,"Sitka",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Sitka","2730","2735",\N
+\N,"lq0000ic00g00000","1685",\N,"San Luis",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","San Luis","0","8",\N
+\N,"lq000oic00g00000","1685",\N,"San Luis",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","San Luis, Arizona","120","137",\N
+\N,"lq000Mic00g00000","1685",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","173","177",\N
+\N,"lq0008jc00g00000","1685",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","315","328",\N
+\N,"lq000wjc00g00000","1685",\N,"Homeland",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Homeland","827","835",\N
+\N,"lq000Ujc00g00000","1685",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","1384","1397",\N
+\N,"Ta000Et200g00000","695",\N,\N,\N,\N,\N,\N,"Logan",\N,\N,"com.dp.dhs.en.Airport","Logan Airport",\N,\N,"62949E326A128FDCC362E8F4EDD936FC"
+\N,"Ta0004p500g00000","695",\N,"Massachusetts",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Massachusetts","594","607",\N
+\N,"T;100oa;00g00000","8183",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","3145","3158",\N
+\N,"T;100Ma;00g00000","8183",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","3283","3296",\N
+\N,"T;1008b;00g00000","8183",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","4510","4514",\N
+\N,"T;100wb;00g00000","8183",\N,"UK",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","UK","4910","4912",\N
+\N,"T;100Ub;00g00000","8183",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","5603","5605",\N
+\N,"T;100gc;00g00000","8183",\N,"Tennessee",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Tennessee","5758","5767",\N
+\N,"T;100Ec;00g00000","8183",\N,"China",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","China","6405","6410",\N
+\N,"T;1000d;00g00000","8183",\N,"Taiwan",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Taiwan","6415","6421",\N
+\N,"T;100od;00g00000","8183",\N,"San Francisco",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","San Francisco","6695","6708",\N
+\N,"T;100Md;00g00000","8183",\N,"Arlington",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Arlington","7071","7080",\N
+\N,"T;1008e;00g00000","8183",\N,"United States",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","United States","7151","7155",\N
+\N,"T;100we;00g00000","8183",\N,"Raleigh",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Raleigh, North Carolina","7719","7732",\N
+\N,"T;100Ue;00g00000","8183",\N,"Brookline",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Brookline","7850","7859",\N
+\N,"T;100gf;00g00000","8183",\N,"Miami",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Miami","8007","8012",\N
+\N,"T;100Ef;00g00000","8183",\N,"Orlando",\N,\N,\N,\N,\N,\N,\N,"com.ibm.systemT.Location","Orlando","8134","8141",\N
