@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <title>Data Traversal</title>
+    <script type="text/javascript" src="http://mbostock.github.io/protovis/protovis-r3.2.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.js"></script>
+	<script type="text/javascript" src="sentiment.js"></script>
+    <style type="text/css">
+
+body {
+  margin: 0;
+  background: #222;
+}
+
+    </style>
+  </head>
+  <body>
+    <script type="text/javascript+protovis">
+
+	
+	
+ var w = document.body.clientWidth,
+    h = document.body.clientHeight;
+		
+		var _selected = null;
+
+		//main panel
+		//=================================================
+		var vis = new pv.Panel()
+			.width(w)
+			.height(h)
+			.fillStyle("black");
+			//.event("mousewheel", pv.Behavior.zoom())
+			//.event("mousedown", pv.Behavior.pan());
+		//=================================================
+		
+		var tty = sentiment;
+		
+		//pv.normalize(tty, function(n) n.sent)
+		col = pv.Scale.linear(-15, 0, 15).range('red', 'yellow', 'green');
+		
+		//Data for the visual
+		//###########################################
+		
+		var pip = vis.add(pv.Dot);
+		var pip2 = vis.add(pv.Dot);
+					
+		//var wed = vis.add(pv.Wedge);
+		
+		var ghi = [];
+		for(i=0; i<tty.length; i+=1){
+			ghi.push(tty[i].sent);
+		}
+		
+			tue = vis.add(pv.Wedge)
+					.def("hov",-1)
+					.event("mouseover",function() this.hov(this.index))
+					.data( ghi )
+					.left(function(n) x_calc(this.index*Math.PI/16,100+Math.abs(n*n*.5),(w/2)) )
+					.bottom(function(n) y_calc(this.index*Math.PI/16,100+Math.abs(n*n*.5),(h/2)) )
+					.innerRadius(function(n) 15)
+					.outerRadius(function(n) 25)
+					.angle(function(d) 2*Math.PI)
+					.fillStyle(function(d) col(d));
+		
+		//###########################################
+		function x_calc(dir,dis,x1){
+			return x1+dis*Math.cos(dir);
+		}
+		//-------------
+		function y_calc(dir,dis,y1){
+			return y1+dis*Math.sin(dir);
+		}
+		//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		
+
+setInterval(function() { vis.render(); }, 42);
+
+    </script>
+  </body>
+</html>

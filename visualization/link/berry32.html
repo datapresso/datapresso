@@ -1,0 +1,340 @@
+﻿<html>
+    <head>
+        <title>Data Traversal 2.0</title>
+        <script type="text/javascript" src="http://mbostock.github.io/protovis/protovis-r3.2.js"></script>
+        <style type="text/css">
+            body
+            {
+                margin: 0;
+                background: #222;
+            }
+        </style>
+    </head>
+
+    <body>
+        
+        <script type="text/javascript+protovis">
+        
+            var w = document.body.clientWidth,
+                h = document.body.clientHeight;
+        
+            //main panel
+            //==========================================
+            var vis = new pv.Panel()
+                .width(w)
+                .height(h)
+                .fillStyle("black")
+                .event("mousedown", pv.Behavior.pan() );
+            //==========================================
+
+            //RIBBON PATH
+            //##################-------------------------
+            var ribbon = vis.add(pv.Line);
+            var tassel = []
+			//ribbons itself, retro selection
+			//------------------
+            ribbon.data(tassel)
+                .def("hov",-1)
+                .event("mouseover",function() this.hov(this.index))
+			    .event("mouseout",function() this.hov(-1))
+				.event("mousedown", function(n){
+													tassel.length = this.index+2;
+													change_center( tassel[this.index+1].x, tassel[this.index+1].y);
+													var temp = tassel[this.index+1];
+													switch( temp.type ){
+														case "person":
+															relationTo(data_1, temp.id, knows_in, people_in);
+															relationTo(data_2, temp.id, located_in, places_in);
+															relationTo(data_3, temp.id, involved_in, incidents_in);
+														break;
+														case "place":
+															relationTo(data_1, temp.id, located_in, people_in);
+															relationTo(data_3, temp.id, happened_in, incidents_in);
+															data_2.length = 0;
+														break;
+														case "incident":
+															relationTo(data_1, temp.id, involved_in, people_in);
+															relationTo(data_2, temp.id, happened_in, places_in);
+															data_3.length = 0;
+														break;
+														default: alert(n.type);
+													}
+											  }
+					  )
+                .segmented(true)
+                .strokeStyle( function(n){
+                                    if( this.index < tassel.length-1 ){
+										if( this.hov() == -1 ){	return tassel[this.index+1].c.alpha(0.7); }
+										else{ return (this.hov() < this.index)? tassel[this.index+1].c.alpha(0.2)
+																			  : tassel[this.index+1].c.alpha(0.8);
+											}
+                                    }
+                               }
+                            )
+                //.lineWidth( function(n) (this.hov() == this.index)? 3+this.index : 1+this.index )
+				.lineWidth( 5 )
+                .left( function(n) n.x )
+                .top( function(n) n.y );
+				
+				//dots on vertices for restructuring ribbon
+				//------------------
+				var restruct = vis.add(pv.Dot)
+					.data(tassel)
+					.def("hov",-1)
+					.event("mouseover",function() this.hov(this.index))
+					.event("mouseout",function() this.hov(-1))
+					.event("mousedown", pv.Behavior.drag() )
+					.event("drag", function(n) (tassel.length-1 == this.index)? change_center(n.x, n.y): {} )
+					.strokeStyle(null)
+					.fillStyle( function(n){
+									if( ribbon.hov()== -1){	return tassel[this.index].c; }
+									else{ return (ribbon.hov()+1 >= this.index)? tassel[this.index].c
+																		  : null;
+										} 
+								}
+							  )
+					.left( function(n) n.x )
+					.top( function(n) n.y );
+					
+				//labels on ribbon
+				//------------------
+                ribbon.anchor("top")
+                    .add(pv.Label)
+						//.font( function(n) (10+this.index)+"px sans-serif" )
+                        .textStyle( function(n){
+												if( ribbon.hov()==-1){ return "rgba(255,255,255,.5)" }
+												else{ return (ribbon.hov()+1 >= this.index)? "rgba(255,255,255,.8)" 
+												                                         : "rgba(255,255,255,.2)"
+													}
+											   }
+								   )
+                        .text( function(n) n.tag );
+
+            //##################-------------------------
+        
+    
+            var people_in = [
+                            { id:"jd000et200g00000", fname:"Tom", mname:"", lname:"Landry" },
+                            { id:"jd000et200g00234", fname:"Bill", mname:"", lname:"Nye" },
+                            { id:"jd000et200g00456", fname:"Sam", mname:"", lname:"Houston" },
+                            ];
+
+            var places_in = [
+                            { id:"jd000Ax600g00000" , name:"Houston" },
+                            { id:"jd000Ax600g00305" , name:"Austin" },
+                            { id:"jd000Ax600g00784" , name:"San Antonio" },
+                            ];
+
+            var incidents_in = [
+                               { id:"345" , name:"03.txt" },
+                               { id:"348" , name:"15.txt" },
+                               { id:"350" , name:"19.txt" },
+                               ];
+        
+            //people-people
+            var knows_in = [
+                            { a:"jd000et200g00000" , b:"jd000et200g00234" },
+                            { a:"jd000et200g00234" , b:"jd000et200g00456" },
+                            ];
+            //people-place
+            var located_in = [
+                             { a:"jd000et200g00000", b:"jd000Ax600g00305" },
+                             { a:"jd000et200g00234", b:"jd000Ax600g00000" },
+                             { a:"jd000et200g00456", b:"jd000Ax600g00305" },
+                             ]
+            //people-incident
+            var involved_in = [
+                               {a:"jd000et200g00000" , b:"345" },
+                               {a:"jd000et200g00000" , b:"348" },
+                               {a:"jd000et200g00234" , b:"348" },
+                               {a:"jd000et200g00456" , b:"350" },
+                              ];
+            //incident-place
+            var happened_in = [
+                               {a:"345" , b:"jd000Ax600g00000"},
+                               {a:"348" , b:"jd000Ax600g00305"},
+                               {a:"350" , b:"jd000Ax600g00784"},
+                              ];
+
+        var tick = 0;
+
+        var data_1 = [];
+        for( i=0; i<people_in.length; i+=1 ){
+            temp = people_in[i];
+            temp.x = 0;
+            temp.y = 0;
+            data_1.push(temp);
+        }
+
+        var data_2 = [];
+        for( i=0; i<places_in.length; i+=1 ){
+            data_2.push( {x:0, y:0, id:places_in[i].id, name: places_in[i].name } );
+        }
+
+        var data_3 = [];
+        for( i=0; i<incidents_in.length; i+=1 ){
+            data_3.push( {x:0, y:0, id:incidents_in[i].id, name: incidents_in[i].name } );
+        }
+
+		//-----
+		//radius of all selection circles
+		var r_all = 8;
+		//visibility for all selection circles
+        //###########################################
+		//people selection circles
+        var vip = vis.add(pv.Dot)
+            .def("hov", -1)
+            .event("mouseover",function() this.hov(this.index))
+			.event("mouseout",function() this.hov(-1))
+            .event("mousedown", function(n){
+                                        tassel.push( {type:"person", id:n.id, tag:n.fname+" "+n.mname+" "+n.lname, x:n.x, y:n.y, c:this.fillStyle() } );
+                                        change_center(n.x, n.y);
+                                        relationTo(data_1, n.id, knows_in, people_in);
+                                        relationTo(data_2, n.id, located_in, places_in);
+                                        relationTo(data_3, n.id, involved_in, incidents_in);
+                                        this.hov(-1);
+                                }
+                  )
+            .def("cx",w/2)
+			.def("cy",h/2)
+			.def("r",30)
+			.def("angle",0)
+            .data( data_1 )
+            .radius(function(n) (this.index==this.hov() )? r_all*1.2: r_all)
+			.strokeStyle("black")
+			.fillStyle("yellow")
+            .left(function(n){ data_1[this.index].x = this.cx() + this.r()*Math.cos( this.angle()+(Math.PI)*(2/data_1.length)*this.index ); return data_1[this.index].x; } )
+			.top(function(n){ data_1[this.index].y = this.cy() + this.r()*Math.sin( this.angle()+(Math.PI)*(2/data_1.length)*this.index ); return data_1[this.index].y; } );
+        //###########################################
+		//place selection circles
+          var vil = vis.add(pv.Dot)
+            .def("hov", -1)
+            .event("mouseover",function() this.hov(this.index))
+			.event("mouseout",function() this.hov(-1))
+            .event("mousedown",function(n){
+                                        tassel.push( {type:"place", id:n.id,  tag:n.name, x:n.x, y:n.y, c:this.fillStyle() } );
+                                        change_center(n.x, n.y);
+                                        relationTo(data_1, n.id, located_in, people_in);
+                                        relationTo(data_3, n.id, happened_in, incidents_in);
+                                        data_2.length = 0;
+                                        this.hov(-1);
+                               }
+                  )
+            .def("cx",w/2)
+			.def("cy",h/2)
+			.def("r",60)
+			.def("angle",0)
+            .data( data_2 )
+            .radius(function(n) (this.index==this.hov() )? r_all*1.2: r_all)
+			.strokeStyle("black")
+			.fillStyle("red")
+            .left(function(n){ data_2[this.index].x = this.cx() + this.r()*Math.cos( this.angle()+(Math.PI)*(2/data_2.length)*this.index ); return data_2[this.index].x; } )
+			.top(function(n){ data_2[this.index].y = this.cy() + this.r()*Math.sin( this.angle()+(Math.PI)*(2/data_2.length)*this.index ); return data_2[this.index].y; } );
+        //###########################################
+		//incident selection circles
+        var vii = vis.add(pv.Dot)
+            .def("hov", -1)
+            .event("mouseover",function() this.hov(this.index))
+			.event("mouseout",function() this.hov(-1))
+            .event("mousedown",function(n){
+                                        tassel.push( {type:"incident", id:n.id,  tag:n.name, x:n.x, y:n.y, c:this.fillStyle() } );
+                                        change_center(n.x, n.y);   
+                                        relationTo(data_1, n.id, involved_in, people_in);
+                                        relationTo(data_2, n.id, happened_in, places_in);
+                                        data_3.length = 0;
+                                        this.hov(-1);
+                               }
+                  )
+            .def("cx",w/2)
+			.def("cy",h/2)
+			.def("r",90)
+			.def("angle",0)
+            .data( data_3 )
+            .radius(function(n) (this.index==this.hov() )? r_all*1.2: r_all)
+			.strokeStyle("black")
+			.fillStyle("green")
+            .left(function(n){ data_3[this.index].x = this.cx() + this.r()*Math.cos( this.angle()+(Math.PI)*(2/data_3.length)*this.index ); return data_3[this.index].x; } )
+			.top(function(n){ data_3[this.index].y = this.cy() + this.r()*Math.sin( this.angle()+(Math.PI)*(2/data_3.length)*this.index ); return data_3[this.index].y; } );
+            
+        //###########################################
+		//labels for selection circles
+		
+            vip.anchor("top")
+                .add(pv.Label)
+                    .textStyle(function(n) ( this.index==vip.hov() )? "rgba(255,255,255,.9)" : "rgba(255,255,255,.5)")
+                    .text(function(n) ( this.index==vip.hov() )? n.fname+" "+n.mname+" "+n.lname : n.fname[0]+"."+ n.lname );
+        //#####################
+
+            vil.anchor("top")
+                .add(pv.Label)
+                    .textStyle(function(n) ( this.index==vil.hov() )? "rgba(255,255,255,.9)" : "rgba(255,255,255,.5)")
+                    .text(function(n) n.name );
+        //#####################
+
+            vii.anchor("top")
+                .add(pv.Label)
+                    .textStyle(function(n) ( this.index==vii.hov() )? "rgba(255,255,255,.9)" : "rgba(255,255,255,.5)")
+                    .text(function(n) n.name );
+        //###########################################
+
+		//=================================================
+		//set center of selection circles UPGRADE*could be made to work with SQL queries instead
+        function change_center(x,y){
+            vip.cx(x); vip.cy(y);
+            vil.cx(x); vil.cy(y);
+            vii.cx(x); vii.cy(y);
+        } 
+		//=================================================
+		//set selection circle data
+        function relationTo(arr, n, rel, list){
+            arr.length = 0;
+            for(var i=0; i<rel.length; i+=1 ){
+                var temp = rel[i];
+                if( temp.a == n ){ arr.push( pull_data(temp.b, list) ); }
+                if( temp.b == n ){ arr.push( pull_data(temp.a, list) ); }
+            }
+
+        }
+        //---------------------
+
+            function  pull_data(x, arr){
+                for(var i=0; i<arr.length ; i+=1){
+                    var temp = arr[i];
+                    if( temp.id == x ){ return temp; }
+                }
+                return null;
+            }
+        //=================================================
+		
+		
+		//for animation an rendering, ERROR*selection circles stop rotating under certain conds.
+        setInterval( function(){ 
+                            vis.render();
+                                if( vip.hov()==-1 && vil.hov()==-1 && vii.hov()==-1 ){
+                                    vip.angle( vip.angle() + Math.PI/vip.r()/3 );
+                                    vil.angle( vil.angle() - Math.PI/vil.r()/3 );
+                                    vii.angle( vii.angle() + Math.PI/vii.r()/3 );
+                                }
+								
+								if( ribbon.hov()==-1 ){
+									vip.visible(true);
+									vil.visible(true);
+									vii.visible(true);
+								}
+								else{
+									vip.visible(false);
+									vil.visible(false);
+									vii.visible(false);
+								}
+								
+                            }
+                    , 42);
+
+
+        </script>
+
+    </body>
+
+
+
+</html>
