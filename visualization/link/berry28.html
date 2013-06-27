@@ -1,0 +1,464 @@
+<html>
+  <head>
+    <title>Data Traversal</title>
+    <script type="text/javascript" src="http://mbostock.github.io/protovis/protovis-r3.2.js"></script>
+    <style type="text/css">
+
+body {
+  margin: 0;
+  background: #222;
+}
+
+    </style>
+  </head>
+  <body>
+    <script type="text/javascript+protovis">
+
+	
+	
+ var w = document.body.clientWidth,
+    h = document.body.clientHeight;
+		
+
+		//EXTRA----------------------
+		//				{from:"",to:"",type:""}
+		
+		
+						//var netw = vis.add(pv.Layout.Network)
+				//	.nodes(netnode)
+				//	.links(netlink);
+				//	
+				//	netw.link.add(pv.Line)
+				//		.strokeStyle("rgba(255,255,255,.3)");
+				//	   
+				//	netw.node.add(pv.Dot)
+				//		.strokeStyle("rgba(255,255,255,.3)")
+				//		.fillStyle("rgba(255,255,255,.3)")
+				//		.event("mousedown",pv.Behavior.drag());
+				
+		//~~~~~~~~~~~~
+		var _selected = null;
+		
+		
+
+		
+		//data making
+		var data = [];
+		for(i=0; i<5 ; i+=1){
+			var t = [];
+			for(j=0; j<1+6*Math.random() ; j+=1){
+				var a = w * Math.random(),
+					b = h * Math.random();
+					m = { name:100+j, x:a, y:b, r:6 };
+					t.push(m);
+			}
+			var x = w * Math.random(),
+				y = h * Math.random();
+				n = { name:i, x:x, y:y, r:8, list:t };
+				data.push(n);
+		}
+		
+		//main panel
+		//=================================================
+		var vis = new pv.Panel()
+			.width(w)
+			.height(h)
+			.fillStyle("black")
+			.event("mousewheel", pv.Behavior.zoom())
+			.event("mousedown", pv.Behavior.pan());
+		//=================================================
+		
+		//data visualization
+		//~~~~~~~~~~~~~~~~~~~~~~~~
+		vis.add(pv.Dot)
+			.data(data)
+			.def("sel",-1)
+			.def("hov",-1)
+			.event("mouseover",function(){
+										return this.hov(this.index);
+									}
+							  )
+			.event("mouseout",function() this.hov(-1) )
+			.event("mousedown",function(){
+										data2 = data2;//data[this.index].list;
+										netnode2 = [data[this.index]];
+										netlink2 = [];
+										for(i=0; i<data2.length; i+=1){
+											netnode2.push(data2[i]);
+											netlink2.push({source:0, target:i+1})
+										}
+										mod_encircle(cir,data2,100,data[this.index].x,data[this.index].y)
+										netw2.nodes(netnode2);
+										netw2.links(netlink2);
+										netw2.reset();
+										cir.a(-1);
+									
+									return this.sel(this.index)
+								}
+					)
+			.fillStyle(function(){
+								if(this.sel()==-1){return "rgba(0,0,255,.8)"}
+								else{return -(this.index==this.sel())? "rgba(0,0,255,1)":"rgba(0,0,255,.3)" }
+								}
+						)
+			.strokeStyle("blue")
+			.radius(function(n) (this.index==this.hov())?n.r*1.5:n.r)
+			.left(function(n) n.x)
+			.top(function(n) n.y)
+			.add(pv.Label)
+				.textStyle("white")
+				.text(function(n) n.name);
+		//~~~~~~~~~~~~~~~~~~~~~~~~
+		
+		
+				var netnode = [data[0],data[1],data[2]]
+				var netlink = [{source:0, target:1},
+							   {source:1, target:2},
+						       {source:2, target:0},
+						      ];
+						
+		//---------------------------------------
+		var data2 = [];
+		for(i=0; i<5 ; i+=1){
+			var x = w * Math.random(),
+				y = h * Math.random();
+				n = { name:10+i, x:x, y:y, p:{x:x, y:y}, r:8};
+				data2.push(n);
+		}
+		//=================================================
+		function x_calc(dir,dis,x1){
+			return x1+dis*Math.cos(dir);
+		}
+		//-------------
+		function y_calc(dir,dis,y1){
+			return y1+dis*Math.sin(dir);
+		}
+		//--------------------------
+		function add_encircled(v,d,l,x,y){
+			ret = v.add(pv.Dot)
+				.data(d)
+				.left(function(n){
+							n.x = x_calc(Math.PI*this.index*(2/d.length),l,x);
+							return n.x;
+						}
+					)
+				.top(function(n){
+							n.y = y_calc(Math.PI*this.index*(2/d.length),l,y);
+							return n.y;
+						}
+					);
+			return ret;
+		}
+		//-------------
+		function mod_encircle(inc,d,l,x,y){
+			inc.left(function(n){
+							n.x = x_calc(Math.PI*this.index*(2/d.length),l,x);
+							return n.x;
+						}
+					)
+				.top(function(n){
+							n.y = y_calc(Math.PI*this.index*(2/d.length),l,y);
+							return n.y;
+						}
+					);
+		}
+		
+		//=================================================
+		    var cir = add_encircled(vis,data2,100,data[0].x,data[0].y)
+				.def("a",-1)
+				.event("mouseover",function() this.a(this.index) )
+				.radius(function(n) (this.index==this.a() )? n.r*2: n.r)
+				.fillStyle(function() (this.index==this.a())? "red":"green" );
+		//---------------------------------------
+		
+		//---------------------------------------
+		var netnode2 = [data[0]];
+		var netlink2 = [];
+		for(i=0; i<data2.length; i+=1){
+			netnode2.push(data2[i]);
+			netlink2.push({source:0, target:i+1})
+		}
+		
+		var netw2 = vis.add(pv.Layout.Network)
+					.nodes(netnode2)
+					.links(netlink2);
+			netw2.link.add(pv.Line)
+						.strokeStyle("rgba(255,255,255,.3)");		   
+			netw2.node.add(pv.Dot)
+						.strokeStyle("rgba(255,255,255,.3)")
+						.fillStyle("rgba(255,255,255,.3)");
+		//---------------------------------------
+
+		//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+		//people
+		var h1 = [];
+		h1.push({name:"aa1"});
+		h1.push({name:"aa2"});
+		h1.push({name:"aa3"});
+		h1.push({name:"aa4"});
+		h1.push({name:"aa5"});
+		
+		//place
+		var h2 = [];
+		h2.push({name:"bb1"});
+		h2.push({name:"bb2"});
+		h2.push({name:"bb3"});
+		h2.push({name:"bb4"});
+		
+		//thing
+		var h3 = [];
+		h3.push({name:"cc1"});
+		h3.push({name:"cc2"});
+		h3.push({name:"cc3"});
+		
+		
+		var people = [
+					{name:"Tom"},
+					{name:"John"},
+					{name:"Sal"},
+					{name:"Pete"},
+					{name:"Larry"},
+					{name:"Will"}
+					];
+		
+		var places = [
+					{name:"Houston"},
+					{name:"Austin"},
+					{name:"Boston"},
+					{name:"Galveston"},
+					 ];
+					 
+		var incidents = [
+					{name:"incident01"},
+					{name:"incident02"},
+					{name:"incident03"},
+					{name:"incident04"},
+					]
+		
+		var relation = [
+						{a:"Tom", b:"John"},
+						{a:"Tom", b:"Sal"},
+						{a:"Tom", b:"Pete"},
+						{a:"Sal", b:"Pete"},
+						{a:"Will", b:"Larry"},
+						{a:"Will", b:"Pete"},
+						{a:"Larry", b:"John"},
+						];
+			
+		var located = [
+						{a:"Tom", b:"Houston"},
+						{a:"Tom", b:"Austin"},
+						{a:"Sal", b:"Houston"},
+						{a:"Will", b:"Boston"},
+						{a:"Larry", b:"Boston"},
+						{a:"Larry", b:"Galveston"},
+						{a:"Pete", b:"Austin"},
+						{a:"Sal", b:"Galveston"},
+						];
+		
+		var involved = [
+						{a:"incident01",b:"John"},
+						{a:"incident01",b:"Pete"},
+						{a:"incident03",b:"Sal"},
+						{a:"incident02",b:"Larry"},
+						{a:"incident02",b:"Tom"},
+						{a:"incident03",b:"Tom"},
+						]
+		
+		var happened = [
+						{a:"incident01",b:"Houston"},
+						{a:"incident02",b:"Boston"},
+						{a:"incident03",b:"Austin"},
+						{a:"incident04",b:"Galveston"},
+						]
+		
+		//Data for the visual
+		var tick = 0;
+		
+		var arr = [];
+		for(i=0; i<people.length; i+=1){
+			arr.push( {name:people[i].name, x:0, y:0} )
+		}
+		
+		var art = [];
+		for(i=0; i<places.length; i+=1){
+			art.push( {name:places[i].name, x:0, y:0} )
+		}
+		
+		var arc = [];
+		for(i=0; i<incidents.length; i+=1){
+			arc.push( {name:incidents[i].name, x:0, y:0} )
+		}
+		
+		var chain = vis.add(pv.Line);
+		//###########################################
+		var pip = vis.add(pv.Dot)
+			//.def("p",0)
+			.def("hov",-1)
+			.event("mouseover",function() this.hov(this.index))
+			.event("mouseout",function() this.hov(-1))
+			.event("mousedown",function(n){
+										tassel.push({name:n.name, x:n.x, y:n.y, c:this.strokeStyle()})
+										this.cx(n.x);
+										this.cy(n.y);
+										pip2.cx(n.x);
+										pip2.cy(n.y);
+										pip3.cx(n.x);
+										pip3.cy(n.y);
+										relationsTo(arr,n.name);
+										locatedAt(art,n.name);
+										involvedIn(arc,n.name);
+										this.hov(-1);
+
+								}
+					)
+			.def("cx",100)
+			.def("cy",100)
+			.def("r",50)
+			.def("angle",0)
+			.data(arr)
+			.radius(function(n) (this.index==this.hov() )? 8: 5)
+			.strokeStyle("yellow")
+			.fillStyle("yellow")
+			.left(function(n){ arr[this.index].x = this.cx() + this.r()*Math.cos( tick+(Math.PI)*(2/arr.length)*this.index ); return arr[this.index].x; } )
+			.top(function(n){ arr[this.index].y = this.cy() + this.r()*Math.sin( tick+(Math.PI)*(2/arr.length)*this.index ); return arr[this.index].y; } );
+			pip.anchor("top")
+				.add(pv.Label)
+					.textStyle("white")
+					.text(function(n) n.name );
+		//###########################################
+		var pip2 = vis.add(pv.Dot)
+			.def("p",0)
+			.def("hov",-1)
+			.event("mouseover",function() this.hov(this.index))
+			.event("mouseout",function() this.hov(-1))
+			.event("mousedown",function(n){
+									tassel.push({name:n.name, x:n.x, y:n.y, c:this.strokeStyle()})
+									this.cx(n.x);
+									this.cy(n.y);
+									pip.cx(n.x);
+									pip.cy(n.y);
+									pip3.cx(n.x);
+									pip3.cy(n.y);
+									art.length = 0;
+									locatedAt(arr,n.name);
+									happenedAt(arc,n.name);
+									this.hov(-1);
+								}
+					)
+			.def("cx",100)
+			.def("cy",100)
+			.def("r",70)
+			.def("angle",0)
+			.data(art)
+			.radius(function(n) (this.index==this.hov() )? 8: 5)
+			.strokeStyle("red")
+			.fillStyle("red")
+			.left(function(n){ art[this.index].x = this.cx() + this.r()*Math.cos( -tick+(Math.PI)*(2/art.length)*this.index ); return art[this.index].x; } )
+			.top(function(n){ art[this.index].y = this.cy() + this.r()*Math.sin( -tick+(Math.PI)*(2/art.length)*this.index ); return art[this.index].y; } );
+			pip2.anchor("top")
+				.add(pv.Label)
+					.textStyle("white")
+					.text(function(n) n.name );
+		//###########################################
+		var pip3 = vis.add(pv.Dot)
+			.def("p",0)
+			.def("hov",-1)
+			.event("mouseover",function() this.hov(this.index))
+			.event("mouseout",function() this.hov(-1))
+			.event("mousedown",function(n){
+									tassel.push({name:n.name, x:n.x, y:n.y, c:this.strokeStyle()})
+									this.cx(n.x);
+									this.cy(n.y);
+									pip.cx(n.x);
+									pip.cy(n.y);
+									pip2.cx(n.x);
+									pip2.cy(n.y);
+									arc.length = 0;
+									involvedIn(arr,n.name);
+									happenedAt(art,n.name);
+									this.hov(-1);
+								}
+					)
+			.def("cx",100)
+			.def("cy",100)
+			.def("r",90)
+			.def("angle",0)
+			.data(arc)
+			.radius(function(n) (this.index==this.hov() )? 8: 5)
+			.strokeStyle("green")
+			.fillStyle("green")
+			.left(function(n){ arc[this.index].x = this.cx() + this.r()*Math.cos( tick+(Math.PI)*(2/arc.length)*this.index ); return arc[this.index].x; } )
+			.top(function(n){ arc[this.index].y = this.cy() + this.r()*Math.sin( tick+(Math.PI)*(2/arc.length)*this.index ); return arc[this.index].y; } );
+			pip3.anchor("top")
+				.add(pv.Label)
+					.textStyle("white")
+					.text(function(n) n.name );
+		//##################-------------------------
+				
+		var tassel = [];
+		chain.data(tassel)
+			.segmented(true)
+			.strokeStyle(function(n){ 
+								if(this.index < tassel.length-1){
+										return tassel[this.index+1].c;
+								}
+							} 
+						)
+			.lineWidth(function(n) 1+this.index)
+			.top(function(n) n.y)
+			.left(function(n) n.x)
+			.anchor("top")
+				.add(pv.Label)
+					.textStyle("rgba(255,255,255,.8)")
+					.text(function(n) n.name);
+		//###########################################
+
+		//extracting correlations
+		//------------------------
+		function relationsTo(arr,n){
+			arr.length = 0;
+			for(i=0; i<relation.length ; i+=1){
+				var temp = relation[i];
+				if( temp["a"] == n ){ arr.push({name:temp["b"]}); }
+				if( temp["b"] == n ){ arr.push({name:temp["a"]}); }
+			}
+		}
+		
+		function locatedAt(acc,n){
+			acc.length = 0;
+			for(i=0; i<located.length ; i+=1){
+				var temp = located[i];
+				if( temp["a"] == n ){ acc.push({name:temp["b"]}); }
+				if( temp["b"] == n ){ acc.push({name:temp["a"]}); }
+			}
+		}
+		
+		function involvedIn(axx,n){
+			axx.length = 0;
+			for(i=0; i<involved.length; i+=1){
+				var temp = involved[i];
+				if( temp["a"] == n ){ axx.push({name:temp["b"]}); }
+				if( temp["b"] == n ){ axx.push({name:temp["a"]}); }
+			}
+		}
+		
+		function happenedAt(axx,n){
+			axx.length = 0;
+			for(i=0; i<happened.length; i+=1){
+				var temp = happened[i];
+				if( temp["a"] == n ){ axx.push({name:temp["b"]}); }
+				if( temp["b"] == n ){ axx.push({name:temp["a"]}); }
+			}
+		}
+		//------------------------
+		
+		
+		//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		
+
+setInterval(function() { vis.render(); tick+=Math.PI/100; }, 42);
+
+    </script>
+  </body>
+</html>
