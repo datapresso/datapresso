@@ -114,15 +114,20 @@
         
     
             var people_in = [
-                            { id:"jd000et200g00000", fname:"Tom", mname:"", lname:"Landry" },
-                            { id:"jd000et200g00234", fname:"Bill", mname:"", lname:"Nye" },
-                            { id:"jd000et200g00456", fname:"Sam", mname:"", lname:"Houston" },
+                            { id:"jd000et200g00000", fname:"Tom", mname:"Lee", lname:"Landry" },
+                            { id:"jd000et200g00234", fname:"Bill", mname:"Tom", lname:"Nye" },
+                            { id:"jd000et200g00456", fname:"Sam", mname:"John", lname:"Houston" },
+							{ id:"jd000et200g00623", fname:"John", mname:"Will", lname:"Simmon" },
+							{ id:"jd000et200g00653", fname:"Clara", mname:"Maria", lname:"Garcia" },
+							{ id:"jd000et200g00950", fname:"Janet", mname:"Carmen", lname:"Garcia" },
+							{ id:"jd000et200g01102", fname:"Jose", mname:"Arturo", lname:"Garcia" },
                             ];
 
             var places_in = [
                             { id:"jd000Ax600g00000" , name:"Houston" },
                             { id:"jd000Ax600g00305" , name:"Austin" },
                             { id:"jd000Ax600g00784" , name:"San Antonio" },
+							{ id:"jd000Ax600g00940", name:"Galveston" },
                             ];
 
             var incidents_in = [
@@ -135,12 +140,19 @@
             var knows_in = [
                             { a:"jd000et200g00000" , b:"jd000et200g00234" },
                             { a:"jd000et200g00234" , b:"jd000et200g00456" },
+							{ a:"jd000et200g00653" , b:"jd000et200g00950" },
+							{ a:"jd000et200g00653" , b:"jd000et200g00456" },
+							{ a:"jd000et200g00950" , b:"jd000et200g01102" },
+							{ a:"jd000et200g00234" , b:"jd000et200g01102" },
                             ];
             //people-place
             var located_in = [
                              { a:"jd000et200g00000", b:"jd000Ax600g00305" },
                              { a:"jd000et200g00234", b:"jd000Ax600g00000" },
                              { a:"jd000et200g00456", b:"jd000Ax600g00305" },
+							 { a:"jd000Ax600g00000", b:"jd000et200g00653" },
+							 { a:"jd000Ax600g00000", b:"jd000et200g00950" },
+							 { a:"jd000Ax600g00000", b:"jd000et200g01102" },
                              ]
             //people-incident
             var involved_in = [
@@ -197,7 +209,7 @@
                   )
             .def("cx",w/2)
 			.def("cy",h/2)
-			.def("r",30)
+			.def("r",100)
 			.def("angle",0)
             .data( data_1 )
             .radius(function(n) (this.index==this.hov() )? r_all*1.2: r_all)
@@ -222,7 +234,7 @@
                   )
             .def("cx",w/2)
 			.def("cy",h/2)
-			.def("r",60)
+			.def("r",150)
 			.def("angle",0)
             .data( data_2 )
             .radius(function(n) (this.index==this.hov() )? r_all*1.2: r_all)
@@ -247,7 +259,7 @@
                   )
             .def("cx",w/2)
 			.def("cy",h/2)
-			.def("r",90)
+			.def("r",200)
 			.def("angle",0)
             .data( data_3 )
             .radius(function(n) (this.index==this.hov() )? r_all*1.2: r_all)

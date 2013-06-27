@@ -1,4 +1,4 @@
-sentiment=[
+var sentiment=[
 {sectionid:2363, sent:-4, bd:{pos:2, neg:6} },
 {sectionid:2165, sent:4, bd:{pos:4, neg:0} },
 {sectionid:785, sent:-2, bd:{pos:0, neg:2} },

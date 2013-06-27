@@ -124,20 +124,21 @@
 
         var data_1 = [];
         for( i=0; i<people_in.length; i+=1 ){
-            temp = people_in[i];
-            temp.x = 0;
-            temp.y = 0;
-            data_1.push(temp);
+        //    temp = people_in[i];
+         //   temp.x = 0;
+        //    temp.y = 0;
+        //    data_1.push(temp);
         }
 
         var data_2 = [];
         for( i=0; i<places_in.length; i+=1 ){
-            data_2.push( {x:0, y:0, id:places_in[i].id, name: places_in[i].name } );
+            //data_2.push( {x:0, y:0, id:places_in[i].id, name: places_in[i].name } );
         }
 
         var data_3 = [];
         for( i=0; i<incidents_in.length; i+=1 ){
-            data_3.push( {x:0, y:0, id:incidents_in[i].id, name: incidents_in[i].name } );
+			data_3.push( incidents_in[i] );
+            //data_3.push( {x:0, y:0, id:incidents_in[i].id, name: incidents_in[i].name } );
         }
 
 		//-----
@@ -178,9 +179,9 @@
             .event("mousedown",function(n){
                                         tassel.push( {type:"place", id:n.id,  tag:n.name, x:n.x, y:n.y, c:this.fillStyle() } );
                                         change_center(n.x, n.y);
-                                        relationTo(data_1, n.id, located_in, people_in);
                                         relationTo(data_3, n.id, happened_in, incidents_in);
-                                        data_2.length = 0;
+										relationTo( data_1, n.id, located_in, people_in);
+										data_2.length = 0;
                                         this.hov(-1);
                                }
                   )
@@ -254,8 +255,8 @@
             arr.length = 0;
             for(var i=0; i<rel.length; i+=1 ){
                 var temp = rel[i];
-                if( temp.a == n ){ arr.push( pull_data(temp.b, list) ); }
-                if( temp.b == n ){ arr.push( pull_data(temp.a, list) ); }
+                if( temp.a == n ){  arr.push( pull_data(temp.b, list) ); }
+                if( temp.b == n ){  arr.push( pull_data(temp.a, list) ); }
             }
 
         }
