@@ -69,10 +69,35 @@ body {
 		}
 		//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		
-		//var data = "CBP Port of San Luis Launches Border Radio Pilot Details Published on Thursday, 02 August 2012 20:38 witten by Border ScopeSan Luis, Arizona - U.S. Customs and Border Protection announces the installation of a pilot radio broadcast system for the Port of San Luis aimed to better inform the traveling public with important border-crossing information.";
 		
-setInterval(function() { vis.render(); }, 42);
+		setInterval(function() { vis.render(); }, 42);
 
     </script>
+	
+	<script type="text/javascript">
+			//inital entry to page script
+			//----------------------------------------------
+			function getUrlVars2(){
+				var vars = {};
+				var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, 
+														function(m,key,value) {
+															if(vars[key]){
+																if(vars[key] instanceof Array){
+																	vars[key].push(value);
+																}else{
+																	vars[key] = [vars[key], value];
+																}
+															}else{
+																vars[key] = value;
+															}
+														}
+														);
+					return vars;
+			}
+			//----------------------------------------------
+			
+		</script>
+	
+	
   </body>
 </html>

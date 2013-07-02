@@ -13,6 +13,9 @@
 	<script type="text/javascript" src="countries.js"></script>
 	<script type="text/javascript" src="incident.js"></script>
 	<script type="text/javascript" src="extracted.js"></script>
+	<script type="text/javascript" src="organizations_in.js"></script>
+	<script type="text/javascript" src="orgaloc_in.js"></script>
+	<script type="text/javascript" src="places_in.js"></script>
 	
 	
 	<script type="text/javascript+protovis">
@@ -69,31 +72,8 @@
 		
 		timer = 0;
 		
-		organization = [[00001,"US Customs","Law Enforcement"],
-						[00002,"Border Patrol","Law Enforcement"],
-						[00003,"CEVA Logistics","Company"],
-						[00004,"FBI","Law Enforcement"],
-						[00005,"Massachusetts Bay Transport Authority","Law Enforcement"]
-						];
-		
-		person = [ [00001,0,"Adriana"," ","Cantu Lopez",1973,"unknown","F",0,0,"none"],
-					[00002,0,"Francisco","Javier","Ibarra Green",1982,"Hispanic","M",0,0,"none"],
-					[00003,0,"Carlos"," ","Garcia-Vasquez",1983,"Hispanic","M",0,0,"none"],
-					[00004,0,"Felipe De Jesus","","Gonzalez-Rocha",1971,"unknown","M",0,0,"none"],
-					[00005,0,"Amal"," ","Abdullahi",1984,"unknown","F",0,0,"none"],
-					[00006,0,"Wes"," ","Scantlin",0,"unknown","O",0,0,"none"],
-					[00007,0,"Connor"," ","Grabowski-Gracchiolo",2002,"unknown","M",0,0,"none"],
-					[00008,0,"Mark"," ","Grab owski",0,"unknown","M",0,0,"none"],
-					[00009,0,"Anne"," ","Hultgren",0,"unknown","F",0,0,"none"],
-					[00010,0,"Paul"," ","McMillan",0,"uknown","M",0,0,"none"]
-					];
-
-		relation = [{id:00003,relation:"arrested",subject:"US Customs",object:"Adriana"},
-					{id:00001,relation:"arrested",subject:"US Customs",object:"Francisco"},
-					{id:00001,relation:"arrested",subject:"US Customs",object:"Carlos"},
-					{id:00001,relation:"arrested",subject:"Border Patrol",object:"Felipe De Jesus"},
-					];
-
+		var w = document.body.clientWidth,
+            h = document.body.clientHeight;
 		
 		//MAIN PROGRAM
 		//--------------------
@@ -108,6 +88,9 @@
 		var lat, lng;
 		lat = 0;
 		lng = 0;
+		
+		//using GoogleMapsAPI for GeoCoding
+		//--------------------------------------------------------------
 		function getcords(p){
 			$.ajaxSetup({'async':false});
 			
@@ -127,54 +110,111 @@
 				return false;
 			}
 		}	
-	
-		var p = ["Houston",
-					"O'Hare International Airport",
-					"Los Angeles International Airport",
-					"Dallas-Fort Worth International Airport",
-					"Denver International Airport",
-					"John F. Kennedy International Airport",
-					"San Francisco International Airport",
-					"George Bush Intercontinental Airport",
-					"Miami International Airport",
-					"Beijing Capital International Airport",
-					"London Heathrow Airport",
-					"Tokyo International Airport",
-					"Paris Charles de Gaulle Airport",
-					"Dubai International Airport",
-					"Hong Kong International Airport",
-					"Frankfurt Airport",
-					//"Singapore Changi Airport",
-					//"Madrid Barajas Airport",
-					//"Shanghai Pudong International Airport",
-					//"Atatürk International Airport",
-					//"Seoul Incheon International Airport",
-					//"Munich Airport",
-					];
-			p = locs;
+		//--------------------------------------------------------------
 		
-		for(i=0; i<p.length; i+=1){
-			if( getcords(p[i]) ){
-				_locations.push({name:p[i],cords:[lat,lng]});
+		//var p = ["Houston",
+		//			"O'Hare International Airport",
+		//			"Los Angeles International Airport",
+		//			"Dallas-Fort Worth International Airport",
+		//			"Denver International Airport",
+		//			"John F. Kennedy International Airport",
+		//			"San Francisco International Airport",
+		//			"George Bush Intercontinental Airport",
+		//			"Miami International Airport",
+		//			"Beijing Capital International Airport",
+		//			"London Heathrow Airport",
+		//			"Tokyo International Airport",
+		//			"Paris Charles de Gaulle Airport",
+		//			"Dubai International Airport",
+		//			"Hong Kong International Airport",
+		//			"Frankfurt Airport",
+		//			];
+					
+			//p = locs;
+			var p = [];
+			var col_scale = pv.Scale.linear(-16, 0, 16).range('red', 'yellow', 'green');
+			var c = "white";
+			
+			var orga = getUrlVars2()["orga"];
+			if( orga != null ){
+				orga = orga.replace(/%20/g," ");
+				var orgaparse = orga.split(" ");
+			
+			var ids = [];
+			
+			function sent_fill(){
+					
+					var count = 0;
+					
+					for(var i=0; i<organizations_in.length; i+=1 ){
+						var temp = organizations_in[i];
+						
+						var nameparse = temp.name;
+							
+						var test = 0;
+							
+							for(var j=0; j<orgaparse.length; j+=1 ){
+									if( nameparse.search( orgaparse[j] ) >= 0 ){ test+=1; }
+							}
+							
+						if( test >= orgaparse.length ){ count += temp.sent; ids.push(temp.id) }
+							
+					}
+					return col_scale(count);
 			}
-			//document.write( p[i]+":["+ lat+ ", "+ lng+ "]" );
-		}
+			
+				c = sent_fill();
+			
+			
+			p = getUrlVars2()["loc"];
+			
+			if( p != null ){
+				for(var i=0; i<p.length ; i+=1){
+					p[i] = p[i].replace(/%20/g," ");
+				}
+			}
+			else{
+				p = [];
+				for(var i=0; i<ids.length ; i+= 1){
+					var t_id = ids[i];
+					
+					for(var j=0 ; j<orgaloc_in.length ; j+=1){
+						if( orgaloc_in[j].a == t_id ){
+							for( var k=0 ; k<places_in.length ; k+=1){
+								if( places_in[k].id == orgaloc_in[j].b ){
+									p.push( places_in[k].name );
+								}
+							}
+						}
+					}
+					
+				}
+			}
+		
+			}
+			
+			for(i=0; i<p.length; i+=1){
+				if( getcords(p[i]) ){
+					_locations.push({name:p[i],cords:[lat,lng]});
+				}
+				//document.write( p[i]+":["+ lat+ ", "+ lng+ "]" );
+			}
 		//==============================================
 
 		
 		//WORKS, Map + state selection
 		//-----------------------------------------------------------------------------------------------
 		var scale = pv.Geo.scale("indentity")
-    		.domain({lng: -128, lat: 24}, {lng: -64, lat: 50})
-			//.domain({})
+    		//.domain({lng: -128, lat: 24}, {lng: -64, lat: 50})
+			.domain({})
     		.range({x: 0, y: 0}, {x: 800, y: 450});
 		
 		//canvas for all US
 		var map = create_box(800,450)
 			.def("w",-1)
 			.fillStyle("white")
-			.event("mousewheel", pv.Behavior.zoom())
-			.event("mousedown", pv.Behavior.pan());
+			//.event("mousewheel", pv.Behavior.zoom())
+			//.event("mousedown", pv.Behavior.pan());
 		
 		//Panel for States
 		var state = map.add(pv.Panel)
@@ -191,11 +231,12 @@
 					//single State's landmass data (i:1-n)
 					//[[-102,41],[-102,37],[-109,36],[-109,40],[-102,41]]
 					.data(function(n) n)
-					.strokeStyle("black")
+					.lineWidth(.4)
+					.strokeStyle("rgba(0,0,0,.3)")
 					.fillStyle(function() (this.t()==this.index)? "blue": "lightgray")
-					.left(scale.x)
-					.top(scale.y)
-					.antialias(true)
+					.left( function(n){ ; return scale(n).x; })
+					.top( function(n) scale(n).y )
+					.antialias(true);
 					//.event("mousedown", function(){ ; return this.t(this.index);} )
 					//.event("mouseout", function() this.t(-1) );
 		
@@ -264,12 +305,12 @@
 					.fillStyle(function() (this.sel()==this.index)? "rgba(255,0,0,.5)": "rgba(0,0,255,.2)" )
 					//.left( scale.x)
 					//.bottom(scale.y)
-					.left(function(d) 800-800*(d.cords[1]-(-64))/-(128-64))
-					.bottom(function(d) 450*(d.cords[0]-(24))/(50-24))
+					.left(function(d) scale( {lat:d.cords[0],lng:d.cords[1]} ).x)
+					.top(function(d) scale( {lat:d.cords[0],lng:d.cords[1]} ).y)
 					.event("mouseover",function(){this.sel(this.index); link_process(this.index); map.render();})
 						.anchor("top")
 						.add(pv.Label)
-							.textStyle(function() "rgba(0,0,0,.4)")
+							.textStyle(function() "rgba(0,0,0,0)")
 							.text(function(d) d.name);
 		//-----------------------------------------------------------------------------------------------
 		
@@ -336,7 +377,22 @@
 			
 			
 		//-----------------------------------------------------------------------------------------------
+		
 
+		
+		
+		var sen = map.add(pv.Dot)
+				.data([1])
+				.left(400)
+				.bottom(70)
+				.radius(30)
+				.shape("square")
+				.fillStyle( c )
+				.anchor()
+					.add(pv.Label)
+						.font("20px sans-serif")
+						.text(orga);
+		
 		map.render();
 		
 		
@@ -346,6 +402,31 @@
 	//-----------------------------------------------------------------------------------------------
 		
 	</script><br>
+	
+	
+	<script type="text/javascript">
+			//inital entry to page script
+			//----------------------------------------------
+			function getUrlVars2(){
+				var vars = {};
+				var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, 
+														function(m,key,value) {
+															if(vars[key]){
+																if(vars[key] instanceof Array){
+																	vars[key].push(value);
+																}else{
+																	vars[key] = [vars[key], value];
+																}
+															}else{
+																vars[key] = value;
+															}
+														}
+														);
+					return vars;
+			}
+			//----------------------------------------------
+			
+		</script>
 
 	
 	

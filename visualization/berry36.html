@@ -2,6 +2,13 @@
     <head>
         <title>Data Traversal 2.0</title>
         <script type="text/javascript" src="http://mbostock.github.io/protovis/protovis-r3.2.js"></script>
+		<script type="text/javascript" src="people_in.js"></script>
+		<script type="text/javascript" src="places_in.js"></script>
+		<script type="text/javascript" src="incidents_in.js"></script>
+		<script type="text/javascript" src="knows_in.js"></script>
+		<script type="text/javascript" src="happened_in.js"></script>
+		<script type="text/javascript" src="involved_in.js"></script>
+		<script type="text/javascript" src="located_in.js"></script>
         <style type="text/css">
             body
             {
@@ -111,83 +118,51 @@
                         .text( function(n) n.tag );
 
             //##################-------------------------
-        
-    
-            var people_in = [
-                            { id:"jd000et200g00000", fname:"Tom", mname:"Lee", lname:"Landry" },
-                            { id:"jd000et200g00234", fname:"Bill", mname:"Tom", lname:"Nye" },
-                            { id:"jd000et200g00456", fname:"Sam", mname:"John", lname:"Houston" },
-							{ id:"jd000et200g00623", fname:"John", mname:"Will", lname:"Simmon" },
-							{ id:"jd000et200g00653", fname:"Clara", mname:"Maria", lname:"Garcia" },
-							{ id:"jd000et200g00950", fname:"Janet", mname:"Carmen", lname:"Garcia" },
-							{ id:"jd000et200g01102", fname:"Jose", mname:"Arturo", lname:"Garcia" },
-                            ];
-
-            var places_in = [
-                            { id:"jd000Ax600g00000" , name:"Houston" },
-                            { id:"jd000Ax600g00305" , name:"Austin" },
-                            { id:"jd000Ax600g00784" , name:"San Antonio" },
-							{ id:"jd000Ax600g00940", name:"Galveston" },
-                            ];
-
-            var incidents_in = [
-                               { id:"345" , name:"03.txt" },
-                               { id:"348" , name:"15.txt" },
-                               { id:"350" , name:"19.txt" },
-                               ];
-        
-            //people-people
-            var knows_in = [
-                            { a:"jd000et200g00000" , b:"jd000et200g00234" },
-                            { a:"jd000et200g00234" , b:"jd000et200g00456" },
-							{ a:"jd000et200g00653" , b:"jd000et200g00950" },
-							{ a:"jd000et200g00653" , b:"jd000et200g00456" },
-							{ a:"jd000et200g00950" , b:"jd000et200g01102" },
-							{ a:"jd000et200g00234" , b:"jd000et200g01102" },
-                            ];
-            //people-place
-            var located_in = [
-                             { a:"jd000et200g00000", b:"jd000Ax600g00305" },
-                             { a:"jd000et200g00234", b:"jd000Ax600g00000" },
-                             { a:"jd000et200g00456", b:"jd000Ax600g00305" },
-							 { a:"jd000Ax600g00000", b:"jd000et200g00653" },
-							 { a:"jd000Ax600g00000", b:"jd000et200g00950" },
-							 { a:"jd000Ax600g00000", b:"jd000et200g01102" },
-                             ]
-            //people-incident
-            var involved_in = [
-                               {a:"jd000et200g00000" , b:"345" },
-                               {a:"jd000et200g00000" , b:"348" },
-                               {a:"jd000et200g00234" , b:"348" },
-                               {a:"jd000et200g00456" , b:"350" },
-                              ];
-            //incident-place
-            var happened_in = [
-                               {a:"345" , b:"jd000Ax600g00000"},
-                               {a:"348" , b:"jd000Ax600g00305"},
-                               {a:"350" , b:"jd000Ax600g00784"},
-                              ];
-
+		
         var tick = 0;
 
         var data_1 = [];
-        for( i=0; i<people_in.length; i+=1 ){
-            temp = people_in[i];
-            temp.x = 0;
-            temp.y = 0;
-            data_1.push(temp);
+        for(var i=0; i<people_in.length; i+=1 ){
+        //    temp = people_in[i];
+         //   temp.x = 0;
+        //    temp.y = 0;
+        //    data_1.push(temp);
         }
 
         var data_2 = [];
-        for( i=0; i<places_in.length; i+=1 ){
-            data_2.push( {x:0, y:0, id:places_in[i].id, name: places_in[i].name } );
+        for(var i=0; i<places_in.length; i+=1 ){
+            //data_2.push( {x:0, y:0, id:places_in[i].id, name: places_in[i].name } );
         }
 
         var data_3 = [];
-        for( i=0; i<incidents_in.length; i+=1 ){
-            data_3.push( {x:0, y:0, id:incidents_in[i].id, name: incidents_in[i].name } );
+        for(var i=0; i<incidents_in.length; i+=1 ){
+			//data_3.push( incidents_in[i] );
         }
 
+		
+		//entry point
+		var doc_arr;
+		doc_arr = getUrlVars2()["doc"];
+		
+		if( doc_arr == null ){
+			for(var i=0; i<incidents_in.length; i+=1 ){
+				data_3.push( incidents_in[i] );
+			}
+		}
+		else{
+			if( doc_arr instanceof Array){
+				initEntry(data_3, doc_arr );
+			}
+			else{
+				var temp = inci_name(doc_arr);
+				relationTo(data_1, temp.id, involved_in, people_in);
+				relationTo(data_2, temp.id, happened_in, places_in);
+				data_3.length = 0;
+				tassel.push( {type:"incident", id:temp.id,  tag:temp.name, x:w/2, y:h/2, c:"green" } );
+			}
+
+		}
+		
 		//-----
 		//radius of all selection circles
 		var r_all = 8;
@@ -226,15 +201,15 @@
             .event("mousedown",function(n){
                                         tassel.push( {type:"place", id:n.id,  tag:n.name, x:n.x, y:n.y, c:this.fillStyle() } );
                                         change_center(n.x, n.y);
-                                        relationTo(data_1, n.id, located_in, people_in);
                                         relationTo(data_3, n.id, happened_in, incidents_in);
-                                        data_2.length = 0;
+										relationTo( data_1, n.id, located_in, people_in);
+										data_2.length = 0;
                                         this.hov(-1);
                                }
                   )
             .def("cx",w/2)
 			.def("cy",h/2)
-			.def("r",150)
+			.def("r",200)
 			.def("angle",0)
             .data( data_2 )
             .radius(function(n) (this.index==this.hov() )? r_all*1.2: r_all)
@@ -259,7 +234,7 @@
                   )
             .def("cx",w/2)
 			.def("cy",h/2)
-			.def("r",200)
+			.def("r",300)
 			.def("angle",0)
             .data( data_3 )
             .radius(function(n) (this.index==this.hov() )? r_all*1.2: r_all)
@@ -274,7 +249,20 @@
             vip.anchor("top")
                 .add(pv.Label)
                     .textStyle(function(n) ( this.index==vip.hov() )? "rgba(255,255,255,.9)" : "rgba(255,255,255,.5)")
-                    .text(function(n) ( this.index==vip.hov() )? n.fname+" "+n.mname+" "+n.lname : n.fname[0]+"."+ n.lname );
+                    .text(function(n){
+								if( this.index==vip.hov() ){
+									return n.fname+" "+n.mname+" "+n.lname;
+								}
+								else{
+									if( n.fname.length > 0){
+										return n.fname[0] +"."+n.lname;
+									}
+									else{
+										return n.lname;
+									}
+								}
+							}
+						  );
         //#####################
 
             vil.anchor("top")
@@ -302,11 +290,21 @@
             arr.length = 0;
             for(var i=0; i<rel.length; i+=1 ){
                 var temp = rel[i];
-                if( temp.a == n ){ arr.push( pull_data(temp.b, list) ); }
-                if( temp.b == n ){ arr.push( pull_data(temp.a, list) ); }
+                if( temp.a == n ){  arr.push( pull_data(temp.b, list) ); }
+                if( temp.b == n ){  arr.push( pull_data(temp.a, list) ); }
             }
 
         }
+		
+		function initEntry(arr, list){
+			arr.length = 0;
+			for(var i=0; i<incidents_in.length ; i+=1){
+					var temp = incidents_in[i];
+					for(var j=0; j<list.length; j+=1){
+						if( temp.name == list[j] ){ arr.push(temp); }
+					}
+			}
+		}
         //---------------------
 
             function  pull_data(x, arr){
@@ -316,6 +314,13 @@
                 }
                 return null;
             }
+			
+			function inci_name(x){
+				for(var i=0; i<incidents_in.length ; i+=1){
+					var temp = incidents_in[i];
+					if( temp.name == x ){ return temp; }
+				}
+			}
         //=================================================
 		
 		
@@ -344,6 +349,30 @@
 
 
         </script>
+			
+		<script type="text/javascript">
+			//inital entry to page script
+			//----------------------------------------------
+			function getUrlVars2(){
+				var vars = {};
+				var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, 
+														function(m,key,value) {
+															if(vars[key]){
+																if(vars[key] instanceof Array){
+																	vars[key].push(value);
+																}else{
+																	vars[key] = [vars[key], value];
+																}
+															}else{
+																vars[key] = value;
+															}
+														}
+														);
+					return vars;
+			}
+			//----------------------------------------------
+			
+		</script>
 
     </body>
 
