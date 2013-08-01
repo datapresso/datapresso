@@ -2,8 +2,8 @@
 $x = $_POST['x'];
 
 $dbhost = 'localhost:3306';
-$dbuser = 'root';
-$dbpass = 'password';
+$dbuser = 'datapresso';
+$dbpass = 'datapresso';
 $dbname = 'datapresso';
 $conn = mysql_connect($dbhost, $dbuser, $dbpass);
 if(! $conn )
