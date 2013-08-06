@@ -1,10 +1,6 @@
-<?php
+<?php include 'sqlserverdetails.php'
 $doc = $_POST['doc'];
 
-$dbhost = 'localhost:3306';
-$dbuser = 'datapresso';
-$dbpass = 'datapresso';
-$dbname = 'datapresso';
 $conn = mysql_connect($dbhost, $dbuser, $dbpass);
 if(! $conn )
 {

@@ -1,10 +1,6 @@
-<?php
+<?php include 'sqlserverdetails.php'
 $loc = $_POST['loc'];
 
-$dbhost = 'localhost:3306';
-$dbuser = 'datapresso';
-$dbpass = 'datapresso';
-$dbname = 'datapresso';
 $conn = mysql_connect($dbhost, $dbuser, $dbpass);
 if(! $conn )
 {
@@ -48,5 +44,5 @@ $box = array();
  echo json_encode( $box, JSON_PRETTY_PRINT );
   
 mysql_close($conn);
-//echo '>>Connection Closed<br>';
+
 ?>
