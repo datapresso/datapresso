@@ -2,24 +2,23 @@
 <section name="Workbench">
 	<section name="ImportExportAction">
 		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="com.ibm.dltj.uimaannotator.configPearExport"/>
-		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.apache.uima.caseditor.ide.wizards.NewDocumentWizard"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.FileSystem"/>
 		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
 			<item value="com.ibm.dltj.plugin.project"/>
 		</list>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
-			<item value="org.apache.uima.caseditor.ide.wizards"/>
 		</list>
 	</section>
 	<section name="EditorSelectionDialog">
 	</section>
 	<section name="ShowViewDialog">
-		<item key="DIALOG_FONT_NAME" value="1|Tahoma|8.4|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma"/>
-		<item key="DIALOG_HEIGHT" value="453"/>
+		<item key="DIALOG_FONT_NAME" value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma"/>
+		<item key="DIALOG_HEIGHT" value="414"/>
 		<item key="DIALOG_X_ORIGIN" value="551"/>
 		<item key="DIALOG_Y_ORIGIN" value="116"/>
 		<item key="ShowViewDialog.STORE_SELECTED_VIEW_ID" value="org.apache.uima.caseditor.selection"/>
-		<item key="DIALOG_WIDTH" value="347"/>
+		<item key="DIALOG_WIDTH" value="280"/>
 		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.apache.uima.caseditor.ui.views"/>
 		</list>
@@ -42,8 +41,8 @@
 		<item key="DIALOG_Y_ORIGIN" value="83"/>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item key="dialogHeight" value="434"/>
-		<item key="dialogWidth" value="638"/>
+		<item key="dialogHeight" value="624"/>
+		<item key="dialogWidth" value="1200"/>
 		<list key="textEntries">
 		</list>
 		<list key="orderedElements">
@@ -61,6 +60,7 @@
 		<item key="WizardFileSystemResourceImportPage1.STORE_PATH_VARIABLE_SELECTED_ID" value="true"/>
 		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
 		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\workspace\datapresso\BostMaraDocs"/>
 			<item value="C:\java\pear"/>
 			<item value="C:\java\pear\dip\dip.datapresso"/>
 		</list>

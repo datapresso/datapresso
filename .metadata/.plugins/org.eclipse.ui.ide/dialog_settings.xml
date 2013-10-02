@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.tigris.subversion.subclipse.ui.wizards.CheckoutWizard"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.ui.wizards.new.project"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.tigris.subversion.subclipse.ui.svn"/>
+			<item value="org.eclipse.ui.Basic"/>
 		</list>
 	</section>
 	<section name="SaveAsDialogSettings">
 		<item key="DIALOG_FONT_NAME" value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma"/>
-		<item key="DIALOG_HEIGHT" value="434"/>
 		<item key="DIALOG_X_ORIGIN" value="109"/>
+		<item key="DIALOG_HEIGHT" value="434"/>
 		<item key="DIALOG_Y_ORIGIN" value="104"/>
 		<item key="DIALOG_WIDTH" value="438"/>
 	</section>
 	<section name="ExternalProjectImportWizard">
 		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
 		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+	</section>
+	<section name="BasicNewProjectResourceWizard">
 	</section>
 </section>

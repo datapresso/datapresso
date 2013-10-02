@@ -8,16 +8,16 @@
                 <nameValuePair>
                     <name>InputDirectory</name>
                     <value>
-                        <string>C:\workspace\datapresso\dip\Documents\DIP</string>
+                        <string>C:\temp\newdata</string>
                     </value>
                 </nameValuePair>
             </configurationParameterSettings>
         </collectionIterator>
     </collectionReader>
     <casProcessors casPoolSize="3" processingUnitThreadCount="1">
-        <casProcessor deployment="integrated" name="dip.datapresso_pear.xml">
+        <casProcessor deployment="integrated" name="dip.datapresso2_pear.xml">
             <descriptor>
-                <import location="../../../../java/pear/dip.datapresso/dip.datapresso_pear.xml"/>
+                <import location="../../../../java/pear/dip.datapresso2/dip.datapresso2_pear.xml"/>
             </descriptor>
             <deploymentParameters/>
             <errorHandling>

@@ -94,6 +94,7 @@
   <!-- C.Ding added for UIMA-->
   <lib dir="./contrib/uima/lib" regex=".*\.jar"/>
   <lib dir="./dist/" regex="apache-solr-uima-\d.*\.jar" />
+  <lib dir="c:/java/lib" regex=".*\.jar"/>
 
 
   <!-- If a 'dir' option (with or without a regex) is used and nothing
@@ -876,25 +877,31 @@
        <str name="rows">10</str>
        <str name="fl">*,score</str>
        <str name="mlt.qf">
-         text^0.5 name^1.2 concept^1.5 airport^2.0 person^3.0
+         text^0.5 name^1.2 concept^1.5 Airport^2.0 SystemTPerson^3.0 LRWPerson^3.0 Address^3.0 Organization^3.0
        </str>
-       <str name="mlt.fl">text,name,concept,airport,person</str>
+       <str name="mlt.fl">text,name,concept,Airport,SystemTPerson, LRWPerson, Address, Organization</str>
        <int name="mlt.count">3</int>
 
        <str name="qf">
-          text^0.5  name^1.2 concept^1.5 airport^2.0 person^3.0
+          text^0.5  name^1.2 concept^1.5 Airport^2.0 SystemTPerson^3.0 LRWPerson^3.0 Address^3.0 Organization^3.0
        </str>
 
        <str name="facet">on</str>
        <str name="facet.field">concept</str>
-       <str name="facet.field">airport</str>
-	   <str name="facet.field">person</str>
-       <str name="facet.query">DCA</str>
-       <str name="facet.query">IAD</str>
-	   <str name="facet.query">He</str>
-	   <str name="facet.query">She</str>
-	   <str name="facet.query">His</str>
-	   <str name="facet.query">Her</str>
+       <str name="facet.field">Airport</str>
+	   <str name="facet.field">SystemTPerson</str>
+	   <str name="facet.field">LRWPerson</str>
+	   <str name="facet.field">Organization</str>
+	   <str name="facet.field">Address</str>	  
+	    <str name="facet.field">PosSentiment</str>
+	    <str name="facet.field">NegSentiment</str>
+
+       <str name="facet.query">TSA</str>
+       <str name="facet.query">DHS</str>
+	   <str name="facet.query">CBP</str>
+	   <str name="facet.query">ICE</str>
+	   <str name="facet.query">CIS</str>
+	   <str name="facet.query">IAD</str>
 	   
        <str name="facet.mincount">1</str>
        <str name="facet.range.other">after</str>
@@ -902,14 +909,22 @@
        <!-- Highlighting defaults -->
        <str name="hl">on</str>
        <!-- C.Ding changed on 11/11/12 -->
-	   <str name="hl.fl">title url content body airport concept person</str>
+	   <str name="hl.fl">title url content body concept Address SystemTPerson LRWPerson Organization PosSentiment NegSentiment Airport</str>
 	   <!--<str name="hl.fragmentsBuilder">colored</str>  -->
        <str name="f.title.hl.fragsize">0</str>
        <str name="f.title.hl.alternateField">title</str>
        <str name="f.body.hl.fragsize">0</str>
        <str name="f.body.hl.alternateField">body</str>
        <str name="f.airport.hl.fragsize">0</str>
-       <str name="f.airport.hl.alternateField">airport</str>
+       <str name="f.airport.hl.alternateField">Airport</str>
+	   <str name="f.SystemTPerson.hl.fragsize">0</str>
+       <str name="f.SystemTPerson.hl.alternateField">SystemTPerson</str>
+	   <str name="f.LRWPerson.hl.fragsize">0</str>
+       <str name="f.LRWPerson.hl.alternateField">LRWPerson</str>
+	   <str name="f.Organization.hl.fragsize">0</str>
+       <str name="f.Organization.hl.alternateField">Organization</str>
+	   <str name="f.Address.hl.fragsize">0</str>
+       <str name="f.Address.hl.alternateField">Address</str>
 	   <str name="f.person.hl.fragsize">0</str>
        <str name="f.person.hl.alternateField">person</str>
 	   <str name="hl.useFastVectorHighlighter">false</str>
@@ -1118,7 +1133,7 @@
        this is just a slave and remove  the <lst name="slave"> section
        if this is just a master.
     -->
-  <!--
+
      <requestHandler name="/replication" class="solr.ReplicationHandler" >
        <lst name="master">
          <str name="replicateAfter">commit</str>
@@ -1126,11 +1141,11 @@
          <str name="confFiles">schema.xml,stopwords.txt</str>
        </lst>
        <lst name="slave">
-         <str name="masterUrl">http://localhost:8983/solr/replication</str>
+         <str name="masterUrl">http://localhost:8080/solr/replication</str>
          <str name="pollInterval">00:00:60</str>
        </lst>
      </requestHandler>
-    -->
+
 
   <!-- Search Components
 
@@ -1684,15 +1699,15 @@
     <processor class="solr.LogUpdateProcessorFactory" />
     <processor class="solr.RunUpdateProcessorFactory" />
   </updateRequestProcessorChain>
-
 	
 	 <!-- 11/4/12 C.Ding , added for UIMA processing -->
+	 <!-- 06/22/13 C.Ding updated to sync with latest datapresso.pear -->
  <updateRequestProcessorChain name="uimadatapresso" default="true">
-    <processor class="org.apache.solr.uima.processor.UIMAUpdateRequestProcessorFactory">
+     <processor class="org.apache.solr.uima.processor.UIMAUpdateRequestProcessorFactory">
       <lst name="uimaConfig">
         <lst name="runtimeParameters">
           </lst>
-       <str name="analysisEngine">c:\java\pear\datapresso.airport\datapresso.airport_pear.xml</str> 
+       <str name="analysisEngine">c:\java\pear\datapresso\datapresso_pear.xml</str> 
         <!-- Set to true if you want to continue indexing even if text processing fails.
              Default is false. That is, Solr throws RuntimeException and
              never indexed documents entirely in your session. -->
@@ -1708,52 +1723,56 @@
           </arr>
         </lst>
         <lst name="fieldMappings">
-         <!-- <lst name="type">
-            <str name="name">com.ibm.en.PersonName</str>
+         <lst name="type">
+            <str name="name">com.dp.en.PersonName</str>
             <lst name="mapping">
-              <str name="feature">coveredText</str>
-              <str name="field">person</str>
+              <str name="feature">lastname</str>
+              <str name="field">LRWPerson</str>
             </lst>			
-          </lst>  --> 
-		  
+          </lst>   
           <lst name="type">
-            <str name="name">esp.en.Airport</str>
+            <str name="name">com.dp.dhs.en.Airport</str>
             <lst name="mapping">
-              <str name="feature">coveredText</str>
-              <str name="field">airport</str>
+              <str name="feature">name</str>
+              <str name="field">Airport</str>
             </lst>			
           </lst> 
-        </lst>
-      </lst>
-    </processor>
-    <processor class="org.apache.solr.uima.processor.UIMAUpdateRequestProcessorFactory">
-      <lst name="uimaConfig">
-        <lst name="runtimeParameters">
-          </lst>
-        <!--<str name="analysisEngine">C:\java\apache-uima\examples\descriptors\analysis_engine\PersonTitleAnnotator.xml</str> -->
-		<str name="analysisEngine">c:\java\pear\com.ibm.UHD_person_name\com.ibm.UHD_person_name_pear.xml</str> 
-        <!-- Set to true if you want to continue indexing even if text processing fails.
-             Default is false. That is, Solr throws RuntimeException and
-             never indexed documents entirely in your session. -->
-        <bool name="ignoreErrors">true</bool>
-        <!-- This is optional. It is used for logging when text processing fails.
-             If logField is not specified, uniqueKey will be used as logField.
-        <str name="logField">id</str>
-        -->
-        <lst name="analyzeFields">
-          <bool name="merge">true</bool>
-          <arr name="fields">
-            <str>body</str>
-          </arr>
-        </lst>
-        <lst name="fieldMappings">
           <lst name="type">
-            <str name="name">com.ibm.en.PersonName</str>
+            <str name="name">com.ibm.systemT.Organization</str>
             <lst name="mapping">
               <str name="feature">coveredText</str>
-              <str name="field">person</str>
+              <str name="field">Organization</str>
             </lst>			
-          </lst>
+          </lst> 
+          <lst name="type">
+            <str name="name">com.ibm.systemT.Location</str>
+            <lst name="mapping">
+              <str name="feature">canonicalCoveredText</str>
+              <str name="field">Address</str>
+            </lst>			
+          </lst> 
+          <lst name="type">
+            <str name="name">com.ibm.systemT.Person</str>
+            <lst name="mapping">
+              <str name="feature">canonicalCoveredText</str>
+              <str name="field">SystemTPerson</str>
+            </lst>			
+          </lst> 
+         <lst name="type">
+            <str name="name">com.ibm.coast.NegativeOpinion</str>
+            <lst name="mapping">
+              <str name="feature">coveredText</str>
+              <str name="field">NegSentiment</str>
+            </lst>			
+          </lst> 
+         <lst name="type">
+            <str name="name">com.ibm.coast.PositiveOpinion</str>
+            <lst name="mapping">
+              <str name="feature">coveredText</str>
+              <str name="field">PosSentiment</str>
+            </lst>			
+          </lst> 
+
         </lst>
       </lst>
     </processor>
@@ -1807,8 +1826,6 @@
         </lst>
       </lst>
     </processor>
-	
-	
     <processor class="solr.LogUpdateProcessorFactory" />
     <processor class="solr.RunUpdateProcessorFactory" />
   </updateRequestProcessorChain>

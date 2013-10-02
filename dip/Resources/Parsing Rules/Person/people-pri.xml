@@ -4,36 +4,33 @@
     <type>uima.tcas.DocumentAnnotation</type>
     <type>uima.tt.ParagraphAnnotation</type>
     <type>uima.tt.SentenceAnnotation</type>
-    <type>com.dp.Abbreviation</type>
     <type>com.dp.Location</type>
+    <type>com.dp.CompanyName</type>
     <type>com.dp.Country</type>
     <type>com.dp.Organization</type>
     <type>com.dp.PrepositionalPhrase</type>
-    <type>com.dp.CompanyName</type>
-    <type>com.dp.PersonName</type>
+    <type>com.dp.AirportName</type>
     <type>com.dp.NounPhrase</type>
     <type>com.dp.PersonTitle</type>
-    <type>com.dp.Time</type>
     <type>com.dp.AdjectivePhrase</type>
+    <type>com.dp.PersonName</type>
+    <type>com.dp.Time</type>
     <type>com.dp.AirlineName</type>
     <type>com.dp.Conjunction</type>
-    <type>com.dp.DefiniteArticle</type>
     <type>com.dp.Interjection</type>
     <type>com.dp.NegativePhrase</type>
     <type>com.dp.Quantifier</type>
     <type>com.dp.VerbPhrase</type>
-    <type>com.dp.AirportName</type>
     <type>com.dp.InfinitiveVerb</type>
     <type>com.dp.US_State</type>
     <type>com.ibm.lw.marker.MarkerpeopleOutputType</type>
     <type>dip.Directional_indicators</type>
     <type>com.dp.core.First_name</type>
-    <type>dip.Famous_person_name</type>
     <type>dip.Days_of_week</type>
     <type>com.dp.core.US_States</type>
     <type>dip.Countries</type>
-    <type>dip.Continents</type>
     <type>com.dp.core.US_Cities</type>
+    <type>dip.Continents</type>
     <type>com.dp.core.Last_name</type>
     <type>dip.Months_of_year</type>
     <type>uima.tt.DictionaryEntryAnnotation</type>

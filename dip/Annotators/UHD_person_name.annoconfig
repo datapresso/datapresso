@@ -16,7 +16,6 @@
 		<list key="discardTypes">
 			<item value="dip.Months_of_year"/>
 			<item value="com.ibm.langware.uimatypes.Alphabetic"/>
-			<item value="com.dp.DefiniteArticle"/>
 			<item value="com.ibm.langware.uimatypes.ChineseNumeral"/>
 			<item value="com.ibm.langware.uimatypes.WordLikeToken"/>
 			<item value="com.dp.AdjectivePhrase"/>
@@ -48,7 +47,6 @@
 			<item value="com.dp.Conjunction"/>
 			<item value="uima.tt.SentenceAnnotation"/>
 			<item value="uima.tt.DictionaryEntryAnnotation"/>
-			<item value="com.dp.Abbreviation"/>
 			<item value="com.dp.core.US_Cities"/>
 			<item value="com.dp.NegativePhrase"/>
 			<item value="com.dp.PrepositionalPhrase"/>
@@ -60,7 +58,6 @@
 			<item value="uima.tt.DocStructureAnnotation"/>
 			<item value="com.dp.AirlineName"/>
 			<item value="dip.Days_of_week"/>
-			<item value="dip.Directional_indicators"/>
 			<item value="com.dp.core.First_name"/>
 			<item value="dip.Continents"/>
 			<item value="com.dp.Interjection"/>
@@ -69,7 +66,6 @@
 			<item value="uima.tt.TokenAnnotation"/>
 			<item value="com.ibm.langware.uimatypes.Ideographic"/>
 			<item value="com.ibm.langware.uimatypes.Syllabic"/>
-			<item value="dip.Famous_person_name"/>
 		</list>
 		<list key="extraConfigNames">
 		</list>
@@ -545,18 +541,16 @@
 		<list key="dictPaths.6">
 		</list>
 		<list key="dictPaths.7">
-			<item value="${lw_lex_dictionary_path:en}"/>
-			<item value="${lw_oov_dictionary_path:en}"/>
 			<item value="${workspace_loc:/dip/Resources/Dictionaries/Person}/first_name.dic"/>
 			<item value="${workspace_loc:/dip/Resources/Dictionaries/Person}/last_name.dic"/>
 			<item value="${workspace_loc:/dip/Resources/Dictionaries/Person}/US_Cities.dic"/>
-			<item value="${workspace_loc:/dip/Resources/Dictionaries/Person}/US_States.dic"/>
 			<item value="${workspace_loc:/dip/Resources/Dictionaries/Person}/days_of_week.dic"/>
 			<item value="${workspace_loc:/dip/Resources/Dictionaries/Person}/months_of_year.dic"/>
-			<item value="${workspace_loc:/dip/Resources/Dictionaries/Person}/famous_person_name.dic"/>
 			<item value="${workspace_loc:/dip/Resources/Dictionaries/Person}/countries.dic"/>
-			<item value="${workspace_loc:/dip/Resources/Dictionaries/Person}/directional_indicators.dic"/>
 			<item value="${workspace_loc:/dip/Resources/Dictionaries/Person}/continents.dic"/>
+			<item value="${lw_lex_dictionary_path:en}"/>
+			<item value="${lw_oov_dictionary_path:en}"/>
+			<item value="${workspace_loc:/dip/Resources/Dictionaries/Person}/US_States.dic"/>
 		</list>
 		<list key="dictPaths.8">
 		</list>

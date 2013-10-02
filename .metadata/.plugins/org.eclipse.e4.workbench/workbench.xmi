@@ -110,15 +110,15 @@
           <tags>persp.viewSC:org.eclipse.ui.views.ContentOutline</tags>
           <tags>persp.viewSC:org.apache.uima.caseditor.styleview</tags>
           <tags>persp.perspSC:org.apache.uima.caseditor.perspective.NLP</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_fBg90ccvEeKIIIW7qLvpqw" selectedElement="_fBg91McvEeKIIIW7qLvpqw" horizontal="true">
-            <children xsi:type="basic:PartStack" xmi:id="_fBg90scvEeKIIIW7qLvpqw" elementId="left" containerData="1900" selectedElement="_fBg908cvEeKIIIW7qLvpqw">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_fBg90ccvEeKIIIW7qLvpqw" selectedElement="_fBg90scvEeKIIIW7qLvpqw" horizontal="true">
+            <children xsi:type="basic:PartStack" xmi:id="_fBg90scvEeKIIIW7qLvpqw" elementId="left" containerData="1873" selectedElement="_fBg908cvEeKIIIW7qLvpqw">
               <tags>newtablook</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_fBg908cvEeKIIIW7qLvpqw" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_9fkrpL_wEeKP35BqezofXw"/>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_fBg91McvEeKIIIW7qLvpqw" containerData="8100" selectedElement="_fBg91ccvEeKIIIW7qLvpqw" horizontal="true">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_fBg91ccvEeKIIIW7qLvpqw" containerData="7000" selectedElement="_fBg91scvEeKIIIW7qLvpqw">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_fBg91McvEeKIIIW7qLvpqw" containerData="8127" selectedElement="_fBg91ccvEeKIIIW7qLvpqw" horizontal="true">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_fBg91ccvEeKIIIW7qLvpqw" containerData="7898" selectedElement="_fBg91scvEeKIIIW7qLvpqw">
                 <children xsi:type="advanced:Placeholder" xmi:id="_fBg91scvEeKIIIW7qLvpqw" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_9fH_sL_wEeKP35BqezofXw"/>
-                <children xsi:type="basic:PartSashContainer" xmi:id="_fBg918cvEeKIIIW7qLvpqw" containerData="2500" selectedElement="_fBg92scvEeKIIIW7qLvpqw" horizontal="true">
+                <children xsi:type="basic:PartSashContainer" xmi:id="_fBg918cvEeKIIIW7qLvpqw" containerData="2500" selectedElement="_fBg92McvEeKIIIW7qLvpqw" horizontal="true">
                   <children xsi:type="basic:PartStack" xmi:id="_fBg92McvEeKIIIW7qLvpqw" elementId="rightBottom" containerData="5000" selectedElement="_fBg92ccvEeKIIIW7qLvpqw">
                     <tags>newtablook</tags>
                     <children xsi:type="advanced:Placeholder" xmi:id="_fBg92ccvEeKIIIW7qLvpqw" elementId="org.apache.uima.caseditor.editview" ref="_fBE48McvEeKIIIW7qLvpqw"/>
@@ -129,7 +129,7 @@
                   </children>
                 </children>
               </children>
-              <children xsi:type="basic:PartSashContainer" xmi:id="_fBg93McvEeKIIIW7qLvpqw" containerData="3000" selectedElement="_fBg94McvEeKIIIW7qLvpqw">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_fBg93McvEeKIIIW7qLvpqw" containerData="2102" selectedElement="_fBg93ccvEeKIIIW7qLvpqw">
                 <children xsi:type="basic:PartStack" xmi:id="_fBg93ccvEeKIIIW7qLvpqw" elementId="right" containerData="4676" selectedElement="_fBg93scvEeKIIIW7qLvpqw">
                   <tags>newtablook</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_fBg93scvEeKIIIW7qLvpqw" elementId="org.eclipse.ui.views.ContentOutline" ref="_9gw-er_wEeKP35BqezofXw"/>
@@ -166,7 +166,7 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_9fH_sL_wEeKP35BqezofXw" elementId="org.eclipse.ui.editorss" selectedElement="_9fH_sb_wEeKP35BqezofXw">
-      <children xsi:type="basic:PartStack" xmi:id="_9fH_sb_wEeKP35BqezofXw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_50GGIMdIEeKIIIW7qLvpqw">
+      <children xsi:type="basic:PartStack" xmi:id="_9fH_sb_wEeKP35BqezofXw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_80P-EN-qEeKtWc_pduYE_w">
         <tags>newtablook</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
@@ -176,7 +176,37 @@
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_50GGIMdIEeKIIIW7qLvpqw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="mysql_cas2jdbc_mapping.xml" iconURI="platform:/plugin/org.eclipse.wst.xml.ui//icons/xmldoc.gif" tooltip="datapresso/desc/mysql_cas2jdbc_mapping.xml" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/datapresso/desc/mysql_cas2jdbc_mapping.xml&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;4695&quot; selectionTopPixel=&quot;2680&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/datapresso/desc/mysql_cas2jdbc_mapping.xml&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;4695&quot; selectionTopPixel=&quot;1469&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_N2w9gN-jEeKtWc_pduYE_w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="solrconfig.xml" iconURI="platform:/plugin/org.eclipse.wst.xml.ui//icons/xmldoc.gif" tooltip="solr/conf/solrconfig.xml" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/solr/conf/solrconfig.xml&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;38077&quot; selectionTopPixel=&quot;16082&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_S5YJgN-oEeKtWc_pduYE_w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="10.txt" iconURI="platform:/plugin/org.eclipse.ui.editors//icons/full/obj16/file_obj.gif" tooltip="dip/Documents/DIP/10.txt" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.ui.DefaultTextEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/dip/Documents/DIP/10.txt&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2840&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_mT_IEN-oEeKtWc_pduYE_w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="10.xcas" iconURI="platform:/plugin/org.apache.uima.caseditor/icons/svgicons/document.png" tooltip="datapresso/data/result/10.xcas" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.apache.uima.caseditor.editor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/datapresso/data/result/10.xcas&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1069&quot; selectionTopPixel=&quot;180&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_80P-EN-qEeKtWc_pduYE_w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Visualization.vm" iconURI="platform:/plugin/org.eclipse.ui.editors//icons/full/obj16/file_obj.gif" tooltip="solr/conf/velocity/Visualization.vm" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.ui.DefaultTextEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/solr/conf/velocity/Visualization.vm&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;903&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_dkrBsOOREeKGhNhbX0CUzA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="browse1.vm" iconURI="platform:/plugin/org.eclipse.ui.editors//icons/full/obj16/file_obj.gif" tooltip="solr/conf/velocity/browse1.vm" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.ui.DefaultTextEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/solr/conf/velocity/browse1.vm&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;732&quot; selectionTopPixel=&quot;286&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_gOIh0OOSEeKGhNhbX0CUzA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="doc1.vm" iconURI="platform:/plugin/org.eclipse.ui.editors//icons/full/obj16/file_obj.gif" tooltip="solr/conf/velocity/doc1.vm" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.ui.DefaultTextEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/solr/conf/velocity/doc1.vm&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;769&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
         </children>

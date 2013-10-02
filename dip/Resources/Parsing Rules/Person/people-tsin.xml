@@ -37,7 +37,7 @@
     <typeDescription>
       <name>com.dp.core.US_States</name>
       <description>Required by rule</description>
-      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <supertypeName>uima.tt.DictionaryEntryAnnotation</supertypeName>
     </typeDescription>
     <typeDescription>
       <name>dip.Continents</name>
@@ -57,12 +57,7 @@
     <typeDescription>
       <name>dip.Directional_indicators</name>
       <description>Required by rule</description>
-      <supertypeName>uima.tt.DictionaryEntryAnnotation</supertypeName>
-    </typeDescription>
-    <typeDescription>
-      <name>dip.Famous_person_name</name>
-      <description>Required by rule</description>
-      <supertypeName>uima.tt.DictionaryEntryAnnotation</supertypeName>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
     </typeDescription>
     <typeDescription>
       <name>dip.Months_of_year</name>

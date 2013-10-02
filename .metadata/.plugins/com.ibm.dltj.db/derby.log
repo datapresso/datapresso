@@ -1,140 +1,84 @@
 ----------------------------------------------------------------
-2013-06-01 19:03:30.381 GMT:
- Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance a816c00e-013f-011f-0280-ffffb35b3fd6
-on database directory C:\workspace\datapresso\dip\Resources\Dictionaries\Airport\AirportCandidate\data  
+2013-08-11 02:55:13.998 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance a816c00e-0140-6b4a-6ffb-ffffb35b3fd6
+on database directory C:\workspace\datapresso\dip\Resources\Parsing Rules\Person\people\data  
 
 Database Class Loader started - derby.database.classpath=''
 ----------------------------------------------------------------
-2013-06-01 19:03:32.131 GMT:
- Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 6839c016-013f-011f-0280-ffffb35b3fd6
-on database directory C:\workspace\datapresso\dip\Resources\Dictionaries\Airport\AirportFlag\data  
-
-Database Class Loader started - derby.database.classpath=''
-----------------------------------------------------------------
-2013-06-01 19:03:32.381 GMT:
- Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 286cc01e-013f-011f-0280-ffffb35b3fd6
-on database directory C:\workspace\datapresso\dip\Resources\Dictionaries\Person\US_Cities\data  
-
-Database Class Loader started - derby.database.classpath=''
-----------------------------------------------------------------
-2013-06-01 19:03:37.021 GMT:
- Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance e8afc026-013f-011f-0280-ffffb35b3fd6
-on database directory C:\workspace\datapresso\dip\Resources\Dictionaries\Person\US_States\data  
-
-Database Class Loader started - derby.database.classpath=''
-----------------------------------------------------------------
-2013-06-01 19:03:37.287 GMT:
- Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance a902c02e-013f-011f-0280-ffffb35b3fd6
-on database directory C:\workspace\datapresso\dip\Resources\Dictionaries\Person\continents\data  
-
-Database Class Loader started - derby.database.classpath=''
-----------------------------------------------------------------
-2013-06-01 19:03:37.662 GMT:
- Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 6965c036-013f-011f-0280-ffffb35b3fd6
-on database directory C:\workspace\datapresso\dip\Resources\Dictionaries\Person\countries\data  
-
-Database Class Loader started - derby.database.classpath=''
-----------------------------------------------------------------
-2013-06-01 19:03:37.912 GMT:
- Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 29d8c03e-013f-011f-0280-ffffb35b3fd6
-on database directory C:\workspace\datapresso\dip\Resources\Dictionaries\Person\days_of_week\data  
-
-Database Class Loader started - derby.database.classpath=''
-----------------------------------------------------------------
-2013-06-01 19:03:38.178 GMT:
- Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance ea5bc046-013f-011f-0280-ffffb35b3fd6
-on database directory C:\workspace\datapresso\dip\Resources\Dictionaries\Person\directional_indicators\data  
-
-Database Class Loader started - derby.database.classpath=''
-----------------------------------------------------------------
-2013-06-01 19:03:38.381 GMT:
- Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance aaeec04e-013f-011f-0280-ffffb35b3fd6
-on database directory C:\workspace\datapresso\dip\Resources\Dictionaries\Person\famous_person_name\data  
-
-Database Class Loader started - derby.database.classpath=''
-----------------------------------------------------------------
-2013-06-01 19:03:38.693 GMT:
- Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 6b91c056-013f-011f-0280-ffffb35b3fd6
-on database directory C:\workspace\datapresso\dip\Resources\Dictionaries\Person\first_name\data  
-
-Database Class Loader started - derby.database.classpath=''
-----------------------------------------------------------------
-2013-06-01 19:03:42.912 GMT:
- Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 2c44c05e-013f-011f-0280-ffffb35b3fd6
-on database directory C:\workspace\datapresso\dip\Resources\Dictionaries\Person\last_name\data  
-
-Database Class Loader started - derby.database.classpath=''
-----------------------------------------------------------------
-2013-06-01 19:03:55.865 GMT:
- Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance ed07c066-013f-011f-0280-ffffb35b3fd6
-on database directory C:\workspace\datapresso\dip\Resources\Dictionaries\Person\months_of_year\data  
-
-Database Class Loader started - derby.database.classpath=''
-----------------------------------------------------------------
-2013-06-01 19:03:56.428 GMT:
- Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance addac06e-013f-011f-0280-ffffb35b3fd6
+2013-08-11 03:05:05.629 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 38c30028-0140-6b4a-6ffb-ffffb35b3fd6
 on database directory C:\workspace\datapresso\dip\Resources\Parsing Rules\Airport\Airport\data  
 
 Database Class Loader started - derby.database.classpath=''
 ----------------------------------------------------------------
-2013-06-01 19:03:57.974 GMT:
- Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 6ebdc076-013f-011f-0280-ffffb35b3fd6
-on database directory C:\workspace\datapresso\dip\Resources\Parsing Rules\Person\people\data  
+2013-08-11 03:05:20.905 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance e1734037-0140-6b4a-6ffb-ffffb35b3fd6
+on database directory C:\workspace\datapresso\dip\Resources\Dictionaries\Airport\AirportCandidate\data  
 
 Database Class Loader started - derby.database.classpath=''
-
-2013-06-02 04:01:35.204 GMT:
-Shutting down instance 6ebdc076-013f-011f-0280-ffffb35b3fd6
 ----------------------------------------------------------------
+2013-08-11 03:05:21.543 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 61e8403f-0140-6b4a-6ffb-ffffb35b3fd6
+on database directory C:\workspace\datapresso\dip\Resources\Dictionaries\Airport\AirportFlag\data  
 
-2013-06-02 04:01:35.313 GMT:
-Shutting down instance addac06e-013f-011f-0280-ffffb35b3fd6
+Database Class Loader started - derby.database.classpath=''
 ----------------------------------------------------------------
+2013-08-11 03:05:21.654 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance e26d4047-0140-6b4a-6ffb-ffffb35b3fd6
+on database directory C:\workspace\datapresso\dip\Resources\Dictionaries\Person\US_Cities\data  
 
-2013-06-02 04:01:35.391 GMT:
-Shutting down instance ed07c066-013f-011f-0280-ffffb35b3fd6
+Database Class Loader started - derby.database.classpath=''
 ----------------------------------------------------------------
+2013-08-11 03:05:26.450 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 6302404f-0140-6b4a-6ffb-ffffb35b3fd6
+on database directory C:\workspace\datapresso\dip\Resources\Dictionaries\Person\US_States\data  
 
-2013-06-02 04:01:35.454 GMT:
-Shutting down instance 2c44c05e-013f-011f-0280-ffffb35b3fd6
+Database Class Loader started - derby.database.classpath=''
 ----------------------------------------------------------------
+2013-08-11 03:05:26.590 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance e3a74057-0140-6b4a-6ffb-ffffb35b3fd6
+on database directory C:\workspace\datapresso\dip\Resources\Dictionaries\Person\continents\data  
 
-2013-06-02 04:01:35.485 GMT:
-Shutting down instance 6b91c056-013f-011f-0280-ffffb35b3fd6
+Database Class Loader started - derby.database.classpath=''
 ----------------------------------------------------------------
+2013-08-11 03:05:26.899 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 645c405f-0140-6b4a-6ffb-ffffb35b3fd6
+on database directory C:\workspace\datapresso\dip\Resources\Dictionaries\Person\countries\data  
 
-2013-06-02 04:01:35.625 GMT:
-Shutting down instance aaeec04e-013f-011f-0280-ffffb35b3fd6
+Database Class Loader started - derby.database.classpath=''
 ----------------------------------------------------------------
+2013-08-11 03:05:27.169 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance e5214067-0140-6b4a-6ffb-ffffb35b3fd6
+on database directory C:\workspace\datapresso\dip\Resources\Dictionaries\Person\days_of_week\data  
 
-2013-06-02 04:01:35.672 GMT:
-Shutting down instance ea5bc046-013f-011f-0280-ffffb35b3fd6
+Database Class Loader started - derby.database.classpath=''
 ----------------------------------------------------------------
+2013-08-11 03:05:27.742 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 65f6406f-0140-6b4a-6ffb-ffffb35b3fd6
+on database directory C:\workspace\datapresso\dip\Resources\Dictionaries\Person\directional_indicators\data  
 
-2013-06-02 04:01:35.813 GMT:
-Shutting down instance 29d8c03e-013f-011f-0280-ffffb35b3fd6
+Database Class Loader started - derby.database.classpath=''
 ----------------------------------------------------------------
+2013-08-11 03:05:27.983 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance e6db4077-0140-6b4a-6ffb-ffffb35b3fd6
+on database directory C:\workspace\datapresso\dip\Resources\Dictionaries\Person\famous_person_name\data  
 
-2013-06-02 04:01:35.938 GMT:
-Shutting down instance 6965c036-013f-011f-0280-ffffb35b3fd6
+Database Class Loader started - derby.database.classpath=''
 ----------------------------------------------------------------
+2013-08-11 03:05:28.617 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 67d0407f-0140-6b4a-6ffb-ffffb35b3fd6
+on database directory C:\workspace\datapresso\dip\Resources\Dictionaries\Person\first_name\data  
 
-2013-06-02 04:01:36.000 GMT:
-Shutting down instance a902c02e-013f-011f-0280-ffffb35b3fd6
+Database Class Loader started - derby.database.classpath=''
 ----------------------------------------------------------------
+2013-08-11 03:05:32.216 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance e8d54087-0140-6b4a-6ffb-ffffb35b3fd6
+on database directory C:\workspace\datapresso\dip\Resources\Dictionaries\Person\last_name\data  
 
-2013-06-02 04:01:36.063 GMT:
-Shutting down instance e8afc026-013f-011f-0280-ffffb35b3fd6
+Database Class Loader started - derby.database.classpath=''
 ----------------------------------------------------------------
+2013-08-11 03:05:43.491 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 69ea408f-0140-6b4a-6ffb-ffffb35b3fd6
+on database directory C:\workspace\datapresso\dip\Resources\Dictionaries\Person\months_of_year\data  
 
-2013-06-02 04:01:36.110 GMT:
-Shutting down instance 286cc01e-013f-011f-0280-ffffb35b3fd6
-----------------------------------------------------------------
-
-2013-06-02 04:01:36.250 GMT:
-Shutting down instance 6839c016-013f-011f-0280-ffffb35b3fd6
-----------------------------------------------------------------
-
-2013-06-02 04:01:36.344 GMT:
-Shutting down instance a816c00e-013f-011f-0280-ffffb35b3fd6
-----------------------------------------------------------------
+Database Class Loader started - derby.database.classpath=''

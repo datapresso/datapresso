@@ -8,6 +8,16 @@
   Did you mean <a href="#url_for_home?q=$esc.url($response.response.spellcheck.suggestions.collation)#if($list.size($request.params.getParams('fq')) > 0)&#fqs($request.params.getParams('fq'))#end#debug">$response.response.spellcheck.suggestions.collation</a>?
 #end
 
+#macro(getDocIDs $val)
+    #if ($val)
+        #foreach ($e in $val )
+            #set($docs="${docs}docid=$e")
+        #end
+		$docs
+    #end
+    mytest
+#end
+
 <div class="navigators">
   #parse("facets.vm")
 </div>
@@ -21,6 +31,17 @@
 </div>
 
 <div class="results">
+$params.get("q")
+#set($val=$params.get("q"))
+    #if($val)
+        #foreach($e in $val )
+           ## #set($docs="${docs}docid=$e")
+           #set($docs=$e)
+           test	
+        #end
+    #end
+
+  
   #if($response.response.get('grouped'))
     #foreach($grouping in $response.response.get('grouped'))
       #parse("hitGrouped.vm")

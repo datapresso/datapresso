@@ -22,9 +22,9 @@
 <coolItem id="com.ibm.dltj.db.dynamicEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.ibm.dltj.semantic.visualtree.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.ibm.dltj.plugin.dictionary.editors.dictionaryEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="com.ibm.dltj.uimaannotator.editor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.ibm.dltj.uimaannotator.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="com.ibm.dltj.uimaannotator.configeditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.ibm.dltj.uimaannotator.configeditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -36,15 +36,25 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor focus="true" id="com.ibm.text.analytics.catalog.editors.TextAnalyticsCatalog" name="Catalog Browser.xml" partName="Text Analytics Catalog Browser" path="C:/workspace/datapresso/IBM Text Analytics Catalog - V2/Catalog Browser.xml" title="Text Analytics Catalog Browser" tooltip="IBM Text Analytics Catalog - V2/Catalog Browser.xml" workbook="DefaultEditorWorkbook">
+<editor id="com.ibm.text.analytics.catalog.editors.TextAnalyticsCatalog" name="Catalog Browser.xml" partName="Text Analytics Catalog Browser" path="C:/workspace/datapresso/IBM Text Analytics Catalog - V2/Catalog Browser.xml" title="Text Analytics Catalog Browser" tooltip="IBM Text Analytics Catalog - V2/Catalog Browser.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IBM Text Analytics Catalog - V2/Catalog Browser.xml"/>
 </editor>
 <editor id="com.ibm.dltj.uimaannotator.editor" name="ESP2.txt" partName="ESP2.txt" path="C:/comkraft/datapresso/datapresso/dip/Documents/Airports/ESP2.txt" title="ESP2.txt" tooltip="dip/Documents/Airports/ESP2.txt (UIMA Annotations)" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dip/Documents/Airports/ESP2.txt"/>
+<editorState/>
+</editor>
+<editor id="com.ibm.dltj.uimaannotator.configeditor" name="MyTestAE.annoconfig" partName="MyTestAE.annoconfig" path="C:/workspace/datapresso/IBM Text Analytics Catalog - V2/Your Deployments/(009) Apr-04-2013-09.54.57 PM/MyTestAE.annoconfig" title="MyTestAE.annoconfig" tooltip="IBM Text Analytics Catalog - V2/Your Deployments/(009) Apr-04-2013-09.54.57 PM/MyTestAE.annoconfig" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IBM Text Analytics Catalog - V2/Your Deployments/(009) Apr-04-2013-09.54.57 PM/MyTestAE.annoconfig"/>
+</editor>
+<editor focus="true" id="com.ibm.dltj.uimaannotator.editor" name="bmb15.txt" partName="bmb15.txt" path="C:/workspace/datapresso/dip/Documents/bmb15.txt" title="bmb15.txt" tooltip="dip/Documents/bmb15.txt (UIMA Annotations)" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/dip/Documents/bmb15.txt"/>
 <editorState/>
 </editor>
 </editors>
@@ -57,14 +67,14 @@
 <filter anyProject="0" closedProject="1" fileFilter="ALL"/>
 <expanded>
 <element path="/dip"/>
-<element path="/dip/Annotators"/>
 <element path="/dip/Documents"/>
 <element path="/dip/Resources"/>
 <element path="/dip/Resources/Dictionaries"/>
+<element path="/dip/Resources/Dictionaries/Person"/>
 <element path="/dip/Resources/Parsing Rules"/>
 <element path="/dip/Resources/Parsing Rules/Person"/>
 <element path="/dip/Resources/Parsing Rules/Person/people"/>
-<element path="/dip/Results"/>
+<element path="/dip/Resources/Rules"/>
 </expanded>
 <selection>
 <element path="/dip"/>
@@ -73,7 +83,7 @@
 </view>
 <view id="com.ibm.dltj.uimacollection.annotations" partName="Collection Analysis">
 <viewState lastCompare="/dip/Results/corpus.annotations" mergeTypes="true">
-<annotations CONTEXT="300" FILE="150" FOLDER="150" OFFSET="80" TYPE="250" colOrder="0,1,2,3,4"/>
+<annotations CONTEXT="566" FILE="150" FOLDER="150" OFFSET="80" TYPE="250" colOrder="0,1,2,3,4"/>
 <tags COUNT="50" FILE="150" FOLDER="150" TYPE="250" colOrder="0,1,2,3"/>
 <files FILE="150" FILE_COUNT="50" FOLDER="250" OCCURRENCE_COUNT="90" TYPE="250" colOrder="0,1,2,3,4"/>
 <langauges COUNT="50" FILE="150" FOLDER="300" LANGUAGE="250" colOrder="0,1,2,3"/>
@@ -131,8 +141,8 @@
 <view id="com.ibm.dltj.project.dictionary.explorerView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
-<viewLayoutRec closeable="false" id="com.ibm.dltj.project.dictionary.explorerView"/>
 <viewLayoutRec closeable="false" id="org.eclipse.ui.views.ContentOutline"/>
+<viewLayoutRec closeable="false" id="com.ibm.dltj.project.dictionary.explorerView"/>
 <viewLayoutRec closeable="false" id="com.ibm.dltj.shallowparsingrules.editor.createcharacterrulesview"/>
 <viewLayoutRec closeable="false" id="com.ibm.dltj.shallowparsingrules.editor.createrulesview"/>
 <layout>
@@ -153,9 +163,9 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.22673199" ratioLeft="324" ratioRight="1105" relationship="2" relative="com.ibm.dltj.lrwrcp.left"/>
-<info folder="true" part="com.ibm.dltj.lrwrcp.bottom" ratio="0.44400528" ratioLeft="337" ratioRight="422" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="com.ibm.dltj.uimacollection.annotations" appearance="2" expanded="2">
+<info part="org.eclipse.ui.editorss" ratio="0.18061674" ratioLeft="287" ratioRight="1302" relationship="2" relative="com.ibm.dltj.lrwrcp.left"/>
+<info folder="true" part="com.ibm.dltj.lrwrcp.bottom" ratio="0.62450594" ratioLeft="474" ratioRight="285" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="com.ibm.dltj.uimacollection.annotations" label="Collection Analysis"/>
@@ -183,7 +193,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="com.ibm.dltj.lrwrcp.right" ratio="0.7858439" ratioLeft="866" ratioRight="236" relationship="2" relative="org.eclipse.ui.editorss">
+<info folder="true" part="com.ibm.dltj.lrwrcp.right" ratio="0.6774448" ratioLeft="859" ratioRight="409" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="com.ibm.dltj.shallowparsingrules.editor.createrulesview" label="LabelNotFound"/>
@@ -201,117 +211,142 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.text.analytics.catalog.editors.TextAnalyticsCatalog" path="/IBM Text Analytics Catalog - V2/Catalog Browser.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.configeditor" path="/IBM Text Analytics Catalog - V2/Your Deployments/(007) Apr-04-2013-09.42.08 PM/MyCustomTAE.annoconfig"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.editor" path="/dip/Documents/Airports/airport-AUG.txt"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.editor" path="/dip/Documents/Airports/ESP1.txt"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/dip/Resources/Parsing Rules/Airport/Airport-pri.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/dip/Resources/Parsing Rules/Airport/Airport-tsin.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.editor" path="/dip/Documents/Airports/Incident2.txt"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.editor" path="/dip/Documents/Airports/ESP2.txt"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.configeditor" path="/IBM Text Analytics Catalog - V2/Your Deployments/(009) Apr-04-2013-09.54.57 PM/MyCustomTAE.annoconfig"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.text.analytics.catalog.editors.TextAnalyticsCatalog" path="/IBM Text Analytics Catalog - V2/Catalog Browser.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.editor" path="/dip/Documents/Airports/airport-AUG.txt"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.editor" path="/dip/Documents/DIP/10.txt"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.text.analytics.catalog.editors.TextAnalyticsCatalog" path="/IBM Text Analytics Catalog - V2/Catalog Browser.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.editor" path="/dip/Results/test.txt"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/dip/Results/test.txt"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/dip/Results/10.xcas"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.editor" path="/dip/Documents/DIP/01.txt"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.editor" path="/dip/Documents/DIP/10.txt"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.editor" path="/dip/Documents/Airports/airport-AUG.txt"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" uri="file:/C:/workspace/datapresso/BostMaraDocs/bmb15.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.configeditor" path="/dip/Annotators/datapresso.annoconfig"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.editor" path="/dip/Documents/bmb15.txt"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" uri="file:/C:/workspace/datapresso/BostMaraDocs/bmb15.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.configeditor" path="/IBM Text Analytics Catalog - V2/Your Deployments/(009) Apr-04-2013-09.54.57 PM/MyTestAE.annoconfig"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.editor" path="/dip/Documents/bmb15.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/dip/Documents/urls.xls"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.editor" path="/dip/Documents/39.txt"/>
 </editors>
-<item historyLabel="airport-AUG.txt" index="2">
-<position/>
-</item>
 <item historyLabel="Text Analytics Catalog Browser" index="0"/>
-<item historyLabel="ESP1.txt" index="3">
-<position info="not_deleted" x="174" y="0"/>
-</item>
-<item historyLabel="Text Analytics Catalog Browser" index="0"/>
-<item historyLabel="Airport-pri.xml" index="4">
-<position info="not_deleted" x="579" y="0"/>
-</item>
-<item historyLabel="Text Analytics Catalog Browser" index="0"/>
-<item historyLabel="Airport-tsin.xml" index="5">
+<item historyLabel="10.xcas" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="Text Analytics Catalog Browser" index="0"/>
-<item historyLabel="Incident2.txt" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Text Analytics Catalog Browser" index="0"/>
-<item historyLabel="ESP2.txt" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ESP2.txt" index="7">
-<position info="not_deleted" x="1326" y="0"/>
-</item>
-<item historyLabel="ESP2.txt" index="7">
-<position info="not_deleted" x="2841" y="0"/>
-</item>
-<item historyLabel="ESP2.txt" index="7">
-<position info="not_deleted" x="3342" y="0"/>
-</item>
-<item historyLabel="ESP2.txt" index="7">
-<position info="not_deleted" x="4223" y="0"/>
-</item>
-<item historyLabel="ESP2.txt" index="7">
-<position info="not_deleted" x="3828" y="0"/>
-</item>
-<item historyLabel="ESP2.txt" index="7">
-<position info="not_deleted" x="6311" y="0"/>
-</item>
-<item historyLabel="ESP2.txt" index="7">
-<position info="not_deleted" x="3828" y="0"/>
-</item>
-<item historyLabel="ESP2.txt" index="7">
-<position info="not_deleted" x="535" y="0"/>
-</item>
-<item historyLabel="Text Analytics Catalog Browser" index="0"/>
-<item historyLabel="MyCustomTAE.annoconfig" index="8"/>
-<item historyLabel="Text Analytics Catalog Browser" index="0"/>
-<item historyLabel="ESP2.txt" index="7">
-<position info="not_deleted" x="300" y="0"/>
-</item>
-<item historyLabel="MyCustomTAE.annoconfig" index="1"/>
-<item historyLabel="ESP2.txt" index="7">
-<position info="not_deleted" x="300" y="0"/>
-</item>
-<item historyLabel="Text Analytics Catalog Browser" index="9"/>
-<item historyLabel="airport-AUG.txt" index="10">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="10.txt" index="11">
-<position info="not_deleted" x="178" y="0"/>
-</item>
-<item historyLabel="Text Analytics Catalog Browser" index="12"/>
-<item historyLabel="test.txt" index="13">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="test.txt" index="13">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Text Analytics Catalog Browser" index="12"/>
-<item historyLabel="test.txt" index="14">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Text Analytics Catalog Browser" index="12"/>
-<item historyLabel="10.xcas" index="15">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Text Analytics Catalog Browser" index="12"/>
-<item historyLabel="01.txt" index="16">
+<item historyLabel="01.txt" index="2">
 <position info="not_deleted" x="849" y="0"/>
 </item>
-<item historyLabel="Text Analytics Catalog Browser" index="12"/>
-<item historyLabel="10.txt" index="17">
+<item historyLabel="Text Analytics Catalog Browser" index="0"/>
+<item historyLabel="10.txt" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Text Analytics Catalog Browser" index="12"/>
-<item historyLabel="airport-AUG.txt" index="18">
+<item historyLabel="Text Analytics Catalog Browser" index="0"/>
+<item historyLabel="airport-AUG.txt" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="Text Analytics Catalog Browser" index="12"/>
+<item historyLabel="Text Analytics Catalog Browser" index="0"/>
+<item historyLabel="bmb15.txt" index="5">
+<position info="not_deleted" x="9498" y="0"/>
+</item>
+<item historyLabel="bmb15.txt" index="5">
+<position info="not_deleted" x="2" y="0"/>
+</item>
+<item historyLabel="datapresso.annoconfig" index="6"/>
+<item historyLabel="bmb15.txt" index="5">
+<position info="not_deleted" x="468" y="0"/>
+</item>
+<item historyLabel="datapresso.annoconfig" index="6"/>
+<item historyLabel="bmb15.txt" index="5">
+<position info="not_deleted" x="468" y="0"/>
+</item>
+<item historyLabel="bmb15.txt" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="bmb15.txt" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Text Analytics Catalog Browser" index="0"/>
+<item historyLabel="bmb15.txt" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Text Analytics Catalog Browser" index="0"/>
+<item historyLabel="bmb15.txt" index="7">
+<position info="not_deleted" x="2435" y="8"/>
+</item>
+<item historyLabel="MyTestAE.annoconfig" index="9"/>
+<item historyLabel="Text Analytics Catalog Browser" index="0"/>
+<item historyLabel="bmb15.txt" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Text Analytics Catalog Browser" index="0"/>
+<item historyLabel="bmb15.txt" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="bmb15.txt" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="bmb15.txt" index="10">
+<position info="not_deleted" x="3178" y="0"/>
+</item>
+<item historyLabel="bmb15.txt" index="10">
+<position info="not_deleted" x="4243" y="0"/>
+</item>
+<item historyLabel="bmb15.txt" index="10">
+<position info="not_deleted" x="2678" y="0"/>
+</item>
+<item historyLabel="bmb15.txt" index="10">
+<position info="not_deleted" x="2772" y="0"/>
+</item>
+<item historyLabel="bmb15.txt" index="10">
+<position info="not_deleted" x="499" y="0"/>
+</item>
+<item historyLabel="bmb15.txt" index="10">
+<position info="not_deleted" x="166" y="0"/>
+</item>
+<item historyLabel="bmb15.txt" index="10">
+<position info="not_deleted" x="114" y="0"/>
+</item>
+<item historyLabel="bmb15.txt" index="10">
+<position info="not_deleted" x="6443" y="0"/>
+</item>
+<item historyLabel="bmb15.txt" index="10">
+<position info="not_deleted" x="6324" y="0"/>
+</item>
+<item historyLabel="bmb15.txt" index="10">
+<position info="not_deleted" x="166" y="0"/>
+</item>
+<item historyLabel="bmb15.txt" index="10">
+<position info="not_deleted" x="128" y="0"/>
+</item>
+<item historyLabel="bmb15.txt" index="10">
+<position info="not_deleted" x="114" y="0"/>
+</item>
+<item historyLabel="bmb15.txt" index="10">
+<position info="not_deleted" x="4264" y="0"/>
+</item>
+<item historyLabel="bmb15.txt" index="10">
+<position info="not_deleted" x="339" y="0"/>
+</item>
+<item historyLabel="urls.xls" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="bmb15.txt" index="10">
+<position info="not_deleted" x="339" y="0"/>
+</item>
+<item historyLabel="39.txt" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="39.txt" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="39.txt" index="12">
+<position/>
+</item>
+<item historyLabel="39.txt" index="12">
+<position/>
+</item>
+<item historyLabel="39.txt" index="12">
+<position/>
+</item>
+<item active="true" historyLabel="bmb15.txt" index="10">
+<position info="not_deleted" x="339" y="0"/>
+</item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -328,6 +363,24 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.editor" name="39.txt" tooltip="dip/Documents/39.txt">
+<persistable path="/dip/Documents/39.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="urls.xls" tooltip="dip/Documents/urls.xls">
+<persistable path="/dip/Documents/urls.xls"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.editor" name="bmb15.txt" tooltip="dip/Documents/bmb15.txt">
+<persistable path="/dip/Documents/bmb15.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.configeditor" name="MyTestAE.annoconfig" tooltip="IBM Text Analytics Catalog - V2/Your Deployments/(009) Apr-04-2013-09.54.57 PM/MyTestAE.annoconfig">
+<persistable path="/IBM Text Analytics Catalog - V2/Your Deployments/(009) Apr-04-2013-09.54.57 PM/MyTestAE.annoconfig"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="bmb15.txt" tooltip="C:\workspace\datapresso\BostMaraDocs\bmb15.txt">
+<persistable uri="file:/C:/workspace/datapresso/BostMaraDocs/bmb15.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.configeditor" name="datapresso.annoconfig" tooltip="dip/Annotators/datapresso.annoconfig">
+<persistable path="/dip/Annotators/datapresso.annoconfig"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.editor" name="01.txt" tooltip="dip/Documents/DIP/01.txt">
 <persistable path="/dip/Documents/DIP/01.txt"/>
 </file>
@@ -354,15 +407,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.editor" name="Incident2.txt" tooltip="dip/Documents/Airports/Incident2.txt">
 <persistable path="/dip/Documents/Airports/Incident2.txt"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.text.analytics.catalog.editors.TextAnalyticsCatalog" name="Catalog Browser.xml" tooltip="IBM Text Analytics Catalog - V2/Catalog Browser.xml">
-<persistable path="/IBM Text Analytics Catalog - V2/Catalog Browser.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.editor" name="ESP1.txt" tooltip="dip/Documents/Airports/ESP1.txt">
-<persistable path="/dip/Documents/Airports/ESP1.txt"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.dltj.uimaannotator.editor" name="08.txt" tooltip="dip/Documents/DIP/08.txt">
-<persistable path="/dip/Documents/DIP/08.txt"/>
 </file>
 </mruList>
 </workbench>

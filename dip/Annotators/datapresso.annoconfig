@@ -209,12 +209,12 @@
 		<item key="ccaConfig" value=""/>
 		<item key="ccaRestartIndexer" value="true"/>
 		<item key="cca" value="false"/>
-		<item key="pearId" value="dip.datapresso"/>
+		<item key="pearId" value="dip.datapresso2"/>
 		<item key="ccaAssociatePEAR" value="true"/>
 		<item key="ccaCollection" value=""/>
-		<item key="pearName" value="datapresso"/>
+		<item key="pearName" value="datapresso2"/>
 		<item key="ccaRebuildIndex" value="false"/>
-		<item key="outputPath" value="c:\java\pear\dip"/>
+		<item key="outputPath" value="c:\java\pear\dip2"/>
 	</section>
 	<section name="langid.0">
 		<item key="langIdType" value="2"/>

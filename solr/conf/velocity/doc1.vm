@@ -4,8 +4,11 @@
 #if($store)<div class="map"><img src="http://maps.google.com/maps/api/staticmap?&zoom=12&size=150x80&maptype=roadmap&markers=$doc.getFieldValue('store')&sensor=false" /><div><small><a target="_map" href="http://maps.google.com/?q=$store&amp;source=embed">Larger Map</a></small></div></div>#end
 <div>Title: #field('title')</div>
 <div>Concept: #field('concept')</div>
-<div>Airport: #field('airport')</div>
-<div>Person: #field('person')</div>
+<div>Airport: #field('Airport')</div>
+<div>Person: #field('SystemTPerson')</div>
+<div>Organizationt: #field('Organization')</div>
+<div>Address: #field('Address')</div>
+
 <div>Details: #field('body')</div>
 <div class="mlt">
   #set($mlt = $mltResults.get($docId))

@@ -1,5 +1,6 @@
-#Mon Sep 05 15:03:33 EDT 2011
+#Sat Aug 10 23:26:48 EDT 2013
 eclipse.preferences.version=1
+encoding//Documents/39.txt=US-ASCII
 encoding//Documents/Airports/airport-AUG.txt=US-ASCII
 encoding//Documents/Airports/airport-DCA.txt=ISO-8859-1
 encoding//Documents/Airports/airport-HOT.txt=ISO-8859-1
@@ -8,3 +9,5 @@ encoding//Documents/Airports/airport-LAX-GHB.txt=ISO-8859-1
 encoding//Documents/Airports/airport-SAN.txt=ISO-8859-1
 encoding//Documents/Airports/airport-TLC.txt=ISO-8859-1
 encoding//Documents/Airports/airport-TOL.txt=ISO-8859-1
+encoding//Documents/bmb09.txt=US-ASCII
+encoding//Documents/bmb15.txt=US-ASCII

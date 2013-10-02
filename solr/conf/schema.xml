@@ -568,8 +568,14 @@
    <field name="language" type="string" indexed="true" stored="true" required="false"/>
    <field name="concept" type="string" indexed="true" stored="true" multiValued="true" required="false"/>
    <field name="sentence" type="text_general" indexed="true" stored="true" multiValued="true" required="false" />
-   <field name="airport" type="string" indexed="true" stored="true" multiValued="true" required="false"/>
-    <field name="person" type="string" indexed="true" stored="true" multiValued="true" required="false"/> 
+   <field name="Airport" type="string" indexed="true" stored="true" multiValued="true" required="false"/>
+    <field name="Organization" type="string" indexed="true" stored="true" multiValued="true" required="false"/> 
+   <field name="LRWPerson" type="string" indexed="true" stored="true" multiValued="true" required="false"/>
+   <field name="SystemTPerson" type="string" indexed="true" stored="true" multiValued="true" required="false"/>
+   <field name="NegSentiment" type="string" indexed="true" stored="true" multiValued="true" required="false"/>
+   <field name="PosSentiment" type="string" indexed="true" stored="true" multiValued="true" required="false"/>
+   <field name="Address" type="string" indexed="true" stored="true" multiValued="true" required="false"/>
+    <field name="Person" type="string" indexed="true" stored="true" multiValued="true" required="false"/>
    
    
    
