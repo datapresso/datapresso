@@ -1,7 +1,7 @@
 CREATE DATABASE  IF NOT EXISTS `datapresso` /*!40100 DEFAULT CHARACTER SET latin1 */;
 USE `datapresso`;
 -- MySQL dump 10.13  Distrib 5.5.16, for Win32 (x86)
---
+-- Updated by CD
 -- Host: 127.0.0.1    Database: datapresso
 -- ------------------------------------------------------
 -- Server version	5.5.28-log
