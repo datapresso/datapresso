@@ -8,7 +8,7 @@
                 <nameValuePair>
                     <name>InputDirectory</name>
                     <value>
-                        <string>C:\temp\newdata</string>
+                        <string>C:\workspace\datapresso\datapresso\data\source</string>
                     </value>
                 </nameValuePair>
             </configurationParameterSettings>
