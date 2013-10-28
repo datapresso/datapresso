@@ -1,0 +1,23 @@
+<svg width="524" height="840.0000000000001" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <radialGradient r="0.5" cy="0.33984" cx="0.38672" spreadMethod="pad" id="imagebot_227">
+   <stop offset="0" stop-opacity="0.98828" stop-color="#ffa5ff"/>
+   <stop offset="0.98828" stop-opacity="0.99219" stop-color="#ff3aee"/>
+  </radialGradient>
+  <linearGradient spreadMethod="pad" y2="0.57422" x2="0.94141" y1="0.18359" x1="0.17188" id="imagebot_228">
+   <stop offset="0.25391" stop-opacity="0.99219" stop-color="#ff82f8"/>
+   <stop offset="0.98047" stop-opacity="0.98828" stop-color="#cc00b7"/>
+  </linearGradient>
+  <linearGradient spreadMethod="pad" y2="0.71094" x2="0.93359" y1="0.125" x1="0.4375" id="imagebot_229">
+   <stop offset="0.25391" stop-opacity="0.99219" stop-color="#ff84f8"/>
+   <stop offset="1" stop-opacity="0.99219" stop-color="#e800e8"/>
+  </linearGradient>
+ </defs>
+ <metadata id="imagebot_9">image/svg+xml</metadata>
+ <g label="ancils" id="imagebot_2">
+  <title>ancils</title>
+  <path id="imagebot_145" d="M 371.617 269.853 C 374.059 272.295 264.195 601.885 262.205 600.586 L 152.342 273.437 L 371.617 269.853 Z" stroke-opacity="null" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="null" stroke-width="9.5" stroke="#000000" fill="url(#imagebot_228)"/>
+  <ellipse ry="28.07617" rx="108.64258" id="imagebot_143" cy="271.07422" cx="262.00001" stroke-opacity="null" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="null" stroke-width="9.5" stroke="#000000" fill="url(#imagebot_229)"/>
+  <circle id="imagebot_73" r="87.89063" cy="180.74219" cx="262" stroke-opacity="null" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="null" stroke-width="9.5" stroke="#000000" fill="url(#imagebot_227)"/>
+ </g>
+</svg>

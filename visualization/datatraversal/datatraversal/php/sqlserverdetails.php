@@ -1,5 +1,5 @@
 <?php
-$dbhost = 'localhost:3306';
+$dbhost = 'localhost';
 $dbuser = 'datapresso';
 $dbpass = 'datapresso';
 $dbname = 'datapresso';

@@ -1,0 +1,31 @@
+<svg width="524" height="840.0000000000001" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="imagebot_260_blur">
+   <feGaussianBlur stdDeviation="1.7" in="SourceGraphic"/>
+  </filter>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="imagebot_269_blur">
+   <feGaussianBlur stdDeviation="14.7" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <metadata id="imagebot_9">image/svg+xml</metadata>
+ <g label="ancils" id="imagebot_2">
+  <title>ancils</title>
+  <text transform="rotate(9.5503 255.898 411.273)" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="imagebot_241" y="418.7793" x="255.89648" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000"/>
+  <text transform="rotate(18.0049 348.664 357.57)" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="imagebot_242" y="365.06836" x="348.66992" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000"/>
+  <text id="imagebot_247" transform="rotate(9.5503 304.726 460.101) translate(48.8281 48.8281)" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="418.7793" x="255.89648" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000"/>
+  <text id="imagebot_248" transform="rotate(18.0049 397.492 406.398) translate(48.8281 48.8281)" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="365.06836" x="348.66992" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000"/>
+  <text id="imagebot_251" transform="rotate(9.5503 304.726 460.101) translate(48.8281 48.8281)" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="418.7793" x="255.89648" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000"/>
+  <text id="imagebot_252" transform="rotate(18.0049 397.492 406.398) translate(48.8281 48.8281)" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="365.06836" x="348.66992" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000"/>
+  <text id="imagebot_255" transform="rotate(9.5503 353.554 508.929) matrix(1 0 0 1 97.6562 97.6562)" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="418.7793" x="255.89648" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000"/>
+  <text id="imagebot_256" transform="rotate(18.0049 446.32 455.226) matrix(1 0 0 1 97.6562 97.6562)" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="365.06836" x="348.66992" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000"/>
+  <path id="imagebot_238" d="M 147.789 218.429 C 147.789 218.429 149.351 606.984 147.013 606.558 L 407.311 608.519 L 405.773 302.031 L 407.602 210.035 L 147.789 218.429 Z" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="null" stroke-width="9.5" stroke="#000000" fill="#00e01d"/>
+  <line transform="translate(-41.5039 0) matrix(0.999992 0.00404817 -0.00404817 0.999992 121.777 -83.0892)" id="imagebot_259" y2="367.50977" x2="211.95117" y1="367.50977" x1="102.08789" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="null" stroke-width="24" stroke="#000000" fill="none"/>
+  <line transform="translate(7.70413 0) matrix(0.999992 0.00404817 -0.00404817 0.999992 74.1062 -95.3307)" filter="url(#imagebot_260_blur)" opacity="0.71" id="imagebot_260" y2="445.63477" x2="297.40039" y1="445.63477" x1="97.20508" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="null" stroke-width="13.5" stroke="#000000" fill="none"/>
+  <line id="imagebot_261" transform="translate(7.85242 0) matrix(0.999992 0.00404817 -0.00404817 0.999992 73.9579 -58.7099)" filter="url(#imagebot_260_blur)" opacity="0.71" y2="445.63477" x2="297.40039" y1="445.63477" x1="97.20508" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="null" stroke-width="13.5" stroke="#000000" fill="none"/>
+  <line id="imagebot_262" transform="translate(8.02042 0) matrix(0.999992 0.00404817 -0.00404817 0.999992 73.7899 -17.2063)" filter="url(#imagebot_260_blur)" opacity="0.71" y2="445.63477" x2="297.40039" y1="445.63477" x1="97.20508" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="null" stroke-width="13.5" stroke="#000000" fill="none"/>
+  <line id="imagebot_263" transform="translate(8.17853 0) matrix(0.999992 0.00404817 -0.00404817 0.999992 73.6318 21.8558)" filter="url(#imagebot_260_blur)" opacity="0.71" y2="445.63477" x2="297.40039" y1="445.63477" x1="97.20508" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="null" stroke-width="13.5" stroke="#000000" fill="none"/>
+  <line id="imagebot_264" transform="translate(8.33663 0) matrix(0.999992 0.00404817 -0.00404817 0.999992 73.4737 60.918)" filter="url(#imagebot_260_blur)" opacity="0.71" y2="445.63477" x2="297.40039" y1="445.63477" x1="97.20508" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="null" stroke-width="13.5" stroke="#000000" fill="none"/>
+  <line id="imagebot_265" transform="translate(8.50463 0) matrix(0.999992 0.00404817 -0.00404817 0.999992 73.3057 102.422)" filter="url(#imagebot_260_blur)" opacity="0.71" y2="445.63477" x2="297.40039" y1="445.63477" x1="97.20508" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="null" stroke-width="13.5" stroke="#000000" fill="none"/>
+  <ellipse filter="url(#imagebot_269_blur)" opacity="0.65" ry="31.10712" rx="163.57422" id="imagebot_269" cy="742.00981" cx="262" stroke-opacity="0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="null" stroke-width="9.5" stroke="#000000" fill="#000000"/>
+ </g>
+</svg>

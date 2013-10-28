@@ -1,0 +1,25 @@
+<svg width="524" height="840.0000000000001" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="imagebot_70_blur">
+   <feGaussianBlur stdDeviation="18.9" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <metadata id="imagebot_9">image/svg+xml</metadata>
+ <g label="ancils" id="imagebot_2">
+  <rect filter="url(#imagebot_70_blur)" opacity="0.77" id="imagebot_70" height="75.68359" width="480.95704" y="611.6504" x="26.40429" stroke-opacity="null" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3,3" stroke="#000000" fill="#000000"/>
+  <rect id="imagebot_67" height="524.90235" width="170.89844" y="133.13477" x="255.89648" fill-opacity="null" stroke-opacity="null" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="null" stroke-width="10.5" stroke="#000000" fill="#FF0000"/>
+  <g label="ancils" transform="translate(-13.3711 809.526) matrix(0.406287 0 0 -0.406287 -126.081 200.4)" id="imagebot_3">
+   <g id="imagebot_6" transform="translate(362.96488,472.2503)">
+    <path fill="#6f6c6d" fill-rule="evenodd" d="M0,0C0,-4.93 -3.997,-8.927 -8.927,-8.927C-13.856,-8.927 -17.854,-4.93 -17.854,0C-17.854,4.93 -13.856,8.927 -8.927,8.927C-3.997,8.927 0,4.93 0,0" id="imagebot_7"/>
+   </g>
+   <g id="imagebot_4" transform="translate(362.69338,459.8314)">
+    <path fill="#6f6c6d" fill-rule="evenodd" d="M0,0C-1.353,0.946 -3.808,1.721 -5.458,1.721L-11.458,1.721C-13.108,1.721 -15.563,0.946 -16.916,0L-17,-0.059C-18.353,-1.005 -19.458,-3.129 -19.458,-4.779L-19.458,-16.404C-19.458,-18.055 -18.896,-20.501 -18.208,-21.842C-17.521,-23.183 -16.733,-24.279 -16.458,-24.279C-16.183,-24.279 -15.736,-25.611 -15.465,-27.238L-13.451,-39.32C-13.18,-40.947 -11.945,-42.279 -10.708,-42.279L-6.208,-42.279C-4.971,-42.279 -3.736,-40.947 -3.465,-39.32L-1.451,-27.238C-1.18,-25.611 -0.733,-24.279 -0.458,-24.279C-0.183,-24.279 0.604,-23.183 1.292,-21.842C1.979,-20.501 2.542,-18.055 2.542,-16.404L2.542,-4.779C2.542,-3.129 1.437,-1.005 0.084,-0.059L0,0z" id="imagebot_5"/>
+   </g>
+  </g>
+  <title>ancils</title>
+  <rect id="imagebot_60" height="483.39844" width="214.84375" y="174.63867" x="124.06055" stroke-linecap="round" stroke-linejoin="round" stroke-width="10.5" stroke="#000000" fill="#FF0000"/>
+  <rect id="imagebot_62" height="366.21094" width="97.65625" y="291.82617" x="382.84961" fill-opacity="null" stroke-opacity="null" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="null" stroke-width="10.5" stroke="#000000" fill="#FF0000"/>
+  <rect id="imagebot_63" height="285.64454" width="173.33985" y="372.39258" x="189.97851" fill-opacity="null" stroke-opacity="null" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="null" stroke-width="10.5" stroke="#000000" fill="#FF0000"/>
+  <rect id="imagebot_64" height="329.58985" width="112.30469" y="328.44727" x="50.81836" fill-opacity="null" stroke-opacity="null" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="null" stroke-width="10.5" stroke="#000000" fill="#FF0000"/>
+ </g>
+</svg>
