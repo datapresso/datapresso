@@ -46,6 +46,6 @@ $box = array();
  header('Content-Type: application/json');
  echo json_encode( $box, JSON_PRETTY_PRINT );
   
-mysql_close($conn);
+mysqli_close( $conn );
 //echo '>>Connection Closed<br>';
 ?>
